@@ -149,6 +149,20 @@
                     }
                 }
             ]
+        },
+        {
+            "function": "copy_nbt",
+            "source": {
+                "type": "storage",
+                "source": "run"
+            },
+            "ops": [
+                {
+                    "source": "ModelData",
+                    "target": "CustomModelData",
+                    "op": "replace"
+                }
+            ]
         }
     ]
 }

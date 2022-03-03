@@ -5,3 +5,7 @@ execute unless score @s calculator matches 1 unless predicate game:player/full_i
 execute store result score @s calculator run clear @s #game:axe{isConstant:1b} 0
 execute unless score @s calculator matches 1 unless predicate game:player/full_inventory run clear @s #game:axe{isConstant:1b}
 execute unless score @s calculator matches 1 unless predicate game:player/full_inventory run loot give @s loot game:player/axe
+
+execute store result score @s calculator run clear @s #game:pickaxe{isConstant:1b} 0
+execute unless score @s calculator matches 1 unless predicate game:player/full_inventory run clear @s #game:pickaxe{isConstant:1b}
+execute unless score @s calculator matches 1 unless predicate game:player/full_inventory run loot give @s loot game:player/pickaxe

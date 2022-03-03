@@ -11,6 +11,11 @@
                         {
                             "function": "set_nbt",
                             "tag": "{isGameRes:1b}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 2,
+                            "add": false
                         }
                     ]
                 }

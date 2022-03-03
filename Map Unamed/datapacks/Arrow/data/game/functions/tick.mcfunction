@@ -6,7 +6,8 @@ execute as @e[tag=ticking] run function game:run/mob_tick/redirect
 execute as @e[tag=second_ticking] run function game:run/mob_second/redirect
 
 
-
+scoreboard players add #loop_3 calculator 1
+execute if score #loop_3 calculator matches 3.. run scoreboard players set #loop_3 calculator 0
 
 
 scoreboard players add #loop_20 calculator 1

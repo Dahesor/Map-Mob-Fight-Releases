@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{isGameRes:1b}"
+                            "tag": "{isGameRes:1b,CanDestroy:['#game:breakable'],HideFlags:12}"
                         }
                     ]
                 }

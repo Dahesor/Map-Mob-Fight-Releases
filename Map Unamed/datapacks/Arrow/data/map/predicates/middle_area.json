@@ -2,7 +2,7 @@
     "condition": "location_check",
     "predicate": {
         "position": {
-            "x": {"max":8,"min": -8},
+            "x": {"max":4,"min": -4},
             "z": {"min":-55,"max":55}
         }
     }

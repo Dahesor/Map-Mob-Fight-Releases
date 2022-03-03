@@ -1,1 +1,1 @@
-function game:player/upgradeables/check
+execute if score #loop_3 calculator matches 2 run function game:player/upgradeables/check

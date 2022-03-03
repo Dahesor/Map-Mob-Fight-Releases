@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/paper"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 10},"model": "arrow:tech/metal_0"},
+        {"predicate": {"custom_model_data": 11},"model": "arrow:tech/metal_1"},
+        {"predicate": {"custom_model_data": 12},"model": "arrow:tech/metal_2"},
+        {"predicate": {"custom_model_data": 13},"model": "arrow:tech/metal_3"},
+        {"predicate": {"custom_model_data": 20},"model": "arrow:tech/supply_0"},
+        {"predicate": {"custom_model_data": 21},"model": "arrow:tech/supply_1"},
+        {"predicate": {"custom_model_data": 22},"model": "arrow:tech/supply_2"},
+        {"predicate": {"custom_model_data": 23},"model": "arrow:tech/supply_3"},
+        {"predicate": {"custom_model_data": 30},"model": "arrow:tech/fire_0"},
+        {"predicate": {"custom_model_data": 31},"model": "arrow:tech/fire_1"},
+        {"predicate": {"custom_model_data": 32},"model": "arrow:tech/fire_2"},
+        {"predicate": {"custom_model_data": 40},"model": "arrow:tech/poison_0"},
+        {"predicate": {"custom_model_data": 41},"model": "arrow:tech/poison_1"},
+        {"predicate": {"custom_model_data": 42},"model": "arrow:tech/poison_2"},
+        {"predicate": {"custom_model_data": 50},"model": "arrow:tech/group_0"},
+        {"predicate": {"custom_model_data": 51},"model": "arrow:tech/group_1"},
+        {"predicate": {"custom_model_data": 52},"model": "arrow:tech/group_2"},
+        {"predicate": {"custom_model_data": 53},"model": "arrow:tech/group_3"},
+        {"predicate": {"custom_model_data": 60},"model": "arrow:tech/magic_0"},
+        {"predicate": {"custom_model_data": 61},"model": "arrow:tech/magic_1"},
+        {"predicate": {"custom_model_data": 62},"model": "arrow:tech/magic_2"},
+        {"predicate": {"custom_model_data": 63},"model": "arrow:tech/magic_3"},
+        {"predicate": {"custom_model_data": 70},"model": "arrow:tech/enchant_0"},
+        {"predicate": {"custom_model_data": 71},"model": "arrow:tech/enchant_1"},
+        {"predicate": {"custom_model_data": 72},"model": "arrow:tech/enchant_2"}
+    ]
+  }

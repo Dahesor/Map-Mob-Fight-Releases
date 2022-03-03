@@ -1,0 +1,10 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "position": {
+            "x": {"min":-20,"max": 20},
+            "y": {"min":133,"max": 150},
+            "z": {"min":-20,"max": 20}
+        }
+    }
+}

@@ -1,0 +1,2 @@
+summon blaze
+kill @s

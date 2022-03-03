@@ -1,0 +1,20 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "diamond",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{isGameRes:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

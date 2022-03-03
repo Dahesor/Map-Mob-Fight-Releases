@@ -1,0 +1,14 @@
+{
+    "providers": [
+   {
+     "type": "bitmap",
+     "file": "arrow:font/ores.png",
+     "height": 14,
+     "ascent": 10,
+     "chars": [
+       "\ue000\ue001\ue002\ue003\ue004",
+       "\ue005\ue006\ue007\ue008\ue009"
+     ]
+   }
+    ]
+  }

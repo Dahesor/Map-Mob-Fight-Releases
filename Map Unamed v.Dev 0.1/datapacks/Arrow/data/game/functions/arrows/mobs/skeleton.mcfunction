@@ -1,0 +1,2 @@
+summon skeleton
+kill @s

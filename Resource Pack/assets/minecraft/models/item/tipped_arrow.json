@@ -1,0 +1,39 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/tipped_arrow_head",
+        "layer1": "item/tipped_arrow_base"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data": 101},"model": "arrow:mob/zombie"},
+      {"predicate": {"custom_model_data": 102},"model": "arrow:mob/zombie_squad"},
+      {"predicate": {"custom_model_data": 103},"model": "arrow:mob/zombie_standard"},
+      {"predicate": {"custom_model_data": 104},"model": "arrow:mob/zombie_jumper"},
+      {"predicate": {"custom_model_data": 105},"model": "arrow:mob/zombie_baby"},
+      {"predicate": {"custom_model_data": 201},"model": "arrow:mob/spider"},
+      {"predicate": {"custom_model_data": 202},"model": "arrow:mob/spider_squad"},
+      {"predicate": {"custom_model_data": 203},"model": "arrow:mob/cave_spider"},
+      {"predicate": {"custom_model_data": 301},"model": "arrow:mob/skeleton"},
+      {"predicate": {"custom_model_data": 302},"model": "arrow:mob/skeleton_sniper"},
+      {"predicate": {"custom_model_data": 303},"model": "arrow:mob/melee_skeleton"},
+      {"predicate": {"custom_model_data": 304},"model": "arrow:mob/skeleton_iron_armor"},
+      {"predicate": {"custom_model_data": 305},"model": "arrow:mob/skeleton_squad"},
+      {"predicate": {"custom_model_data": 306},"model": "arrow:mob/skeleton_poison_arrow"},
+
+      {"predicate": {"custom_model_data": 308},"model": "arrow:mob/skeleton_bat"},
+      {"predicate": {"custom_model_data": 401},"model": "arrow:mob/creeper"},
+      {"predicate": {"custom_model_data": 402},"model": "arrow:mob/charged_creeper"},
+      {"predicate": {"custom_model_data": 403},"model": "arrow:mob/creeper_cake_3"},
+      {"predicate": {"custom_model_data": 404},"model": "arrow:mob/creeper_skeleton"},
+      {"predicate": {"custom_model_data": 501},"model": "arrow:mob/m_slime"},
+      {"predicate": {"custom_model_data": 502},"model": "arrow:mob/l_slime"},
+      {"predicate": {"custom_model_data": 701},"model": "arrow:mob/witch"},
+      {"predicate": {"custom_model_data": 702},"model": "arrow:mob/witch_silverfish"},
+      {"predicate": {"custom_model_data": 801},"model": "arrow:mob/blaze"},
+
+      {
+        "predicate": {"custom_model_data": 10000},
+        "model": "arrow:blank_arrow"
+      }
+    ]
+  }

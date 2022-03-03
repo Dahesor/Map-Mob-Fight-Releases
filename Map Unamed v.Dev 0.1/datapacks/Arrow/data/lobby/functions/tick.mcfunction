@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=lobby_spinner] at @s run function lobby:lobby_spinner/spin

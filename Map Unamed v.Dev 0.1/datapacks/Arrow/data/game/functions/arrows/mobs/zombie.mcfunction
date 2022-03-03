@@ -1,0 +1,2 @@
+summon zombie
+kill @s

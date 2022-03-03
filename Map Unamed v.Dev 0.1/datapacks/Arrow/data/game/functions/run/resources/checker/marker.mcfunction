@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #game:ores run function game:run/resources/checker/refill

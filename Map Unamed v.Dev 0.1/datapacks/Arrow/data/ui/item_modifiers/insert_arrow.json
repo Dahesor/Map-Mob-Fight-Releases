@@ -1,0 +1,50 @@
+[
+    {
+        "function": "set_nbt",
+        "tag": "{HideFlags:40,UISpaceHolder:'null',shell:{dynamic:{}},CanDestroy:['#game:breakable']}"
+    },
+    {
+        "function": "copy_nbt",
+        "source": {
+            "type": "storage",
+            "source": "run"
+        },
+        "ops": [
+            {
+                "op": "replace",
+                "source": "run[0].Sell.display",
+                "target": "display"
+            },
+            {
+                "op": "append",
+                "source": "run[0].AppendLore[]",
+                "target": "display.Lore"
+            },
+            {
+                "op": "replace",
+                "source": "run[0].Sell.Enchantments",
+                "target": "Enchantments"
+            },
+            {
+                "op": "replace",
+                "source": "run[0].Sell.CustomModelData",
+                "target": "CustomModelData"
+            },
+            {
+                "op": "replace",
+                "source": "run[0].Sell.CustomPotionEffects",
+                "target": "CustomPotionEffects"
+            },
+            {
+                "op": "replace",
+                "source": "run[0].Sell.CustomPotionColor",
+                "target": "CustomPotionColor"
+            },
+            {
+                "op": "replace",
+                "source": "run[0].Sell.RawJSON",
+                "target": "RawJSON"
+            }
+        ]
+    }
+]

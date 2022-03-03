@@ -1,0 +1,192 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "crossbow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ui:{id:'crossbow'},Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": {"translate":"升级弩","color": "green","italic": false}
+                        },
+                        {
+                            "function":"set_lore",
+                            "lore": [
+                                "",
+                                {"translate":"升级弩以加快","color": "gray","italic": false},
+                                {"translate":"上弦速度","color": "gray","italic": false}
+                            ]
+                        },
+
+
+                        
+                        {
+                            "function":"set_lore",
+                            "entity": "this",
+                            "lore": [
+                                "",
+                                {"translate":"无→快速装填I","color": "gold","italic": false},
+                                {"translate":"price"},
+                                {"translate":"gold","with": [
+                                    {
+                                        "text": "§a10"
+                                    }
+                                ]},
+                                {"translate":"点击选择","color": "yellow","italic": false}
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "crossbow"
+                                    },
+                                    "range": 1
+                                }
+                            ],
+                            "replace": false
+                        },
+                        {
+                            "function":"set_lore",
+                            "entity": "this",
+                            "lore": [
+                                "",
+                                {"translate":"快速装填I→快速装填II","color": "gold","italic": false},
+                                {"translate":"price"},
+                                {"translate":"gold","with": [
+                                    {
+                                        "text": "§a10"
+                                    }
+                                ]},
+                                {"translate":"lapis","with": [
+                                    {
+                                        "text": "§a12"
+                                    }
+                                ]},
+                                {"translate":"点击选择","color": "yellow","italic": false}
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "crossbow"
+                                    },
+                                    "range": 2
+                                }
+                            ],
+                            "replace": false
+                        },
+                        {
+                            "function":"set_lore",
+                            "entity": "this",
+                            "lore": [
+                                "",
+                                {"translate":"快速装填II→快速装填III","color": "gold","italic": false},
+                                {"translate":"price"},
+                                {"translate":"gold","with": [
+                                    {
+                                        "text": "§a10"
+                                    }
+                                ]},
+                                {"translate":"lapis","with": [
+                                    {
+                                        "text": "§a12"
+                                    }
+                                ]},
+                                {"translate":"diamond","with": [
+                                    {
+                                        "text": "§a8"
+                                    }
+                                ]},
+                                {"translate":"点击选择","color": "yellow","italic": false}
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "crossbow"
+                                    },
+                                    "range": 3
+                                }
+                            ],
+                            "replace": false
+                        },
+                        {
+                            "function":"set_lore",
+                            "entity": "this",
+                            "lore": [
+                                "",
+                                {"translate":"快速装填III→快速装填IV","color": "gold","italic": false},
+                                {"translate":"price"},
+                                {"translate":"gold","with": [
+                                    {
+                                        "text": "§a10"
+                                    }
+                                ]},
+                                {"translate":"lapis","with": [
+                                    {
+                                        "text": "§a12"
+                                    }
+                                ]},
+                                {"translate":"diamond","with": [
+                                    {
+                                        "text": "§a8"
+                                    }
+                                ]},
+                                {"translate":"quartz","with": [
+                                    {
+                                        "text": "§a24"
+                                    }
+                                ]},
+                                {"translate":"点击选择","color": "yellow","italic": false}
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "crossbow"
+                                    },
+                                    "range": 4
+                                }
+                            ],
+                            "replace": false
+                        },
+                        {
+                            "function":"set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {"translate":"已经满级！","color": "red","italic": false}
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "crossbow"
+                                    },
+                                    "range": 5
+                                }
+                            ],
+                            "replace": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

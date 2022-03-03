@@ -1,0 +1,218 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "netherite_axe",
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "axe"
+                                    },
+                                    "range": 5
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'axe'},HideFlags:127}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级斧","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"将斧升级到","color": "gray","italic": false},
+                                        {"translate":"更高级的材质","color": "gray","italic": false},
+                                        {
+                                            "translate":"已经满级！","color": "red","italic": false 
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "diamond_axe",
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "axe"
+                                    },
+                                    "range": 4
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'axe'},HideFlags:127}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级斧","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"将斧升级到","color": "gray","italic": false},
+                                        {"translate":"更高级的材质","color": "gray","italic": false},
+                                        {"translate":"price"},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a6"
+                                            }
+                                        ]},
+                                        {"translate":"quartz","with": [
+                                            {
+                                                "text": "§a18"
+                                            }
+                                        ]},
+                                        {
+                                            "translate":"点击选择","color": "yellow","italic": false 
+                                        }
+                                    ]
+                                }]
+                        },
+                        {
+                            "type": "item",
+                            "name": "iron_axe",
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "axe"
+                                    },
+                                    "range": 3
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'axe'},HideFlags:127}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级斧","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"将斧升级到","color": "gray","italic": false},
+                                        {"translate":"更高级的材质","color": "gray","italic": false},
+                                        {"translate":"price"},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a5"
+                                            }
+                                        ]},
+                                        {
+                                            "translate":"点击选择","color": "yellow","italic": false 
+                                        }
+                                    ]
+                                }]
+                        },
+                        {
+                            "type": "item",
+                            "name": "stone_axe",
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": "this",
+                                        "score": "axe"
+                                    },
+                                    "range": 2
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'axe'},HideFlags:127}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级斧","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"将斧升级到","color": "gray","italic": false},
+                                        {"translate":"更高级的材质","color": "gray","italic": false},
+                                        {"translate":"price"},
+                                        {"translate":"iron","with": [
+                                            {
+                                                "text": "§a11"
+                                            }
+                                        ]},
+                                        {
+                                            "translate":"点击选择","color": "yellow","italic": false 
+                                        }
+                                    ]
+                                }]
+                        },
+                        {
+                            "type": "item",
+                            "name": "wooden_axe",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'axe'},HideFlags:127}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级斧","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"将斧升级到","color": "gray","italic": false},
+                                        {"translate":"更高级的材质","color": "gray","italic": false},
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a14"
+                                            }
+                                        ]},
+                                        {
+                                            "translate":"点击选择","color": "yellow","italic": false 
+                                        }
+                                    ]
+                                }]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

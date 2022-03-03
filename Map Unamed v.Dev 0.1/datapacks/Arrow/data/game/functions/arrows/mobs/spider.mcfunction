@@ -1,0 +1,2 @@
+summon spider
+kill @s

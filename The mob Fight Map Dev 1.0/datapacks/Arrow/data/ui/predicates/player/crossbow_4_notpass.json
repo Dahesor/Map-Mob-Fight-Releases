@@ -1,0 +1,41 @@
+[{
+    "condition": "value_check",
+    "value": {
+        "type": "score",
+        "target": "this",
+        "score": "crossbow"
+    },
+    "range": 4
+},
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "supplyBuckupLevel"},
+                "score": "calculator"
+            },
+            "range": {"max": 2}
+        },
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "magicLabLevel"},
+                "score": "calculator"
+            },
+            "range": {"max": 2}
+        },
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "alchemyLevel"},
+                "score": "calculator"
+            },
+            "range": {"max": 2}
+        }
+    ]
+}]

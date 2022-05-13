@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "arrow:enchant/proj_protection_1"
+    }
+}

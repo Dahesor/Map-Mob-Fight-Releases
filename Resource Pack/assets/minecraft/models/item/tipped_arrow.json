@@ -10,6 +10,7 @@
       {"predicate": {"custom_model_data": 103},"model": "arrow:mob/zombie_standard"},
       {"predicate": {"custom_model_data": 104},"model": "arrow:mob/zombie_jumper"},
       {"predicate": {"custom_model_data": 105},"model": "arrow:mob/zombie_baby"},
+      {"predicate": {"custom_model_data": 106},"model": "arrow:mob/zombie_leather_armor"},
       {"predicate": {"custom_model_data": 201},"model": "arrow:mob/spider"},
       {"predicate": {"custom_model_data": 202},"model": "arrow:mob/spider_squad"},
       {"predicate": {"custom_model_data": 203},"model": "arrow:mob/cave_spider"},
@@ -25,11 +26,15 @@
       {"predicate": {"custom_model_data": 402},"model": "arrow:mob/charged_creeper"},
       {"predicate": {"custom_model_data": 403},"model": "arrow:mob/creeper_cake_3"},
       {"predicate": {"custom_model_data": 404},"model": "arrow:mob/creeper_skeleton"},
+      {"predicate": {"custom_model_data": 405},"model": "arrow:mob/creeper_cake_5"},
       {"predicate": {"custom_model_data": 501},"model": "arrow:mob/m_slime"},
       {"predicate": {"custom_model_data": 502},"model": "arrow:mob/l_slime"},
+      {"predicate": {"custom_model_data": 504},"model": "arrow:mob/slime_the_suppermass"},
       {"predicate": {"custom_model_data": 701},"model": "arrow:mob/witch"},
       {"predicate": {"custom_model_data": 702},"model": "arrow:mob/witch_silverfish"},
       {"predicate": {"custom_model_data": 801},"model": "arrow:mob/blaze"},
+
+      {"predicate": {"custom_model_data": 5001},"model": "arrow:buff/invisible"},
 
       {
         "predicate": {"custom_model_data": 10000},

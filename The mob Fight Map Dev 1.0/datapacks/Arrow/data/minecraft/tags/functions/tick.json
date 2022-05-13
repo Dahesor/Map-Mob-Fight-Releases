@@ -1,0 +1,9 @@
+{
+    "values": [
+        "game:tick",
+        "ui:tick",
+        "developer:tick",
+        "lobby:tick",
+        "game:plugin/actionbar/tick"
+    ]
+}

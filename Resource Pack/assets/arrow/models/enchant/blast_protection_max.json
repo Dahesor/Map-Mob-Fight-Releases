@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "arrow:enchant/blast_protection_max"
+    }
+}

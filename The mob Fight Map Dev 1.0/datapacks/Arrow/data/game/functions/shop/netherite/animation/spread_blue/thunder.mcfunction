@@ -1,0 +1,3 @@
+summon armor_stand ^ ^ ^ {Tags:["altar_mark.blue","altar_mark.blue.thunder"],Invisible:1b,Marker:1b,NoGravity:1b,Small:0b,HandItems:[{id:"minecraft:spectral_arrow",Count:1b,tag:{netherite:{id:"thunder",Cost:1b}}},{}],ShowArms:1b,Pose:{RightArm:[30.0f,70.0f,-45.0f]}}
+execute positioned ^ ^ ^2 run tp @e[type=armor_stand,tag=altar_mark.blue.thunder] ~ ~ ~ ~180 ~
+execute positioned ^ ^ ^2 run summon zombie ~ ~ ~ {NoGravity:1b,Tags:["vand_altar","vand_altar_blue","v.blue.thunder"],NoAI:1b,Silent:1b,ActiveEffects:[{Id:14b,Duration:999999999,ShowParticles:0b,Amplifier:0b}],IsBaby:1b,Attributes:[{"Name":"generic.max_health",Base:200.0d}]}

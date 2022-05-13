@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/granite_slab"
+    },
+    "type=double": {
+      "model": "arrow:block/netherite_altar_south"
+    },
+    "type=top": {
+      "model": "minecraft:block/granite_slab_top"
+    }
+  }
+}

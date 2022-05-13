@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/enchanted_book"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "arrow:enchant/sharpness_1"},
+    {"predicate": {"custom_model_data": 2},"model": "arrow:enchant/sharpness_2"},
+    {"predicate": {"custom_model_data": 3},"model": "arrow:enchant/sharpness_3"},
+    {"predicate": {"custom_model_data": 4},"model": "arrow:enchant/sharpness_max"},
+    {"predicate": {"custom_model_data": 11},"model": "arrow:enchant/sweep_1"},
+    {"predicate": {"custom_model_data": 12},"model": "arrow:enchant/sweep_2"},
+    {"predicate": {"custom_model_data": 13},"model": "arrow:enchant/sweep_3"},
+    {"predicate": {"custom_model_data": 14},"model": "arrow:enchant/sweep_max"},
+    {"predicate": {"custom_model_data": 21},"model": "arrow:enchant/efficiency_1"},
+    {"predicate": {"custom_model_data": 22},"model": "arrow:enchant/efficiency_2"},
+    {"predicate": {"custom_model_data": 23},"model": "arrow:enchant/efficiency_3"},
+    {"predicate": {"custom_model_data": 24},"model": "arrow:enchant/efficiency_max"},
+    {"predicate": {"custom_model_data": 31},"model": "arrow:enchant/proj_protection_1"},
+    {"predicate": {"custom_model_data": 32},"model": "arrow:enchant/proj_protection_2"},
+    {"predicate": {"custom_model_data": 33},"model": "arrow:enchant/proj_protection_3"},
+    {"predicate": {"custom_model_data": 34},"model": "arrow:enchant/proj_protection_max"},
+    {"predicate": {"custom_model_data": 41},"model": "arrow:enchant/blast_protection_1"},
+    {"predicate": {"custom_model_data": 42},"model": "arrow:enchant/blast_protection_2"},
+    {"predicate": {"custom_model_data": 43},"model": "arrow:enchant/blast_protection_3"},
+    {"predicate": {"custom_model_data": 44},"model": "arrow:enchant/blast_protection_max"},
+    {"predicate": {"custom_model_data": 51},"model": "arrow:enchant/power_1"},
+    {"predicate": {"custom_model_data": 52},"model": "arrow:enchant/power_2"},
+    {"predicate": {"custom_model_data": 53},"model": "arrow:enchant/power_3"},
+    {"predicate": {"custom_model_data": 54},"model": "arrow:enchant/power_max"}
+]
+}

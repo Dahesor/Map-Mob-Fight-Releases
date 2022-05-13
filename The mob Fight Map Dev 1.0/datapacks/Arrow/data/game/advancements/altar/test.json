@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "a":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{Tags:['v.blue.thunder']}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:shop/netherite/sell/blue/thunder"
+    }
+}

@@ -1,0 +1,32 @@
+[{
+    "condition": "value_check",
+    "value": {
+        "type": "score",
+        "target": "this",
+        "score": "crossbow"
+    },
+    "range": 2
+},
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "supplyBuckupLevel"},
+                "score": "calculator"
+            },
+            "range": 0
+        },
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "magicLabLevel"},
+                "score": "calculator"
+            },
+            "range": 0
+        }
+    ]
+}]

@@ -1,0 +1,115 @@
+{
+    "event.final.countdown": {
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-start-countdown",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "stream": false
+            }
+        ]
+    },
+    "event.final.hint": {
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-ominous-drums-appear-228",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "stream": false
+            }
+        ]
+    },
+    "event.final.30s":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-tick-tock-clock-close-up-1059",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "stream": true
+            }
+        ]
+    },
+    "event.laser_beem":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:laser-14729",
+                "volume": 1.0,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "event.animate_netherite":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-church-bell-indoor-628tir",
+                "volume": 1.0,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "event.fixed_sound_backup":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-tape-measure-extend-810",
+                "volume": 1.0,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "event.unlock":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-unlock-game-notification-253",
+                "volume": 1.0,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "event.stream_coins":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-payout-award-1934",
+                "volume": 1.0,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "event.lose":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-fail-drum-and-bells-571",
+                "volume": 1.0,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "event.win":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-orchestra-positive-finish-695",
+                "volume": 1.0,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "arrow_hit.corpse_ball_invitation":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:corpse_ball_invitation",
+                "volume": 1.0,
+                "pitch": 1.0
+            }
+        ]
+    }
+}

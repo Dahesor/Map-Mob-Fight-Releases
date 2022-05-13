@@ -1,0 +1,2 @@
+execute at @e[type=marker,tag=altar_red] as @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot"}},distance=..1.2] run function game:shop/netherite/item_self_red
+execute at @e[type=marker,tag=altar_blue] as @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot"}},distance=..1.2] run function game:shop/netherite/item_self_blue

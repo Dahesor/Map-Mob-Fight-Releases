@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "look_at":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "looking_at": {
+                            "type": "armor_stand",
+                            "nbt": "{Tags:[\"altar_mark.blue.thunder\",\"altar_mark.blue\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:shop/netherite/armorstands/thunder_blue"
+    }
+}

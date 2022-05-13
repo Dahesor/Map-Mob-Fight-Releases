@@ -1,0 +1,14 @@
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"back"}}
+execute if score @s calculator matches 1.. run function ui:actions/mainpage/anchor
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"supply"}}
+execute if score @s calculator matches 1.. run function ui:actions/technology/supply_buckup
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"metal"}}
+execute if score @s calculator matches 1.. run function ui:actions/technology/metal_work
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"fire"}}
+execute if score @s calculator matches 1.. run function ui:actions/technology/poison_fire
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"magic"}}
+execute if score @s calculator matches 1.. run function ui:actions/technology/magic_lab
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"barracks"}}
+execute if score @s calculator matches 1.. run function ui:actions/technology/barracks
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"alchemy"}}
+execute if score @s calculator matches 1.. run function ui:actions/technology/alchemy

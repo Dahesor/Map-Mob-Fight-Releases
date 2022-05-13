@@ -1,0 +1,1 @@
+execute if score particleType particleCreator matches 4 run function game:plugin/particles/black_plus_enchant

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/polished_andesite_slab"
+    },
+    "type=double": {
+      "model": "arrow:block/netherite_altar_east_act"
+    },
+    "type=top": {
+      "model": "minecraft:block/polished_andesite_slab_top"
+    }
+  }
+}

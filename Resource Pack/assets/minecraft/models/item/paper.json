@@ -4,6 +4,7 @@
       "layer0": "minecraft:item/paper"
     },
     "overrides": [
+        {"predicate": {"custom_model_data": 1},"model": "arrow:buttons/dots"},  
         {"predicate": {"custom_model_data": 10},"model": "arrow:tech/metal_0"},
         {"predicate": {"custom_model_data": 11},"model": "arrow:tech/metal_1"},
         {"predicate": {"custom_model_data": 12},"model": "arrow:tech/metal_2"},
@@ -12,12 +13,10 @@
         {"predicate": {"custom_model_data": 21},"model": "arrow:tech/supply_1"},
         {"predicate": {"custom_model_data": 22},"model": "arrow:tech/supply_2"},
         {"predicate": {"custom_model_data": 23},"model": "arrow:tech/supply_3"},
-        {"predicate": {"custom_model_data": 30},"model": "arrow:tech/fire_0"},
-        {"predicate": {"custom_model_data": 31},"model": "arrow:tech/fire_1"},
-        {"predicate": {"custom_model_data": 32},"model": "arrow:tech/fire_2"},
-        {"predicate": {"custom_model_data": 40},"model": "arrow:tech/poison_0"},
-        {"predicate": {"custom_model_data": 41},"model": "arrow:tech/poison_1"},
-        {"predicate": {"custom_model_data": 42},"model": "arrow:tech/poison_2"},
+        {"predicate": {"custom_model_data": 30},"model": "arrow:tech/fp_0"},
+        {"predicate": {"custom_model_data": 31},"model": "arrow:tech/fp_1"},
+        {"predicate": {"custom_model_data": 32},"model": "arrow:tech/fp_2"},
+        {"predicate": {"custom_model_data": 33},"model": "arrow:tech/fp_3"},
         {"predicate": {"custom_model_data": 50},"model": "arrow:tech/group_0"},
         {"predicate": {"custom_model_data": 51},"model": "arrow:tech/group_1"},
         {"predicate": {"custom_model_data": 52},"model": "arrow:tech/group_2"},
@@ -28,6 +27,11 @@
         {"predicate": {"custom_model_data": 63},"model": "arrow:tech/magic_3"},
         {"predicate": {"custom_model_data": 70},"model": "arrow:tech/enchant_0"},
         {"predicate": {"custom_model_data": 71},"model": "arrow:tech/enchant_1"},
-        {"predicate": {"custom_model_data": 72},"model": "arrow:tech/enchant_2"}
+        {"predicate": {"custom_model_data": 72},"model": "arrow:tech/enchant_2"},
+        {"predicate": {"custom_model_data": 73},"model": "arrow:tech/enchant_3"},
+
+        {"predicate": {"custom_model_data": 1001},"model": "arrow:upgrade/new_crystal"},
+        {"predicate": {"custom_model_data": 1002},"model": "arrow:upgrade/beem"}
+        
     ]
   }

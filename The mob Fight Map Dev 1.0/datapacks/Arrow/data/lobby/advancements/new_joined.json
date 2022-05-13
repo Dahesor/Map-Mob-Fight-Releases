@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "new_player":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "game:plugin/new_joined"
+    }
+}

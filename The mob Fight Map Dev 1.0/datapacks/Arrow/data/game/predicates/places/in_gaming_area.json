@@ -1,0 +1,17 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "map:in_red"
+        },
+        {
+            "condition": "reference",
+            "name": "map:in_blue"
+        },
+        {
+            "condition": "reference",
+            "name": "map:middle_area"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomPotionEffects:[{Id:5b,Duration:2400,Amplifier:0b}],CustomPotionColor:13893632,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.strength\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magicLabLevel"}},
+                                    "range": {"min": 3}},
+                                    {"condition": "value_check",
+                                        "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "alchemyLevel"}},
+                                        "range": {"min": 3}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomPotionEffects:[{Id:5b,Duration:1800,Amplifier:0b}],CustomPotionColor:13893632,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.strength\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magicLabLevel"}},
+                                    "range": {"min": 3}},
+                                    {"condition": "value_check",
+                                        "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "alchemyLevel"}},
+                                        "range": {"min": 1}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomPotionEffects:[{Id:5b,Duration:1500,Amplifier:0b}],CustomPotionColor:13893632,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.strength\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magicLabLevel"}},
+                                    "range": {"min": 2}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomPotionEffects:[{Id:5b,Duration:1200,Amplifier:0b}],CustomPotionColor:13893632,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.strength\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magicLabLevel"}},
+                                    "range": {"min": 1}}]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag":"{CanDestroy:[\"#game:breakable\"],HideFlags:8}"
+        }
+    ]
+}

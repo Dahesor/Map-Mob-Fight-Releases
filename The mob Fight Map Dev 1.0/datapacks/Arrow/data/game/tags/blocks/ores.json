@@ -1,0 +1,15 @@
+{
+    "values": [
+        "diamond_ore",
+        "gold_ore",
+        "iron_ore",
+        "copper_ore",
+        "lapis_ore",
+        "nether_quartz_ore",
+        "deepslate_diamond_ore",
+        "deepslate_lapis_ore",
+        "deepslate_gold_ore",
+        "deepslate_iron_ore",
+        "deepslate_copper_ore"
+    ]
+}

@@ -1,1 +1,0 @@
-function game:topbar/single_splited/calculate

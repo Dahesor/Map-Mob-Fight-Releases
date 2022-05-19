@@ -1,0 +1,2 @@
+function lobby:signs/items/switch_map_locked
+function lobby:signs/items/start_game_locked

@@ -10,6 +10,39 @@
             }
         ]
     },
+    "event.game_waiting": {
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-game-show-suspense-waiting-667",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "stream": false
+            }
+        ]
+    },
+    "event.draw": {
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-ominous-drums-227",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "stream": false
+            }
+        ]
+    },
+    "event.game_over": {
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-melodic-church-bell-617",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "stream": false
+            }
+        ]
+    },
     "event.final.hint": {
         "replace":false,
         "sounds": [

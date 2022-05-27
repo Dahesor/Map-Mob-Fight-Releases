@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=particle.4purple] at @s run function game:plugin/particles/purple.4_blocks

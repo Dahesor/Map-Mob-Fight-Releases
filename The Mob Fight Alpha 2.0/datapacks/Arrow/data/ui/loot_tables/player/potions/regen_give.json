@@ -1,0 +1,64 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomPotionEffects:[{Id:10b,Duration:840,Amplifier:0b}],CustomPotionColor:16210415,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 3}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomPotionEffects:[{Id:10b,Duration:620,Amplifier:0b}],CustomPotionColor:16210415,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 2}}
+                                ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomPotionEffects:[{Id:10b,Duration:400,Amplifier:0b}],CustomPotionColor:16210415,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.regeneration\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 1}}]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag":"{CanDestroy:[\"#game:breakable\"],HideFlags:8}"
+        }
+    ]
+}

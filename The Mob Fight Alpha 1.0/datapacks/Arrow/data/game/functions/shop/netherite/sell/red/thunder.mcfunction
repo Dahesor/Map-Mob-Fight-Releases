@@ -1,1 +1,0 @@
-scoreboard players remove stored_netherite 11 1

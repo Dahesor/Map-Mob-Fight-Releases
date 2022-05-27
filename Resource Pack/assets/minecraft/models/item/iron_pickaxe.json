@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 1},
+      "model": "arrow:buff/harvest_1"
+    },
+    {
+      "predicate": {"custom_model_data": 2},
+      "model": "arrow:buff/harvest_2"
+    },
+    {
+      "predicate": {"custom_model_data": 3},
+      "model": "arrow:buff/harvest_max"
+    }
+  ]
+}

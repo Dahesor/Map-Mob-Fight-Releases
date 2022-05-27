@@ -1,0 +1,16 @@
+{
+    "values": [
+        "cracked_stone_bricks",
+        "mossy_stone_bricks",
+        "smooth_stone_slab",
+        "glass_pane",
+        "#fences",
+        "lantern",
+        "chain",
+        "#walls",
+        "#banners",
+        "#game:breakable",
+        "polished_deepslate_stairs",
+        "deepslate_tile_stairs"
+    ]
+}

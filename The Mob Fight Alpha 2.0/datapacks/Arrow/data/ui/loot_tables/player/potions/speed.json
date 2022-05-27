@@ -1,0 +1,112 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'speed_potion'},CustomPotionEffects:[{Id:1b,Duration:2400,Amplifier:0b}],CustomPotionColor:13154295,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"color\":\"green\",\"italic\":false}'}}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": ["",
+                                    {"translate":"price"},
+                                    {"translate":"dirt","with":["§a10"]},
+                                    {"translate":"lapis","with":["§a4"]},
+                                    {"translate":"gold","with":["§a1"]},
+                                    {"translate":"点击购买","color": "yellow","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 3}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'speed_potion'},CustomPotionEffects:[{Id:1b,Duration:1900,Amplifier:0b}],CustomPotionColor:13154295,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"color\":\"green\",\"italic\":false}'}}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": ["",
+                                    {"translate":"uptt"},
+                                    "",
+                                    {"translate":"price"},
+                                    {"translate":"dirt","with":["§a10"]},
+                                    {"translate":"lapis","with":["§a4"]},
+                                    {"translate":"gold","with":["§a1"]},
+                                    {"translate":"点击购买","color": "yellow","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 2}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'speed_potion'},CustomPotionEffects:[{Id:1b,Duration:1200,Amplifier:0b}],CustomPotionColor:13154295,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"color\":\"green\",\"italic\":false}'}}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": ["",
+                                    {"translate":"uptt"},
+                                    "",
+                                    {"translate":"price"},
+                                    {"translate":"dirt","with":["§a10"]},
+                                    {"translate":"lapis","with":["§a4"]},
+                                    {"translate":"gold","with":["§a1"]},
+                                    {"translate":"点击购买","color": "yellow","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 1}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "gray_dye",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"need_tcho\"},display:{Name:'{\"text\":\"???\",\"color\": \"red\",\"italic\": false}'}}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": ["",{"translate":"need_tcho"},
+                                        {"translate":"magic_occult","with":[" I"],"color": "gray","italic": false},
+                                        "",
+                                        {"translate":"locked"}]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

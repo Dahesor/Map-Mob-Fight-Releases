@@ -1,0 +1,2 @@
+execute if score particleType particleCreator matches 4 run function game:plugin/particles/black_plus_enchant
+execute if score particleType particleCreator matches 5 if predicate game:places/in_gaming_area run particle dust 0.463 0 0.553 0.6 ~ ~ ~ 0 0 0 0 0 force

@@ -1,0 +1,2 @@
+summon evoker
+kill @s

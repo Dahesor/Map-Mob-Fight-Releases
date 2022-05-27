@@ -1,0 +1,2 @@
+summon illusioner
+kill @s

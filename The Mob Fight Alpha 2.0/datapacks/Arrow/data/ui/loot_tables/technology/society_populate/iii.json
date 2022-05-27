@@ -1,0 +1,121 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "lime_stained_glass_pane",
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {"target": {"name": "society_populate","type": "fixed"},"type": "score","score": "calculator"},
+                                    "range": {"min":3}
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{UISpaceHolder:1b}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"state","with":["III",{"translate":"联盟时代","color": "gold"}],"color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"unlocked"}
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "yellow_stained_glass_pane",
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {"target": {"name": "society_populate","type": "fixed"},"type": "score","score": "calculator"},
+                                    "range": 2
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"society\"},Enchantments:[{}]}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"state","with":["III",{"translate":"联盟时代","color": "gold"}],"color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                        {
+                                            "text": "§a 84"
+                                        }
+                                        ]},
+                                        {"translate":"diamond","with": [
+                                        {
+                                            "text": "§a 8"
+                                        }
+                                        ]},
+                                        {"translate":"quartz","with": [
+                                        {
+                                            "text": "§a 3"
+                                        }
+                                        ]},
+                                        {"translate":"netherite","with": [
+                                        {
+                                            "text": "§a 1"
+                                        }
+                                        ]},
+                                        "",
+                                        {"translate":"to_unlock"},
+                                        {"translate":"点击购买","color":"yellow","italic": false}
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "red_stained_glass_pane",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{UISpaceHolder:1b}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"text":"???","color": "red","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"locked"}
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

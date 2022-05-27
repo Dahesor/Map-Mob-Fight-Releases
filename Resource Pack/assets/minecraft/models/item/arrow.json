@@ -11,6 +11,14 @@
     {
       "predicate": {"custom_model_data": 2},
       "model": "arrow:buttons/down"
+    },
+    {
+      "predicate": {"custom_model_data": 3},
+      "model": "arrow:buttons/right"
+    },
+    {
+      "predicate": {"custom_model_data": 4},
+      "model": "arrow:buttons/checkmark"
     }
   ]
 }

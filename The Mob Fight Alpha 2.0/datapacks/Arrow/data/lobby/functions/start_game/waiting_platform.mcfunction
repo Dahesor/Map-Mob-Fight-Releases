@@ -1,0 +1,2 @@
+setblock -10 135 -10 structure_block{name:"map:waiting_platform",mode:"LOAD",mirror:"NONE",rotation:"NONE",posX:0,posY:0,posZ:0,integrity:1.0f,showboundingbox:0b,author:"?"}
+setblock -10 136 -10 redstone_block

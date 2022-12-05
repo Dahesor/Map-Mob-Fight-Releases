@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "arrow:item/heal_spell"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arrow:item/heal_spell"
+  }
 }

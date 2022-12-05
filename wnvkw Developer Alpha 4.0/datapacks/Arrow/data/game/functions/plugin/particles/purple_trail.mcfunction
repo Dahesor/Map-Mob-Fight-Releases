@@ -1,0 +1,1 @@
+particle dust 0.11 0 0.408 2 ~ ~ ~ 0 0 0 0 0 force @a

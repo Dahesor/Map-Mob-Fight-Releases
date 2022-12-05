@@ -1,0 +1,540 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：最高等级！","color": "gold","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{UISpaceHolder:1b,CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"4点魔法伤害， 4点虚空伤害","color": "gray","italic": false},
+                                        {"translate":"优先攻击空中单位","color": "gray","italic": false},
+                                        {"translate":"范围减速与虚弱","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"最高等级！","color": "gold","italic":false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "beemLevel"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：虚空之力","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"upgrade_beam\"},CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"8点魔法伤害","color": "gray","italic": false},
+                                        {"translate":"优先攻击空中单位","color": "gray","italic": false},
+                                        {"translate":"范围减速与虚弱","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"升级效果:","color": "gold","italic":false},
+                                        {"translate":"4点造成的伤害将转变为虚空伤害","color": "green","italic":false},
+                                        {"translate":"虚空伤害无视任何护甲","color": "green","italic":false},
+                                        {"translate":"或伤害免疫","color": "green","italic":false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 48"
+                                            }
+                                        ]},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a 12"
+                                            }
+                                        ]},
+                                        {"translate":"netherite","with": [
+                                            {
+                                                "text": "§a 1"
+                                            }
+                                        ]},
+                                        {"translate":"点击购买","color": "yellow","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "beemLevel"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 4
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {"type": "score","target": {"type": "fixed","name": 
+                                        "magic_occult"},"score": "calculator"},"range": {
+                                        "min" : 3
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {"type": "score","target": {"type": "fixed","name": 
+                                        "society_populate"},"score": "calculator"},"range": {
+                                        "min" : 3
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：虚空之力","color": "red","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"need_tcho\"},CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"8点魔法伤害","color": "gray","italic": false},
+                                        {"translate":"优先攻击空中单位","color": "gray","italic": false},
+                                        {"translate":"范围减速与虚弱","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"升级效果:","color": "gold","italic":false},
+                                        {"translate":"4点造成的伤害将转变为虚空伤害","color": "green","italic":false},
+                                        {"translate":"虚空伤害无视任何护甲","color": "green","italic":false},
+                                        {"translate":"或伤害免疫","color": "green","italic":false},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " III"
+                                            }
+                                        ]},
+                                        {"translate":"society_populate","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " III"
+                                            }
+                                        ]},
+                                        {"translate":"locked"}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "beemLevel"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 4
+                                    }
+                                }
+                            ]
+                        },
+
+
+
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：寒霜领域","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"upgrade_beam\"},CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"8点魔法伤害","color": "gray","italic": false},
+                                        {"translate":"优先攻击空中单位","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"升级效果:","color": "gold","italic":false},
+                                        {"translate":"对被攻击的怪物及其周围","color": "green","italic":false},
+                                        {"translate":"造成减速与虚弱","color": "green","italic":false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 40"
+                                            }
+                                        ]},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a 10"
+                                            }
+                                        ]},
+                                        {"translate":"点击购买","color": "yellow","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "beemLevel"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 3
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {"type": "score","target": {"type": "fixed","name": 
+                                        "magic_occult"},"score": "calculator"},"range": {
+                                        "min" : 2
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {"type": "score","target": {"type": "fixed","name": 
+                                        "society_populate"},"score": "calculator"},"range": {
+                                        "min" : 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：寒霜领域","color": "red","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"need_tcho\"},CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"8点魔法伤害","color": "gray","italic": false},
+                                        {"translate":"优先攻击空中单位","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"升级效果:","color": "gold","italic":false},
+                                        {"translate":"对被攻击的怪物及其周围","color": "green","italic":false},
+                                        {"translate":"造成减速与虚弱","color": "green","italic":false},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " II"
+                                            }
+                                        ]},
+                                        {"translate":"society_populate","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " I"
+                                            }
+                                        ]},
+                                        {"translate":"locked"}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "beemLevel"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 3
+                                    }
+                                }
+                            ]
+                        },
+
+
+
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：防空专精","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"upgrade_beam\"},CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"8点魔法伤害","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"升级效果:","color": "gold","italic":false},
+                                        {"translate":"水晶将优先攻击空中单位","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 24"
+                                            }
+                                        ]},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a 8"
+                                            }
+                                        ]},
+                                        {"translate":"点击购买","color": "yellow","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "beemLevel"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {"type": "score","target": {"type": "fixed","name": 
+                                        "magic_occult"},"score": "calculator"},"range": {
+                                        "min" : 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：防空专精","color": "red","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"need_tcho\"},CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"8点魔法伤害","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"升级效果:","color": "gold","italic":false},
+                                        {"translate":"水晶将优先攻击空中单位","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " I"
+                                            }
+                                        ]},
+                                        {"translate":"locked"}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "beemLevel"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                }
+                            ]
+                        },
+
+
+
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：蓄力激光","color": "green","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"upgrade_beam\"},CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"4点魔法伤害","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"升级效果:","color": "gold","italic":false},
+                                        {"translate":"8点魔法伤害","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 20"
+                                            }
+                                        ]},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a 4"
+                                            }
+                                        ]},
+                                        {"translate":"点击购买","color": "yellow","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {"type": "score","target": {"type": "fixed","name": 
+                                        "magic_occult"},"score": "calculator"},"range": {
+                                        "min" : 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "paper",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"升级防御激光：蓄力激光","color": "red","italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:\"need_tcho\"},CustomModelData:1002}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [
+                                        "",
+                                        {"translate":"末影水晶射出的激光","italic": false,"color": "gray"},
+                                        {"translate":"会攻击敌对怪物！","italic": false,"color": "gray"},
+                                        "",
+                                        {"translate":"当前等级:","color": "yellow","italic": false},
+                                        "",
+                                        {"translate":"4点魔法伤害","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"升级效果:","color": "gold","italic":false},
+                                        {"translate":"8点魔法伤害","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " I"
+                                            }
+                                        ]},
+                                        {"translate":"locked"}
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

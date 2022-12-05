@@ -1,0 +1,6 @@
+{
+    "parent": "arrow:background_dark",
+    "textures": {
+      "layer0": "arrow:up_gray"
+    }
+}

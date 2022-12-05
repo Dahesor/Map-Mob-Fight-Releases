@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
+    "parent": "arrow:background",
     "textures": {
-      "layer0": "block/gray_stained_glass"
+      "layer0": "arrow:blank"
     }
 }

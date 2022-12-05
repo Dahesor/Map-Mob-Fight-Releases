@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:item/generated",
+    "parent": "arrow:background",
     "textures": {
       "layer0": "arrow:tech/supply_2"
     }

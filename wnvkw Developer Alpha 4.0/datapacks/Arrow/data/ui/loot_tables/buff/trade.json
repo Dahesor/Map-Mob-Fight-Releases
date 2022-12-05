@@ -1,0 +1,70 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "emerald",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomModelData:1,ui:{id:'trade'}}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"路西法的交易","color": "light_purple","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"description.lucifer.1","italic": false,"color": "gray"},
+                                        {"translate":"description.lucifer.2","italic": false,"color": "gray"},
+                                        {"translate":"description.lucifer.3","italic": false,"color": "gold"},
+                                        {"translate":"description.lucifer.4","italic": false,"color": "gold"},
+                                        {"translate":"description.lucifer.5","italic": false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"copper","with": [
+                                            {
+                                                "text": "§a10"
+                                            }
+                                        ]},
+                                        {"translate":"iron","with": [
+                                            {
+                                                "text": "§a10"
+                                            }
+                                        ]},
+                                        {"translate":"gold","with": [
+                                            {
+                                                "text": "§a10"
+                                            }
+                                        ]},
+                                        {"translate":"lapis","with": [
+                                            {
+                                                "text": "§a10"
+                                            }
+                                        ]},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a10"
+                                            }
+                                        ]},
+                                        {"translate":"Click TO Die","color":"yellow","italic": false,"obfuscated": true}
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

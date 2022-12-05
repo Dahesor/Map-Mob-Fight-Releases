@@ -1,0 +1,2 @@
+setblock -6 61 129 air
+setblock -6 61 129 oak_wall_sign[facing=north]{Text2:'{"translate":"credit.reload","color": "red","bold": true,"clickEvent": {"action": "run_command","value": "/function lobby:settings/reload_credit"}}',Text4:'[{"text": "[","color": "gray"},{"keybind":"key.use"},"]"]'}

@@ -1,0 +1,2 @@
+summon guardian
+kill

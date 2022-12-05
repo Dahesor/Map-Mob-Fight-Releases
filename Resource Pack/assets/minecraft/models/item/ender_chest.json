@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/chest",
+  "textures": {
+    "particle": "minecraft:block/obsidian"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 1},
+      "model": "arrow:buttons/ender_chest"
+    }
+  ]
+}
+    

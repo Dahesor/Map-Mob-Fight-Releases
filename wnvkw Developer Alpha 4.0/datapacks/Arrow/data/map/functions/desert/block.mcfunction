@@ -1,0 +1,2 @@
+execute if data storage run map{id:1b} if block ~ ~ ~ #map:desert/break_block run setblock ~ ~ ~ air replace
+execute if data storage run map{id:1b} if block ~ ~ ~ sand if block ~ ~-1 ~ sand run setblock ~ ~ ~ air replace

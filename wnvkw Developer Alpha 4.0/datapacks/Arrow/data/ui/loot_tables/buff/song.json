@@ -1,0 +1,19 @@
+{
+    "type":"command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "paper"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

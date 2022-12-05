@@ -19,6 +19,18 @@
     {
       "predicate": {"custom_model_data": 4},
       "model": "arrow:buttons/checkmark"
+    },
+    {
+      "predicate": {"custom_model_data": 5},
+      "model": "arrow:buttons/up_gray"
+    },
+    {
+      "predicate": {"custom_model_data": 6},
+      "model": "arrow:buttons/down_gray"
+    },
+    {
+      "predicate": {"custom_model_data": 7},
+      "model": "arrow:buttons/arrow"
     }
   ]
 }

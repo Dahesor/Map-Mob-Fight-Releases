@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:item/generated",
+    "parent": "arrow:background_dark",
     "textures": {
       "layer0": "arrow:up"
     }

@@ -4,7 +4,8 @@
       "layer0": "minecraft:item/warped_fungus_on_a_stick"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1},"model": "arrow:item/heal_spell"},  
+        {"predicate": {"custom_model_data": 1},"model": "arrow:item/heal_spell"},
+        {"predicate": {"custom_model_data": 2},"model": "arrow:item/heal_spell_ui"},  
         {"predicate": {"custom_model_data": 10},"model": "arrow:tech/metal_0"}
     ]
   }

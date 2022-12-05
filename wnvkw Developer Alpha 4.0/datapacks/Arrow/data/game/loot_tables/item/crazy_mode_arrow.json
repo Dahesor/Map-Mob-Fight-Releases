@@ -1,0 +1,37 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "tipped_arrow"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.crazy_mode_arrow","color": "light_purple"}
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{crazy_mode:1b,CustomModelData:20000}"
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                "",
+                {"translate":"title.crazy_mode","color": "red","italic": false},
+                {"translate":"lore.infinate_zombie.1","color": "gold","italic":false},
+                {
+                    "translate":"lore.infinate_zombie.2","color": "gold","italic":false
+                }
+            ]
+        }
+    ]
+}

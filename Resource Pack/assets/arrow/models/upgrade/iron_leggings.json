@@ -1,0 +1,6 @@
+{
+    "parent": "arrow:background",
+    "textures": {
+      "layer0": "item/iron_leggings"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "water",
+        "tripwire",
+        "#signs",
+        "#wall_signs",
+        "chain",
+        "#buttons",
+        "light",
+        "torch",
+        "soul_torch",
+        "soul_wall_torch",
+        "wall_torch",
+        "moving_piston"
+    ]
+}

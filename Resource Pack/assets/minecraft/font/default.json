@@ -13,10 +13,10 @@
    {
     "type": "bitmap",
     "file": "arrow:font/actionbar.png",
-    "height": 14,
+    "height": 13,
     "ascent": 10,
     "chars": [
-      "\ue900"
+      "\ue900\ue901\ue902"
     ]
   }
     ]

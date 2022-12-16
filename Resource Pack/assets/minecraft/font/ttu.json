@@ -1,0 +1,133 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/background.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_sim/next.png",
+      "height": 10,
+      "ascent": -25,
+      "chars": ["\uf0fe"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_sim/done.png",
+      "height": 10,
+      "ascent": -25,
+      "chars": ["\uf0fd"]
+    },
+
+
+
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_sim/use_crossbow_1.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_sim/use_crossbow_2.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_sim/use_crossbow_3.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_sim/use_crossbow_4.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_sim/waiting_for_players_subtitle.png",
+      "height": 18,
+      "ascent": 17,
+      "chars": ["\uf0ff"]
+    },
+
+
+
+
+
+
+
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_tra/use_crossbow_1.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf101"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_tra/use_crossbow_2.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf102"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_tra/use_crossbow_3.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf103"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/zh_tra/use_crossbow_4.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf104"]
+    },
+
+
+
+
+
+
+
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/en/use_crossbow_1.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf201"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/en/use_crossbow_2.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf202"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/en/use_crossbow_3.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf203"]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:ttu/en/use_crossbow_4.png",
+      "height": 52,
+      "ascent": 32,
+      "chars": ["\uf204"]
+    }
+  ]
+}

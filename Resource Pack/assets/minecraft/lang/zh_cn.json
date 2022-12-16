@@ -502,7 +502,9 @@
     "credit.testers":"测试玩家",
     "marker.tutorial":"★ 游戏教程 ★",
     "title.half_time":"时间已过半",
-    "subtitle.half_time":"矿物生成速度大幅提升",
+    "subtitle.half_time.1":"§f\ue005§r矿物生成速度大幅提升§f\ue003",
+    "subtitle.half_time.2":"§f\ue901\ue902§r资源收集速度大幅提升",
+    "chatbox.half_time":"\n - 矿物生成速度大幅提升\n - 铲子现在挖掘3*3的区域\n - 连锁挖矿已启动",
     "★ Parkour ★":"★ 跑酷 ★ ",
     "Parkour.Start":"开始",
     "Parkour.End":"结束",
@@ -512,5 +514,12 @@
     "message.parkour_finished": "§a跑酷完成!",
     "跳跃箭":"跳跃箭",
     "为落点周围怪物": "为落点周围怪物",
-    "高等级跳跃提升": "施加高等级跳跃提升"
+    "高等级跳跃提升": "施加高等级跳跃提升",
+    "ttu.next": "\uf0fe",
+    "ttu.done": "\uf0fd",
+    "ttu.waiting": "\uf0ff",
+    "ttu.crossbow.1": "\uf001",
+    "ttu.crossbow.2": "\uf002",
+    "ttu.crossbow.3": "\uf003",
+    "ttu.crossbow.4": "\uf004"
 }

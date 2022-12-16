@@ -383,7 +383,7 @@
     "没错，这是那个经典的!":"Yes! This is the classic one!",
     "使用水电梯":"Use Water Elevator",
     "持续20秒":"Last for 20s",
-    "阿涅摩伊的祝福":"\ue900 Benediction From Boreas",
+    "阿涅摩伊的祝福":"\ue900 Benediction of Boreas",
     "提高所有友方单位":"Grant a boost on Speed and",
     "包括玩家和怪物":"attack spped for all friendly units",
     "的攻速的移速":"including players and mobs",
@@ -503,7 +503,9 @@
     "credit.testers":"Game Testers",
     "marker.tutorial":"★ Tutorial ★",
     "title.half_time":"Half Time",
-    "subtitle.half_time":"Ores Spawn Much More Frequently Now",
+    "subtitle.half_time.1":"§f\ue005 §rOres Spawn Much More Frequently Now§f\ue003",
+    "subtitle.half_time.2":"§f\ue901 §rCollect Resources Much Faster§f\ue902",
+    "chatbox.half_time":"\n - Ores Generate Much More Frequently Now\n - Shovel Can Now Collect 3*3 Area\n - Chining Mining is Active",
     "★ Parkour ★":"★ Parkour ★",
     "Parkour.Start":"Start",
     "Parkour.End":"End",
@@ -513,5 +515,10 @@
     "message.parkour_finished": "§aParkour Finished!",
     "跳跃箭": "Jump Boost Arrow",
     "为落点周围怪物": "Apply high-level jump boost",
-    "高等级跳跃提升": "to nearby mobs"
+    "高等级跳跃提升": "to nearby mobs",
+    "ttu.waiting": "\uf2ff",
+    "ttu.crossbow.1": "\uf201",
+    "ttu.crossbow.2": "\uf202",
+    "ttu.crossbow.3": "\uf203",
+    "ttu.crossbow.4": "\uf204"
 }

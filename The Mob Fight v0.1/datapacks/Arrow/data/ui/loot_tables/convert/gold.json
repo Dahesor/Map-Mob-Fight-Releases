@@ -1,0 +1,162 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "gray_dye",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{UISpaceHolder:1b}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"无法转换","color": "red","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"不可以转换为相同的资源","color": "gray","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "convertItem": 4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "gold_ingot",
+                            "functions":[
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"convert.get","with": [{"translate": "gold.nn"}],"italic": false}
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'gold',input:1b}}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"convert.receiving"},
+                                        ["§b- ",{"translate":"gold",
+                                        "with": [
+                                            {
+                                                "score": {
+                                                    "name": "#gold",
+                                                    "objective": "calculator"
+                                                },
+                                                "color": "green",
+                                                "italic": false
+                                            }
+                                        ]
+                                    }],
+                                    ["§b- ",{"translate":"convert.energy_left",
+                                        "with": [
+                                            {
+                                                "score": {
+                                                    "name": "#energy",
+                                                    "objective": "calculator"
+                                                }
+                                            }
+                                        ],
+                                        "color": "green",
+                                        "italic": false
+                                    }],
+                                    "",
+                                    {"translate":"点击置换","color": "yellow","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score","target": {"type": "fixed",
+                                        "name": "#temp"
+                                    },
+                                    "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min": 30
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "gray_dye",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{UISpaceHolder:1b}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"放入资源不足","color": "red","italic": false}
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"在输入栏放入更多资源","color": "gray","italic": false}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score","target": {"type": "fixed",
+                                        "name": "#temp"
+                                    },
+                                    "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min": -1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "gray_dye",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{UISpaceHolder:1b}"
+                                },
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": {"translate":"无效输入","color": "red","italic": false}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

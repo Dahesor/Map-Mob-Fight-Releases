@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "drink":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "potion"
+                    ],
+                    "nbt": "{custom_potion_effects:[{id:\"minecraft:regeneration\"}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:run/gamemodes/uhc/manage_regen_potion/trigger"
+    }
+}

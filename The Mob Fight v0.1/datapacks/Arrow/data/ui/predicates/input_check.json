@@ -1,0 +1,23 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "#tempC"},
+                "score": "calculator"
+            },
+            "range": 1
+        },
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "#tempT"},
+                "score": "calculator"
+            },
+            "range": 1
+        }
+    ]
+}

@@ -5,7 +5,13 @@
     },
     "overrides": [
         {"predicate": {"custom_model_data": 1},"model": "arrow:item/heal_spell"},
-        {"predicate": {"custom_model_data": 2},"model": "arrow:item/heal_spell_ui"},  
+        {"predicate": {"custom_model_data": 2},"model": "arrow:item/heal_spell_ui"},
+        {"predicate": {"custom_model_data": 3},"model": "arrow:item/up_rocket"},
+        {"predicate": {"custom_model_data": 4},"model": "arrow:item/tp_back"},
+        {"predicate": {"custom_model_data": 5},"model": "arrow:item/flare_red"},
+        {"predicate": {"custom_model_data": 6},"model": "arrow:item/flare_blue"},
+        {"predicate": {"custom_model_data": 7},"model": "arrow:item/flare_red_ui"},
+        {"predicate": {"custom_model_data": 8},"model": "arrow:item/flare_blue_ui"},
         {"predicate": {"custom_model_data": 10},"model": "arrow:tech/metal_0"}
     ]
   }

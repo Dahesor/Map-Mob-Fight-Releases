@@ -1,0 +1,20 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "blocks/iron_ore"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{isGameRes:2b}"
+        }
+    ]
+}

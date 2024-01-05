@@ -1,0 +1,103 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "buff",
+            "prefix": "buff/"
+        },
+        {
+            "type": "directory",
+            "source": "buttons",
+            "prefix": "buttons/"
+        },
+        {
+            "type": "directory",
+            "source": "enchant",
+            "prefix": "enchant/"
+        },
+        {
+            "type": "directory",
+            "source": "mob",
+            "prefix": "mob/"
+        },
+        {
+            "type": "directory",
+            "source": "tech",
+            "prefix": "tech/"
+        },
+        {
+            "type": "directory",
+            "source": "upgrade",
+            "prefix": "upgrade/"
+        },
+        {
+            "type": "directory",
+            "source": "upgrade",
+            "prefix": "upgrade/"
+        },
+        {
+            "type": "directory",
+            "source": "gui",
+            "prefix": "gui/"
+        },
+        {
+            "type": "directory",
+            "source": "render",
+            "prefix": "render/"
+        },
+        {
+            "type": "directory",
+            "source": "tech",
+            "prefix": "tech/"
+        },
+        {
+            "type": "directory",
+            "source": "ttu",
+            "prefix": "ttu/"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:back"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:background"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:blank"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:supply"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:dark_ui"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:down_gray"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:down"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:ui"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:ui_gray"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:up"
+        },
+        {
+            "type": "single",
+            "resource": "arrow:up_gray"
+        }
+    ]
+}

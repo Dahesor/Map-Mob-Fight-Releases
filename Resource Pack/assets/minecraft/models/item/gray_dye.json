@@ -1,7 +1,7 @@
 {
     "parent": "arrow:background",
     "textures": {
-      "layer0": "arrow:lock"
+      "layer0": "arrow:gui/lock"
     }
   }
   

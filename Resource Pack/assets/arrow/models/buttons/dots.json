@@ -1,6 +1,6 @@
 {
     "parent": "arrow:background",
     "textures": {
-      "layer0": "arrow:dots"
+      "layer0": "arrow:gui/dots"
     }
 }

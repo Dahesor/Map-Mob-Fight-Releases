@@ -1,6 +1,6 @@
 {
     "parent": "arrow:background",
     "textures": {
-      "layer0": "arrow:checkmark"
+      "layer0": "arrow:gui/checkmark"
     }
 }

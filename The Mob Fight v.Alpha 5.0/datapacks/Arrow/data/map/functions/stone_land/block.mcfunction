@@ -1,1 +1,0 @@
-execute if data storage run map{id:2b} if block ~ ~ ~ #map:stoneland/break_blocks run setblock ~ ~ ~ air replace

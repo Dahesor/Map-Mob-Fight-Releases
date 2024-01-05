@@ -7,6 +7,10 @@
       {
         "predicate": {"custom_model_data": 1},
         "model": "arrow:buff/glowing"
+      },
+      {
+        "predicate": {"custom_model_data": 10},
+        "model": "arrow:item/thundering_arrow"
       }
     ]
   }

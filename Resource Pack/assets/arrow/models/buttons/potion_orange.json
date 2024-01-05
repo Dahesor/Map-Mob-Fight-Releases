@@ -1,6 +1,0 @@
-{
-  "parent": "arrow:background",
-  "textures": {
-    "layer0": "arrow:render/potion_orange"
-  }
-}

@@ -1,0 +1,75 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "copper_ingot",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{isGameRes:1b,CanDestroy:['#game:breakable'],HideFlags:12}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 2,
+                            "add": false
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 1,
+                            "add": true,
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "harvest_level": 1
+                                    }
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.25
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 1,
+                            "add": true,
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "harvest_level": 2
+                                    }
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.60
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 1,
+                            "add": true,
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "harvest_level": 3
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

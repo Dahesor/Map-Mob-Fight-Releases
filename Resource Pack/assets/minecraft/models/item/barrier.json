@@ -7,6 +7,10 @@
         {
           "predicate": {"custom_model_data": 1},
           "model": "arrow:buttons/back"
+        },
+        {
+          "predicate": {"custom_model_data": 2},
+          "model": "arrow:buttons/exchange"
         }
       ]
     }

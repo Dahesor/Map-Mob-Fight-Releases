@@ -1,0 +1,53 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "game:item/instant_heal_spell"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "game:item/instant_heal_spell"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "game:item/instant_heal_spell",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.6
+                        }   
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "game:item/instant_heal_spell",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.5
+                        }   
+                    ]
+                }
+            ]
+        }
+    ]
+}

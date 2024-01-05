@@ -31,6 +31,14 @@
     {
       "predicate": {"custom_model_data": 7},
       "model": "arrow:buttons/arrow"
+    },
+    {
+      "predicate": {"custom_model_data": 8},
+      "model": "arrow:buttons/input_slot"
+    },
+    {
+      "predicate": {"custom_model_data": 9},
+      "model": "arrow:buttons/right_green_arrow"
     }
   ]
 }

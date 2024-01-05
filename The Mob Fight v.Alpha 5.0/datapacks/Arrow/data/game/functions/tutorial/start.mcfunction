@@ -1,1 +1,0 @@
-scoreboard players set @a gifNUM 0

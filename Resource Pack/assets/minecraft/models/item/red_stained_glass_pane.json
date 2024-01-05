@@ -7,6 +7,10 @@
         {
           "predicate": {"custom_model_data": 1},
           "model": "arrow:background_dark"
+        },
+        {
+          "predicate": {"custom_model_data": 2},
+          "model": "arrow:tech/lock"
         }
       ]
 }

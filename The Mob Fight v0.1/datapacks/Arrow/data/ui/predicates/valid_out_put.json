@@ -1,0 +1,47 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{EnderItems:[{Slot:16b,id:\"minecraft:iron_ingot\"}]}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{EnderItems:[{Slot:16b,id:\"minecraft:gray_stained_glass_pane\",tag:{UISpaceHolder:1b}}]}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{EnderItems:[{Slot:16b,id:\"minecraft:gold_ingot\"}]}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{EnderItems:[{Slot:16b,id:\"minecraft:diamond\"}]}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{EnderItems:[{Slot:16b,id:\"minecraft:copper_ingot\"}]}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{EnderItems:[{Slot:16b,id:\"minecraft:lapis_lazuli\"}]}"
+            }
+        }
+    ]
+}

@@ -7,6 +7,26 @@
         {
           "predicate": {"custom_model_data": 1},
           "model": "arrow:background"
+        },
+        {
+          "predicate": {"custom_model_data": 2},
+          "model": "arrow:background_long"
+        },
+        {
+          "predicate": {"custom_model_data": 3},
+          "model": "arrow:buttons/blank"
+        },
+        {
+          "predicate": {"custom_model_data": 4},
+          "model": "arrow:background_33_down"
+        },
+        {
+          "predicate": {"custom_model_data": 5},
+          "model": "arrow:down_1_box"
+        },
+        {
+          "predicate": {"custom_model_data": 6},
+          "model": "arrow:settings"
         }
       ]
 }

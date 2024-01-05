@@ -1,2 +1,0 @@
-summon zombie ~ ~ ~ {ArmorItems:[{"id":"leather_boots",Count:1b,tag:{display:{color:1861766}}},{},{id:"chainmail_chestplate",Count:1b},{}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f],HandItems:[{id:"wooden_sword",Count:1b},{}],ActiveEffects:[{Id:8b,Amplifier:8b,Duration:99999999}]}
-kill @s

@@ -20,7 +20,8 @@
 
         {"predicate": {"custom_model_data": 1001},"model": "arrow:upgrade/new_crystal"},
         {"predicate": {"custom_model_data": 1002},"model": "arrow:upgrade/beem"},
-        {"predicate": {"custom_model_data": 1003},"model": "arrow:buff/no_nausea"}
+        {"predicate": {"custom_model_data": 1003},"model": "arrow:buff/no_nausea"},
+        {"predicate": {"custom_model_data": 1004},"model": "arrow:buff/creeper_storm"}
         
     ]
   }

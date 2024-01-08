@@ -1,7 +1,0 @@
-setblock 5 60 70 air
-setblock 5 60 70 oak_wall_sign[facing=west]{is_waxed:0b,front_text:{messages:['""','{"translate":"locked","color": "red"}','""','""']}}
-setblock 5 60 72 air
-setblock 5 60 72 oak_wall_sign[facing=west]{is_waxed:0b,front_text:{messages:['""','{"translate":"locked","color": "red"}','""','""']}}
-fill 5 59 69 5 59 75 air
-fill 5 59 69 5 59 75 oak_wall_sign[facing=west]{is_waxed:0b,front_text:{messages:['""','{"translate":"locked","color": "red"}','""','""']}}
-setblock 5 59 72 air

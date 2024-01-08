@@ -1,0 +1,27 @@
+{
+  "lobby:root": {
+    "criteria": {
+      "new_player": "2024-01-07 13:20:01 -0500"
+    },
+    "done": true
+  },
+  "lobby:all_ores": {
+    "criteria": {
+      "all_ores": "2024-01-07 13:33:41 -0500"
+    },
+    "done": true
+  },
+  "lobby:netherite": {
+    "criteria": {
+      "netherite": "2024-01-07 14:04:04 -0500"
+    },
+    "done": true
+  },
+  "lobby:first_win": {
+    "criteria": {
+      "trigger": "2024-01-07 16:00:08 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

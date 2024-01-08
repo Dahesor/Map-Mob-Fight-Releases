@@ -21,6 +21,39 @@
             }
         ]
     },
+    "alarm.friendly": {
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-software-interface-remove-2576",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "stream": false
+            }
+        ]
+    },
+    "alarm.over_half": {
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-industry-alarm-tone-2979",
+                "volume": 1.0,
+                "pitch": 1.0,
+                "stream": false
+            }
+        ]
+    },
+    "alarm.enemy": {
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:mixkit-double-beep-tone-alert-2868",
+                "volume": 2.0,
+                "pitch": 0.6,
+                "stream": false
+            }
+        ]
+    },
     "event.draw": {
         "replace":false,
         "sounds": [

@@ -1,0 +1,3 @@
+setblock 3 57 100 air replace
+execute unless score AdminSettingsOn Options matches 1.. run setblock 3 57 100 birch_wall_sign[facing=west]{front_text:{messages:['{"text": "↑ ↑ ↑","color": "green"}','{"translate":"sign.start_game","color": "gold"}','""','""']}}
+execute if score AdminSettingsOn Options matches 1.. run setblock 3 57 100 birch_wall_sign[facing=west]{front_text:{messages:['""','{"translate": "op.wait_to_start.1","color": "red"}','{"translate":"op.wait_to_start.2","color": "red"}','""']}}

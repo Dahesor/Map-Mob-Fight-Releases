@@ -1,0 +1,79 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "tag": "game:summon_free"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "tag": "game:summon_free"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "tag": "game:summon_free"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "tag": "game:summon_free"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "tag": "game:summon_free"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "tag": "game:summon_free"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "offsetX":1,
+      "predicate": {
+        "block": {
+          "tag": "game:summon_free"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "offsetX":1,
+      "offsetY":1,
+      "predicate": {
+        "block": {
+          "tag": "game:summon_free"
+        }
+      }
+    }
+]
+  

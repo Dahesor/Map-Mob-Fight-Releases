@@ -1,0 +1,35 @@
+[
+    {
+        "condition": "value_check",
+        "value": {
+            "type": "score",
+            "target": {"type": "fixed","name": "science_techno"},
+            "score": "blue"
+        },
+        "range": {
+            "min" : 3
+        }
+    },
+    {
+        "condition": "value_check",
+        "value": {
+            "type": "score",
+            "target": {"type": "fixed","name": "magic_occult"},
+            "score": "blue"
+        },
+        "range": {
+            "min" : 3
+        }
+    },
+    {
+        "condition": "value_check",
+        "value": {
+            "type": "score",
+            "target": {"type": "fixed","name": "society_populate"},
+            "score": "blue"
+        },
+        "range": {
+            "min" : 3
+        }
+    }
+]

@@ -1,0 +1,2 @@
+summon zombie ~ ~ ~ {ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{id:"iron_boots",Count:1b},{id:"diamond_leggings",Count:1b},{id:"diamond_chestplate",Count:1b},{id:"diamond_helmet",Count:1b}]}
+kill

@@ -1,0 +1,2 @@
+summon husk
+kill

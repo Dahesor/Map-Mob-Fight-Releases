@@ -1,0 +1,566 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "netherite_leggings",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "armor": 9
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "netherite_leggings",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "armor": 8
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "diamond_chestplate",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "armor": 7
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "diamond_leggings",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "armor": 6
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "iron_chestplate",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "armor": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "iron_leggings",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "armor": 4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "chainmail_chestplate",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "armor": 3
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "chainmail_leggings",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "armor": 2
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{ui:{id:'armor'},CustomModelData:1,HideFlags:127,display:{Name:'{\"translate\":\"升级盔甲\",\"color\": \"green\",\"italic\": false}',Lore:['\"\"','{\"translate\":\"升级以获得\",\"color\": \"gray\",\"italic\": false}','{\"translate\":\"更强力的盔甲！\",\"color\": \"gray\",\"italic\": false}','\"\"']}}",
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "armor":{"max": 8}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{ui:{id:'need_tcho'},CustomModelData:1,HideFlags:127,display:{Name:'{\"translate\":\"升级盔甲\",\"color\": \"red\",\"italic\": false}',Lore:['\"\"','{\"translate\":\"升级以获得\",\"color\": \"gray\",\"italic\": false}','{\"translate\":\"更强力的盔甲！\",\"color\": \"gray\",\"italic\": false}','\"\"']}}",
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "armor":{"max": 8}
+                    }
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "ui:player/armor_tech"
+                }
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{UISpaceHolder:1b,CustomModelData:1,HideFlags:127,display:{Name:'{\"translate\":\"升级盔甲\",\"color\": \"gray\",\"italic\": false}',Lore:['\"\"','{\"translate\":\"升级以获得\",\"color\": \"gray\",\"italic\": false}','{\"translate\":\"更强力的盔甲！\",\"color\": \"gray\",\"italic\": false}','\"\"','{\"translate\":\"已经满级！\",\"color\":\"red\",\"italic\":false}']}}",
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "armor":{"min": 9}
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 8"
+            }
+            ]},
+            {"translate":"iron","with": [
+            {
+                "text": "§a 2"
+            }
+            ]}],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": 2
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 9"
+            }
+            ]},
+            {"translate":"iron","with": [
+            {
+                "text": "§a 3"
+            }
+            ]}],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": 3
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 12"
+            }
+            ]},
+            {"translate":"iron","with": [
+            {
+                "text": "§a 8"
+            }
+            ]}],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": 4
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 16"
+            }
+            ]},
+            {"translate":"iron","with": [
+            {
+                "text": "§a 14"
+            }
+            ]}],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": 5
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 28"
+            }
+            ]},
+            {"translate":"diamond","with": [
+            {
+                "text": "§a 15"
+            }
+            ]}],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": 6
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 32"
+            }
+            ]},
+            {"translate":"diamond","with": [
+            {
+                "text": "§a 15"
+            }
+            ]},
+            {"translate":"netherite","with": [
+            {
+                "text": "§a 2"
+            }
+            ]}],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": 7
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 48"
+            }
+            ]},
+            {"translate":"gold","with": [
+            {
+                "text": "§a 24"
+            }
+            ]},
+            {"translate":"diamond","with": [
+            {
+                "text": "§a 24"
+            }
+            ]},
+            {"translate":"netherite","with": [
+            {
+                "text": "§a 4"
+            }
+            ]}
+            ],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": 8
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+
+        {
+            "function": "set_lore",
+            "lore": [{"translate":"点击购买","color":"yellow","italic": false}],
+            "replace":false,
+            "entity": "this",
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "armor":{"max": 8}
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                    }
+                }
+            ]
+        },
+
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"need_tcho"},
+            {"translate":"science_techno","color":"gray","italic": false,"with": [
+                {
+                    "text": " I"
+                }
+            ]}
+            ],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": {
+                            "min":2,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                }
+            ]
+        },
+
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"need_tcho"},
+            {"translate":"science_techno","color":"gray","italic": false,"with": [
+                {
+                    "text": " II"
+                }
+            ]}
+            ],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": {
+                            "min":4,
+                            "max":5
+                        }
+                    }
+                },
+                {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                }
+            ]
+        },
+
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"need_tcho"},
+            {"translate":"science_techno","color":"gray","italic": false,"with": [
+                {
+                    "text": " III"
+                }
+            ]},
+            {"translate":"society_populate","color":"gray","italic": false,"with": [
+                {
+                    "text": " I"
+                }
+            ]}
+            ],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": {
+                            "min":6,
+                            "max":7
+                        }
+                    }
+                },
+                {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                }
+            ]
+        },
+
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [{"translate":"need_tcho"},
+            {"translate":"science_techno","color":"gray","italic": false,"with": [
+                {
+                    "text": " III"
+                }
+            ]},
+            {"translate":"magic_occult","color":"gray","italic": false,"with": [
+                {
+                    "text": " III"
+                }
+            ]},
+            {"translate":"society_populate","color":"gray","italic": false,"with": [
+                {
+                    "text": " II"
+                }
+            ]}
+            ],
+            "conditions": [
+                {
+                    "condition": "entity_scores",
+                    "entity": "this","scores": {
+                        "armor": {
+                            "min":8
+                        }
+                    }
+                },
+                {
+                        "condition": "minecraft:reference",
+                        "name": "ui:player/armor_tech"
+                }
+            ]
+        },
+
+        {
+            "function": "set_lore",
+            "lore": [{"translate":"locked","color":"red","italic": false}],
+            "replace":false,
+            "entity": "this",
+            "conditions": [
+                {
+                    "condition": "minecraft:reference",
+                    "name": "ui:player/armor_tech"
+                }
+            ]
+        }
+    ]
+}

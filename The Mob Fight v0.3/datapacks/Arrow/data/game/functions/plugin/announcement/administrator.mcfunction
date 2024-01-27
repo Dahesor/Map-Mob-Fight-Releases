@@ -1,0 +1,3 @@
+tellraw @a ["",{"translate":"管理员公告","color": "green","bold": true},{"text": "| ","color": "aqua"},{"selector":"@a[limit=1,tag=sysano]","color": "light_purple"},{"text": "> ","color": "aqua"},{"nbt":"administrator","storage": "game:announcement","color": "yellow","interpret": true}]
+execute as @a at @s run playsound entity.experience_orb.pickup master @s
+data modify storage game:announcement administrator set value ''

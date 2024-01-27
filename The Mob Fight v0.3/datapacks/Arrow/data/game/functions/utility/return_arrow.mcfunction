@@ -1,0 +1,2 @@
+summon item ~ ~ ~ {Item:{id:"barrier",tag:{isConstant:1b,ruturn_arrowing:1b},Count:1b},PickupDelay:1s}
+data modify entity @e[type=item,limit=1,sort=nearest,nbt={Item:{tag:{ruturn_arrowing:1b}}}] Item set from entity @s Item.tag.ChargedProjectiles[0]

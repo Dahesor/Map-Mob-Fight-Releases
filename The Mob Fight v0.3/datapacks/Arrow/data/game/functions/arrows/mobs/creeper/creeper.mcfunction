@@ -1,0 +1,2 @@
+summon creeper
+kill @s

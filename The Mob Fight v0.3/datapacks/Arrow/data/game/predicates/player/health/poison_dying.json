@@ -1,0 +1,10 @@
+[
+    {
+        "condition": "reference",
+        "name": "game:player/health/poison"
+    },
+    {
+        "condition": "reference",
+        "name": "game:player/health/dying"
+    }
+]

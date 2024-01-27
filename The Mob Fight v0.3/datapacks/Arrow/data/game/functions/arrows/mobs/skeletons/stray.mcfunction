@@ -1,0 +1,2 @@
+summon stray
+kill

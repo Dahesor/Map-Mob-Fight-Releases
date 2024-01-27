@@ -1,0 +1,1 @@
+$execute positioned $(posX) $(posY) $(posZ) run function $(func) {time:$(time)}

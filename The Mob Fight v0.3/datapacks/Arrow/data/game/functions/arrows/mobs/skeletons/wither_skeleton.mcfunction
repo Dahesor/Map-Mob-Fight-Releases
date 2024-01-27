@@ -1,0 +1,2 @@
+summon wither_skeleton
+kill

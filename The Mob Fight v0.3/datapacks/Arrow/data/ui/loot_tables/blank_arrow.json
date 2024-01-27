@@ -1,0 +1,26 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"translate\": \"...\",\"color\":\"gray\"}'},CustomPotionColor:16777215,CustomModelData:10000,HideFlags:32,UISpaceHolder:1b}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],display:{Name:'{\"translate\": \"title.surrender\",\"color\":\"red\",\"italic\":false}'}}",
+                            "conditions": 
+                            [{"condition": "reference","name": "ui:settings/surrender"}]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

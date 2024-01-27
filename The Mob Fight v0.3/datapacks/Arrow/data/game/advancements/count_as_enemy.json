@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "hit_by_mob":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "#game:mobs"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:death/recount"
+    }
+}

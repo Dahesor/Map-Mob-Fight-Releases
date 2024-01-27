@@ -1,0 +1,38 @@
+[
+    {
+        "function": "set_name",
+        "entity": "this",
+        "name": {"translate":"失明轰炸","color": "green","italic": false}
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "replace": true,
+        "lore": [
+            "",
+            {"translate":"对敌方进行","color": "gray","italic": false},
+            {"translate":"失明药水轰炸！","color": "gray","italic": false},
+            "",
+            {"translate":"price","color": "gray","italic": false},
+            {"translate":"diamond","with": [
+                {
+                    "text": "§a 10"
+                }
+            ]},
+            {"translate":"lapis","with": [
+                {
+                    "text": "§a 5"
+                }
+            ]},
+            {"translate":"gold","with": [
+                {
+                    "text": "§a 5"
+                }
+            ]}
+        ]
+    },
+    {
+        "function": "set_nbt",
+        "tag": "{ui:{id:3b},CustomModelData:110}"
+    }
+]

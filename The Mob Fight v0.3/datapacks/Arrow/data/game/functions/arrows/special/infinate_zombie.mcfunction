@@ -1,0 +1,12 @@
+scoreboard players operation #tee$time calculator = MaxGameLength Options
+scoreboard players operation #tee$time calculator -= GameLength Data
+
+execute unless score #tee$time calculator matches ..2400 run summon zombie ~ ~ ~ {Tags:["crazy_mode_mob","second_ticking"],HandItems:[],ArmorItems:[{},{},{},{id:"golden_helmet",Count:1b,tag:{Enchantments:[{}]}}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
+execute if score #tee$time calculator matches 1801..2400 run summon zombie ~ ~ ~ {Tags:["crazy_mode_mob","second_ticking"],HandItems:[{id:"stick",Count:1b}],ArmorItems:[{id:"leather_boots",Count:1b},{id:"leather_leggings",Count:1b},{id:"leather_chestplate",Count:1b},{id:"leather_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
+execute if score #tee$time calculator matches 1201..1800 run summon zombie ~ ~ ~ {Tags:["crazy_mode_mob","second_ticking"],HandItems:[{id:"wooden_shovel",Count:1b}],ArmorItems:[{id:"chainmail_boots",Count:1b},{id:"chainmail_leggings",Count:1b},{id:"chainmail_chestplate",Count:1b},{id:"chainmail_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
+execute if score #tee$time calculator matches 601..1200 run summon zombie ~ ~ ~ {Tags:["crazy_mode_mob","second_ticking"],HandItems:[{id:"stone_shovel",Count:1b}],ArmorItems:[{id:"iron_boots",Count:1b},{id:"iron_leggings",Count:1b},{id:"iron_chestplate",Count:1b},{id:"iron_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
+execute if score #tee$time calculator matches 201..600 run summon zombie ~ ~ ~ {Tags:["crazy_mode_mob","second_ticking"],HandItems:[{id:"iron_shovel",Count:1b}],ArmorItems:[{id:"diamond_boots",Count:1b},{id:"diamond_leggings",Count:1b},{id:"diamond_chestplate",Count:1b},{id:"diamond_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
+execute if score #tee$time calculator matches ..200 run summon zombie ~ ~ ~ {Tags:["crazy_mode_mob","second_ticking"],HandItems:[{id:"diamond_shovel",Count:1b}],ArmorItems:[{id:"netherite_boots",Count:1b},{id:"netherite_leggings",Count:1b},{id:"netherite_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
+
+
+kill

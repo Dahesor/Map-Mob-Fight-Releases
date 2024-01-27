@@ -1,0 +1,19 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{EnderItems:[{Slot:11b}]}"
+                }
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ui:valid_input"
+        }
+    ]
+}

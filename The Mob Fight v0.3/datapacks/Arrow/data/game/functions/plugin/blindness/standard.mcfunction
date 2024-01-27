@@ -1,0 +1,2 @@
+summon potion ~-1 ~ ~-1 {Item:{id:"splash_potion",Count:1b,tag:{CustomPotionColor:1,custom_potion_effects:[{id:"darkness",show_particles:1b,show_icon:1b,amplifier:0b,duration:1000}]}},Tags:["purple_trail","ticking"]}
+summon potion ~1 ~ ~1 {Item:{id:"splash_potion",Count:1b,tag:{CustomPotionColor:1,custom_potion_effects:[{id:"darkness",show_particles:1b,show_icon:1b,amplifier:0b,duration:1000}]}},Tags:["purple_trail","ticking"]}

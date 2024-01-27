@@ -1,1 +1,0 @@
-$data modify storage run PosRecord insert $(insert) from storage run PosRecord[0]

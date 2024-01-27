@@ -1,1 +1,0 @@
-execute if data storage run map{id:2b} run function map:stone_land/block_ana

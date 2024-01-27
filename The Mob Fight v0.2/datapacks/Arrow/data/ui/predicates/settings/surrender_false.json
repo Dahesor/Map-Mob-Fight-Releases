@@ -1,7 +1,0 @@
-{
-    "condition": "inverted",
-    "term": {
-        "condition": "reference",
-        "name": "ui:settings/surrender"
-    }
-}

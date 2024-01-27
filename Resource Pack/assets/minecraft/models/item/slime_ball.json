@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+      {"predicate": {"custom_model_data": 18890},"model": "arrow:item/repair_tool"},
+      {"predicate": {"custom_model_data": 18891},"model": "arrow:item/repair_tool_ui"}
+      
+  ]
+}

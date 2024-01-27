@@ -1,2 +1,0 @@
-summon illusioner
-kill @s

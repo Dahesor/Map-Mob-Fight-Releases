@@ -1,1 +1,0 @@
-execute if entity @s[tag=normal] at @s run function game:plugin/tnt/normal

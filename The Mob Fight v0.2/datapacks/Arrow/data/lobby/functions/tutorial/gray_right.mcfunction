@@ -1,1 +1,0 @@
-fill ~-1 ~-1 ~4 ~-8 ~-1 ~-4 white_concrete replace light_blue_concrete

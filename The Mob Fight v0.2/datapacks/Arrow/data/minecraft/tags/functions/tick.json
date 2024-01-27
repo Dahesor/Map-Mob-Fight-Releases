@@ -1,8 +1,0 @@
-{
-    "values": [
-        "game:tick",
-        "ui:tick",
-        "developer:tick",
-        "lobby:tick"
-    ]
-}

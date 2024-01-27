@@ -1,2 +1,0 @@
-summon evoker
-kill @s

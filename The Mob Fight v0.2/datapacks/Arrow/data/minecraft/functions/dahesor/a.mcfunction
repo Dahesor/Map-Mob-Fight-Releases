@@ -1,1 +1,0 @@
-scoreboard players set GameLength Data 10

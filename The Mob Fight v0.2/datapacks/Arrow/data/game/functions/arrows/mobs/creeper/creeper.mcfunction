@@ -1,2 +1,0 @@
-summon creeper
-kill @s

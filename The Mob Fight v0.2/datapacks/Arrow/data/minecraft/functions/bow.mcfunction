@@ -1,1 +1,0 @@
-give @s crossbow{Unbreakable:1b,Enchantments:[{id:"minecraft:quick_charge",lvl:5},{id:"minecraft:piercing",lvl:100},{id:"sharpness",lvl:10}],display:{Name:'{"text": "Test Bow","color": "red","italic": false}'},isDeveloperTool:1b}

@@ -1,2 +1,0 @@
-summon witch
-kill @s

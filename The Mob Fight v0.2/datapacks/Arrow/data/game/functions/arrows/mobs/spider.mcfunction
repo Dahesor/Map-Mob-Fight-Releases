@@ -1,2 +1,0 @@
-summon spider
-kill @s

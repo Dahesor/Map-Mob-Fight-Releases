@@ -15,8 +15,8 @@
         "sounds": [
             {
                 "name":"arrow:mixkit-game-show-suspense-waiting-667",
-                "volume": 1.0,
-                "pitch": 1.0,
+                "volume": 0.35,
+                "pitch": 0.9,
                 "stream": false
             }
         ]

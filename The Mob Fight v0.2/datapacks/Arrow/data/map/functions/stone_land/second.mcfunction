@@ -1,4 +1,0 @@
-setblock 39 48 4 air[]{}
-setblock 39 48 4 oak_wall_sign[facing=north]{front_text:{messages:['{"translate":"使用水电梯","color": "gold","italic": false,"clickEvent": {"action": "run_command","value": "/function map:stone_land/water_red"}}','{"translate":"持续20秒","color": "green","italic": false}','{"translate":"dirt","with":["§a5"]}','[{"text": "[","color": "gray","italic": false},{"keybind":"key.use"},"]"]']}}
-setblock -39 48 -5 air[]{}
-setblock -39 48 -5 oak_wall_sign[facing=south]{front_text:{messages:['{"translate":"使用水电梯","color": "gold","italic": false,"clickEvent": {"action": "run_command","value": "/function map:stone_land/water_blue"}}','{"translate":"持续20秒","color": "green","italic": false}','{"translate":"dirt","with":["§a5"]}','[{"text": "[","color": "gray","italic": false},{"keybind":"key.use"},"]"]']}}

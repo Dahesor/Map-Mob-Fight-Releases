@@ -1,2 +1,0 @@
-summon zombie
-kill @s

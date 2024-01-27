@@ -1,2 +1,0 @@
-summon drowned ~ ~ ~ {}
-kill @s

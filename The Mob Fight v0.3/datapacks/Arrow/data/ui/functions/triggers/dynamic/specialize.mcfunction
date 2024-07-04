@@ -1,1 +1,0 @@
-execute if score @s UI matches 10 run function ui:triggers/dynamic/mob

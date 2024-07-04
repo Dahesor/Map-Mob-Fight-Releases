@@ -110,6 +110,11 @@
     {
       "predicate": {"custom_model_data": 1},
       "model": "arrow:upgrade/crossbow"
-    }
+    },
+    {"predicate": {"custom_model_data": 2},"model": "arrow:item/crossbow/fast"},
+    {"predicate": {"custom_model_data": 2,"pulling": 1},"model": "arrow:item/crossbow/fast_1"},
+    {"predicate": {"custom_model_data": 2,"pulling": 1,"pull": 0.65},"model": "arrow:item/crossbow/fast_2"},
+    {"predicate": {"custom_model_data": 2,"pulling": 1,"pull": 0.9},"model": "arrow:item/crossbow/fast_3"},
+    {"predicate": {"custom_model_data": 2,"charged": 1},"model": "arrow:item/crossbow/fast_arrow"}
   ]
 }

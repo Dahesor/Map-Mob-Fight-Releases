@@ -1,0 +1,1 @@
+execute as @a at @s run function lobby:start_game/start/self_pack

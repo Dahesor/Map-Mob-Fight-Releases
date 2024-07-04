@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ air run function game:run/resources/checker/refill

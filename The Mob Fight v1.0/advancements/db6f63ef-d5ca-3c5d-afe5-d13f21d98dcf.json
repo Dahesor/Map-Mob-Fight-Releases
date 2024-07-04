@@ -1,0 +1,21 @@
+{
+  "lobby:root": {
+    "criteria": {
+      "new_player": "2024-07-01 00:10:13 -0700"
+    },
+    "done": true
+  },
+  "lobby:first_win": {
+    "criteria": {
+      "trigger": "2024-07-03 15:41:15 -0700"
+    },
+    "done": true
+  },
+  "lobby:gamemode/elimination": {
+    "criteria": {
+      "impossible": "2024-07-03 15:44:57 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

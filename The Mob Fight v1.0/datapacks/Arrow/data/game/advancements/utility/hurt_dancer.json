@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "hurt":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "husk",
+                    "nbt":"{Tags:['dancer']}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:run/mob_tick/dancer/trigger"
+    }
+}

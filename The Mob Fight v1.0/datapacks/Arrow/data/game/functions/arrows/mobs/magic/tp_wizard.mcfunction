@@ -1,0 +1,5 @@
+summon drowned ~ ~ ~ {ArmorItems:[{id:"netherite_boots",Count:1b},{id:"netherite_leggings",Count:1b},{id:"leather_chestplate",Count:1b,tag:{display:{color:14745855}}},{id:"end_portal_frame",Count:1b,tag:{Enchantments:[{id:"protection",lvl:2}]}}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0f,0f],HandItems:[{id:"stick",Count:1b,tag:{Enchantments:[{id:"knockback",lvl:3}]}},{id:"ender_pearl",Count:1b,tag:{Enchantments:[{}]}}],Tags:["ticking","tp_wizard"],Attributes:[{Base:64.0d,Name:"generic.max_health"}],Health:64.0f,CustomName:'{"translate":"arrow.tp_wizard","color":"gold"}',active_effects:[{amplifier:0b,ambient:0b,duration:99999999,show_icon:0b,show_particles:0b,id:"invisibility"},{amplifier:0b,ambient:0b,duration:99999999,show_icon:0b,show_particles:0b,id:"resistance"}]}
+
+kill
+
+#define tag tp_wizard

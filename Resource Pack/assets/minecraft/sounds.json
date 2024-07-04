@@ -1,0 +1,13 @@
+{
+    "entity.minecart.inside": {
+    "sounds": [
+      {
+        "name":"arrow:minecart_new",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "stream": true
+    }
+    ],
+    "replace":true
+  }
+}

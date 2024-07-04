@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "arrow:item/bow/sand_of_time_2"
+  }
+}

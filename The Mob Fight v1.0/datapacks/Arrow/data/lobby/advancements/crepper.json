@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "title": {"translate":"advancement.title.creeper"},
+        "description": {"translate":"advancement.description.creeper"}
+    },
+    "criteria": {
+        "trigger":{
+            "trigger": "impossible"
+        }
+    },
+    "parent": "lobby:wrong_side"
+}

@@ -1,0 +1,3 @@
+summon stray ~ ~ ~ {Attributes:[{Base:34.0d,Name:'generic.max_health'}],active_effects:[{id:"fire_resistance",amplifier:0b,duration:99999999,show_particles:0b},{id:"slowness",amplifier:0b,duration:99999999,show_particles:0b}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f],HandItems:[{id:"bow",Count:1b,tag:{CustomModelData:1,Enchantments:[{id:"power",lvl:3s},{id:"punch",lvl:1s}]}},{}],ArmorItems:[{id:golden_boots,Count:1b},{id:"golden_leggings",Count:1b},{id:"leather_chestplate",Count:1b,tag:{display:{color:16741637}}},{id:"red_sand",Count:1b,tag:{Enchantments:[{}]}}],Health:34.0f,CustomName:'{"translate": "arrow.sand_bow","color": "dark_purple"}'}
+kill
+

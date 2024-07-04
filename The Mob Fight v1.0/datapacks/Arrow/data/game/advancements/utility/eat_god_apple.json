@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "drink":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "enchanted_golden_apple"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:run/gamemodes/uhc/shield_apple_trigger"
+    }
+}

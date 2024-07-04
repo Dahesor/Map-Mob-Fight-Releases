@@ -1,0 +1,3 @@
+execute if score VILLAGER.super_villager red matches 0 unless score VILLAGER.super_villager blue matches 0 run function game:end/blue_win
+execute if score VILLAGER.super_villager blue matches 0 unless score VILLAGER.super_villager red matches 0 run function game:end/red_win
+execute if score VILLAGER.super_villager blue matches 0 if score VILLAGER.super_villager red matches 0 run function game:end/draw_check

@@ -1,2 +1,0 @@
-execute if score realisticOreDrop Options matches 0 as @e[type=marker,tag=markerOreLinkingTarget,tag=ore_marker] at @s run function game:utility/realistic_ore/link
-execute as @e[type=marker,tag=markerOreLinkingTarget,tag=ore_marker] at @s run setblock ~ ~ ~ air destroy

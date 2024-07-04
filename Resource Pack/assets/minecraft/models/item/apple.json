@@ -4,6 +4,7 @@
       "layer0": "minecraft:item/apple"
     },
     "overrides": [
-      {"predicate": {"custom_model_data": 1},"model": "arrow:item/apple"}
+      {"predicate": {"custom_model_data": 1},"model": "arrow:item/apple"},
+      {"predicate": {"custom_model_data": 2},"model": "arrow:item/wind_charge"}
     ]
   }

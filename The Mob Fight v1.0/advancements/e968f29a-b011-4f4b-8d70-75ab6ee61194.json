@@ -1,0 +1,21 @@
+{
+  "lobby:root": {
+    "criteria": {
+      "new_player": "2024-01-14 15:27:43 -0500"
+    },
+    "done": true
+  },
+  "lobby:all_ores": {
+    "criteria": {
+      "all_ores": "2024-01-14 16:29:38 -0500"
+    },
+    "done": true
+  },
+  "lobby:netherite": {
+    "criteria": {
+      "netherite": "2024-01-14 16:29:38 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

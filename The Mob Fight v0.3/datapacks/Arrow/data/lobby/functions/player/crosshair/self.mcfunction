@@ -1,2 +1,0 @@
-execute unless block ^ ^ ^0.06 #lobby:transparent run function lobby:player/crosshair/particle
-execute positioned ^ ^ ^0.06 if block ~ ~ ~ #lobby:transparent if entity @s[distance=..6.8] run function lobby:player/crosshair/self 

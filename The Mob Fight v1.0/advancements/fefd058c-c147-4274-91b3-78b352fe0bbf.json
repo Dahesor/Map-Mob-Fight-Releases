@@ -1,0 +1,57 @@
+{
+  "lobby:root": {
+    "criteria": {
+      "new_player": "2024-07-02 20:33:59 -0700"
+    },
+    "done": true
+  },
+  "lobby:wrong_side": {
+    "criteria": {
+      "trigger": "2024-07-02 20:54:43 -0700"
+    },
+    "done": true
+  },
+  "lobby:netherite": {
+    "criteria": {
+      "netherite": "2024-07-02 21:40:55 -0700"
+    },
+    "done": true
+  },
+  "lobby:vand": {
+    "criteria": {
+      "command": "2024-07-02 21:54:29 -0700"
+    },
+    "done": true
+  },
+  "lobby:tech": {
+    "criteria": {
+      "trigger": "2024-07-02 21:56:22 -0700"
+    },
+    "done": true
+  },
+  "lobby:gamemode/uhc": {
+    "criteria": {
+      "impossible": "2024-07-03 15:14:39 -0700"
+    },
+    "done": true
+  },
+  "lobby:all_ores": {
+    "criteria": {
+      "all_ores": "2024-07-03 15:21:55 -0700"
+    },
+    "done": true
+  },
+  "lobby:gamemode/elimination": {
+    "criteria": {
+      "impossible": "2024-07-03 16:40:32 -0700"
+    },
+    "done": true
+  },
+  "lobby:first_win": {
+    "criteria": {
+      "trigger": "2024-07-03 18:13:46 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

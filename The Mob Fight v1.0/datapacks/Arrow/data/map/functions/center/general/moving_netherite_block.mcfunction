@@ -1,0 +1,1 @@
+summon block_display ~ ~ ~ {block_state:{Name:"netherite_block",Properties:{}},transformation:[1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f],Tags:["center.gate_new"]}

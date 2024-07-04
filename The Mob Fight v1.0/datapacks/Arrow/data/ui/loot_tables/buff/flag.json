@@ -1,0 +1,155 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomModelData:101,ui:{id:\"flag\"},display:{Name:'{\"translate\":\"号令之旗\",\"color\": \"gold\",\"italic\": false}'},HideFlags:32}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"使全部我方怪物停止自相攻击","color": "gray","italic": false},
+                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
+                                        {"translate":"持续120秒","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with":["§a20"]},
+                                        {"translate":"lapis","with":["§a3"]},
+                                        {"translate":"copper","with":["§a20"]},
+                                        {"nbt":"text.select","interpret": true,"storage":"game:shop"}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "society_populate"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "team": "red"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomModelData:102,ui:{id:\"flag\"},display:{Name:'{\"translate\":\"号令之旗\",\"color\": \"gold\",\"italic\": false}'},HideFlags:32}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"使全部我方怪物停止自相攻击","color": "gray","italic": false},
+                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
+                                        {"translate":"持续120秒","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with":["§a20"]},
+                                        {"translate":"lapis","with":["§a3"]},
+                                        {"translate":"copper","with":["§a20"]},
+                                        {"nbt":"text.select","interpret": true,"storage":"game:shop"}
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "society_populate"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomModelData:101,ui:{id:\"need_tcho\"},display:{Name:'{\"translate\":\"号令之旗\",\"color\": \"red\",\"italic\": false}'},HideFlags:32}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"使全部我方怪物停止自相攻击","color": "gray","italic": false},
+                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
+                                        {"translate":"持续120秒","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"society_populate","italic":false,"color": "gray","with":[" II"]}
+                                    ]
+                                }
+                            ],
+                            "conditions":[
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "team": "red"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{CustomModelData:102,ui:{id:\"need_tcho\"},display:{Name:'{\"translate\":\"号令之旗\",\"color\": \"red\",\"italic\": false}'},HideFlags:32}"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"使全部我方怪物停止自相攻击","color": "gray","italic": false},
+                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
+                                        {"translate":"持续120秒","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"society_populate","italic":false,"color": "gray","with":[" II"]}
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

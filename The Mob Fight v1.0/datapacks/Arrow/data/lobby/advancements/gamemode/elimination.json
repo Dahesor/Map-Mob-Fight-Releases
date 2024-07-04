@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "title": {"translate":"advancement.title.elimination"},
+        "description": {"translate":"advancement.description.elimination"}
+    },
+    "criteria": {
+        "impossible":{
+            "trigger": "impossible"
+        }
+    },
+    "parent": "lobby:gamemode/uhc"
+}

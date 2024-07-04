@@ -1,0 +1,7 @@
+summon husk ~ ~ ~ {Tags:["mobDEFini","ticking","dancer"],AbsorptionAmount:10.0f,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],ArmorItems:[{id:"golden_boots",Count:1b,tag:{Enchantments:[{id:"protection",lvl:3}]}},{id:"golden_leggings",Count:1b,tag:{Enchantments:[{}]}},{id:"golden_chestplate",Count:1b,tag:{Enchantments:[{id:"blast_protection",lvl:4}]}},{id:"redstone_lamp",Count:1b,tag:{Enchantments:[{}]}}],HandItems:[{id:"golden_sword",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:3}]}},{id:"note_block",Count:17b}],Health:40.0f,Attributes:[{Name:"generic.max_health",Base:40.0d},{Name:"generic.knockback_resistance",Base:0.2d},{Name:"generic.armor",Base:2.0d},{Name:"generic.max_absorption",Base:10.0d}],CustomName:'{"translate":"god.dancer","color":"red"}',active_effects:[{id:"invisibility",ambient:0b,show_icon:0b,show_particles:0b,duration:999999999,amplifier:0b},{id:"resistance",ambient:0b,show_icon:0b,show_particles:0b,duration:999999999,amplifier:0b}]}
+scoreboard players set @e[type=#game:mobs,tag=mobDEFini] mobDEF 70
+execute store result score @e[type=#game:mobs,tag=mobDEFini,limit=1,sort=nearest] match run data get entity @s UUID[0]
+tag @e[type=#game:mobs,tag=mobDEFini] remove mobDEFini
+
+kill
+#define tag dancer

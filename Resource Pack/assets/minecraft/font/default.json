@@ -12,12 +12,31 @@
    },
    {
     "type": "bitmap",
+    "file": "arrow:font/misc.png",
+    "height": 18,
+    "ascent": 10,
+    "chars": [
+      "\ue010\ue011\ue012\ue013\ue014",
+      "\ue015\ue016\ue017\ue018\ue019"
+    ]
+  },
+   {
+    "type": "bitmap",
     "file": "arrow:font/actionbar.png",
     "height": 13,
     "ascent": 10,
     "chars": [
       "\ue900\ue901\ue902\ue903\ue904"
     ]
+  },
+  {
+      "type": "bitmap",
+      "file": "arrow:render/skull.png",
+      "height": 18,
+      "ascent": 10,
+      "chars": [
+        "\ue0aa"
+      ]
   }
     ]
   }

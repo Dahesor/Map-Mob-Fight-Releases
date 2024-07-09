@@ -237,5 +237,15 @@
                 "pitch": 1.0
             }
         ]
+    },
+    "item.crystal_marker":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:metal-whoosh-hit-12-202179",
+                "volume": 1,
+                "pitch": 0.4
+            }
+        ]
     }
 }

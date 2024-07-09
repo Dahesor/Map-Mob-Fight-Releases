@@ -1,1 +1,0 @@
-$bossbar set player:$(this) visible false

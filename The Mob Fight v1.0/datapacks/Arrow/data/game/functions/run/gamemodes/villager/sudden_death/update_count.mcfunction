@@ -1,2 +1,0 @@
-execute store result score VILLAGER.super_villager red run execute if entity @e[type=marker,tag=villager_red,tag=super_villager]
-execute store result score VILLAGER.super_villager blue run execute if entity @e[type=marker,tag=villager_blue,tag=super_villager]

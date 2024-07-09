@@ -1,1 +1,0 @@
-execute at @s run summon arrow ~ ~2.1 ~ {LeftOwner:1b,damage:0.0001d,Motion:[0.0d,-4.0d,0.0d],crit:0b,OnGround:0b,inGround:0b,pickup:2b,Silent:1b,HasBeenShot:1b,Fire:10s}

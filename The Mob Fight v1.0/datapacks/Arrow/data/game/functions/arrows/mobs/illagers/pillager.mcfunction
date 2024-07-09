@@ -1,2 +1,0 @@
-summon pillager
-kill

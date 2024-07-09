@@ -1,1 +1,0 @@
-execute as @a at @s run playsound entity.lightning_bolt.thunder weather @s

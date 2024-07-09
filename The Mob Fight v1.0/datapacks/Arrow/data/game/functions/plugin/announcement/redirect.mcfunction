@@ -1,2 +1,0 @@
-execute unless data storage game:announcement {system:''} run function game:plugin/announcement/system
-execute unless data storage game:announcement {administrator:''} run function game:plugin/announcement/administrator

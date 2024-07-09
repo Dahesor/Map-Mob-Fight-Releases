@@ -14,6 +14,8 @@
         {"predicate": {"custom_model_data": 8},"model": "arrow:item/flare_blue_ui"},
         {"predicate": {"custom_model_data": 10},"model": "arrow:tech/metal_0"},
         {"predicate": {"custom_model_data": 11},"model": "arrow:item/mine"},
-        {"predicate": {"custom_model_data": 12},"model": "arrow:item/mine_ui"}
+        {"predicate": {"custom_model_data": 12},"model": "arrow:item/mine_ui"},
+        {"predicate": {"custom_model_data": 13},"model": "item/heart_of_the_sea"},
+        {"predicate": {"custom_model_data": 14},"model": "arrow:item/type_wiper"}
     ]
   }

@@ -1,1 +1,0 @@
-tellraw @s {"text":">>>>>>>>>>>>>>>","clickEvent": {"action": "suggest_command","value": "/data modify storage game:announcement system set value '\"\"'"},"color": "yellow","underlined": true}

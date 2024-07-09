@@ -1,2 +1,0 @@
-execute if entity @e[type=marker,tag=final_camera,distance=4..] facing entity @e[type=marker,limit=1,tag=final_camera] feet positioned ^ ^ ^2.8 run function dtm:calculate_motion
-execute store result entity @s Air short 1 run scoreboard players get #loop_3 calculator

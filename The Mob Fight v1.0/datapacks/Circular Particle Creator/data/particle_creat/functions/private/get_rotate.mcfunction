@@ -1,2 +1,0 @@
-execute if score Performance Options matches 1 unless score rot particleCreator matches 18.. rotated ~20 ~ run function particle_creat:private/main
-execute unless score Performance Options matches 1 unless score rot particleCreator matches 36.. rotated ~10 ~ run function particle_creat:private/main

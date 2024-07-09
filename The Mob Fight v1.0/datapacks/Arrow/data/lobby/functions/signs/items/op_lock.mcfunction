@@ -1,8 +1,0 @@
-fill 5 58 69 5 58 74 air
-setblock 5 58 71 oak_wall_sign[facing=west]{is_waxed:0b,front_text:{messages:['{"translate":"op.lock_settings","color": "red","bold": true,"clickEvent": {"action": "run_command","value": "/function op:settings/lock_settings"}}','{"translate":"op.lock_settings.2","color": "red","bold": true}','{"translate":"op.need_auth","color": "gold"}','[{"text": "[","color": "gray"},{"keybind":"key.use"},"]"]']}}
-setblock 5 58 72 oak_wall_sign[facing=west]{is_waxed:0b,front_text:{messages:['{"translate":"op.lock_teams","color": "red","bold": true,"clickEvent": {"action": "run_command","value": "/function op:settings/lock_team"}}','{"translate":"op.lock_teams.2","color": "red","bold": true}','{"translate":"op.need_auth","color": "gold"}','[{"text": "[","color": "gray"},{"keybind":"key.use"},"]"]']}}
-setblock 5 58 73 oak_wall_sign[facing=west]{is_waxed:0b,front_text:{messages:['{"translate":"op.get_books","color": "red","bold": true,"clickEvent": {"action": "run_command","value": "/function op:settings/get_book"}}','{"translate":"op.get_books.2","color": "red","bold": true}','{"translate":"op.need_auth","color": "gold"}','[{"text": "[","color": "gray"},{"keybind":"key.use"},"]"]']}}
-
-setblock 5 58 69 oak_wall_sign[facing=west]{is_waxed:0b,front_text:{messages:['{"translate":"op.lock_midjoin","color": "red","bold": true,"clickEvent": {"action": "run_command","value": "/function op:settings/lock_midjoin"}}','{"translate":"op.lock_midjoin.2","color": "red","bold": true}','{"translate":"op.need_auth","color": "gold"}','[{"text": "[","color": "gray"},{"keybind":"key.use"},"]"]']}}
-
-

@@ -1,1 +1,0 @@
-execute if entity @a[gamemode=adventure,distance=..7] run effect give @s slowness 1 10 true 

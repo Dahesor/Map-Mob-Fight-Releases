@@ -1,4 +1,0 @@
-summon skeleton ~ ~ ~ {ArmorDropChances:[0f,0f,0f,0f],Tags:["mobDEFini"],ArmorItems:[{id:"diamond_boots",Count:1b,tag:{Enchantments:[{id:"protection",lvl:1s}]}},{id:"leather_leggings",Count:1b,tag:{display:{color:10861356}}},{id:"leather_chestplate",Count:1b,tag:{display:{color:8755726},Enchantments:[{id:"protection",lvl:1s}]}},{id:"leather_helmet",Count:1b,tag:{display:{color:5727496}}}],HandDropChances:[0.0f,0.0f],HandItems:[{id:"bow",Count:1b},{id:"tipped_arrow",Count:1b,tag:{custom_potion_effects:[{id:"poison",duration:50,amplifier:1b},{id:"nausea",duration:240,amplifier:0b}],CustomPotionColor:2044162}}]}
-scoreboard players set @e[type=#game:mobs,tag=mobDEFini] mobDEF 50
-tag @e[type=#game:mobs,tag=mobDEFini] remove mobDEFini
-kill

@@ -1,2 +1,0 @@
-setblock -5 58 74 air
-setblock -5 58 74 oak_wall_sign[facing=east]{is_waxed:0b,front_text:{messages:['""','{"translate":"credit.reload","color": "red","bold": true,"clickEvent": {"action": "run_command","value": "/function lobby:settings/reload_credit"}}','""','[{"text": "[","color": "gray"},{"keybind":"key.use"},"]"]']}}

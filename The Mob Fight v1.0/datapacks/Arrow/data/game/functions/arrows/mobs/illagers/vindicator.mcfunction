@@ -1,2 +1,0 @@
-summon vindicator
-kill @s

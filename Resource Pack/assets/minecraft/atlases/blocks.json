@@ -37,8 +37,8 @@
         },
         {
             "type": "directory",
-            "source": "gui",
-            "prefix": "gui/"
+            "source": "gui_",
+            "prefix": "gui_/"
         },
         {
             "type": "directory",

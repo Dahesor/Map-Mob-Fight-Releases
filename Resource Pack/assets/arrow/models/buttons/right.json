@@ -1,6 +1,6 @@
 {
     "parent": "arrow:background",
     "textures": {
-      "layer0": "arrow:gui/right"
+      "layer0": "arrow:gui_/right"
     }
 }

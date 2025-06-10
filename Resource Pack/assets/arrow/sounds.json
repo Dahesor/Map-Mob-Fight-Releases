@@ -238,6 +238,16 @@
             }
         ]
     },
+    "item.star":{
+        "replace":false,
+        "sounds": [
+            {
+                "name":"arrow:powerful_mario",
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
     "item.crystal_marker":{
         "replace":false,
         "sounds": [

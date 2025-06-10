@@ -16,6 +16,7 @@
         {"predicate": {"custom_model_data": 11},"model": "arrow:item/mine"},
         {"predicate": {"custom_model_data": 12},"model": "arrow:item/mine_ui"},
         {"predicate": {"custom_model_data": 13},"model": "item/heart_of_the_sea"},
-        {"predicate": {"custom_model_data": 14},"model": "arrow:item/type_wiper"}
+        {"predicate": {"custom_model_data": 14},"model": "arrow:item/type_wipe"},
+        {"predicate": {"custom_model_data": 15},"model": "arrow:item/power_star"}
     ]
   }

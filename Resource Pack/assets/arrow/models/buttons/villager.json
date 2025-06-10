@@ -1,6 +1,6 @@
 {
     "parent": "arrow:background",
     "textures": {
-      "layer0": "arrow:gui/villager"
+      "layer0": "arrow:gui_/villager"
     }
 }

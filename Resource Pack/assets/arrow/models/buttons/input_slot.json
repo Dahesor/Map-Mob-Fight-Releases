@@ -1,13 +1,11 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "arrow:gui/green_arrow",
-		"1": "arrow:gui/empty_box",
-		"particle": "arrow:gui/green_arrow"
+		"0": "arrow:gui_/green_arrow",
+		"1": "arrow:gui_/empty_box",
+		"particle": "arrow:gui_/green_arrow"
 	},
 	"elements": [
 		{
-			"name": "green_arrow_0",
 			"from": [18.25, 6.75, 8],
 			"to": [31.25, 9.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -21,7 +19,6 @@
 			}
 		},
 		{
-			"name": "green_arrow_1",
 			"from": [26.25, 2.75, 8],
 			"to": [27.25, 6.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -35,7 +32,6 @@
 			}
 		},
 		{
-			"name": "green_arrow_2",
 			"from": [26.25, 9.75, 8],
 			"to": [28.25, 12.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -49,7 +45,6 @@
 			}
 		},
 		{
-			"name": "green_arrow_3",
 			"from": [26.25, 12.75, 8],
 			"to": [27.25, 13.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -63,7 +58,6 @@
 			}
 		},
 		{
-			"name": "green_arrow_4",
 			"from": [27.25, 3.75, 8],
 			"to": [28.25, 6.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -77,7 +71,6 @@
 			}
 		},
 		{
-			"name": "green_arrow_5",
 			"from": [28.25, 4.75, 8],
 			"to": [29.25, 6.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -91,7 +84,6 @@
 			}
 		},
 		{
-			"name": "green_arrow_6",
 			"from": [28.25, 9.75, 8],
 			"to": [29.25, 11.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -105,7 +97,6 @@
 			}
 		},
 		{
-			"name": "green_arrow_7",
 			"from": [29.25, 5.75, 8],
 			"to": [30.25, 6.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -119,7 +110,6 @@
 			}
 		},
 		{
-			"name": "green_arrow_8",
 			"from": [29.25, 9.75, 8],
 			"to": [30.25, 10.75, 8.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 6, 7.25]},
@@ -133,7 +123,6 @@
 			}
 		},
 		{
-			"name": "empty_box_0",
 			"from": [-9.8, -9.51471, 7.76471],
 			"to": [23.2, 24.48529, 8.23529],
 			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8.23529, 8]},
@@ -174,19 +163,5 @@
 			"translation": [0, 0, -0.5],
 			"scale": [0.5, 0.5, 0.5]
 		}
-	},
-	"groups": [
-		{
-			"name": "green_arrow",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8]
-		},
-		{
-			"name": "empty_box",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [9]
-		}
-	]
+	}
 }

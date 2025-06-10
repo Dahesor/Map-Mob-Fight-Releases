@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "arrow:item/mine",
 		"2": "block/tnt_bottom",
@@ -8,7 +7,6 @@
 	},
 	"elements": [
 		{
-			"name": "mine - Copy_1",
 			"from": [0, 0, 4.5],
 			"to": [15.5, 7.8125, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -22,7 +20,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_2",
 			"from": [0, 0, 2.5],
 			"to": [0.5, 7.5, 4.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -36,7 +33,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_3",
 			"from": [0, 0, 11],
 			"to": [0.5, 7.5, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -50,7 +46,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_4",
 			"from": [0, 0, 2],
 			"to": [0.5, 7, 2.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -64,7 +59,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_5",
 			"from": [0, 0, 13],
 			"to": [0.5, 7, 14.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -78,7 +72,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_6",
 			"from": [0, 0, 1],
 			"to": [0.5, 6.5, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -92,7 +85,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_7",
 			"from": [0, 0, 14.5],
 			"to": [0.5, 6.5, 15.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -106,7 +98,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_8",
 			"from": [0, 0, 15.5],
 			"to": [0.5, 6, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -120,7 +111,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_9",
 			"from": [0, 0, 0.5],
 			"to": [0.5, 5.5, 1],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -134,7 +124,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_10",
 			"from": [0, 0, 0],
 			"to": [0.5, 5, 0.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 2.25]},
@@ -148,7 +137,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_0",
 			"from": [4.5, 0, 0],
 			"to": [11, 8, 15.5],
 			"faces": {
@@ -161,7 +149,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_1",
 			"from": [2.5, 0, 0],
 			"to": [4.5, 7.375, 15.9375],
 			"faces": {
@@ -174,7 +161,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_2",
 			"from": [11, 0, 0],
 			"to": [13, 7.5, 15.75],
 			"faces": {
@@ -187,7 +173,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_3",
 			"from": [2, 0, 0],
 			"to": [2.5, 7, 15.8125],
 			"faces": {
@@ -200,7 +185,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_4",
 			"from": [13, 0, 0],
 			"to": [14.5, 7, 15.75],
 			"faces": {
@@ -213,7 +197,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_5",
 			"from": [1, 0, 0],
 			"to": [2, 6.5, 15.625],
 			"faces": {
@@ -226,7 +209,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_6",
 			"from": [14.5, 0, 0],
 			"to": [15.5625, 6.5, 15.75],
 			"faces": {
@@ -239,7 +221,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_7",
 			"from": [15.5, 0, 0],
 			"to": [16, 6, 0.5],
 			"faces": {
@@ -252,7 +233,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_8",
 			"from": [0.5, 0, 0],
 			"to": [1, 5.5, 15.625],
 			"faces": {
@@ -265,7 +245,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_9",
 			"from": [0, 0, 0],
 			"to": [0.5, 5, 0.5],
 			"faces": {
@@ -278,7 +257,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_2",
 			"from": [15.5, 0, 5],
 			"to": [16, 8, 11.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -292,7 +270,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_3",
 			"from": [15.5, 0, 11.5],
 			"to": [16, 7.5, 13.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -306,7 +283,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_4",
 			"from": [15.5, 0, 3],
 			"to": [16, 7.5, 5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -320,7 +296,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_5",
 			"from": [15.5, 0, 13.5],
 			"to": [16, 7, 14],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -334,7 +309,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_6",
 			"from": [15.5, 0, 1.5],
 			"to": [16, 7, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -348,7 +322,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_7",
 			"from": [15.5, 0, 14],
 			"to": [16, 6.5, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -362,7 +335,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_8",
 			"from": [15.5, 0, 0.5],
 			"to": [16, 6.5, 1.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -376,7 +348,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_9",
 			"from": [15.5, 0, 0],
 			"to": [16, 6, 0.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -390,7 +361,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_10",
 			"from": [15.5, 0, 15],
 			"to": [16, 5.5, 15.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -404,7 +374,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_11",
 			"from": [15.5, 0, 15.5],
 			"to": [16, 5, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -418,7 +387,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_1",
 			"from": [5, -0.25, 15.5],
 			"to": [11.5, 8, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -432,7 +400,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_2",
 			"from": [11.5, -0.25, 15.5],
 			"to": [13.5, 7.6875, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -446,7 +413,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_3",
 			"from": [3, -0.0625, 15.5],
 			"to": [5, 7.5, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -460,7 +426,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_4",
 			"from": [13.5, -0.25, 15.5],
 			"to": [14, 7, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -474,7 +439,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_5",
 			"from": [1.5, -0.25, 15.5],
 			"to": [3, 7.1875, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -488,7 +452,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_6",
 			"from": [14, -0.25, 15.5],
 			"to": [15, 6.6875, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -502,7 +465,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_7",
 			"from": [0.5, -0.25, 15.5],
 			"to": [1.5, 6.5, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -516,7 +478,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_8",
 			"from": [0, -0.25, 15.5],
 			"to": [0.5, 6, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -530,7 +491,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_9",
 			"from": [15, -0.25, 15.5],
 			"to": [15.5, 5.5, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -544,7 +504,6 @@
 			}
 		},
 		{
-			"name": "mine - Copy_10",
 			"from": [15.5, -0.25, 15.5],
 			"to": [16, 5, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.25, 11]},
@@ -630,54 +589,5 @@
 		"fixed": {
 			"translation": [0, 0, -1.75]
 		}
-	},
-	"groups": [
-		{
-			"name": "group",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"nbt": "{}",
-			"children": [
-				{
-					"name": "side_1",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"nbt": "{}",
-					"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-				},
-				{
-					"name": "side_1",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"nbt": "{}",
-					"children": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-				}
-			]
-		},
-		{
-			"name": "2",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"nbt": "{}",
-			"children": [
-				{
-					"name": "side_1",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"nbt": "{}",
-					"children": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
-				},
-				{
-					"name": "side_1",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"nbt": "{}",
-					"children": [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
-				},
-				40,
-				41,
-				42
-			]
-		}
-	]
+	}
 }

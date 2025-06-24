@@ -1,7 +1,7 @@
 {
     "effect.minecraft.bad_omen": "瞬间治疗冷却",
     "effect.minecraft.hero_of_the_village": "§4竞技之神的祝福",
-    "map.name": "怪物弓箭大作战 v1.0.5",
+    "map.name": "怪物弓箭大作战 v1.0.7.Beta-1",
     "map.prefix": "怪物弓箭大作战 %s",
     "map.version_hint": "注意，当前游戏版本为%s",
     "map.resource_pack_version": "您使用的资源包版本为%s",
@@ -1152,5 +1152,9 @@
     "mob.lifer":"换命师",
     "mob.lifer.1":"换命师自身无法攻击",
     "mob.lifer.2":"但可以周期性地",
-    "mob.lifer.3":"给附近一个怪物塞不死图腾"
+    "mob.lifer.3":"给附近一个怪物塞不死图腾",
+    "mob.spider_tower":"蜘蛛叠罗汉",
+    "item.smite_sword":"尼哈戈的送葬歌",
+    "winner.red":"红 胜",
+    "winner.blue":"蓝 胜"
 }

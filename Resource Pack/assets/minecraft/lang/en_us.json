@@ -1,9 +1,9 @@
 {
     "effect.minecraft.bad_omen": "Heal Cooldown",
     "effect.minecraft.hero_of_the_village": "§4Blessing from God",
-    "map.name": "The Mob Fight v1.0.5",
+    "map.name": "The Mob Fight v1.0.7.Beta-1",
     "map.prefix": "The Mob Fight %s",
-    "resourcepack.version": "v1.0.5",
+    "resourcepack.version": "v1.0.7.Beta-1",
     "res.od.v1.0": "",
     "res.od.v1.0.1": "You are using an old version of resource pack, please update!",
     "map.version_hint": "Note: The current map version is %s",
@@ -1148,5 +1148,9 @@
     "mob.lifer": "Life Exchanger",
     "mob.lifer.1": "The Life Exchanger itself cannot attack",
     "mob.lifer.2": "But it gives a random mob nearby a",
-    "mob.lifer.3": "Totem of Undying every few seconds"
+    "mob.lifer.3": "Totem of Undying every few seconds",
+    "mob.spider_tower":"Spider Tower",
+    "item.smite_sword":"Nihago's Funeral Song",
+    "winner.red":"Red's Victory",
+    "winner.blue":"Blue's Victory"
 }

@@ -1,0 +1,6 @@
+{
+    "env": {
+        "gameVersion": "1.20.4",
+        "useFilePolling": false
+    }
+}

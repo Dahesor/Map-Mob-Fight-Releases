@@ -7,6 +7,10 @@
     {
       "predicate": {"custom_model_data": 1},
       "model": "arrow:upgrade/iron_sword"
+    },
+    {
+      "predicate": {"custom_model_data": 2},
+      "model": "item/netherite_sword"
     }
   ]
 }

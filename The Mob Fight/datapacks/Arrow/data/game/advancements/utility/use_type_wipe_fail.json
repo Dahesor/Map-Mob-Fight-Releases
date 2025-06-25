@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "attacked":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#game:mobs"
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand":{
+                            "items": [
+                                "netherite_axe"
+                            ],
+                            "nbt": "{gameItem:{id:'type_wipe'}}"
+                        }
+                    }
+                },
+                "damage": {
+                    "dealt": {
+                        "max": 1.89999999999
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:player/specials/type_wipe/weak_trigger"
+    }
+}

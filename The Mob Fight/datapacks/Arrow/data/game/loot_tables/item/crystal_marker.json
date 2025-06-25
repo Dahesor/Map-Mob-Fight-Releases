@@ -1,0 +1,38 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.crystal_marker","color": "dark_purple","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                "",
+                {"translate":"item.crystal_marker.1","color":"gray","italic":false},
+                {"translate":"item.crystal_marker.2","color":"gray","italic":false},
+                {"translate":"item.crystal_marker.3","color":"gray","italic":false},
+                {"translate":"item.crystal_marker.4","color":"gray","italic":false},
+                "",
+                {"keybind":"key.use","color": "green","italic": false}
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:13,warped_stick:{id:'crystal_marker'},right_click:1b,CanDestroy:[\"#game:breakable\"],HideFlags:8,gameItem:{id:\"crystal_marker\"},Enchantments:[{}]}"
+        }
+    ]
+}

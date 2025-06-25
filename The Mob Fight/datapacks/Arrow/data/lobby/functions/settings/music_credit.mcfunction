@@ -1,0 +1,2 @@
+playsound entity.experience_orb.pickup master @s ~ ~ ~
+tellraw @s {"translate":"credit.music","with":[{"text": "Mixkit","underlined": true,"clickEvent": {"action": "open_url","value": "https://mixkit.co/"}}],"color": "light_purple"}

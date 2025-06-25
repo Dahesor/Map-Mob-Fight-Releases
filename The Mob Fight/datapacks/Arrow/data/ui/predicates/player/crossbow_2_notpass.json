@@ -1,0 +1,32 @@
+[{
+    "condition": "value_check",
+    "value": {
+        "type": "score",
+        "target": "this",
+        "score": "crossbow"
+    },
+    "range": 2
+},
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "society_populate"},
+                "score": "calculator"
+            },
+            "range": {"max": 1}
+        },
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "target": {"type": "fixed","name": "magic_occult"},
+                "score": "calculator"
+            },
+            "range": {"max": 2}
+        }
+    ]
+}]

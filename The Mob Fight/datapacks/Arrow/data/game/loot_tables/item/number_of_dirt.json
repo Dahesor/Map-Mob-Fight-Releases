@@ -1,0 +1,26 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "blocks/coarse_dirt_give",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "add": false,
+                            "count": {
+                                "type": "score",
+                                "score": "calculator",
+                                "target": {"type": "fixed","name": "#holder$"},
+                                "scale": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

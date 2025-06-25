@@ -1,0 +1,1 @@
+setblock 40 41 -22 air

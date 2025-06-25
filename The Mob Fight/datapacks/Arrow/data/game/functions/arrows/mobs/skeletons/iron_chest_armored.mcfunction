@@ -1,0 +1,2 @@
+summon skeleton ~ ~ ~ {HandItems:[{id:"bow",Count:1b},{}],ArmorItems:[{id:"chainmail_boots",Count:1b},{},{id:"iron_chestplate",Count:1b},{}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
+kill @s

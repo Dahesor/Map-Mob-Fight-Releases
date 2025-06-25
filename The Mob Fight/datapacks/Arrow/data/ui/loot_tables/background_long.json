@@ -1,0 +1,26 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{UISpaceHolder:1b,display:{Name:'{\"translate\": \"...\",\"color\":\"gray\"}'},CustomModelData:2}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],display:{Name:'{\"translate\": \"title.surrender\",\"color\":\"red\",\"italic\":false}'}}",
+                            "conditions": 
+                            [{"condition": "reference","name": "ui:settings/surrender"}]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

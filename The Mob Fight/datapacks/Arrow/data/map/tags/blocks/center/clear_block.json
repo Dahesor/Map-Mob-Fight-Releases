@@ -1,0 +1,17 @@
+{
+    "values": [
+        "coarse_dirt",
+        "#map:center/break_block",
+        "bookshelf",
+        "chiseled_bookshelf",
+        "lantern",
+        "soul_lantern",
+        "soul_torch",
+        "soul_wall_torch",
+        "torch",
+        "wall_torch",
+        "bamboo_hanging_sign",
+        "vine",
+        "birch_stairs"
+    ]
+}

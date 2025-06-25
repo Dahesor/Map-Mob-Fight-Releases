@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "walk_in_block":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "nether_portal",
+                "player": {}
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:plugin/air_nether_portal"
+    }
+}

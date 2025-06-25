@@ -1,0 +1,9 @@
+{
+    "values": [
+        "map:classic/block",
+        "map:stone_land/block",
+        "map:desert/block",
+        "map:graveyard/block",
+        "map:center/block"
+    ]
+}

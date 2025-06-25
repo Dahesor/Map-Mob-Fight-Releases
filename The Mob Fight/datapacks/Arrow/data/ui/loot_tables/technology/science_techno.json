@@ -1,0 +1,164 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "paper"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt","tag": "{ui:{id:'science'},CustomModelData:1,display:{Name:'{\"translate\": \"science_techno\",\"color\": \"green\",\"italic\": false,\"with\":[\"\"]}'}}"
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": ["",{"translate":"科学与技术","color": "gray","italic": false},
+                {"translate":"方面的发展2","color": "gray","italic": false},
+                    {"translate":"升级以解锁关于科技，","color": "gray","italic": false},
+                    {"translate":"金属等方面的商品","color": "gray","italic": false},
+                    {"translate":"且每级都会提升矿物的掉落量","color": "gray","italic": false}]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": ["",
+            [{"translate":"演化: ","color": "gold","italic": false},{"text": "∅ → I"}],
+            {"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 10"
+            }
+            ]},
+            {"translate":"iron","with": [
+            {
+                "text": "§a 8"
+            }
+            ]},
+            {"nbt":"text.buy","interpret": true,"storage":"game:shop"}],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "value_check",
+                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "science_techno"}},
+                    "range": 0
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": ["",
+            [{"translate":"演化: ","color": "gold","italic": false},{"text": "I → II"}],
+            {"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 16"
+            }
+            ]},
+            {"translate":"iron","with": [
+            {
+                "text": "§a 10"
+            }
+            ]},
+            {"translate":"copper","with": [
+            {
+                "text": "§a 12"
+            }
+            ]},
+            {"nbt":"text.buy","interpret": true,"storage":"game:shop"}],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "value_check",
+                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "science_techno"}},
+                    "range": 1
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [ "",[{"translate":"演化: ","color": "gold","italic": false},{"text": "II → III"}],
+            {"translate":"price"},
+            {"translate":"dirt","with": [
+            {
+                "text": "§a 24"
+            }
+            ]},
+            {"translate":"iron","with": [
+            {
+                "text": "§a 12"
+            }
+            ]},
+            {"translate":"copper","with": [
+            {
+                "text": "§a 10"
+            }
+            ]},
+            {"translate":"gold","with": [
+            {
+                "text": "§a 16"
+            }
+            ]},
+            {"translate":"netherite","with": [
+             [" ",
+            {
+                "score": {"name": "techNetherite","objective": "calculator"},
+                "color": "dark_red","italic":false
+            }
+            ]]},
+            {"nbt":"text.buy","interpret": true,"storage":"game:shop"}],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "value_check",
+                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "science_techno"}},
+                    "range": 2
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": ["",
+            [{"translate":"演化: ","color": "gold","italic": false},{"text": "III"},{"text":" (Max)"}],
+            {"translate":"已经满级!","color":"red","italic": false}],
+            "replace": false,
+            "conditions": [
+                {
+                    "condition": "value_check",
+                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "science_techno"}},
+                    "range": {
+                        "min": 3
+                    }
+                },
+                {
+                    "condition": "value_check",
+                    "value": {"type": "score","score": "Data","target": {"type": "fixed","name": "game"}},
+                    "range": {
+                        "min": 1
+                    }
+                }
+            ]
+        },
+        {
+            "function": "copy_nbt",
+            "source": {
+                "type": "storage",
+                "source": "run"
+            },
+            "ops": [
+                {
+                    "source": "ModelData",
+                    "target": "CustomModelData",
+                    "op": "replace"
+                }
+            ]
+        }
+    ]
+}

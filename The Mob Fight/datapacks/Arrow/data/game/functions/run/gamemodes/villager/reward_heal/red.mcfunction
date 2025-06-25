@@ -1,0 +1,14 @@
+tellraw @a[team=red] [{"translate":"chat.head.game","color": "aqua"}," ",{"translate":"event.villager.reward_heal","color":"yellow"}]
+execute as @e[type=marker,tag=villager_red] store result score @s calculator run data get entity @s data.display_hp
+
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=0}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=0},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=1}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=1},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=2}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=2},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=3}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=3},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=4}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=4},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=5}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=5},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=6}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=6},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=7}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=7},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=8}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=8},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=9}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=9},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal
+execute if entity @e[type=marker,tag=villager_red,scores={calculator=10}] run return run execute as @e[type=marker,tag=villager_red,scores={calculator=10},limit=1] at @s run function game:run/gamemodes/villager/reward_heal/heal

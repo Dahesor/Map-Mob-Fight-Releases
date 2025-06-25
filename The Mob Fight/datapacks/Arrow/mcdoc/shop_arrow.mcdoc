@@ -1,0 +1,53 @@
+struct Sell{
+    CustomModelData: int,
+    custom_potion_effects: [any],
+    CustomPotionColor: int,
+    display: struct{
+        Name: #[text_component] string,
+        Lore?: [#[text_component] string]
+    },
+    Enchantments?: [any]
+}
+
+struct Technology {
+    society?: byte,
+    science?: byte,
+    magic?: byte
+}
+
+struct Price{
+    dirt?: byte,
+    iron?: byte,
+    copper?: byte,
+    diamond?: byte,
+    lapis?: byte,
+    netherite?: byte,
+    gold?: byte,
+    null?: boolean
+}
+
+struct mob_arrow {
+    Sell: Sell,
+    Technology?: (Technology | enum(string){
+            Basic = "basic",
+            NotSupported = "not_supported"
+        }
+    ),
+    sub?: Technology,
+    Price: Price,
+}
+
+dispatch minecraft:storage["game:shop"] to struct {
+    Mob: [mob_arrow],
+    text?: struct{
+        [string]?: #[text_component] string,
+    }
+}
+
+dispatch minecraft:storage["game:red_shop"] to struct {
+    Mob: [mob_arrow]
+}
+
+dispatch minecraft:storage["game:blue_shop"] to struct {
+    Mob: [mob_arrow]
+}

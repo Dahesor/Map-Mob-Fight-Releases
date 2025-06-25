@@ -1,0 +1,1 @@
+execute unless predicate ui:valid_out_put run function ui:triggers/dynamic/detect_output_run

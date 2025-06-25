@@ -1,0 +1,3 @@
+execute at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.3 1
+tellraw @s {"text": "Dahesor","color": "yellow"}
+tellraw @s [" - ",{"text": "Bilibili","underlined": true,"color": "green","clickEvent": {"action": "open_url","value": "https://space.bilibili.com/436796403"}},"  ",{"text": "GitHub","underlined": true,"color": "green","clickEvent": {"action": "open_url","value": "https://github.com/Dahesor"}},"  ",{"text": "Discord","underlined": true,"color": "green","clickEvent": {"action": "open_url","value": "https://discord.gg/b3g7VdAY8S"}}]

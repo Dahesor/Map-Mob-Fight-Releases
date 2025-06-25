@@ -1,0 +1,23 @@
+{
+    "values": [
+        "cut_sandstone",
+        "acacia_fence",
+        "#minecraft:wool_carpets",
+        "cactus",
+        "#game:repair",
+        "torch",
+        "chain",
+        "lantern",
+        "wall_torch",
+        "soul_torch",
+        "soul_wall_torch",
+        "acacia_pressure_plate",
+        "campfire",
+        "dead_bush",
+        "andesite",
+        "coarse_dirt",
+        "lightning_rod",
+        "diorite",
+        "jungle_slab"
+    ]
+}

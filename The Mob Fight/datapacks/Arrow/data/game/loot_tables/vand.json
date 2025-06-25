@@ -1,0 +1,134 @@
+{
+    "type":"command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "group",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/dirt_cleaner",
+                            "weight": 40
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/thundering_arrow",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "max": 2,
+                                        "min": 1
+                                    }
+                                }
+                            ],
+                            "weight": 50
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:enhanced/instant_heal_spell_3",
+                            "conditions": [
+                                {
+                                    "condition": "inverted",
+                                    "term": {
+                                        "condition": "minecraft:value_check",
+                                        "value": {
+                                            "type": "score",
+                                            "target": {"type": "fixed","name": "GameMode"},
+                                            "score": "Data"
+                                        },
+                                        "range": 1
+                                    }
+                                }
+                            ],
+                            "weight": 30
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/up_rocket",
+                            "weight": 90
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/tp_home",
+                            "weight": 90
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/charged_creeper",
+                            "weight": 70
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/smite_sword",
+                            "weight": 70
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/fast_crossbow",
+                            "weight": 90
+                        },
+                        {
+                            "type": "item",
+                            "name": "golden_apple",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "type": "binomial",
+                                        "n":2,
+                                        "p": 0.75
+                                    }
+                                },
+                                {
+                                    "function": "set_count",
+                                    "count": 3,
+                                    "add": true
+                                }
+                            ],
+                            "weight": 40
+                        },
+                        {
+                            "type":"loot_table",
+                            "name": "game:item/tp_wizard",
+                            "weight": 90
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/mine_super",
+                            "weight": 90
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/tnt_fountain",
+                            "weight": 70
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/type_wipe",
+                            "weight": 90
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/crystal_marker",
+                            "weight": 90
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "game:item/power_star",
+                            "weight": 80
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{from_netherite:2b,CanDestroy:[\"#game:breakable\"],HideFlags:255}"
+        }
+    ]
+}

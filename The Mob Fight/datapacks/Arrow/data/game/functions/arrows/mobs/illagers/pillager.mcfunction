@@ -1,0 +1,2 @@
+summon pillager
+kill

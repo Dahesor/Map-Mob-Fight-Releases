@@ -1,0 +1,49 @@
+#define tag repair
+playsound entity.wither.break_block hostile @a
+function #map:block_check
+execute positioned ~1 ~ ~ run function #map:block_check
+execute positioned ~-1 ~ ~ run function #map:block_check
+execute positioned ~ ~1 ~ run function #map:block_check
+execute positioned ~ ~-1 ~ run function #map:block_check
+execute positioned ~ ~ ~1 run function #map:block_check
+execute positioned ~ ~ ~-1 run function #map:block_check
+execute positioned ~2 ~ ~ run function #map:block_check
+execute positioned ~-2 ~ ~ run function #map:block_check
+execute positioned ~ ~2 ~ run function #map:block_check
+execute positioned ~ ~-2 ~ run function #map:block_check
+execute positioned ~ ~ ~2 run function #map:block_check
+execute positioned ~ ~ ~-2 run function #map:block_check
+execute positioned ~1 ~1 ~ run function #map:block_check
+execute positioned ~1 ~-1 ~ run function #map:block_check
+execute positioned ~-1 ~1 ~ run function #map:block_check
+execute positioned ~-1 ~-1 ~ run function #map:block_check
+execute positioned ~1 ~ ~1 run function #map:block_check
+execute positioned ~1 ~ ~-1 run function #map:block_check
+execute positioned ~-1 ~ ~1 run function #map:block_check
+execute positioned ~-1 ~ ~-1 run function #map:block_check
+execute positioned ~ ~1 ~1 run function #map:block_check
+execute positioned ~ ~-1 ~1 run function #map:block_check
+execute positioned ~ ~1 ~-1 run function #map:block_check
+execute positioned ~ ~-1 ~-1 run function #map:block_check
+execute positioned ~3 ~ ~ run function #map:block_check
+execute positioned ~-3 ~ ~ run function #map:block_check
+execute positioned ~ ~3 ~ run function #map:block_check
+execute positioned ~1 ~3 ~ run function #map:block_check
+execute positioned ~-1 ~3 ~ run function #map:block_check
+execute positioned ~ ~3 ~1 run function #map:block_check
+execute positioned ~ ~3 ~-1 run function #map:block_check
+execute positioned ~ ~-3 ~ run function #map:block_check
+execute positioned ~ ~ ~3 run function #map:block_check
+execute positioned ~ ~ ~-3 run function #map:block_check
+execute positioned ~2 ~1 ~ run function #map:block_check
+execute positioned ~2 ~-1 ~ run function #map:block_check
+execute positioned ~-2 ~1 ~ run function #map:block_check
+execute positioned ~-2 ~-1 ~ run function #map:block_check
+execute positioned ~ ~1 ~2 run function #map:block_check
+execute positioned ~ ~-1 ~2 run function #map:block_check
+execute positioned ~ ~1 ~-2 run function #map:block_check
+execute positioned ~ ~-1 ~-2 run function #map:block_check
+execute positioned ~4 ~ ~ run function #map:block_check
+execute positioned ~ ~ ~-4 run function #map:block_check
+execute positioned ~ ~4 ~ run function #map:block_check
+kill @s

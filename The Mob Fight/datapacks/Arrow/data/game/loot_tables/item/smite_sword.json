@@ -1,0 +1,56 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "stone_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:2,HideFlags:42,CanDestroy:[\"#game:breakable\"],Enchantments:[{id:'smite',lvl:5},{id:'sweeping',lvl:2}]}"
+                        },
+                        {
+                            "function":"set_name",
+                            "entity": "this",
+                            "name": {"translate": "item.smite_sword","color": "gold","italic": false}
+                        },
+                        {
+                            "function":"set_lore",
+                            "entity": "this",
+                            "lore": [
+                                "",
+                                [{"text": "8 ","color": "dark_green","italic": false},{"translate": "attribute.name.generic.attack_damage"}],
+                                [{"text": "1.9 ","color": "dark_green","italic": false},{"translate": "attribute.name.generic.attack_speed"}]
+                            ]
+                        },
+                        {
+                            "function": "set_attributes",
+                            "replace": true,
+                            "modifiers": [
+                                {
+                                    "amount": 7,
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "addition",
+                                    "name": "Smite Sword",
+                                    "slot": "mainhand",
+                                    "id": "0-0-1-1-F"
+                                },
+                                {
+                                    "amount": -2.4,
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "addition",
+                                    "name": "Smite Sword",
+                                    "slot": "mainhand",
+                                    "id": "0-0-1-1-F"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

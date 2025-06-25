@@ -1,0 +1,6 @@
+dispatch minecraft:storage["developer:book"] to struct {
+    text?: [#[text_component] string],
+    book?: struct{
+        [string]: #[text_component] string
+    }
+}

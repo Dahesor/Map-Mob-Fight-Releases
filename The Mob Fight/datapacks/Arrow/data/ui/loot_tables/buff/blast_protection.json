@@ -1,0 +1,256 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"全队爆炸保护附魔","color": "gold","italic": false}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"最高等级！","color": "gray","italic": false}
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{UISpaceHolder:1b,CustomModelData:44}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "blast_protection"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"全队爆炸保护II附魔","color": "green","italic": false}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"为护腿添加爆炸保护II","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 32"
+                                            }
+                                        ]},
+                                        {"translate":"iron","with": [
+                                            {
+                                                "text": "§a 10"
+                                            }
+                                        ]},
+                                        {"translate":"lapis","with": [
+                                            {
+                                                "text": "§a 3"
+                                            }
+                                        ]},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a 1"
+                                            }
+                                        ]},
+                                        {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'blast_protection'},CustomModelData:42}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "magic_occult"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 3
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "blast_protection"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"全队爆炸保护II附魔","color": "red","italic": false}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"为护腿添加爆炸保护II","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " III"
+                                            }
+                                        ]},
+                                        "",
+                                        {
+                                            "translate":"locked"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'need_tcho'},CustomModelData:42}"
+                                }
+                            ],
+                            "conditions": [{
+                                "condition": "value_check",
+                                "value": {
+                                    "type": "score",
+                                    "target": {"type": "fixed","name": "blast_protection"},
+                                    "score": "calculator"
+                                },
+                                "range": {
+                                    "min" : 1
+                                }
+                            }]
+                        },
+
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"全队爆炸保护I附魔","color": "green","italic": false}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"为护腿添加爆炸保护I","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 16"
+                                            }
+                                        ]},
+                                        {"translate":"lapis","with": [
+                                            {
+                                                "text": "§a 1"
+                                            }
+                                        ]},
+                                        {"translate":"diamond","with": [
+                                            {
+                                                "text": "§a 1"
+                                            }
+                                        ]},
+                                        {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'blast_protection'},CustomModelData:41}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "magic_occult"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" :1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"全队爆炸保护I附魔","color": "red","italic": false}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"为护腿添加爆炸保护I","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " I"
+                                            }
+                                        ]},
+                                        "",
+                                        {
+                                            "translate":"locked"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'need_tcho'},CustomModelData:41}"
+                                }
+                            ],
+                            "conditions": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

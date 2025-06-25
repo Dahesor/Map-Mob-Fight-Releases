@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_ingot",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": {"translate":"advancement.title.vand"},
+        "description": {"translate":"advancement.description.vand"},
+        "frame": "challenge",
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "command":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "lobby:netherite"
+}

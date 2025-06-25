@@ -1,0 +1,8 @@
+
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Tags:[\"actived\"],inGround:1b}"
+    }
+}

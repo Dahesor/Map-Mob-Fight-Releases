@@ -1,0 +1,43 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "value_check",
+            "value": {
+                "type": "score",
+                "score": "calculator",
+                "target": {
+                    "type": "fixed",
+                    "name": "#currentMap"
+                }
+            },
+            "range": {
+                "max": -1
+            }
+        },
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "value_check",
+                "value": {
+                    "type": "score",
+                    "score": "calculator",
+                    "target": {
+                        "type": "fixed",
+                        "name": "#currentMap"
+                    }
+                },
+                "range": {
+                    "max":{
+                        "type": "score",
+                        "score": "calculator",
+                        "target": {
+                            "type": "fixed",
+                            "name": "#mapID"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

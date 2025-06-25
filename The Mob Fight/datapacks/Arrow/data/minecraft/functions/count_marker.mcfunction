@@ -1,0 +1,2 @@
+execute store result score #marker_count calculator run execute if entity @e[type=marker]
+tellraw @s [{"text": " --> E: ","color": "green"},"M",{"score":{"name": "#marker_count","objective": "calculator"}},"  ",{"nbt":"Inventory[{id:\"minecraft:crossbow\"}].tag.ChargedProjectiles[0].tag.display.Name","entity": "@p","interpret": true}]

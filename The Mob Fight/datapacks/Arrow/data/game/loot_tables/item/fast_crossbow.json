@@ -1,0 +1,35 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "crossbow"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{CanDestroy:['#game:breakable'],HideFlags:8,gameItem:{id:\"fast_crossbow\"},Damage:450,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5},{id:\"minecraft:piercing\",lvl:10}],CustomModelData:2}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.fast_crossbow","color": "gold","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [
+                "",
+                {"translate":"item.fast_crossbow.1","color": "gray","italic": false},
+                {"translate":"item.fast_crossbow.2","color": "green","italic": false}
+            ]
+        }
+    ]
+}

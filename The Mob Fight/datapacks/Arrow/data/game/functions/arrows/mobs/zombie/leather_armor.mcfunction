@@ -1,0 +1,2 @@
+summon zombie ~ ~ ~ {HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandItems:[{id:"wooden_shovel",Count:1b},{}],ArmorItems:[{id:"leather_boots",Count:1b},{id:"leather_leggings",Count:1b},{id:"leather_chestplate",Count:1b},{id:"leather_helmet",Count:1b}]}
+kill @s

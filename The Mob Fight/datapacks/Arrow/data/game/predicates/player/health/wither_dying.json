@@ -1,0 +1,10 @@
+[
+    {
+        "condition": "reference",
+        "name": "game:player/health/wither"
+    },
+    {
+        "condition": "reference",
+        "name": "game:player/health/dying"
+    }
+]

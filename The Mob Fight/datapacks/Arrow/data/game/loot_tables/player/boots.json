@@ -1,0 +1,107 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "netherite_boots",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {"armor":{"min": 9}}
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "diamond_boots",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {"armor":{"min": 7}}
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "iron_boots",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {"armor":{"min": 5}}
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "chainmail_boots",
+                            "conditions": [
+                                {
+                                    "condition": "entity_scores",
+                                    "entity": "this",
+                                    "scores": {"armor":{"min": 3}}
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "leather_boots",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{display:{color:16711680}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "team": "red"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "leather_boots",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{display:{color:15615}}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{Unbreakable:1b,HideFlags:12,isConstant:1b,CanDestroy:['#game:breakable']}"
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                "",
+                {"translate":"lore.bined_item"}
+            ]
+        },
+        {
+            "function": "set_enchantments",
+            "enchantments": {
+                "binding_curse":1
+            }
+        }
+    ]
+}

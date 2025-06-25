@@ -1,0 +1,2 @@
+execute unless entity @e[type=witch,limit=1,sort=nearest,distance=..4,nbt={CustomNameVisible:1b}] run return run function game:run/netherite/villager/marker/witch_debug
+function game:run/netherite/villager/marker/reset_villager

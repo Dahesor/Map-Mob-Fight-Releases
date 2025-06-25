@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "trigger":{
+            "trigger": "entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "creeper"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lobby:player/advancements/creeper_check"
+    }
+}

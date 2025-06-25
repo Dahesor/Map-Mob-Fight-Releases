@@ -1,0 +1,1 @@
+function lobby:lobby_spinner/diamond

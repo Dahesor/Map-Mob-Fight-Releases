@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "chest": {"items": [
+                "leather_chestplate"
+            ],
+            "count": {
+                "min":1
+            },
+            "nbt": "{random_team:1b}"
+        }
+        },
+        "nbt": "{Inventory:[{id:'minecraft:light_gray_concrete',Count:1b,Slot:3b},{id:'minecraft:light_gray_concrete',Count:1b,Slot:4b},{id:'minecraft:light_gray_concrete',Count:1b,Slot:5b}]}"
+    }
+}

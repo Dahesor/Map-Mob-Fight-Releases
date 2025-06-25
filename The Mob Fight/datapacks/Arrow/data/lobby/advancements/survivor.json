@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {"translate":"advancement.title.survivor"},
+        "description": {"translate":"advancement.description.survivor"}
+    },
+    "criteria": {
+        "impossible":{
+            "trigger": "impossible"
+        }
+    },
+    "parent": "lobby:gamemode/elimination"
+}

@@ -1,0 +1,2 @@
+playsound entity.experience_orb.pickup master @s ~ ~ ~
+tellraw @s [{"translate":"credit.datapacks.details.1"},{"translate":"credit.datapacks.details.2"},{"translate":"credit.datapacks.details.3"},{"translate":"credit.datapacks.details.4"}]

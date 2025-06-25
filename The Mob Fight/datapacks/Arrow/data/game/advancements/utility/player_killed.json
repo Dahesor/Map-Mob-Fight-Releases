@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "died":{
+            "trigger": "entity_killed_player",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "game:death/death_sing/trigger"
+    }
+}

@@ -1,0 +1,1 @@
+summon potion ~ ~ ~ {Item:{id:"lingering_potion",Count:1b,tag:{CustomPotionColor:1,custom_potion_effects:[{id:"blindness",show_particles:0b,show_icon:1b,amplifier:0b,duration:5}]}},Tags:["purple_trail","ticking"]}

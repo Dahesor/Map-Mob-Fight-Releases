@@ -1,0 +1,1 @@
+$execute as $(id) facing entity @s eyes run function game:run/mob_tick/enchanter/target_self

@@ -1,0 +1,7 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{custom_potion_effects:[{id:'minecraft:hero_of_the_village',amplifier:3b},{id:'minecraft:unluck',amplifier:2b}]}"
+    }
+}

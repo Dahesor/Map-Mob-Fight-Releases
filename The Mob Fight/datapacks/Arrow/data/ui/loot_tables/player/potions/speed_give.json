@@ -1,0 +1,63 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{custom_potion_effects:[{id:'speed',duration:2400,amplifier:0b}],CustomPotionColor:13154295,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 3}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{custom_potion_effects:[{id:'speed',duration:1900,amplifier:0b}],CustomPotionColor:13154295,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 2}}]
+                        },
+                        {
+                            "type": "item",
+                            "name": "potion",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{custom_potion_effects:[{id:'speed',duration:1200,amplifier:0b}],CustomPotionColor:13154295,display:{Name:'{\"translate\":\"item.minecraft.potion.effect.swiftness\",\"color\":\"green\",\"italic\":false}'}}"
+                                }
+                            ],
+                            "conditions": [
+                                {"condition": "value_check",
+                                    "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "magic_occult"}},
+                                    "range": {"min": 1}}]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag":"{CanDestroy:[\"#game:breakable\"],HideFlags:8}"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=ball_invite] at @s run function game:run/mob_second/marker/ball_invite

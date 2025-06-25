@@ -1,0 +1,2 @@
+execute if score VILLAGER.super Data matches 1.. run function game:run/gamemodes/villager/sudden_death/update_count
+execute if score VILLAGER.super Data matches 1.. run function game:run/gamemodes/villager/sudden_death/check_win

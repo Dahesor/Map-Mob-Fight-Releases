@@ -1,8 +1,11 @@
 **/.DS_Store
-wnvkw Developer/advancements/**.json
-wnvkw Developer/playerdata/**.dat
-wnvkw Developer/playerdata/**.dat_old
-wnvkw Developer/stats/**.json
-wnvkw Developer/DIM-1/**
-wnvkw Developer/DIM1/**
+The Mob Fight/advancements/**.json
+The Mob Fight/playerdata/**.dat
+The Mob Fight/playerdata/**.dat_old
+The Mob Fight/stats/**.json
+The Mob Fight/DIM-1/**
+The Mob Fight/DIM1/**
+The Mob Fight/poi/**
+The Mob Fight/level.dat_old
 The Mob Fight/.assets_helper/**
+copy.bat

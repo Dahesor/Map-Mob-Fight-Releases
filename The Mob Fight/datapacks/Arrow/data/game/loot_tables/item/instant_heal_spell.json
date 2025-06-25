@@ -1,0 +1,37 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{warped_stick:{id:'instant_heal'},right_click:1b,CanDestroy:[\"#game:breakable\"],HideFlags:8,gameItem:{id:\"instant_heal_spell\"},CustomModelData:1}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"瞬间治疗符","color": "green","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [
+                "",
+                [{"translate":"瞬间回复4点HP，","color": "gray","italic": false}],
+                [{"translate":"并在接下来5秒","color": "gray","italic": false}],
+                [{"translate":"再恢复4点HP","color": "gray","italic": false}],
+                {"keybind":"key.use","color": "green","italic": false}
+            ]
+        }
+    ]
+}

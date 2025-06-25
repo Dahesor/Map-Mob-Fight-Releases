@@ -1,0 +1,31 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "spectral_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:10}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {"translate":"item.thundering_arrow","color": "red","italic": false}
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                "",
+                                {"translate":"lore.thundering_arrow","color":"gray","italic":false}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

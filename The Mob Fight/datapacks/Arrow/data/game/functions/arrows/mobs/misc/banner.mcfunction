@@ -1,0 +1,2 @@
+summon husk ~ ~ ~ {ArmorItems:[{},{},{},{id:"black_banner",Count:1b,tag:{}}],Health:5.0f,Attributes:[{Base:5.0d,Name:"generic.max_health"},{Base:0.0d,Name:"generic.attack_damage"}],Tags:["second_ticking","mob.banner"]}
+kill

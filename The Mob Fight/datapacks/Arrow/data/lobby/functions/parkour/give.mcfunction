@@ -1,0 +1,2 @@
+execute store result score @s calculator run clear @s carrot_on_a_stick{isParkourReseter:1b} 0
+execute unless score @s calculator matches 1.. run give @s carrot_on_a_stick{isParkourReseter:1b,display:{Name:'{"translate":"tool.parkour_reseter"}',Lore:['""','{"keybind":"key.use","color": "green","italic": false}']}}

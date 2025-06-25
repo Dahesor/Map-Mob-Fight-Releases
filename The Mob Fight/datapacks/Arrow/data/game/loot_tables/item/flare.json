@@ -1,0 +1,47 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{warped_stick:{id:'flare'},CustomModelData:6,right_click:1b,CanDestroy:[\"#game:breakable\"],HideFlags:8,gameItem:{id:\"instant_heal_spell\"}}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.flare","color": "green","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "replace": false,
+            "lore": [
+                "",
+                {"keybind":"key.use","color": "green","italic": false}
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:5}",
+            "conditions": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "team": "red"
+                    }
+                }
+            ]
+        }
+    ]
+}

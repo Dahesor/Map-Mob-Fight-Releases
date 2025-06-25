@@ -1,0 +1,35 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:5008,custom_potion_effects:[{id:'minecraft:hero_of_the_village',amplifier:51b},{id:'minecraft:unluck',amplifier:8b}],CustomPotionColor:16056834,HideFlags:40,CanDestroy:[\"#game:breakable\"]}"
+                        },
+                        {
+                            "function":"set_name",
+                            "entity": "this",
+                            "name": {"translate": "arrow.tnt_fountain","color": "gold","italic": false}
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "lore": [
+                                "",
+                                {"translate":"arrow.tnt_fountain.1","color":"gray","italic":false},
+                                {"translate":"arrow.tnt_fountain.2","color":"gray","italic":false}
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

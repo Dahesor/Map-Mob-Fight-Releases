@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "changed":{
+            "trigger": "thrown_item_picked_up_by_entity",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "iron_ingot",
+                            "dirt",
+                            "gold_ingot",
+                            "copper_ingot",
+                            "lapis_lazuli",
+                            "diamond",
+                            "netherite_ingot"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ui:pages/mob/inventory_changed"
+    }
+}

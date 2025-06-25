@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sweet_berries"
+        },
+        "title": {"translate":"advancement.title.lazy"},
+        "description": {"translate":"advancement.description.lazy"},
+        "hidden": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "trigger":{
+            "trigger": "impossible"
+        }
+    },
+    "parent": "lobby:root"
+}

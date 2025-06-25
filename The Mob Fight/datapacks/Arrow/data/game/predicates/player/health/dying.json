@@ -1,0 +1,9 @@
+{
+    "condition": "entity_scores",
+    "entity": "this",
+    "scores": {
+        "health": {
+            "max": 5.3
+        }
+    }
+}

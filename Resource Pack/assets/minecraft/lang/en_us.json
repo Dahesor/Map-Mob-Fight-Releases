@@ -1174,5 +1174,6 @@
     "shop.random.lore.3":"After that it refreshes every 3 minutes",
     "shop.random.lore.4":"Items are the same for both teams",
     "shop.random.limit":"Each player can only buy once",
-    "glowing_potion.hint":"Players are not affected"
+    "glowing_potion.hint":"Players are not affected",
+    "arrow.piggy_tower.-1":"Skeleton is invincible before all the pigs die"
 }

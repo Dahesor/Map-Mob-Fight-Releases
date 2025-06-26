@@ -15,4 +15,3 @@ execute if score #loop_20 calculator matches 2 run function game:second
 scoreboard players add #loop_10 calculator 1
 execute if score #loop_10 calculator matches 10.. run scoreboard players set #loop_10 calculator 0
 execute as @a[scores={warped_stick=1..}] run function game:player/warped_stick_specialize
-execute as @e[type=item_display,tag=netherite_glow] at @s unless entity @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot"}},distance=..5] run kill @s

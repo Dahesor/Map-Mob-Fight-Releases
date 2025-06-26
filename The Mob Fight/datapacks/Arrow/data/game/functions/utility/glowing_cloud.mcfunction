@@ -1,0 +1,2 @@
+data merge entity @s[type=area_effect_cloud] {Duration:1500,Age:0,WaitTime:1,effects:[{id:"minecraft:glowing",amplifier:0b,ambient:0b,duration:1200,show_icon:0b,show_particles:0b}],DurationOnUse:0,RadiusPerTick:0,ReapplicationDelay:20,RadiusOnUse:0,Particle:"glow",Tags:["del"],Radius:2f}
+execute at @s run tp @s ~ ~-0.5 ~

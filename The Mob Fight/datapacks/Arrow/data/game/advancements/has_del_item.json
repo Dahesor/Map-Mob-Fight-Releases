@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "has_del_item": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "game:clear"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:player/clear"
+    }
+}

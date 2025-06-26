@@ -1,0 +1,1 @@
+$loot replace entity @s enderchest.7 loot $(icon)

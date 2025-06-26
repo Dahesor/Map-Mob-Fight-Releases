@@ -78,6 +78,7 @@ scoreboard players set oreAdd blue 1
 scoreboard players set techNetherite red 1
 scoreboard players set techNetherite blue 1
 scoreboard players reset final_camera
+scoreboard players reset nextRandomItem Data
 scoreboard players reset @a bossbar
 scoreboard players operation #half_score Data = TargetScore Options
 scoreboard players operation #half_score Data /= #2 calculator
@@ -85,6 +86,9 @@ scoreboard players operation #close_score Data = TargetScore Options
 scoreboard players operation #close_score Data -= killScore Options
 scoreboard players set villagerTimer Data 2400
 scoreboard objectives add Item.power_star dummy
+scoreboard objectives add Item.arrow_shield dummy
+tag @a remove shop.left.limit
+tag @a remove shop.right.limit
 execute if score GameMode Data matches 3 run scoreboard players set villagerTimer Data 3600
 function game:run/dirt/mutiplier
 #set spawn points

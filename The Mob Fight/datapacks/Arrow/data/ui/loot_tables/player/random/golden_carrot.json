@@ -1,0 +1,25 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrier"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": [{"translate":"item.minecraft.golden_carrot","color": "green","italic": false}," × 12"]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:105}"
+        }
+    ]
+}

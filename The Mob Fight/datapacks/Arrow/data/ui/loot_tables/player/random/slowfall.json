@@ -1,0 +1,33 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrier"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.minecraft.splash_potion.effect.slow_falling","color": "green","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                "",
+                [{"translate": "effect.minecraft.slow_falling","color": "blue","italic": false}," (0:45)"]
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:106}"
+        }
+    ]
+}

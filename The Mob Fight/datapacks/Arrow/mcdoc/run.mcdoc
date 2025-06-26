@@ -1,4 +1,6 @@
 use::mcdoc::shop_arrow::Price
+use::mcdoc::shop_arrow::RandomEntry
+use::java::world::item::ItemStack
 
 dispatch minecraft:storage["run"] to run_data
 
@@ -12,6 +14,10 @@ dispatch arrow:run["bossbar"] to struct{
     new?: int,
 }
 
+dispatch arrow:run["BackupRandom"] to [RandomEntry]
+dispatch arrow:run["ShopRandom"] to [RandomEntry] @ ..2
+dispatch arrow:run["ThisRandom"] to RandomEntry
+dispatch arrow:run["item"] to ItemStack
 dispatch arrow:run["Pay"] to Price
 dispatch arrow:run["macro"] to Any
 dispatch arrow:run["macro2"] to Any

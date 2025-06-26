@@ -1,0 +1,2 @@
+execute if entity @s[tag=villager_red] positioned as @e[type=marker,tag=villager_red,limit=1,sort=nearest,distance=..5] run return run tp @s ~ ~ ~ ~ ~
+execute if entity @e[tag=villager_blue] positioned as @e[type=marker,tag=villager_blue,limit=1,sort=nearest,distance=..5] run return run tp @s ~ ~ ~ ~ ~

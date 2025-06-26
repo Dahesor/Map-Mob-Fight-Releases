@@ -3,9 +3,7 @@
     "entity": "this",
     "predicate": {
         "effects": {
-            "hero_of_the_village": {
-                
-            }
+            "hero_of_the_village": {}
         }
     }
 }

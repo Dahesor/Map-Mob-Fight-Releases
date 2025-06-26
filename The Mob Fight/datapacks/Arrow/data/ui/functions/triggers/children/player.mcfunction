@@ -42,6 +42,10 @@ execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"mine"}
 execute if score @s calculator matches 1.. run function ui:actions/player/mine
 execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"repair"}}
 execute if score @s calculator matches 1.. run function ui:actions/player/repair_tool
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"random_1"}}
+execute if score @s calculator matches 1.. run function ui:actions/player/random/left
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"random_2"}}
+execute if score @s calculator matches 1.. run function ui:actions/player/random/right
 
 #THUNDER
 

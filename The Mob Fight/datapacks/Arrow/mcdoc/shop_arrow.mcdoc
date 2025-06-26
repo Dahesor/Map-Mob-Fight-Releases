@@ -37,11 +37,19 @@ struct mob_arrow {
     Price: Price,
 }
 
+struct RandomEntry{
+    Price?: Price,
+    icon?: #[id="loot_table"] string,
+    item?: #[id="loot_table"] string,
+    Name?: #[text_component] string,
+}
+
 dispatch minecraft:storage["game:shop"] to struct {
     Mob: [mob_arrow],
     text?: struct{
         [string]?: #[text_component] string,
-    }
+    },
+    random_list?: [RandomEntry],
 }
 
 dispatch minecraft:storage["game:red_shop"] to struct {

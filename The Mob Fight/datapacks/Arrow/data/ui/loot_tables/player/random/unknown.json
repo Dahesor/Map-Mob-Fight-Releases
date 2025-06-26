@@ -1,0 +1,35 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "gray_stained_glass_pane"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "name": {"translate": "shop.random.title","color": "#DDDDDD","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                "",
+                {"translate": "shop.random.lore.1","color": "gray","italic": false},
+                {"translate": "shop.random.lore.2","color": "gray","italic": false},
+                {"translate": "shop.random.lore.3","color": "gray","italic": false},
+                {"translate": "shop.random.lore.4","color": "gray","italic": false}
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:7,UISpaceHolder:1b}"
+        }
+    ]
+}

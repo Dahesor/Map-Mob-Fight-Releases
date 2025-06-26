@@ -4,7 +4,7 @@ scoreboard players set magic_occult red 3
 scoreboard players set magic_occult blue 3
 scoreboard players set society_populate red 3
 scoreboard players set society_populate blue 3
-
+execute unless score game Data matches 0 run say hey someone used max techno. This could be cheating!
 
 scoreboard players set science_techno calculator 3
 scoreboard players set magic_occult calculator 3

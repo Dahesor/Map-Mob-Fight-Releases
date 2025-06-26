@@ -21,12 +21,12 @@
                                     "lore": [
                                         "",{"translate":"price"},{"translate":"copper","with": [
                                             {
-                                                "text": "§a 10"
+                                                "text": "§a 7"
                                             }
                                         ]},
                                         {"translate":"iron","with": [
                                             {
-                                                "text": "§a 12"
+                                                "text": "§a 10"
                                             }
                                         ]},{"nbt":"text.select","interpret": true,"storage":"game:shop"}
                                     ]

@@ -1,0 +1,38 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrier"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.type_wipe","color": "gold","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                "",
+                {"translate":"item.type_wipe.1","color":"gray","italic":false},
+                {"translate":"item.type_wipe.2","color":"gray","italic":false},
+                {"translate":"item.type_wipe.3","color":"gray","italic":false},
+                {"translate":"item.type_wipe.4","color":"gold","italic":false},
+                {"translate":"item.type_wipe.5","color":"red","italic":false},
+                {"translate":"item.type_wipe.6","color":"red","italic":false}
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:104}"
+        }
+    ]
+}

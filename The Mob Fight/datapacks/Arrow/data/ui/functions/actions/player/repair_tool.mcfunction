@@ -1,5 +1,5 @@
 data remove storage run Pay
-data merge storage run {Pay:{copper:10b,iron:12b}}
+data merge storage run {Pay:{copper:7b,iron:10b}}
 data remove storage run PayName
 data merge storage run {PayName:"repqir_tool"}
 

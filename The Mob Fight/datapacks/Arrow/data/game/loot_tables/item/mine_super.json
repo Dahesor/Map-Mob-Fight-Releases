@@ -9,34 +9,9 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "game:item/mine"
+                    "name": "game:item/mine_super_single"
                 }
             ]
-        }
-    ],
-    "functions": [
-        {
-            "function": "set_name",
-            "entity": "this",
-            "name": {"translate":"item.mine.super","color": "gold","italic": false}
-        },
-        {
-            "function": "set_lore",
-            "entity": "this",
-            "replace": true,
-            "lore": [
-                "",
-                {"translate":"item.mine.1","color":"gray","italic":false},
-                {"translate":"item.mine.2","color":"gray","italic":false},
-                {"translate":"item.mine.3.super","color":"gray","italic":false},
-                {"translate":"item.mine.4","color":"gray","italic":false},
-                "",
-                {"keybind":"key.use","color": "green","italic": false}
-            ]
-        },
-        {
-            "function": "set_nbt",
-            "tag": "{warped_stick:{id:'mine',sub:'super'},Enchantments:[{}]}"
         }
     ]
 }

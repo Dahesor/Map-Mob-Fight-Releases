@@ -24,15 +24,15 @@ execute if score #random$luc calculator matches ..6 run summon blaze
 execute if score #random$luc calculator matches ..6 run summon vex
 execute if score #random$luc calculator matches ..6 run summon vex
 execute if score #random$luc calculator matches ..6 run effect give @s wither 5 1
-execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches ..25 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"diamond_sword",tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}}]}
-execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 26..50 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"diamond_sword",tag:{Enchantments:[{id:"minecraft:fire_aspect",lvl:1}]}}]}
-execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 51..75 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"diamond_sword",tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1}]}}]}
-execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 76..90 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"netherite_sword",tag:{Enchantments:[{id:"minecraft:vanishing_curse",lvl:1}]}}]}
-execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 91..100 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"diamond_axe",tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1}]}}]}
+execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches ..25 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"diamond_sword",tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}},{}]}
+execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 26..50 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"diamond_sword",tag:{Enchantments:[{id:"minecraft:fire_aspect",lvl:1}]}},{}]}
+execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 51..75 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"diamond_sword",tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1}]}},{}]}
+execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 76..90 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"netherite_sword",tag:{Enchantments:[{id:"minecraft:vanishing_curse",lvl:1}]}},{}]}
+execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 91..100 at @s run summon zombie ~ ~ ~ {HandItems:[{Count:1b,id:"diamond_axe",tag:{Enchantments:[{id:"minecraft:sharpness",lvl:1}]}},{}]}
 execute if score #random$luc calculator matches 7 unless score #random$luc2 calculator matches 81..100 at @s run summon zombie ~ ~ ~ {IsBaby:1b,ArmorItems:[{id:"leather_boots",Count:1b},{},{id:"iron_chestplate",Count:1b},{}]}
 execute if score #random$luc calculator matches 7 if score #random$luc2 calculator matches 91..100 at @s run summon zombie ~ ~ ~ {IsBaby:1b,ArmorItems:[{id:"leather_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:soul_speed",lvl:2}]}},{},{id:"iron_chestplate",Count:1b},{}]}
-execute if score #random$luc calculator matches 7 at @s run summon zombie ~ ~ ~ {ArmorItems:[{},{},{},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"stone_sword",Count:1b}]}
-execute if score #random$luc calculator matches 7 at @s run summon zombie ~ ~ ~ {ArmorItems:[{},{},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"golden_sword",Count:1b}]}
+execute if score #random$luc calculator matches 7 at @s run summon zombie ~ ~ ~ {ArmorItems:[{},{},{},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"stone_sword",Count:1b},{}]}
+execute if score #random$luc calculator matches 7 at @s run summon zombie ~ ~ ~ {ArmorItems:[{},{},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"golden_sword",Count:1b},{}]}
 execute if score #random$luc calculator matches 7 at @s run summon zombie ~ ~ ~
 execute if score #random$luc calculator matches 7 at @s run summon zombie ~ ~ ~
 execute if score #random$luc calculator matches 7 at @s run summon zombie ~ ~ ~
@@ -58,13 +58,13 @@ execute if score #random$luc calculator matches 10..12 run summon skeleton ~1 ~ 
 execute if score #random$luc calculator matches 10..12 run summon skeleton ~-1 ~ ~-1
 execute if score #random$luc calculator matches 10..12 run summon skeleton ~ ~1 ~
 execute if score #random$luc calculator matches 13 run effect give @s hunger 30 1
-execute if score #random$luc calculator matches 13 at @s run summon husk ~ ~ ~ {ArmorItems:[{},{id:"netherite_leggings",Count:1b},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}}]}
-execute if score #random$luc calculator matches 13 at @s run summon husk ~ ~ ~ {ArmorItems:[{},{},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"stone_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}}]}
-execute if score #random$luc calculator matches 13 at @s run summon husk ~ ~ ~ {ArmorItems:[{},{},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"golden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}}]}
-execute if score #random$luc calculator matches 13 at @s run summon husk ~ ~ ~ {ArmorItems:[{},{},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"wooden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:2}]}}]}
-execute if score #random$luc calculator matches 13 at @s run clear bread
-execute if score #random$luc calculator matches 13 at @s run clear cooked_beef
-execute if score #random$luc calculator matches 14 run effect give @s glowing infinite 0
+execute if score #random$luc calculator matches 13 at @s run summon husk ~ ~ ~ {ArmorItems:[{},{id:"netherite_leggings",Count:1b},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"iron_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}},{}]}
+execute if score #random$luc calculator matches 13 at @s run summon husk ~ ~ ~ {ArmorItems:[{},{},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"stone_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}},{}]}
+execute if score #random$luc calculator matches 13 at @s run summon husk ~ ~ ~ {ArmorItems:[{},{},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"golden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:1}]}},{}]}
+execute if score #random$luc calculator matches 13 at @s run summon husk ~ ~ ~ {ArmorItems:[{},{},{id:"chainmail_chestplate",Count:1b},{id:"netherite_helmet",Count:1b}],HandItems:[{id:"wooden_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:2}]}},{}]}
+execute if score #random$luc calculator matches 13 at @s run clear @s bread
+execute if score #random$luc calculator matches 13 at @s run clear @s cooked_beef
+execute if score #random$luc calculator matches 14 run effect give @s glowing infinite 1
 execute if score #random$luc calculator matches 14 run summon elder_guardian
 execute if score #random$luc calculator matches 15 run effect give @s poison infinite 0
 

@@ -1,0 +1,25 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "splash_potion"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{CanDestroy:[\"#game:breakable\"],HideFlags:8,custom_potion_effects:[{id:'slow_falling',ambient:0b,amplifier:0b,duration:900,show_icon:1b,show_particles:1b}],CustomPotionColor:13095121}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.minecraft.splash_potion.effect.slow_falling","color": "green","italic": false}
+        }
+    ]
+}

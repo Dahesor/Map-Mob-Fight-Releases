@@ -1,0 +1,37 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.anvil","color": "dark_purple","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                "",
+                {"translate":"item.anvil.1","color":"gray","italic":false},
+                {"translate":"item.anvil.2","color":"gray","italic":false},
+                {"translate":"item.anvil.3","color":"gray","italic":false},
+                "",
+                {"keybind":"key.use","color": "green","italic": false}
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:16,warped_stick:{id:'anvil'},right_click:1b,CanDestroy:[\"#game:breakable\"],HideFlags:8,gameItem:{id:\"anvil\"},Enchantments:[{}]}"
+        }
+    ]
+}

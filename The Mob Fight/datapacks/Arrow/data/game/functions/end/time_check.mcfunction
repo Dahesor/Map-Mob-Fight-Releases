@@ -1,7 +1,3 @@
-#>game:end/time_check
-#@private
-#define score_holder #tee$time
-
 scoreboard players operation #tee$time calculator = MaxGameLength Options
 scoreboard players operation #tee$time calculator -= GameLength Data
 execute if score #tee$time calculator matches 6000 run function game:end/5_min
@@ -18,3 +14,7 @@ execute if score #tee$time calculator = GameLength Data run function game:run/mi
 scoreboard players operation #tee$time calculator = GameLength Data
 scoreboard players operation #tee$time calculator %= #1800 calculator
 execute if score #tee$time calculator matches 10 run function game:shop/netherite/fee/random
+
+scoreboard players operation #tee$time calculator = MaxGameLength Options
+scoreboard players operation #tee$time calculator /= #3 calculator
+execute if score #tee$time calculator = GameLength Data run scoreboard players set nextRandomItem Data 1

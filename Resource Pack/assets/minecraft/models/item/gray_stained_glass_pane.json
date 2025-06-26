@@ -27,7 +27,10 @@
         {
           "predicate": {"custom_model_data": 6},
           "model": "arrow:settings"
+        },
+        {
+          "predicate": {"custom_model_data": 7},
+          "model": "arrow:buttons/unknown"
         }
       ]
 }
-  

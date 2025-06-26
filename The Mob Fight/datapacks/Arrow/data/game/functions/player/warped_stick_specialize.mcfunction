@@ -5,6 +5,8 @@ execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'flare'}}
 execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'mine'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.Mine
 execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'crystal_marker'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.crystal_marker
 execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'power_star'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.power_star
+execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'anvil'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.anvil
+execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'anti_arrow'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.anti_arrow
 
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'instant_heal'}} run tag @s add temp.Instant_Heal
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'up_rocket'}} run tag @s add temp.Up_Rocket
@@ -13,6 +15,8 @@ execute if data entity @s SelectedItem.tag{warped_stick:{id:'flare'}} run tag @s
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'mine'}} run tag @s add temp.Mine
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'crystal_marker'}} run tag @s add temp.crystal_marker
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'power_star'}} run tag @s add temp.power_star
+execute if data entity @s SelectedItem.tag{warped_stick:{id:'anvil'}} run tag @s add temp.anvil
+execute if data entity @s SelectedItem.tag{warped_stick:{id:'anti_arrow'}} run tag @s add temp.anti_arrow
 
 
 execute if entity @s[tag=temp.Up_Rocket] at @s run function game:player/warped_stick/up_rocket/self
@@ -26,6 +30,8 @@ execute if entity @s[tag=temp.Flare,team=blue] at @s run function game:player/wa
 execute if entity @s[tag=temp.Mine] at @s run function game:player/warped_stick/mine/place
 execute if entity @s[tag=temp.crystal_marker] at @s run function game:player/warped_stick/crystal_marker/used
 execute if entity @s[tag=temp.power_star] at @s run function game:player/warped_stick/power_star/used
+execute if entity @s[tag=temp.anvil] at @s run function game:player/warped_stick/anvil/used
+execute if entity @s[tag=temp.anti_arrow] at @s run function game:player/warped_stick/projectile_shield/use
 
 
 scoreboard players set @s warped_stick 0

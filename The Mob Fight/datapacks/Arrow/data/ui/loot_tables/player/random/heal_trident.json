@@ -1,0 +1,37 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrier"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.heal_trident","color": "yellow","italic": false}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                "",
+                {"translate":"item.heal_trident.1","color":"gray","italic":false},
+                {"translate":"item.heal_trident.2","color":"gray","italic":false},
+                {"translate":"item.heal_trident.3","color":"gray","italic":false},
+                {"translate":"item.heal_trident.4","color":"gray","italic":false},
+                {"translate":"item.heal_trident.5","color":"gray","italic":false}
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:100}"
+        }
+    ]
+}

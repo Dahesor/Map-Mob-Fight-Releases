@@ -1,3 +1,5 @@
+function game:shop/random
+
 data remove storage game:red_shop Mob
 data remove storage game:blue_shop Mob
 data remove storage game:shop Mob

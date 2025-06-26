@@ -10,7 +10,7 @@
                         {
                             "type": "loot_table",
                             "name": "game:item/dirt_cleaner",
-                            "weight": 40
+                            "weight": 30
                         },
                         {
                             "type": "loot_table",
@@ -25,25 +25,6 @@
                                 }
                             ],
                             "weight": 50
-                        },
-                        {
-                            "type": "loot_table",
-                            "name": "game:enhanced/instant_heal_spell_3",
-                            "conditions": [
-                                {
-                                    "condition": "inverted",
-                                    "term": {
-                                        "condition": "minecraft:value_check",
-                                        "value": {
-                                            "type": "score",
-                                            "target": {"type": "fixed","name": "GameMode"},
-                                            "score": "Data"
-                                        },
-                                        "range": 1
-                                    }
-                                }
-                            ],
-                            "weight": 30
                         },
                         {
                             "type": "loot_table",
@@ -69,26 +50,6 @@
                             "type": "loot_table",
                             "name": "game:item/fast_crossbow",
                             "weight": 90
-                        },
-                        {
-                            "type": "item",
-                            "name": "golden_apple",
-                            "functions": [
-                                {
-                                    "function": "set_count",
-                                    "count": {
-                                        "type": "binomial",
-                                        "n":2,
-                                        "p": 0.75
-                                    }
-                                },
-                                {
-                                    "function": "set_count",
-                                    "count": 3,
-                                    "add": true
-                                }
-                            ],
-                            "weight": 40
                         },
                         {
                             "type":"loot_table",

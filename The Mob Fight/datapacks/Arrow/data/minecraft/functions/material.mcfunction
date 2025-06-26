@@ -4,7 +4,7 @@ clear @s copper_ingot{DepM:1b}
 clear @s diamond{DepM:1b}
 clear @s lapis_lazuli{DepM:1b}
 clear @s gold_ingot{DepM:1b}
-
+say hey someone used mat. This could be cheating!
 give @s barrier{DepM:1b,idid:"923hfwjb"}
 give @s barrier{DepM:1b,idid:"197cna0*Y"}
 give @s barrier{DepM:1b,idid:"LLjlkns[[[["}
@@ -14,9 +14,6 @@ give @s barrier{DepM:1b,idid:"88208bbf^&"}
 give @s barrier{DepM:1b,idid:"lknafd"}
 give @s barrier{DepM:1b,idid:"09ugfqc"}
 give @s barrier{DepM:1b,idid:"fboaubdf"}
-
-
-
 
 
 

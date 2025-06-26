@@ -16,6 +16,8 @@ scoreboard players operation @s lastGame = gameID Data
 
 tag @s add canBuyTotem
 tag @s remove returning
+tag @a remove shop.left.limit
+tag @a remove shop.right.limit
 
 
 clear @s

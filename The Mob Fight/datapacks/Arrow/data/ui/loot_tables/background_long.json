@@ -15,7 +15,7 @@
                         {
                             "function": "set_nbt",
                             "tag": "{Enchantments:[{}],display:{Name:'{\"translate\": \"title.surrender\",\"color\":\"red\",\"italic\":false}'}}",
-                            "conditions": 
+                            "conditions":
                             [{"condition": "reference","name": "ui:settings/surrender"}]
                         }
                     ]

@@ -114,8 +114,10 @@ scoreboard players reset player red
 scoreboard players reset VILLAGER.super
 scoreboard players reset playerCountScore
 scoreboard players reset #twoThird
+scoreboard players reset nextRandomItem Data
 scoreboard players reset final_camera
 scoreboard objectives remove Item.power_star
+scoreboard objectives remove Item.arrow_shield
 scoreboard players operation beemCD red = initialBeamCD Options
 scoreboard players operation beemCD blue = initialBeamCD Options
 fill 0 0 0 0 0 2 air
@@ -134,6 +136,7 @@ data remove storage actionbar_mixer:json text[{id:"crossbow"}]
 data remove storage actionbar_mixer:json text[{id:"villager_red"}]
 data remove storage actionbar_mixer:json text[{id:"villager_blue"}]
 data merge storage run {over_half:{red:0b,blue:0b},almost_win:{red:0b,blue:0b},first_kill:0b}
+data modify storage run ShopRandom set value []
 data modify storage run repair set value []
 data modify storage run final_kill set value {}
 data modify storage game:shop text.buy set value '{"translate":"info.shop_preview","color": "gray","italic": false}'
@@ -159,6 +162,8 @@ tag @a remove using_UpRocket_1
 tag @a remove using_UpRocket_2
 tag @a remove using_UpRocket_3
 tag @a remove sysano
+tag @a remove shop.left.limit
+tag @a remove shop.right.limit
 
 function game:utility/realistic_ore/destory_scoreboards
 
@@ -166,3 +171,7 @@ execute if score GameMode Data matches 1 run function game:run/gamemodes/uhc/res
 execute if score GameMode Data matches 2 run function game:run/gamemodes/thunder/reset
 execute if score GameMode Data matches 2 run weather thunder
 execute as @a run attribute @s generic.attack_speed base set 4.3
+execute as @a run attribute @s generic.armor_toughness modifier remove a-b-c-d-e
+execute as @a run attribute @s generic.armor_toughness modifier remove 8e5f3313-43a6-42b0-87b7-35637aed701a
+execute as @a run attribute @s generic.armor_toughness modifier remove 8e5f3313-43a6-42b0-87b7-35637aed704f
+execute as @a run attribute @s generic.movement_speed modifier remove 662A6B8D-DA3E-4C1C-8813-96EA6097278D

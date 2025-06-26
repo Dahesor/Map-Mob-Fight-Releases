@@ -1,17 +1,23 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "minecraft:item/barrier"
-    },
-      "overrides": [
-        {
-          "predicate": {"custom_model_data": 1},
-          "model": "arrow:buttons/back"
-        },
-        {
-          "predicate": {"custom_model_data": 2},
-          "model": "arrow:buttons/exchange"
-        }
-      ]
-    }
-    
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/barrier"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1},"model": "arrow:buttons/back"},
+    {"predicate": {"custom_model_data": 2},"model": "arrow:buttons/exchange"},
+    {"predicate": {"custom_model_data": 50},"model": "arrow:item/template_anvil"},
+    {"predicate": {"custom_model_data": 99},"model": "arrow:buttons/lock"},
+    {"predicate": {"custom_model_data": 100},"model": "arrow:item/heal_trident_ui"},
+    {"predicate": {"custom_model_data": 101},"model": "arrow:item/projectile_shield_ui"},
+    {"predicate": {"custom_model_data": 102},"model": "arrow:item/the_anvil"},
+    {"predicate": {"custom_model_data": 103},"model": "arrow:item/crystal_marker_ui"},
+    {"predicate": {"custom_model_data": 104},"model": "arrow:item/type_wipe_ui"},
+    {"predicate": {"custom_model_data": 105},"model": "arrow:item/carrot_ui"},
+    {"predicate": {"custom_model_data": 106},"model": "arrow:item/slowfall_potion_ui"},
+    {"predicate": {"custom_model_data": 107},"model": "arrow:item/turtle_potion_ui"},
+    {"predicate": {"custom_model_data": 108},"model": "arrow:item/weakness_potion_ui"},
+    {"predicate": {"custom_model_data": 109},"model": "arrow:item/glowing_potion_ui"},
+    {"predicate": {"custom_model_data": 110},"model": "arrow:item/power_star_ui"}
+  ]
+}

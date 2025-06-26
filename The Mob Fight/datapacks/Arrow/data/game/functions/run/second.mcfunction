@@ -15,6 +15,7 @@ execute unless score debug Data matches 1.. as @a[predicate=map:in_blue,team=red
 execute unless score debug Data matches 1.. as @a[predicate=map:in_red,team=blue,gamemode=adventure] run damage @s 10 generic_kill
 effect give @a[gamemode=adventure] haste 2 1 true
 effect clear @a dolphins_grace
+execute as @a unless predicate game:player/effects/validate_glowing run effect clear @s glowing
 execute as @e[tag=intelligent_name] at @s if entity @a[distance=..10] run data merge entity @s {CustomNameVisible:1b}
 execute as @e[tag=intelligent_name] at @s unless entity @a[distance=..10] run data merge entity @s {CustomNameVisible:0b}
 scoreboard players remove absoprtionCooldown red 1
@@ -39,3 +40,5 @@ execute if score surrender blue matches 0 run function game:end/red_win
 effect give @a[predicate=!game:places/in_gaming_area] saturation 10 10 true
 effect give @a[predicate=!game:places/in_gaming_area] resistance 10 10 true
 effect give @a[predicate=!game:places/in_gaming_area] instant_health 1 10 true
+
+execute as @e[type=item_display,tag=netherite_glow] at @s unless entity @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot"}},distance=..5] run kill @s

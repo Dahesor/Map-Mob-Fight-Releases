@@ -9,3 +9,4 @@ effect give @a instant_health 1 100 true
 effect give @a saturation 1 100 true
 effect give @a regeneration 20 10 true
 effect give @a resistance 20 10 true
+execute as @e[type=villager,tag=villager_marker] run data merge entity @s {Health:100f,Invulnerable:1b,NoAI:1b}

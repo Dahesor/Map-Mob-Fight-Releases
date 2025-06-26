@@ -1,0 +1,57 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:12}"
+                        },
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "item.mine.super",
+                                "color": "gold",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "replace": true,
+                            "lore": [
+                                "",
+                                {
+                                    "translate": "item.mine.1",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "item.mine.2",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "item.mine.3.super",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "item.mine.4",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

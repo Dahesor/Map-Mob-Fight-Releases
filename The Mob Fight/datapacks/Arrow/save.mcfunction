@@ -1,4 +1,6 @@
-give @s tipped_arrow{CustomPotionColor:7570948}
+summon item_display ~ ~ ~ {billboard:"fixed",item:{id:"paper",Count:1b,tag:{CustomModelData:200}},view_range:2.0f,item_display:"fixed",shadow_strength:0f,brightness:{block:15,sky:15},Tags:["del"],transformation:{scale:[3f,3f,3f],translation:[0.1f,1.5f,-0.1f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f]}}
+
+give @s tipped_arrow{CustomPotionColor:16774912}
 give @s oak_sign{BlockEntityTag:{is_waxed:1b,front_text:{messages:['{"translate":"切换地图","color": "green","clickEvent": {"action": "run_command","value": "/function lobby:map_selection/loop"}}','{"nbt":"map.displayName","storage": "run","interpret": true}','','[{"text":"[","color": "gray"},{"keybind":"key.use"},"]"]']}}}
 tellraw @a [{"translate":"dirt","with":[{"score":{"name": "#dirt","objective": "calculator"},"color": "red","italic": false}]},{"translate":"hint.still_need","with":[{"score":{"name": "#difference","objective": "calculator"},"color": "red"}]}]
 summon text_display ~ ~ ~ {text:'{"text":"0","color": "#c0e0eb"}',billboard:"fixed",brightness:{block:15,sky:15},transformation:{scale:[10f,10f,10f],right_rotation:[0f,0f,0f,1f],left_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]},background:0,alignment:"center"}

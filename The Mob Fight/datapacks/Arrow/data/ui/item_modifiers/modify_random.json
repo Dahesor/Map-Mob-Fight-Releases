@@ -1,0 +1,108 @@
+[
+    {
+        "function": "set_nbt",
+        "tag": "{ui:{id:'random_1'}}"
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "lore": [
+            {"nbt":"genLore[0]","interpret": true,"storage": "run"},
+            {"translate": "shop.random.limit","color": "red","italic": false},
+            {"nbt":"genLore[1]","interpret": true,"storage": "run"},
+            {"nbt":"genLore[2]","interpret": true,"storage": "run"}
+        ]
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "lore": [
+            {"nbt":"genLore[3]","interpret": true,"storage": "run"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "#loreCount"}},
+                "range": {"min": 4}
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "lore": [
+            {"nbt":"genLore[4]","interpret": true,"storage": "run"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "#loreCount"}},
+                "range": {"min": 5}
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "lore": [
+            {"nbt":"genLore[5]","interpret": true,"storage": "run"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "#loreCount"}},
+                "range": {"min": 6}
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "lore": [
+            {"nbt":"genLore[6]","interpret": true,"storage": "run"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "#loreCount"}},
+                "range": {"min": 7}
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "lore": [
+            {"nbt":"genLore[7]","interpret": true,"storage": "run"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "#loreCount"}},
+                "range": {"min": 8}
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "lore": [
+            {"nbt":"genLore[8]","interpret": true,"storage": "run"}
+        ],
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {"type": "score","score": "calculator","target": {"type": "fixed","name": "#loreCount"}},
+                "range": {"min": 9}
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "replace": false,
+        "lore": [
+            {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "potion"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{CanDestroy:[\"#game:breakable\"],HideFlags:8,custom_potion_effects:[{id:'slowness',ambient:1b,amplifier:5b,duration:600,show_icon:1b,show_particles:1b},{id:'resistance',ambient:1b,amplifier:3b,duration:600,show_icon:1b,show_particles:1b}],CustomPotionColor:9664767}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.minecraft.potion.effect.turtle_master","color": "blue","italic": false}
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-data modify storage version text set value "v1.1.0-Beta.2"
+data modify storage version text set value "v1.1.0-Beta.3"
 data modify storage version int set value 110
 #tellraw @s {"text":"In Development Unstable","color": "red"}
 tellraw @s [{"translate":"info.version","with":[{"nbt":"text","color": "aqua","storage": "version"}]}]

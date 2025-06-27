@@ -29,6 +29,15 @@
       "\ue900\ue901\ue902\ue903\ue904"
     ]
   },
+      {
+      "type": "bitmap",
+      "file": "arrow:font/anti_arrow.png",
+      "height": 10,
+      "ascent": 8,
+      "chars": [
+        "\ue905"
+      ]
+    },
   {
       "type": "bitmap",
       "file": "arrow:render/skull.png",

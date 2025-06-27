@@ -6,6 +6,7 @@ execute if score #loop_3 calculator matches 0 run function game:utility/repair_g
 execute if score Performance Options matches 1 run return fail
 
 data modify storage run bar set value {hp:"",empty:"",block:""}
+scoreboard players remove $hp calculator 1
 scoreboard players operation $hp calculator /= #10 calculator
 execute if score $hp calculator matches 0 run data modify storage run bar.hp set value "█"
 execute if score $hp calculator matches 1 run data modify storage run bar.hp set value "██"

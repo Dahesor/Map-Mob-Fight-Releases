@@ -40,5 +40,5 @@ execute if score surrender blue matches 0 run function game:end/red_win
 effect give @a[predicate=!game:places/in_gaming_area] saturation 10 10 true
 effect give @a[predicate=!game:places/in_gaming_area] resistance 10 10 true
 effect give @a[predicate=!game:places/in_gaming_area] instant_health 1 10 true
-
+execute as @a run function game:player/second
 execute as @e[type=item_display,tag=netherite_glow] at @s unless entity @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot"}},distance=..5] run kill @s

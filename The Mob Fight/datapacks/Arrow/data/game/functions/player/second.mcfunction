@@ -1,0 +1,1 @@
+function game:player/effects/heartache/check

@@ -1,6 +1,6 @@
 #define tag water_magic
 
-summon snowball ^ ^ ^0.5 {NoGravity:1b,Tags:["water_magic","new_temp","ticking","snowball_parent"],LeftOwner:0b,Item:{id:"lapis_block",Count:1b,tag:{Enchantments:[{}],CustomModelData:2}}}
+summon snowball ^ ^ ^0.5 {NoGravity:1b,Tags:["water_magic","new_temp","ticking","snowball_parent"],LeftOwner:0b,Item:{id:"lapis_block",Count:1b,tag:{Enchantments:[{}],CustomModelData:2}},Passengers:[{id:"marker",Tags:["del","water_magic","ticking","snowball_child"],CustomName:'{"translate":"arrow.water_wizard","color":"gold"}'}]}
 data modify entity @e[type=snowball,tag=water_magic,limit=1,tag=new_temp] Owner set from entity @s UUID
 execute as @e[tag=water_magic,tag=new_temp,type=snowball] store result score @s match run data get entity @s UUID[0]
 

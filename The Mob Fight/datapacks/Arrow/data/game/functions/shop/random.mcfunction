@@ -6,7 +6,7 @@ data modify storage game:shop random_list append value {icon:"ui:player/random/h
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/the_anvil",item:"game:item/the_anvil",Price:{dirt:5,iron:12},Name:'{"translate":"item.anvil","color": "dark_purple","italic": false}'}
 
-data modify storage game:shop random_list append value {icon:"ui:player/instant_heal",item:"game:item/instant_heal_spell",Price:{dirt:4b,lapis:10b,gold:3b},Name:'{"translate":"瞬间治疗符","color": "green","italic": false}'}
+execute unless score GameMode Data matches 1 run data modify storage game:shop random_list append value {icon:"ui:player/instant_heal",item:"game:item/instant_heal_spell",Price:{dirt:4b,lapis:10b,gold:3b},Name:'{"translate":"瞬间治疗符","color": "green","italic": false}'}
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/mine_super",item:"game:item/mine_super_single",Price:{dirt:24b,diamond:7b,copper:7b},Name:'{"translate":"item.mine.super","color": "gold","italic": false}'}
 
@@ -25,3 +25,7 @@ data modify storage game:shop random_list append value {icon:"ui:player/random/w
 data modify storage game:shop random_list append value {icon:"ui:player/random/glowing",item:"game:package/glowing",Price:{dirt:8b,gold:4b,lapis:5b},Name:'[{"translate":"effect.minecraft.glowing","color": "green","italic": false}," ",{"translate":"item.minecraft.lingering_potion"}]'}
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/power_star",item:"game:item/power_star",Price:{netherite:1b},Name:'[{"translate":"effect.minecraft.glowing","color": "green","italic": false}," ",{"translate":"item.minecraft.lingering_potion"}]'}
+
+data modify storage game:shop random_list append value {icon:"ui:player/random/iron_golem",item:"game:package/iron_golem",Price:{iron:64b},Name:'{"translate":"item.minecraft.iron_golem_spawn_egg","color": "dark_purple","italic": false}'}
+
+data modify storage game:shop random_list append value {icon:"ui:player/random/snow_golem",item:"game:package/snow_golem",Price:{copper:24b},Name:'{"translate":"item.minecraft.snow_golem_spawn_egg","color": "green","italic": false}'}

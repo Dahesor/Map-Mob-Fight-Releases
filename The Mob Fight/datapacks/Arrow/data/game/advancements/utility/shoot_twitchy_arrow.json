@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "shoot":{
+            "trigger": "shot_crossbow",
+            "conditions": {
+                "player": {
+                    "effects": {
+                        "unluck": {
+                            "duration": {
+                                "min": 10
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:player/effects/twitchy/trigger"
+    }
+}

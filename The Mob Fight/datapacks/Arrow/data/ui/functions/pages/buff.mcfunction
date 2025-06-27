@@ -1,6 +1,9 @@
 function ui:null
 function game:plugin/score_copy
 item replace entity @s enderchest.0 with red_stained_glass_pane{UISpaceHolder:1b,CustomModelData:1,display:{Name:'{"translate": "...","color":"gray"}'}}
+item replace entity @s enderchest.9 with barrier{ui:{id:"back",sound:"click"},CustomModelData:1,display:{Name:'{"translate":"返回","color": "red","italic": false}'}}
+item replace entity @s enderchest.18 with red_stained_glass_pane{UISpaceHolder:1b,CustomModelData:1,display:{Name:'{"translate": "...","color":"gray"}'}}
+
 loot replace entity @s enderchest.1 loot ui:buff/flag
 item replace entity @s enderchest.2 with book{ui:{id:"need_tcho"},CustomModelData:110,display:{Name:'{"translate":"失明轰炸","color": "red","italic": false}',Lore:['""','{"translate":"对敌方进行","color": "gray","italic": false}','{"translate":"失明药水轰炸！","color": "gray","italic": false}','{"translate":"need_tcho"}','{"translate":"magic_occult","with":[" II"],"color": "gray","italic": false}','{"translate":"locked"}']}}
 execute if score magic_occult calculator matches 2.. run item modify entity @s enderchest.2 ui:buff/blindness_attack
@@ -11,18 +14,18 @@ execute if score game Data matches 0 run item replace entity @s enderchest.3 wit
 loot replace entity @s enderchest.4 loot ui:buff/speedy
 loot replace entity @s enderchest.5 loot ui:buff/no_nausea
 loot replace entity @s enderchest.8 loot ui:buff/glowing
-item replace entity @s enderchest.9 with barrier{ui:{id:"back",sound:"click"},CustomModelData:1,display:{Name:'{"translate":"返回","color": "red","italic": false}'}}
-loot replace entity @s enderchest.11 loot ui:buff/creeper_strom
-loot replace entity @s enderchest.13 loot ui:buff/upgrade_beam
-execute unless score GameMode Data matches 4 run loot replace entity @s enderchest.14 loot ui:buff/trade
-item replace entity @s enderchest.16 with ender_chest{CustomModelData:1,display:{Name:'{"translate":"shop.shop_additions","color": "red","italic": false}',Lore:['""','{"translate":"在地图各处额外放置","color": "gray","italic": false}','{"translate":"3个末影箱","color": "gray","italic": false}','{"translate":"使你更便捷地打开商店","color": "gray","italic": false}','""','{"translate":"need_tcho"}','{"translate":"society_populate","with":[" II"],"color": "gray","italic": false}','""','{"translate":"locked"}']},ui:{id:'need_tcho'}}
-execute if score society_populate calculator matches 2.. run item replace entity @s enderchest.16 with ender_chest{CustomModelData:1,ui:{id:16b},display:{Name:'{"translate":"shop.shop_additions","color": "green","italic": false}',Lore:['""','{"translate":"在地图各处额外放置","color": "gray","italic": false}','{"translate":"3个末影箱","color": "gray","italic": false}','{"translate":"使你更便捷地打开商店","color": "gray","italic": false}','""','{"translate":"price"}','{"translate":"dirt","with":["§a24"]}','{"translate":"copper","with":["§a5"]}','{"translate":"gold","with":["§a16"]}','{"translate":"点击购买","color": "yellow","italic": false}']}}
-execute if score additional_shop calculator matches 1.. run item replace entity @s enderchest.16 with ender_chest{CustomModelData:1,UISpaceHolder:1b,display:{Name:'{"translate":"shop.shop_additions","color": "green","italic": false}',Lore:['""','{"translate":"在地图各处额外放置","color": "gray","italic": false}','{"translate":"3个末影箱","color": "gray","italic": false}','{"translate":"使你更便捷地打开商店","color": "gray","italic": false}','""','{"translate":"已经购买","color": "gold","italic": false}']}}
-execute if score game Data matches 0 run item replace entity @s enderchest.16 with ender_chest{CustomModelData:1,UISpaceHolder:1b,display:{Name:'{"translate":"shop.shop_additions","color": "green","italic": false}',Lore:['""','{"translate":"在地图各处额外放置","color": "gray","italic": false}','{"translate":"3个末影箱","color": "gray","italic": false}','{"translate":"使你更便捷地打开商店","color": "gray","italic": false}','""','{"translate":"price"}','{"translate":"dirt","with":["§a24"]}','{"translate":"copper","with":["§a5"]}','{"translate":"gold","with":["§a16"]}','{"translate":"info.shop_preview","color": "gray","italic": false}']}}
-item replace entity @s enderchest.18 with red_stained_glass_pane{UISpaceHolder:1b,CustomModelData:1,display:{Name:'{"translate": "...","color":"gray"}'}}
+loot replace entity @s enderchest.10 loot ui:buff/creeper_strom
+loot replace entity @s enderchest.16 loot ui:buff/upgrade_beam
+execute unless score GameMode Data matches 4 run loot replace entity @s enderchest.11 loot ui:buff/trade
+item replace entity @s enderchest.17 with ender_chest{CustomModelData:1,display:{Name:'{"translate":"shop.shop_additions","color": "red","italic": false}',Lore:['""','{"translate":"在地图各处额外放置","color": "gray","italic": false}','{"translate":"3个末影箱","color": "gray","italic": false}','{"translate":"使你更便捷地打开商店","color": "gray","italic": false}','""','{"translate":"need_tcho"}','{"translate":"society_populate","with":[" II"],"color": "gray","italic": false}','""','{"translate":"locked"}']},ui:{id:'need_tcho'}}
+execute if score society_populate calculator matches 2.. run item replace entity @s enderchest.17 with ender_chest{CustomModelData:1,ui:{id:16b},display:{Name:'{"translate":"shop.shop_additions","color": "green","italic": false}',Lore:['""','{"translate":"在地图各处额外放置","color": "gray","italic": false}','{"translate":"3个末影箱","color": "gray","italic": false}','{"translate":"使你更便捷地打开商店","color": "gray","italic": false}','""','{"translate":"price"}','{"translate":"dirt","with":["§a24"]}','{"translate":"copper","with":["§a5"]}','{"translate":"gold","with":["§a16"]}','{"translate":"点击购买","color": "yellow","italic": false}']}}
+execute if score additional_shop calculator matches 1.. run item replace entity @s enderchest.17 with ender_chest{CustomModelData:1,UISpaceHolder:1b,display:{Name:'{"translate":"shop.shop_additions","color": "green","italic": false}',Lore:['""','{"translate":"在地图各处额外放置","color": "gray","italic": false}','{"translate":"3个末影箱","color": "gray","italic": false}','{"translate":"使你更便捷地打开商店","color": "gray","italic": false}','""','{"translate":"已经购买","color": "gold","italic": false}']}}
+execute if score game Data matches 0 run item replace entity @s enderchest.17 with ender_chest{CustomModelData:1,UISpaceHolder:1b,display:{Name:'{"translate":"shop.shop_additions","color": "green","italic": false}',Lore:['""','{"translate":"在地图各处额外放置","color": "gray","italic": false}','{"translate":"3个末影箱","color": "gray","italic": false}','{"translate":"使你更便捷地打开商店","color": "gray","italic": false}','""','{"translate":"price"}','{"translate":"dirt","with":["§a24"]}','{"translate":"copper","with":["§a5"]}','{"translate":"gold","with":["§a16"]}','{"translate":"info.shop_preview","color": "gray","italic": false}']}}
+
 loot replace entity @s enderchest.19 loot ui:buff/sharpness
 loot replace entity @s enderchest.20 loot ui:buff/sweep
-loot replace entity @s enderchest.21 loot ui:buff/efficiency
-loot replace entity @s enderchest.22 loot ui:buff/proj_protection
-loot replace entity @s enderchest.23 loot ui:buff/blast_protection
-loot replace entity @s enderchest.24 loot ui:buff/power
+loot replace entity @s enderchest.21 loot ui:buff/power
+loot replace entity @s enderchest.22 loot ui:buff/efficiency
+loot replace entity @s enderchest.23 loot ui:buff/protection
+loot replace entity @s enderchest.24 loot ui:buff/proj_protection
+loot replace entity @s enderchest.25 loot ui:buff/blast_protection

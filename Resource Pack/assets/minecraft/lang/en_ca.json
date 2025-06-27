@@ -2,5 +2,7 @@
     "effect.minecraft.bad_omen": "Heal Cooldown",
     "effect.minecraft.hero_of_the_village": "§4Blessing from God",
     "container.enderchest": "§5Shop",
-    "death.attack.freeze": "%1$s is froze to death by %2$s"
+    "death.attack.freeze": "%1$s is froze to death by %2$s",
+    "effect.minecraft.luck":"Heartache",
+    "effect.minecraft.unluck":"Twitchy"
 }

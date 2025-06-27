@@ -43,6 +43,11 @@
                         },
                         {
                             "type": "loot_table",
+                            "name": "game:item/ravager",
+                            "weight": 70
+                        },
+                        {
+                            "type": "loot_table",
                             "name": "game:item/smite_sword",
                             "weight": 70
                         },

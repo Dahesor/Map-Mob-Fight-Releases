@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "luck": {
+                "amplifier": {
+                    "max": 4
+                },
+                "duration": {
+                    "min": 3000
+                }
+            }
+        }
+    }
+}

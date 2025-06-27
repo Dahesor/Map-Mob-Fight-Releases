@@ -15,7 +15,7 @@ execute if entity @s[team=red] run scoreboard players operation pigmanSlaves cal
 execute if entity @s[team=red] run scoreboard players operation no_nausea calculator = no_nausea red
 execute if entity @s[team=red] run scoreboard players operation techNetherite calculator = techNetherite red
 execute if entity @s[team=red] run scoreboard players operation creeperStorm calculator = creeperStorm red
-execute if entity @s[team=red]
+execute if entity @s[team=red] run scoreboard players operation protection calculator = protection red
 execute if entity @s[team=red]
 
 
@@ -36,7 +36,7 @@ execute if entity @s[team=blue] run scoreboard players operation pigmanSlaves ca
 execute if entity @s[team=blue] run scoreboard players operation no_nausea calculator = no_nausea blue
 execute if entity @s[team=blue] run scoreboard players operation techNetherite calculator = techNetherite blue
 execute if entity @s[team=blue] run scoreboard players operation creeperStorm calculator = creeperStorm blue
-execute if entity @s[team=blue]
+execute if entity @s[team=blue] run scoreboard players operation protection calculator = protection blue
 execute if entity @s[team=blue]
 
 execute if score game Data matches 0 run function developer:max_techno

@@ -16,3 +16,7 @@ data modify block -36 44 -28 Items[{}].tag merge value {isGameRes:2b,CanDestroy:
 data modify block -36 44 -28 Items[{id:"minecraft:rotten_flesh"}].tag set value {CanDestroy:['#game:breakable'],HideFlags:12}
 data modify block -36 44 -20 Items[{}].tag merge value {isGameRes:2b,CanDestroy:['#game:breakable'],HideFlags:12}
 data modify block -36 44 -20 Items[{id:"minecraft:rotten_flesh"}].tag set value {CanDestroy:['#game:breakable'],HideFlags:12}
+fill -38 64 0 -38 62 0 polished_diorite
+fill -38 65 1 -38 67 1 polished_diorite
+fill 38 64 -1 38 62 -1 polished_diorite
+fill 38 65 -2 38 67 -2 polished_diorite

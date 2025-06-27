@@ -29,5 +29,6 @@ tag @s remove using_UpRocket_3
 tag @a remove shop.left.limit
 tag @a remove shop.right.limit
 attribute @s generic.attack_speed base set 4.3
+attribute @s generic.max_health base set 20
 tag @s remove returning
 tellraw @s [{"translate": "chat.head.game","color": "red"}," ",{"translate":"info.last_game_ended"}]

@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
 		"particle": "block/anvil",
@@ -7,7 +6,6 @@
 	},
 	"elements": [
 		{
-			"name": "Anvil base",
 			"from": [2, 0, 2],
 			"to": [14, 4, 14],
 			"faces": {
@@ -20,7 +18,6 @@
 			}
 		},
 		{
-			"name": "Lower narrow portion",
 			"from": [4, 4, 3],
 			"to": [12, 5, 13],
 			"faces": {
@@ -32,7 +29,6 @@
 			}
 		},
 		{
-			"name": "Wider section beneath top portion",
 			"from": [6, 5, 4],
 			"to": [10, 10, 12],
 			"faces": {
@@ -43,7 +39,6 @@
 			}
 		},
 		{
-			"name": "Anvil top",
 			"from": [3, 10, 0],
 			"to": [13, 16, 16],
 			"faces": {

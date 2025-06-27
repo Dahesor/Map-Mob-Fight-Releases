@@ -17,13 +17,6 @@ execute if score @s calculator matches 1.. run function ui:actions/buff/glowing
 
 execute store result score @s calculator run clear @s #ui:buttons{ui:{id:'creeper_storm'}}
 execute if score @s calculator matches 1.. run function ui:actions/buff/creeper_storm
-
-#execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"harvest"}}
-#execute if score @s calculator matches 1.. run function ui:actions/buff/harvest_level
-#execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"new_crystal"}}
-#execute if score @s calculator matches 1.. run function ui:actions/buff/new_crystal
-#execute store result score @s calculator run clear @s #ui:buttons{ui:{id:89b}}
-#execute if score @s calculator matches 1.. run function ui:actions/buff/pigman_slave
 execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"upgrade_beam"}}
 execute if score @s calculator matches 1.. run function ui:actions/buff/upgrade_beam
 execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"trade"}}
@@ -46,3 +39,5 @@ execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"blast_
 execute if score @s calculator matches 1.. run function ui:actions/buff/blast_protection
 execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"power"}}
 execute if score @s calculator matches 1.. run function ui:actions/buff/power
+execute store result score @s calculator run clear @s #ui:buttons{ui:{id:"protection"}}
+execute if score @s calculator matches 1.. run function ui:actions/buff/protection

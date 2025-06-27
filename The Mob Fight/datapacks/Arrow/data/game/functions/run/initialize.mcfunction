@@ -13,6 +13,9 @@ kill @e[type=zombified_piglin]
 kill @e[tag=crystal_marker]
 kill @e[type=marker,tag=mine]
 kill @e[type=item_display,tag=mine]
+effect clear @a luck
+effect clear @a unluck
+execute as @a run attribute @s generic.max_health base set 20
 #reset scores
 scoreboard players add gameID Data 1
 scoreboard players operation @a lastGame = gameID Data
@@ -47,6 +50,8 @@ scoreboard players set proj_protection red 0
 scoreboard players set proj_protection blue 0
 scoreboard players set power red 0
 scoreboard players set power blue 0
+scoreboard players set protection red 0
+scoreboard players set protection blue 0
 scoreboard players set magic_occult red 0
 scoreboard players set magic_occult blue 0
 scoreboard players set science_techno red 0
@@ -198,6 +203,7 @@ gamemode adventure @a
 effect give @a hero_of_the_village 30 0 false
 execute if score GameMode Data matches 3..4 run effect give @a resistance 180 10 true
 effect give @a resistance 10 10 true
+effect give @a instant_health 5 5 true
 function game:topbar/refresh
 bossbar set top:single name {"text": "Start!","color": "yellow"}
 bossbar set top:single color white

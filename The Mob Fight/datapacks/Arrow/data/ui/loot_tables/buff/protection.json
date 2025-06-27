@@ -1,0 +1,564 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection","color": "gold","italic": false}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"最高等级！","color": "gray","italic": false}
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{UISpaceHolder:1b,CustomModelData:65}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "protection"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 4
+                                    }
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection.level","color": "green","italic": false,"with": [
+                                        {
+                                            "text": "§dIV"
+                                        }
+                                    ]}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"enchant.protection.1","color": "gray","italic": false,"with": [
+                                            {
+                                                "text": "IV"
+                                            }
+                                        ]},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 64"
+                                            }
+                                        ]},
+                                        {"translate":"netherite","with": [
+                                            {
+                                                "text": "§a 1"
+                                            }
+                                        ]},
+                                        {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'protection'},CustomModelData:64}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "magic_occult"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 3
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "science_techno"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "society_populate"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "protection"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 3
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection.level","color": "red","italic": false,"with": [
+                                        {
+                                            "text": "IV"
+                                        }
+                                    ]}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"enchant.protection.1","color": "gray","italic": false,"with": [
+                                            {
+                                                "text": "IV"
+                                            }
+                                        ]},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " III"
+                                            }
+                                        ]},
+                                        {"translate":"science_techno","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " II"
+                                            }
+                                        ]},
+                                        {"translate":"society_populate","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " II"
+                                            }
+                                        ]},
+                                        "",
+                                        {
+                                            "translate":"locked"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'need_tcho'},CustomModelData:64}"
+                                }
+                            ],
+                            "conditions": [{
+                                "condition": "value_check",
+                                "value": {
+                                    "type": "score",
+                                    "target": {"type": "fixed","name": "protection"},
+                                    "score": "calculator"
+                                },
+                                "range": {
+                                    "min" : 3
+                                }
+                            }]
+                        },
+
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection.level","color": "green","italic": false,"with": [
+                                        {
+                                            "text": "§dIII"
+                                        }
+                                    ]}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"enchant.protection.1","color": "gray","italic": false,"with": [
+                                            {
+                                                "text": "III"
+                                            }
+                                        ]},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 32"
+                                            }
+                                        ]},
+                                        {"translate":"copper","with": [
+                                            {
+                                                "text": "§a 24"
+                                            }
+                                        ]},
+                                        {"translate":"iron","with": [
+                                            {
+                                                "text": "§a 24"
+                                            }
+                                        ]},
+                                        {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'protection'},CustomModelData:63}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "magic_occult"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 3
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "protection"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection.level","color": "red","italic": false,"with": [
+                                        {
+                                            "text": "III"
+                                        }
+                                    ]}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"enchant.protection.1","color": "gray","italic": false,"with": [
+                                            {
+                                                "text": "III"
+                                            }
+                                        ]},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " III"
+                                            }
+                                        ]},
+                                        "",
+                                        {
+                                            "translate":"locked"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'need_tcho'},CustomModelData:63}"
+                                }
+                            ],
+                            "conditions": [{
+                                "condition": "value_check",
+                                "value": {
+                                    "type": "score",
+                                    "target": {"type": "fixed","name": "protection"},
+                                    "score": "calculator"
+                                },
+                                "range": {
+                                    "min" : 2
+                                }
+                            }]
+                        },
+
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection.level","color": "green","italic": false,"with": [
+                                        {
+                                            "text": "§dII"
+                                        }
+                                    ]}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"enchant.protection.1","color": "gray","italic": false,"with": [
+                                            {
+                                                "text": "II"
+                                            }
+                                        ]},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 20"
+                                            }
+                                        ]},
+                                        {"translate":"copper","with": [
+                                            {
+                                                "text": "§a 16"
+                                            }
+                                        ]},
+                                        {"translate":"iron","with": [
+                                            {
+                                                "text": "§a 16"
+                                            }
+                                        ]},
+                                        {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'protection'},CustomModelData:62}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "magic_occult"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 2
+                                    }
+                                },
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "protection"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" : 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection.level","color": "red","italic": false,"with": [
+                                        {
+                                            "text": "II"
+                                        }
+                                    ]}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"enchant.protection.1","color": "gray","italic": false,"with": [
+                                            {
+                                                "text": "II"
+                                            }
+                                        ]},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " II"
+                                            }
+                                        ]},
+                                        "",
+                                        {
+                                            "translate":"locked"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'need_tcho'},CustomModelData:62}"
+                                }
+                            ],
+                            "conditions": [{
+                                "condition": "value_check",
+                                "value": {
+                                    "type": "score",
+                                    "target": {"type": "fixed","name": "protection"},
+                                    "score": "calculator"
+                                },
+                                "range": {
+                                    "min" : 1
+                                }
+                            }]
+                        },
+
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection.level","color": "green","italic": false,"with": [
+                                        {
+                                            "text": "§dI"
+                                        }
+                                    ]}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"enchant.protection.1","color": "gray","italic": false,"with": [
+                                            {
+                                                "text": "I"
+                                            }
+                                        ]},
+                                        "",
+                                        {"translate":"price"},
+                                        {"translate":"dirt","with": [
+                                            {
+                                                "text": "§a 8"
+                                            }
+                                        ]},
+                                        {"translate":"copper","with": [
+                                            {
+                                                "text": "§a 4"
+                                            }
+                                        ]},
+                                        {"translate":"iron","with": [
+                                            {
+                                                "text": "§a 4"
+                                            }
+                                        ]},
+                                        {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'protection'},CustomModelData:61}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {"type": "fixed","name": "magic_occult"},
+                                        "score": "calculator"
+                                    },
+                                    "range": {
+                                        "min" :1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "book",
+                            "functions": [
+                                {
+                                    "function": "set_name",
+                                    "entity": "this",
+                                    "name": [{"translate":"enchant.protection.level","color": "red","italic": false,"with": [
+                                        {
+                                            "text": "I"
+                                        }
+                                    ]}]
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "entity": "this",
+                                    "lore": [
+                                        "",
+                                        {"translate":"enchant.protection.1","color": "gray","italic": false,"with": [
+                                            {
+                                                "text": "I"
+                                            }
+                                        ]},
+                                        "",
+                                        {"translate":"need_tcho"},
+                                        {"translate":"magic_occult","color":"gray","italic":false,"with": [
+                                            {
+                                                "text": " I"
+                                            }
+                                        ]},
+                                        "",
+                                        {
+                                            "translate":"locked"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{ui:{id:'need_tcho'},CustomModelData:61}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

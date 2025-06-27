@@ -56,11 +56,14 @@ execute if predicate game:arrows/magic/posion_wizard run function game:arrows/mo
 execute if predicate game:arrows/magic/tp_wizard run function game:arrows/mobs/magic/tp_wizard
 execute if predicate game:arrows/magic/wind_wizard run function game:arrows/mobs/magic/wind_wizard
 execute if predicate game:arrows/magic/water_wizard run function game:arrows/mobs/magic/water_wizard
+execute if predicate game:arrows/magic/wounding_wizard run function game:arrows/mobs/magic/wounding_wizard
+execute if predicate game:arrows/magic/twitching_wizard run function game:arrows/mobs/magic/twitching_wizard
 execute if predicate game:arrows/nether/blaze run function game:arrows/mobs/nether/blaze
 execute if predicate game:arrows/nether/zoglin run function game:arrows/mobs/nether/zoglin
 execute if predicate game:arrows/nether/fire_ice run function game:arrows/mobs/combined/ice_fire
 execute if predicate game:arrows/misc/silverfish_powder run function game:arrows/mobs/misc/silverfish_powder
 execute if predicate game:arrows/misc/guardian run function game:arrows/mobs/misc/guardian
+execute if predicate game:arrows/misc/castle run function game:arrows/mobs/misc/castle
 execute if predicate game:arrows/misc/pusher run function game:arrows/mobs/misc/pusher
 execute if predicate game:arrows/misc/flager run function game:arrows/mobs/misc/banner
 execute if predicate game:arrows/misc/enchant run function game:arrows/mobs/misc/enchant
@@ -70,6 +73,7 @@ execute if predicate game:arrows/illagers/pillager run function game:arrows/mobs
 execute if predicate game:arrows/illagers/vindicator run function game:arrows/mobs/illagers/vindicator
 execute if predicate game:arrows/illagers/illusioner run function game:arrows/mobs/illagers/illusioner
 execute if predicate game:arrows/illagers/evoker run function game:arrows/mobs/illagers/evoker
+execute if predicate game:arrows/illagers/ravager run function game:arrows/mobs/illagers/ravager
 execute if predicate game:arrows/goldlikes/ball_invit run function game:arrows/mobs/goldlikes/ball_invit
 execute if predicate game:arrows/goldlikes/mg run function game:arrows/mobs/goldlikes/mg
 execute if predicate game:arrows/goldlikes/dancer run function game:arrows/mobs/goldlikes/dancer
@@ -77,7 +81,6 @@ execute if predicate game:arrows/goldlikes/becon run function game:arrows/mobs/g
 execute if predicate game:arrows/effects/tnt run function game:arrows/effects/tnt
 execute if predicate game:arrows/effects/tnt_auto run function game:arrows/effects/tnt_auto
 execute if predicate game:arrows/effects/tnt_fountain run function game:arrows/effects/tnt_fountain
-
 execute if predicate game:arrows/misc/infinate_zombie run function game:arrows/special/infinate_zombie
 
 function #custom:arrows

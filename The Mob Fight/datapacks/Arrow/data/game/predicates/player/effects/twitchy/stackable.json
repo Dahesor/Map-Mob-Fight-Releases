@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "unluck": {
+                "amplifier": {
+                    "max": 3
+                },
+                "duration": {
+                    "min": 1800
+                }
+            }
+        }
+    }
+}

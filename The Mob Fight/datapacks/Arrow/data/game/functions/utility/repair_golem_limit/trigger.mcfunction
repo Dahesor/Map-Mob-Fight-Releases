@@ -1,0 +1,2 @@
+advancement revoke @s only game:utility/repair_golem
+execute anchored eyes unless function game:utility/repair_golem_limit/get_golem as @e[type=iron_golem,limit=1,sort=nearest] at @s run function game:utility/repair_golem_limit/damage_max

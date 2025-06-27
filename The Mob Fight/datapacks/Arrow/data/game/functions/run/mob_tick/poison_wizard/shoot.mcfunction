@@ -1,6 +1,6 @@
 #define tag poison_magic
 
-summon snowball ^ ^ ^0.5 {NoGravity:1b,Tags:["poison_magic","new_temp","ticking","snowball_parent"],LeftOwner:0b,Item:{id:"slime_block",Count:1b,tag:{Enchantments:[{}]}}}
+summon snowball ^ ^ ^0.5 {NoGravity:1b,Tags:["poison_magic","new_temp","ticking","snowball_parent"],LeftOwner:0b,Item:{id:"slime_block",Count:1b,tag:{Enchantments:[{}]}},Passengers:[{id:"marker",Tags:["del","poison_magic","ticking","snowball_child"],CustomName:'{"translate":"arrow.posion_wizard","color":"gold"}'}]}
 data modify entity @e[type=snowball,tag=poison_magic,limit=1,tag=new_temp] Owner set from entity @s UUID
 execute as @e[tag=poison_magic,tag=new_temp,type=snowball] store result score @s match run data get entity @s UUID[0]
 

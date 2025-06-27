@@ -79,6 +79,13 @@
             "enchantments": {
                 "binding_curse":1
             }
+        },
+        {
+             "function": "set_enchantments",
+             "add": true,
+             "enchantments": {
+                 "protection": {"type": "score","score": "calculator","target": {"type": "fixed","name": "protection"}}
+             }
         }
     ]
 }

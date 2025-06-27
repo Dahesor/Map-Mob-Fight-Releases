@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "repair":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "iron_golem"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:utility/repair_golem_limit/trigger"
+    }
+}

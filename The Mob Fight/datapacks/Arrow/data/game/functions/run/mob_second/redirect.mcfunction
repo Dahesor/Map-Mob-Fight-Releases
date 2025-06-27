@@ -6,3 +6,4 @@ execute if entity @s[tag=crazy_mode_mob] if score @s genericCD matches 30.. run 
 execute if entity @s[tag=mine,type=marker] at @s run function game:player/warped_stick/mine/particle
 execute if entity @s[tag=mob.lifer] at @s positioned ~ ~1.5 ~ run function game:run/mob_second/lifer/lifer
 execute if entity @s[tag=heal_trident] at @s run function game:player/specials/trident/ticker
+execute if entity @s[tag=golem_egg] at @s run function game:utility/repair_golem_limit/overtime

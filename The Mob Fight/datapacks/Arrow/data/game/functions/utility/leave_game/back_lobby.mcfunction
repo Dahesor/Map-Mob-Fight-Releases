@@ -5,3 +5,4 @@ gamemode adventure
 effect clear @s
 tag @a remove shop.left.limit
 tag @a remove shop.right.limit
+attribute @s generic.max_health base set 20

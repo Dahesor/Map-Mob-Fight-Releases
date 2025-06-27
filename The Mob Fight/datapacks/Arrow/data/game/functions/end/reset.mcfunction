@@ -4,6 +4,9 @@ tp @a[team=red] @e[type=marker,limit=1,tag=red_spawn]
 tp @a[team=blue] @e[type=marker,limit=1,tag=blue_spawn]
 tp @a[tag=spectator] 0.50 58.5 110.5 -180.00 0.0
 tag @a add returning
+effect clear @a unluck
+effect clear @a luck
+execute as @a run attribute @s generic.max_health base set 20
 function game:end/count_down/force_stop
 title @a times 5 30 10
 title @a title {"text": "Game Over","color": "red","bold": false}
@@ -68,6 +71,8 @@ scoreboard players set sharpness red 0
 scoreboard players set sharpness blue 0
 scoreboard players set sweep red 0
 scoreboard players set sweep blue 0
+scoreboard players set protection red 0
+scoreboard players set protection blue 0
 scoreboard players set efficiency red 0
 scoreboard players set efficiency blue 0
 scoreboard players set blast_protection red 0

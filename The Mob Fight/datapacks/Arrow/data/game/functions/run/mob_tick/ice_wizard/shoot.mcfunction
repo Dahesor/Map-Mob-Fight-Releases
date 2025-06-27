@@ -2,7 +2,7 @@
 #define tag snowball_parent
 #define tag snowball_child
 
-summon snowball ^ ^ ^0.5 {NoGravity:1b,Tags:["ice_magic","new_temp","ticking","snowball_parent"],LeftOwner:0b,Item:{id:"packed_ice",Count:1b,tag:{Enchantments:[{}]}}}
+summon snowball ^ ^ ^0.5 {NoGravity:1b,Tags:["ice_magic","new_temp","ticking","snowball_parent"],LeftOwner:0b,Item:{id:"packed_ice",Count:1b,tag:{Enchantments:[{}]}},Passengers:[{id:"marker",Tags:["del","ice_magic","ticking","snowball_child"],CustomName:'{"translate":"arrow.ice_wizard","color":"gold"}'}]}
 data modify entity @e[type=snowball,tag=ice_magic,limit=1,tag=new_temp] Owner set from entity @s UUID
 execute as @e[tag=ice_magic,tag=new_temp,type=snowball] store result score @s match run data get entity @s UUID[0]
 

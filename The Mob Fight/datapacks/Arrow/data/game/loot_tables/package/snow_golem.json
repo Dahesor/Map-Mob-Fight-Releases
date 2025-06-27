@@ -1,0 +1,25 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "snow_golem_spawn_egg"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{CanDestroy:[\"#game:breakable\"],HideFlags:255,CanPlaceOn:['#everything'],EntityTag:{id:\"snow_golem\",CustomName:'{\"translate\": \"entity.minecraft.snow_golem\"}',Tags:['del','ticking','snow_golem'],Attributes:[{Name:'generic.max_health',Base:40.0d}],Health:40.0f}}"
+        },
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {"translate":"item.minecraft.snow_golem_spawn_egg","color": "green","italic": false}
+        }
+    ]
+}

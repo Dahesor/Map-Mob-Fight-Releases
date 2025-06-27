@@ -1,0 +1,2 @@
+summon ravager ~ 85 ~ {active_effects:[{id:"slow_falling",amplifier:0b,duration:400,show_particles:1b,show_icon:0b,ambient:0b}],Passengers:[{id:"item_display",Tags:["del","ticking","need_vehicle"],Passengers:[{id:"pillager",HandItems:[{id:"crossbow",Count:1b},{}],Passengers:[{id:"item_display",Tags:["del","ticking","need_vehicle"],Passengers:[{id:"pillager",HandItems:[{id:"crossbow",Count:1b},{}]}]}]}]}]}
+kill @s

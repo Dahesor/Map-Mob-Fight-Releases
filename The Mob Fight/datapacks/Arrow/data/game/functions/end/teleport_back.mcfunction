@@ -28,3 +28,4 @@ scoreboard players set @a lastGame -1
 gamemode adventure @a
 clear @a
 execute as @a run function ui:actions/mainpage/anchor
+execute as @a run damage @s 1 generic_kill

@@ -8,6 +8,7 @@ data modify storage run map.displayName set value '{"translate":"map.classic"}'
 data modify storage run map.ore.red set from storage map:data classic.ore.red
 data modify storage run map.ore.blue set from storage map:data classic.ore.blue
 data modify storage run map.loadCommand set value "function map:classic/initialize"
+data modify storage run map.tickCommand set value "function map:classic/tick"
 data modify storage run map.shopPos set value {red:{Pos:[28d,68d,-12d],facing:"east",Additions:[{Pos:[34d,62d,-25d],facing:"west"},{Pos:[27d,46d,-3d],facing:"west"},{Pos:[22d,74d,22d],facing:"west"}]},blue:{Pos:[-28d,68d,11d],facing:"west",Additions:[{Pos:[-34d,62d,24d],facing:"east"},{Pos:[-27d,46d,2d],facing:"east"},{Pos:[-22d,74d,-23d],facing:"east"}]}}
 data modify storage run map.dirt.red set from storage map:data classic.dirt.red
 data modify storage run map.dirt.blue set from storage map:data classic.dirt.blue

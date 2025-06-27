@@ -1,0 +1,1 @@
+execute if score #loop_20 calculator matches 13 as @a[gamemode=adventure] at @s positioned ~ ~-0.1 ~ if block ~ ~ ~ #campfires run damage @s 4 generic_kill

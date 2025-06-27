@@ -26,6 +26,6 @@ data modify storage game:shop random_list append value {icon:"ui:player/random/g
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/power_star",item:"game:item/power_star",Price:{netherite:1b},Name:'[{"translate":"effect.minecraft.glowing","color": "green","italic": false}," ",{"translate":"item.minecraft.lingering_potion"}]'}
 
-data modify storage game:shop random_list append value {icon:"ui:player/random/iron_golem",item:"game:package/iron_golem",Price:{iron:64b},Name:'{"translate":"item.minecraft.iron_golem_spawn_egg","color": "dark_purple","italic": false}'}
+data modify storage game:shop random_list append value {icon:"ui:player/random/iron_golem",item:"game:package/iron_golem",Price:{iron:48b},Name:'{"translate":"item.minecraft.iron_golem_spawn_egg","color": "dark_purple","italic": false}'}
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/snow_golem",item:"game:package/snow_golem",Price:{copper:24b},Name:'{"translate":"item.minecraft.snow_golem_spawn_egg","color": "green","italic": false}'}

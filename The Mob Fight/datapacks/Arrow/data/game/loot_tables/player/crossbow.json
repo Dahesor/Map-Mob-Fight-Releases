@@ -26,16 +26,6 @@
         {
             "function": "set_enchantments",
             "enchantments": {
-                "quick_charge" : {
-                    "type": "score",
-                    "target": "this",
-                    "score": "crossbow"
-                }
-            }
-        },
-        {
-            "function": "set_enchantments",
-            "enchantments": {
                 "power" : {
                     "type": "score",
                     "target": {
@@ -43,12 +33,12 @@
                         "name": "power"
                     },
                     "score": "calculator"
-                }
-            }
-        },
-        {
-            "function": "set_enchantments",
-            "enchantments": {
+                },
+                "quick_charge" : {
+                    "type": "score",
+                    "target": "this",
+                    "score": "crossbow"
+                },
                 "piercing": 10
             }
         }

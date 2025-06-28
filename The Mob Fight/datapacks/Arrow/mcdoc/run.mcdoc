@@ -15,6 +15,18 @@ dispatch arrow:run["bossbar"] to struct{
     new?: int,
 }
 
+dispatch arrow:run["test"] to struct{
+    ///Can see it?
+    #[until="1.20.2"]
+	Effects?: int,
+    ///Can see it?
+	#[since="1.20.2"] #[until="1.20.5"]
+	effects?: int,
+    ///Can see it?
+	#[since="1.20.5"]
+    test?: int,
+}
+
 dispatch arrow:run["BackupRandom"] to [RandomEntry]
 dispatch arrow:run["parse"] to struct{
     in?: (Text|#[text_component] string),

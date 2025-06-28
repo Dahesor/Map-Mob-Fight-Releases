@@ -64,5 +64,7 @@ scoreboard players operation $sum calculator += #holder calculator
 
 scoreboard players operation attack_cost blue = $sum calculator
 scoreboard players operation attack_cost blue -= dev_cost blue
+execute if score attack_cost red matches ..0 run scoreboard players set attack_cost red 0
+execute if score attack_cost blue matches ..0 run scoreboard players set attack_cost blue 0
 scoreboard players operation total_hold blue = total_eco blue
 scoreboard players operation total_hold blue -= $sum calculator

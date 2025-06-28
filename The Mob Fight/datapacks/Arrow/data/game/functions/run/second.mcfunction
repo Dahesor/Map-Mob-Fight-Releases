@@ -16,8 +16,6 @@ execute unless score debug Data matches 1.. as @a[predicate=map:in_red,team=blue
 effect give @a[gamemode=adventure] haste 2 1 true
 effect clear @a dolphins_grace
 execute as @a unless predicate game:player/effects/validate_glowing run effect clear @s glowing
-execute as @e[tag=intelligent_name] at @s if entity @a[distance=..10] run data merge entity @s {CustomNameVisible:1b}
-execute as @e[tag=intelligent_name] at @s unless entity @a[distance=..10] run data merge entity @s {CustomNameVisible:0b}
 scoreboard players remove absoprtionCooldown red 1
 scoreboard players remove absoprtionCooldown blue 1
 execute if score absoprtionCooldown red matches 0 as @a[scores={UI=70},team=red] run function ui:actions/buff/anchor

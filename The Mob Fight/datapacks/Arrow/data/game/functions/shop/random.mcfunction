@@ -1,6 +1,6 @@
 data modify storage game:shop random_list set value []
 
-data modify storage game:shop random_list append value {icon:"ui:player/random/anti_arrow",item:"game:item/projectile_shield",Price:{lapis:28b,copper:10b},Name:'{"translate":"item.anti_arrow","color": "gold","italic": false}'}
+data modify storage game:shop random_list append value {icon:"ui:player/random/anti_arrow",item:"game:item/projectile_shield",Price:{lapis:18b,copper:10b},Name:'{"translate":"item.anti_arrow","color": "gold","italic": false}'}
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/heal_trident",item:"game:item/heal_trident",Price:{dirt:10b,lapis:14b,diamond:4b},Name:'{"translate":"item.heal_trident","color": "yellow","italic": false}'}
 

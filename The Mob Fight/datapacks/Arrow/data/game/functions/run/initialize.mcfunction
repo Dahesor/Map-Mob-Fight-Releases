@@ -123,22 +123,22 @@ function game:shop/load
 
 
 # place crystals
-summon marker 0 3 0 {Invulnerable:1b,Tags:["red_crystal"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["red_crystal","game_crystal"]}
 data modify entity @e[type=marker,limit=1,sort=nearest,tag=red_crystal] Pos set from storage run map.crystalPos.red[0]
 execute at @e[type=marker,tag=red_crystal] run summon end_crystal ~ ~ ~ {ShowBottom:0b,Invulnerable:1b,Tags:["red_crystal"]}
 kill @e[type=marker,tag=red_crystal]
 
-summon marker 0 3 0 {Invulnerable:1b,Tags:["red_crystal"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["red_crystal","game_crystal"]}
 data modify entity @e[type=marker,limit=1,sort=nearest,tag=red_crystal] Pos set from storage run map.crystalPos.red[1]
 execute at @e[type=marker,tag=red_crystal] run summon end_crystal ~ ~ ~ {ShowBottom:0b,Invulnerable:1b,Tags:["red_crystal"]}
 kill @e[type=marker,tag=red_crystal]
 
-summon marker 0 3 0 {Invulnerable:1b,Tags:["blue_crystal"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["blue_crystal","game_crystal"]}
 data modify entity @e[type=marker,limit=1,sort=nearest,tag=blue_crystal] Pos set from storage run map.crystalPos.blue[0]
 execute at @e[type=marker,tag=blue_crystal] run summon end_crystal ~ ~ ~ {ShowBottom:0b,Invulnerable:1b,Tags:["blue_crystal"]}
 kill @e[type=marker,tag=blue_crystal]
 
-summon marker 0 3 0 {Invulnerable:1b,Tags:["blue_crystal"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["blue_crystal","game_crystal"]}
 data modify entity @e[type=marker,limit=1,sort=nearest,tag=blue_crystal] Pos set from storage run map.crystalPos.blue[1]
 execute at @e[type=marker,tag=blue_crystal] run summon end_crystal ~ ~ ~ {ShowBottom:0b,Invulnerable:1b,Tags:["blue_crystal"]}
 kill @e[type=marker,tag=blue_crystal]

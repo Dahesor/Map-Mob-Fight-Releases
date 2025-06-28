@@ -7,10 +7,10 @@ execute if score #loop_20 calculator matches 10 run function game:run/second
 function game:run/hint/main
 function game:run/resources/ticker
 function game:run/dirt/tick
-function game:run/crystal/ticker
 function game:shop/netherite/checker
 function game:utility/creeper_storm/tick
 function game:run/netherite/villager/tick
+execute as @e[type=end_crystal,tag=game_crystal] at @s run function game:run/crystal/ticker
 execute if score nextRandomItem Data matches -2147483648..2147483647 run function game:shop/random/exe
 execute as @a[tag=!spectator] at @s run function game:player/tick
 execute as @a[gamemode=spectator,tag=spectator] at @s run function lobby:spectator/tick
@@ -34,7 +34,7 @@ execute if score creeperGriefing Options matches 1 as @e[type=creeper,tag=!not_e
 function game:end/time_check
 function game:utility/over_half/check
 function game:end/check/score
-execute as @e[tag=speedy_partical] at @s run function game:plugin/particles/speedy
+execute if function game:plugin/speedy/check_is_on positioned as @e[tag=speedy_partical] run function game:plugin/particles/speedy
 execute as @e[type=area_effect_cloud,tag=!resloved_cloud] at @s run function game:utility/area_cloud_specialize
 
 execute as @e[type=item,nbt={Item:{tag:{isGameMarkerItem:1b},id:"minecraft:debug_stick"}}] at @s run function game:utility/dirt_expander/e

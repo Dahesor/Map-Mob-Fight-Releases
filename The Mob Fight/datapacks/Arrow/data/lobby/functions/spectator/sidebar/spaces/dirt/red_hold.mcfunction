@@ -1,4 +1,4 @@
-data modify storage run menu.eco[1].extra[3] set value {score: {name: "dirt.hold", objective: "blue"},color:"red"}
+data modify storage run menu.eco[1].extra[3] set value {score: {name: "dirt.hold", objective: "red"},color:"red"}
 execute if score dirt.hold red matches ..9 run return run data modify storage run menu.eco[1].extra[4].text set value "    "
 execute if score dirt.hold red matches 10..99 run return run data modify storage run menu.eco[1].extra[4].text set value "   "
 execute if score dirt.hold red matches 100..999 run return run data modify storage run menu.eco[1].extra[4].text set value "  "

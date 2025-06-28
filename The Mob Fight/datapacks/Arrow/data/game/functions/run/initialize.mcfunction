@@ -243,6 +243,8 @@ function game:run/netherite/villager/shuffle
 execute as @a run attribute @s generic.attack_speed base set 4.3
 execute as @a run trigger join_game set 0
 
+data modify storage run log set value {log:[]}
+
 function sidebar.dah:reload
 function lobby:spectator/sidebar/init
 function lobby:spectator/sidebar/update

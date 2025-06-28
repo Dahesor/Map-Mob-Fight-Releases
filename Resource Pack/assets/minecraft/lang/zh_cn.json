@@ -1,7 +1,7 @@
 {
     "effect.minecraft.bad_omen": "瞬间治疗冷却",
     "effect.minecraft.hero_of_the_village": "§4竞技之神的祝福",
-    "map.name": "怪物弓箭大作战 v1.1.0-Beta.3",
+    "map.name": "怪物弓箭大作战 v1.1.0-Beta.4",
     "map.prefix": "怪物弓箭大作战 %s",
     "map.version_hint": "注意，当前游戏版本为%s",
     "map.resource_pack_version": "您使用的资源包版本为%s",
@@ -1217,5 +1217,6 @@
     "menu.eco.dev":"发展花销 (科技+装备+魔咒)",
     "menu.eco.attack":"进攻花销 (怪物+道具+食物)",
     "menu.start":"旁观者面板已启动，在背包中点击配方书",
-    "menu.log":"事件监视器"
+    "menu.log":"事件监视器",
+    "event.kill_award":"敌方玩家死亡，获得资源奖励！"
 }

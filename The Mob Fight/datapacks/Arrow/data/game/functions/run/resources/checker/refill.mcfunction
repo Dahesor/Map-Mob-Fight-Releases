@@ -1,5 +1,3 @@
-#define tag markerOreLinkingTarget
-
 execute as @a[distance=..2] at @s if block ~ ~-0.5 ~ air run tp @s ~ ~0.1 ~
 execute unless entity @s[nbt={data:{deepslate:1b}}] run setblock ~ ~ ~ stone
 execute if entity @s[nbt={data:{deepslate:1b,axis:"x"}}] run setblock ~ ~ ~ deepslate[axis=x]

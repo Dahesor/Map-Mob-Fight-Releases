@@ -1,7 +1,7 @@
 data remove storage run Pay
 data merge storage run {Pay:{diamond:24b,lapis:24b,gold:24b,dirt:64b,netherite:1b}}
 data remove storage run PayName
-data merge storage run {PayName:"creeper_storm"}
+data merge storage run {PayName:{"translate":"闪电苦力怕风暴","color": "dark_red"}}
 
 
 function game:shop/pay/anchor

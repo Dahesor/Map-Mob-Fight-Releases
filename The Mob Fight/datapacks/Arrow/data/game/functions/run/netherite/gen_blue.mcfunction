@@ -5,3 +5,4 @@ execute at @e[tag=blue_netherite,tag=notInitialized,limit=1,sort=nearest,type=ma
 execute at @e[tag=blue_netherite,tag=notInitialized,limit=1,sort=nearest,type=marker] run summon item_display ~ ~0.4 ~ {item:{id:"netherite_ingot",Count:1b},item_display:"ground",Glowing:1b,billboard:"center",glow_color_override:255,view_range:1.5f,Tags:["netherite_glow"]}
 
 kill @e[tag=blue_netherite,tag=notInitialized,type=marker]
+scoreboard players add netherite blue 1

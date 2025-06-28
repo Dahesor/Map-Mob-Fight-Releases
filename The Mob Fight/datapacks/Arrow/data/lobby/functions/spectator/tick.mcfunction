@@ -1,0 +1,1 @@
+function lobby:spectator/menu_checker

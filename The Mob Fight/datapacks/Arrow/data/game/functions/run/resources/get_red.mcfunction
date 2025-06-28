@@ -1,3 +1,4 @@
 execute store result score oreCount red run execute if entity @e[type=marker,nbt={data:{from:"red"}},tag=ore_marker]
+execute if score oreCount red matches 102.. run scoreboard players add oreWaste red 1
 execute unless score oreCount red matches 102.. run function game:run/resources/store_red
 scoreboard players set ore_ticker red -5

@@ -1,0 +1,1 @@
+$data modify storage run time.string set value '$(minute):$(ten)$(second)'

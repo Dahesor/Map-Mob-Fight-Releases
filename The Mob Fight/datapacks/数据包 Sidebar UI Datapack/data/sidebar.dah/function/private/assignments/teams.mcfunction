@@ -1,0 +1,16 @@
+execute if score @s data.sidebar.dah matches 1 run team join sidebar.AQUA.dah @s
+execute if score @s data.sidebar.dah matches 2 run team join sidebar.BLUE.dah @s
+execute if score @s data.sidebar.dah matches 3 run team join sidebar.DARK_AQUA.dah @s
+execute if score @s data.sidebar.dah matches 4 run team join sidebar.DARK_BLUE.dah @s
+execute if score @s data.sidebar.dah matches 5 run team join sidebar.DARK_GRAY.dah @s
+execute if score @s data.sidebar.dah matches 6 run team join sidebar.DARK_GREEN.dah @s
+execute if score @s data.sidebar.dah matches 7 run team join sidebar.DARK_PURPLE.dah @s
+execute if score @s data.sidebar.dah matches 8 run team join sidebar.DARK_RED.dah @s
+execute if score @s data.sidebar.dah matches 9 run team join sidebar.GOLD.dah @s
+execute if score @s data.sidebar.dah matches 10 run team join sidebar.GRAY.dah @s
+execute if score @s data.sidebar.dah matches 11 run team join sidebar.GREEN.dah @s
+execute if score @s data.sidebar.dah matches 12 run team join sidebar.LIGHT_PURPLE.dah @s
+execute if score @s data.sidebar.dah matches 13 run team join sidebar.RED.dah @s
+execute if score @s data.sidebar.dah matches 14 run team join sidebar.WHITE.dah @s
+execute if score @s data.sidebar.dah matches 15 run team join sidebar.YELLOW.dah @s
+execute if score @s data.sidebar.dah matches 16 run team join sidebar.BLACK.dah @s

@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "description": "Data Pack for\n§a\"UI Sidebar\"§6 by Dahesor",
+        "supported_formats": {
+            "min_inclusive": 18,
+            "max_inclusive": 48
+        }
+    }
+}

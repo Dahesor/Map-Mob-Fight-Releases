@@ -1,0 +1,16 @@
+scoreboard objectives setdisplay sidebar.team.aqua sidebar.AQUA.dah
+scoreboard objectives setdisplay sidebar.team.blue sidebar.BLUE.dah
+scoreboard objectives setdisplay sidebar.team.dark_aqua sidebar.DARK_AQUA.dah
+scoreboard objectives setdisplay sidebar.team.dark_blue sidebar.DARK_BLUE.dah
+scoreboard objectives setdisplay sidebar.team.dark_gray sidebar.DARK_GRAY.dah
+scoreboard objectives setdisplay sidebar.team.dark_green sidebar.DARK_GREEN.dah
+scoreboard objectives setdisplay sidebar.team.dark_purple sidebar.DARK_PURPLE.dah
+scoreboard objectives setdisplay sidebar.team.dark_red sidebar.DARK_RED.dah
+scoreboard objectives setdisplay sidebar.team.gold sidebar.GOLD.dah
+scoreboard objectives setdisplay sidebar.team.gray sidebar.GRAY.dah
+scoreboard objectives setdisplay sidebar.team.green sidebar.GREEN.dah
+scoreboard objectives setdisplay sidebar.team.light_purple sidebar.LIGHT_PURPLE.dah
+scoreboard objectives setdisplay sidebar.team.red sidebar.RED.dah
+scoreboard objectives setdisplay sidebar.team.white sidebar.WHITE.dah
+scoreboard objectives setdisplay sidebar.team.yellow sidebar.YELLOW.dah
+scoreboard objectives setdisplay sidebar.team.black sidebar.BLACK.dah

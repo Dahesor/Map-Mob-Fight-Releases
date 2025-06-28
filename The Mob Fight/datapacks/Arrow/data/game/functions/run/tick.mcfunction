@@ -12,7 +12,8 @@ function game:shop/netherite/checker
 function game:utility/creeper_storm/tick
 function game:run/netherite/villager/tick
 execute if score nextRandomItem Data matches -2147483648..2147483647 run function game:shop/random/exe
-execute as @a at @s run function game:player/tick
+execute as @a[tag=!spectator] at @s run function game:player/tick
+execute as @a[gamemode=spectator,tag=spectator] at @s run function lobby:spectator/tick
 
 execute as @e[type=end_crystal,tag=beem_lazer] run function game:run/dirt/crystal_self
 execute as @e[type=trident,tag=!resloved_trident] run function game:player/specials/trident/new_trident
@@ -36,7 +37,7 @@ function game:end/check/score
 execute as @e[tag=speedy_partical] at @s run function game:plugin/particles/speedy
 execute as @e[type=area_effect_cloud,tag=!resloved_cloud] at @s run function game:utility/area_cloud_specialize
 
-execute as @e[type=item,nbt={Item:{tag:{isGameMarkerItem:1b},id:"minecraft:debug_stick"}}] at @s run function game:utility/dirt_expander
+execute as @e[type=item,nbt={Item:{tag:{isGameMarkerItem:1b},id:"minecraft:debug_stick"}}] at @s run function game:utility/dirt_expander/e
 execute as @e[type=item,nbt={Item:{tag:{gameItem:{id:"repair_tool"}},id:"minecraft:slime_ball"}}] at @s run function game:run/creeper/tool_ticker
 
 execute if score GameMode Data matches 2 run function game:run/gamemodes/thunder/tick

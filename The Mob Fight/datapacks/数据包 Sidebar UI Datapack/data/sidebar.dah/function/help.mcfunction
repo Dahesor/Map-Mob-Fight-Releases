@@ -1,0 +1,2 @@
+data modify storage sidebar.dah:data ui set value {title:'{"text":"这是标题","color":"aqua"}',lore:['"第一行"','"第二行"','"第三行"','"第四行"','"第5行"','"第6行"','"第7行"','"第8行"','"第9行"','"第10行"','{"text":"带JSON样式的第11行","color":"red","italic":true}','"第12行"','{"text":"混乱的第13行","color":"green","obfuscated": true}','"最多容纳14行文字"'],icon:"\\u1111",background:"a"}
+function sidebar.dah:modify/this

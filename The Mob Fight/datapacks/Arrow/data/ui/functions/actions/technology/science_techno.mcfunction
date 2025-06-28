@@ -7,6 +7,9 @@ execute if score science_techno calculator matches 1 run data merge storage run 
 execute if score science_techno calculator matches 2 run data merge storage run {Pay:{dirt:24b,iron:12b,copper:10b,gold:16b,netherite:1b}}
 execute if score science_techno calculator matches 2 store result storage run Pay.netherite byte 1 run scoreboard players get techNetherite calculator
 execute if score science_techno calculator matches 0..2 run function game:shop/pay/anchor
+
+execute if score @s Payment matches 0 run function game:utility/eco/calc
+
 execute if score science_techno calculator matches 0..2 if score @s Payment matches 0 run function game:run/technology/upgrade/science_techno
 function ui:actions/technology/anchor
 

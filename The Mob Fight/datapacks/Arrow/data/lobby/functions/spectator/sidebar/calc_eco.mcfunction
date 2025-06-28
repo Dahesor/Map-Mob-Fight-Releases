@@ -1,0 +1,30 @@
+scoreboard players operation dirt.hold red = dirt red
+scoreboard players operation dirt.hold red -= dirt.spent red
+scoreboard players operation dirt.hold blue = dirt blue
+scoreboard players operation dirt.hold blue -= dirt.spent blue
+scoreboard players operation iron.hold red = iron red
+scoreboard players operation iron.hold red -= iron.spent red
+scoreboard players operation iron.hold blue = iron blue
+scoreboard players operation iron.hold blue -= iron.spent blue
+scoreboard players operation copper.hold red = copper red
+scoreboard players operation copper.hold red -= copper.spent red
+scoreboard players operation copper.hold blue = copper blue
+scoreboard players operation copper.hold blue -= copper.spent blue
+scoreboard players operation gold.hold red = gold red
+scoreboard players operation gold.hold red -= gold.spent red
+scoreboard players operation gold.hold blue = gold blue
+scoreboard players operation gold.hold blue -= gold.spent blue
+scoreboard players operation lapis.hold red = lapis red
+scoreboard players operation lapis.hold red -= lapis.spent red
+scoreboard players operation lapis.hold blue = lapis blue
+scoreboard players operation lapis.hold blue -= lapis.spent blue
+scoreboard players operation diamond.hold red = diamond red
+scoreboard players operation diamond.hold red -= diamond.spent red
+scoreboard players operation diamond.hold blue = diamond blue
+scoreboard players operation diamond.hold blue -= diamond.spent blue
+scoreboard players operation netherite.hold red = netherite red
+scoreboard players operation netherite.hold red -= netherite.spent red
+scoreboard players operation netherite.hold blue = netherite blue
+scoreboard players operation netherite.hold blue -= netherite.spent blue
+
+function game:utility/eco/check_sum

@@ -1,7 +1,7 @@
 data remove storage run Pay
 data merge storage run {Pay:{gold:12b,lapis:8b,diamond:2b}}
 data remove storage run PayName
-data merge storage run {PayName:"speedy"}
+data merge storage run {PayName:{"translate":"阿涅摩伊的祝福","color": "aqua"}}
 
 function game:shop/pay/anchor
 execute if score @s Payment matches 0 if entity @s[team=red] run function game:plugin/speedy/red

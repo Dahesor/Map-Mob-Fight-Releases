@@ -1200,5 +1200,22 @@
     "enchant.protection":"全队保护魔咒",
     "enchant.protection.level":"全队保护%s魔咒",
     "enchant.protection.1":"为头盔添加保护%s",
-    "arrow.ravager":"空降劫掠兽"
+    "arrow.ravager":"空降劫掠兽",
+    "sign.bug_report":"报告地图漏洞",
+    "sign.bug_report.line":"若想要报告地图漏洞，可以在GitHub上提交Issue",
+    "spec.next_event":"[%1$s]：%2$s",
+    "spec.event.invulnerable_end":"备战结束",
+    "spec.event.random_item":"开始刷新随机商品",
+    "spec.event.mid":"时间过半",
+    "spec.event.sudden_death":"绝杀模式",
+    "spec.event.crazy":"疯狂模式",
+    "spec.event.game_end":"游戏结束",
+    "menu.eco":"经济面板",
+    "menu.eco.header":"   §c累计  持有 §f| §b持有  累计",
+    "menu.eco.total":"§e总分",
+    "menu.eco.exist":"矿物数",
+    "menu.eco.dev":"发展花销 (科技+装备+魔咒)",
+    "menu.eco.attack":"进攻花销 (怪物+道具+食物)",
+    "menu.start":"旁观者面板已启动，在背包中点击配方书",
+    "menu.log":"事件监视器"
 }

@@ -1,0 +1,16 @@
+dispatch minecraft:storage["sidebar.dah:data"] to struct {
+    ui: struct{
+        title?: #[text_component] string,
+        lore?: [#[text_component] string] @ 0..14,
+        title_indent?: string,
+        lore_indent?: string,
+        icon_indent?: string,
+        icon?: string,
+        background?: string
+    },
+    data: struct{
+        title_indent?: string,
+        lore_indent?: string,
+        icon_indent?: string,
+    }
+}

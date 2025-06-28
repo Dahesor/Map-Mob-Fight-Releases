@@ -1,8 +1,11 @@
 data remove storage run Pay
 data merge storage run {Pay:{diamond:2b,lapis:4b,gold:6b}}
-data merge storage run {PayName:"no_nausea"}
+data merge storage run {PayName:{"translate":"反胃退散","color": "green"}}
 
 function game:shop/pay/anchor
+
+execute if score @s Payment matches 0 run function game:utility/eco/calc
+
 execute if score @s Payment matches 0 if entity @s[team=red] run scoreboard players set no_nausea red 1
 execute if score @s Payment matches 0 if entity @s[team=blue] run scoreboard players set no_nausea blue 1
 execute if score @s Payment matches 0 if entity @s[team=red] run tellraw @a[team=red] ["",{"translate":"[商店] ","color": "aqua"},{"selector":"@s","color": "yellow"}," ",{"translate":"购买了"},"[",{"translate":"反胃退散","color": "green"},"]"]

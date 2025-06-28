@@ -10,5 +10,6 @@ execute if score @s monitor.iron matches 1.. run function game:utility/realistic
 execute if score @s monitor.iron_d matches 1.. run function game:utility/realistic_ore/iron_deep
 execute if score @s monitor.lapis matches 1.. run function game:utility/realistic_ore/lapis
 execute if score @s monitor.lapis_d matches 1.. run function game:utility/realistic_ore/lapis_d
+execute if score @s monitor.dirt matches 1.. run function game:run/resources/checker/mined_dirt
 
 execute if entity @s[tag=just_mined] at @s run function game:run/resources/checker/find_item

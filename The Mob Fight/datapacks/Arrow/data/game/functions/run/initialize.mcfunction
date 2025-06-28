@@ -78,11 +78,13 @@ scoreboard players set creeperStorm red 0
 scoreboard players set creeperStorm blue 0
 scoreboard players set pigmanSlaves red 0
 scoreboard players set pigmanSlaves blue 0
+function game:run/resources/reset
 scoreboard players set oreAdd red 1
 scoreboard players set oreAdd blue 1
 scoreboard players set techNetherite red 1
 scoreboard players set techNetherite blue 1
 scoreboard players reset final_camera
+scoreboard players reset ore_ticker
 scoreboard players reset nextRandomItem Data
 scoreboard players reset @a bossbar
 scoreboard players operation #half_score Data = TargetScore Options
@@ -216,7 +218,7 @@ execute if score dataCollection Data matches 1 run execute store result storage 
 execute if score dataCollection Data matches 1 run data modify storage developer:data General append value {GameID:-1,data:[]}
 execute if score dataCollection Data matches 1 run execute store result storage developer:data General[-1].GameID int 1 run scoreboard players get gameID Data
 
-execute if score showPlayerHealth Options matches 1 run scoreboard objectives setdisplay list health
+execute if score showPlayerHealth Options matches 1 run scoreboard objectives setdisplay list belowName
 execute unless score showPlayerHealth Options matches 1 run scoreboard objectives setdisplay list
 
 function game:utility/realistic_ore/create_scoreboards
@@ -239,3 +241,9 @@ function game:run/magage_gamemodes
 function #game:start
 function game:run/netherite/villager/shuffle
 execute as @a run attribute @s generic.attack_speed base set 4.3
+execute as @a run trigger join_game set 0
+
+function sidebar.dah:reload
+function lobby:spectator/sidebar/init
+function lobby:spectator/sidebar/update
+schedule function lobby:spectator/sidebar/launch 6s

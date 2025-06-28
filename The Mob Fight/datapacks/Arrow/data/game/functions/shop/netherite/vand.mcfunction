@@ -9,4 +9,3 @@ execute if entity @s[tag=red_vand] if score stored_netherite red matches ..0 run
 execute if entity @s[tag=blue_vand] run scoreboard players remove stored_netherite blue 1
 execute if entity @s[tag=blue_vand] run kill @e[type=armor_stand,tag=blue_vand]
 execute if entity @s[tag=blue_vand] if score stored_netherite blue matches ..0 run function game:shop/netherite/replace/blue
-

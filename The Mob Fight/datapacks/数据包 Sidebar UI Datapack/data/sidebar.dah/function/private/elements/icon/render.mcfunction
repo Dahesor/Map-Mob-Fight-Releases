@@ -1,0 +1,1 @@
+$scoreboard players display numberformat title.sidebar sidebar.$(color).dah fixed [{"text":"$(icon)","font":"sidebar.dah:icon","color":"white"},{"text":"$(indent)","font":"sidebar.dah:private_indent"}]

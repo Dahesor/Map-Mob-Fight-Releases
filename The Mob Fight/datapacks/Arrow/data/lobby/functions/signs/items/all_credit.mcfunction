@@ -39,6 +39,7 @@ setblock -5 60 74 jungle_wall_sign[facing=east]{is_waxed:0b,front_text:{messages
 setblock -5 60 73 air
 setblock -5 60 73 jungle_wall_sign[facing=east]{is_waxed:0b,front_text:{messages:['{"translate":"credit.thanks","color": "gold","bold": true}','{"translate":"credit.thanks_individual","color": "gold","bold": true}','{"translate":"helper.2.name","color": "light_purple","bold": true}','{"translate":"helper.1.name","color": "light_purple","bold": true}']}}
 
-
+setblock -5 59 73 air
+setblock -5 59 73 jungle_wall_sign[facing=east]{is_waxed:0b,front_text:{messages:['""','{"translate":"sign.bug_report","color": "red","bold": true,"clickEvent": {"action": "run_command","value": "/playsound ui.button.click master @s ~ ~ ~"}}','{"text":"","clickEvent": {"action": "run_command","value": "/tellraw @s {\\"translate\\":\\"sign.bug_report.line\\",\\"clickEvent\\": {\\"action\\": \\"open_url\\",\\"value\\": \\"https://github.com/Dahesor/MMFR\\"},\\"underlined\\": true}"}}','[{"text": "[","color": "gray"},{"keybind":"key.use"},"]"]']}}
 setblock -5 59 70 air
 setblock -5 59 70 jungle_wall_sign[facing=east]{is_waxed:0b,front_text:{messages:['{"translate":"note.free","color": "green"}','{"text":"CC BY-ND 4.0","color": "aqua"}','{"text":"+","font": "icon","color": "white"}','{"translate":"for_detial","color": "white","bold": false,"clickEvent": {"action": "run_command","value": "/function lobby:settings/cc"}}']}}

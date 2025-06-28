@@ -9,3 +9,4 @@ scoreboard objectives remove monitor.diam_d
 scoreboard objectives remove monitor.copper
 scoreboard objectives remove monitor.copper_d
 scoreboard objectives remove crazyMode
+scoreboard objectives remove monitor.dirt

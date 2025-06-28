@@ -113,6 +113,7 @@ scoreboard players set techNetherite red 1
 scoreboard players set techNetherite blue 1
 scoreboard players set showWarning red 0
 scoreboard players set showWarning blue 0
+function game:run/resources/reset
 scoreboard players reset @a bossbar
 scoreboard players reset player blue
 scoreboard players reset player red

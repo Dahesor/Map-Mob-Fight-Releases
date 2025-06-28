@@ -1,8 +1,11 @@
 data remove storage run Pay
 data merge storage run {Pay:{dirt:24b,copper:5b,gold:16b}}
-data merge storage run {PayName:"additional_shop"}
+data merge storage run {PayName:{"translate":"shop.shop_additions","color": "green"}}
 
 function game:shop/pay/anchor
+
+execute if score @s Payment matches 0 run function game:utility/eco/calc
+
 execute if score @s Payment matches 0 if entity @s[team=red] run function game:plugin/addtional_chests_red
 execute if score @s Payment matches 0 if entity @s[team=blue] run function game:plugin/addtional_chests_blue
 execute if score @s Payment matches 0 if entity @s[team=red] run tellraw @a[team=red] ["",{"translate":"[商店] ","color": "aqua"},{"selector":"@s","color": "yellow"}," ",{"translate":"购买了"},"[",{"translate":"shop.shop_additions","color": "green"},"]"]

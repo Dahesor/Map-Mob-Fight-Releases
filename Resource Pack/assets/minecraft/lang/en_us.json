@@ -1195,5 +1195,14 @@
     "enchant.protection":"Protection Enchantment",
     "enchant.protection.level":"Protection Enchantment %s",
     "enchant.protection.1":"Apply protection %s to helmet",
-    "arrow.ravager":"Airborne Ravager"
+    "arrow.ravager":"Airborne Ravager",
+    "sign.bug_report":"Report Bug",
+    "sign.bug_report.line":"To report a bug, create a new issue on GitHub",
+    "spec.next_event":"[%1$s]: %2$s",
+    "spec.event.invulnerable_end":"Warm Up End",
+    "spec.event.random_item":"Random Shop Item",
+    "spec.event.mid":"Half Time",
+    "spec.event.sudden_death":"Sudden Death",
+    "spec.event.crazy":"Crazy Mode",
+    "spec.event.game_end":"Game End"
 }

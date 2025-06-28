@@ -1,1 +1,0 @@
-$scoreboard players display name title.sidebar sidebar.$(color).dah [{"text":"","font":"sidebar.dah:sidebar_title"},{"text":"$(indent)","font":"sidebar.dah:private_indent"},$(title)]

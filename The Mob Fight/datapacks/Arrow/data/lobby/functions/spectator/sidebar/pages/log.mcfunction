@@ -15,9 +15,21 @@ data modify storage sidebar.dah:data ui set value {title:'{"translate": "menu.lo
 data modify storage run menu.log[0].extra[0].text set from storage run time.string
 
 function lobby:spectator/sidebar/villager/master
+execute if score $vil_flash calculator matches 0 store result score mob_count red if entity @e[type=#game:mobs,predicate=map:in_red]
+execute if score $vil_flash calculator matches 1 store result score mob_count blue if entity @e[type=#game:mobs,predicate=map:in_blue]
+
+
+
+data modify storage run menu.log[3] set value {text:" ",extra:[{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""}]}
+
+execute unless score player_alive red matches 1.. run data modify storage run menu.log[3].extra[1].text set value ""
+execute unless score player_alive blue matches 1.. run data modify storage run menu.log[3].extra[-1].text set value ""
+
+function lobby:spectator/sidebar/status/master
 
 data modify storage run parse.lore set from storage run menu.log
 function lobby:spectator/parse/parse
 data modify storage sidebar.dah:data ui.lore set from storage run parse.out_lore
 
-function sidebar.dah:modify/color {color:"dark_gray"}
+execute if score $switch calculator matches ..200 run function sidebar.dah:modify/color {color:"dark_gray"}
+execute if entity @a[team=spec_log] run function sidebar.dah:modify/color {color:"gray"}

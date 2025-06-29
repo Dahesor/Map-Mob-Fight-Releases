@@ -1,7 +1,7 @@
 data remove storage run Pay
 data merge storage run {Pay:{dirt:16b,gold:16b,diamond:1b}}
 data remove storage run PayName
-data merge storage run {PayName:{"translate":"圣灵守护","color": "red","italic": false}}
+data merge storage run {PayName:{"translate":"圣灵守护","color": "gray","italic": false}}
 
 function game:shop/pay/anchor
 function game:plugin/score_copy

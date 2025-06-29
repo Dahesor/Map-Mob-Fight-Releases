@@ -1,6 +1,6 @@
 function game:plugin/score_copy
 data remove storage run Pay
-data merge storage run {PayName:{"translate":"锋利附魔","color": "light_purple"}}
+data merge storage run {PayName:{"translate":"锋利附魔","color": "gray"}}
 
 execute if score sharpness calculator matches 0 run data merge storage run {Pay:{dirt:10b,iron:3b,lapis:1b}}
 execute if score sharpness calculator matches 1 run data merge storage run {Pay:{dirt:24b,iron:12b,lapis:3b}}

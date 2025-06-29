@@ -5,6 +5,12 @@
                         "id": "sidebar.dah:space"
                 },
                 {
+                        "type": "space",
+                        "advances": {
+                                "\ue900": 0
+                        }
+                },
+                {
                         "type": "bitmap",
                         "file": "arrow:font/ores.png",
                         "height": 11,

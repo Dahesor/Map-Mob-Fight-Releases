@@ -1,8 +1,5 @@
-execute positioned ~1 ~ ~1 if predicate game:places/summon_free run summon zombie
-execute positioned ~-1 ~ ~1 if predicate game:places/summon_free run summon zombie
-execute positioned ~ ~ ~-1 if predicate game:places/summon_free run summon zombie
+summon zombie ~ ~ ~ {Attributes:[{Name:"generic.max_health",Base:18d}],Health:18f}
+summon marker ~ ~ ~ {Tags:["spawnCenterR","inactivedSpawnCenterR"],data:{spawn:{mode:"NORMAL",time:10b,range:2b,maxTickCount:1b,entity:[{name:"zombie",data:{Attributes:[{Name:"generic.max_health",Base:18d}],Health:18f}},{name:"zombie",data:{Attributes:[{Name:"generic.max_health",Base:18d}],Health:18f}}]}}}
 
-execute positioned ~1 ~ ~1 unless predicate game:places/summon_free positioned ~-1 ~ ~-1 run summon zombie
-execute positioned ~-1 ~ ~1 unless predicate game:places/summon_free positioned ~1 ~ ~-1 run summon zombie
-execute positioned ~ ~ ~-1 unless predicate game:places/summon_free positioned ~-1 ~ ~1 run summon zombie
+
 kill @s

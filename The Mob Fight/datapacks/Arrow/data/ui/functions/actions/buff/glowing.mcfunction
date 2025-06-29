@@ -1,7 +1,7 @@
 data remove storage run Pay
 data merge storage run {Pay:{diamond:2b,copper:6b,iron:5b}}
 data remove storage run PayName
-data merge storage run {PayName:{"translate":"显形祈祷","color": "yellow"}}
+data merge storage run {PayName:{"translate":"显形祈祷","color": "gray"}}
 function game:shop/pay/anchor
 execute if score @s Payment matches 0 if entity @s[team=red] run effect give @a[team=blue] glowing 50 1 true
 execute if score @s Payment matches 0 if entity @s[team=red] run effect give @e[type=#game:mobs,predicate=map:in_red] glowing 50 0 true

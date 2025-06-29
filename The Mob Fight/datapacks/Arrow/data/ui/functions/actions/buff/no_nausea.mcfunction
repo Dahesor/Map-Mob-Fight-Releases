@@ -1,6 +1,6 @@
 data remove storage run Pay
 data merge storage run {Pay:{diamond:2b,lapis:4b,gold:6b}}
-data merge storage run {PayName:{"translate":"反胃退散","color": "green"}}
+data merge storage run {PayName:{"translate":"反胃退散","color": "gray"}}
 
 function game:shop/pay/anchor
 

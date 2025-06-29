@@ -15,7 +15,6 @@ data modify storage run menu.eco append value {text:"",extra:[{text:"   "},{scor
 data modify storage run menu.eco append value {translate:"menu.eco.attack"}
 data modify storage run menu.eco append value {text:"",extra:[{text:"   "},{score:{name:"attack_cost.d",objective:"red"},color:"red"},{text:"   "},{score:{name:"attack_cost.d",objective:"blue"},color:"aqua"}]}
 
-data modify storage run menu.eco append value {translate:"menu.eco.exist",extra:[{text:" "},{score:{name:"oreCount",objective:"red"},color:"red"},{text:"ⓦ"},{score:{name:"oreWaste",objective:"red"},color:"red"},{text:" "},{score:{name:"oreCount",objective:"blue"},color:"aqua"},{text:"ⓦ"},{score:{name:"oreWaste",objective:"red"},color:"aqua"}]}
+data modify storage run menu.eco append value {translate:"menu.eco.exist",extra:[{text:" "},{score:{name:"oreCount",objective:"red"},color:"red"},{text:"ⓦ"},{score:{name:"oreWaste",objective:"red"},color:"red"},{text:" "},{score:{name:"oreCount",objective:"blue"},color:"aqua"},{text:"ⓦ"},{score:{name:"oreWaste",objective:"blue"},color:"aqua"}]}
 
-data modify storage run menu.log set value [{text:" ",extra:[{text:"Time"}]},{text:" ",extra:[{text:""},{text:""},{text:""},{text:" "},{text:""},{text:""},{text:""}]},{text:""},{text:"",extra:[{text:""},{text:""},{text:""},{text:" "},{text:""},{text:""},{text:""}]},{text:""},{text:""}]
-
+data modify storage run menu.log set value [{text:" ",extra:[{text:"Time"}]},{text:" ",extra:[{text:""},{text:""},{text:""},{text:" "},{text:""},{text:""},{text:""}]},{text:""},{text:" ",extra:[{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""}]},{text:""},{text:""}]

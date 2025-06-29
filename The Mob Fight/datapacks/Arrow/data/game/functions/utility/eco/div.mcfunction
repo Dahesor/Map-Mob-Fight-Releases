@@ -13,7 +13,7 @@ scoreboard players operation attack_cost.d red /= #20 calculator
 scoreboard players operation attack_cost.d blue = attack_cost blue
 scoreboard players operation attack_cost.d blue /= #20 calculator
 
-scoreboard players operation dev_cost red = dev_cost red
+scoreboard players operation dev_cost.d red = dev_cost red
 scoreboard players operation dev_cost.d red /= #20 calculator
 scoreboard players operation dev_cost.d blue = dev_cost blue
 scoreboard players operation dev_cost.d blue /= #20 calculator

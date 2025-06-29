@@ -4,7 +4,7 @@ execute if score protection calculator matches 0 run data merge storage run {Pay
 execute if score protection calculator matches 1 run data merge storage run {Pay:{dirt:20b,iron:16b,copper:16b}}
 execute if score protection calculator matches 2 run data merge storage run {Pay:{dirt:32b,iron:24b,copper:24b}}
 execute if score protection calculator matches 3 run data merge storage run {Pay:{dirt:64b,netherite:1b}}
-data merge storage run {PayName:{"translate":"enchant.protection.name","color": "light_purple"}}
+data merge storage run {PayName:{"translate":"enchant.protection.name","color": "gray"}}
 
 execute if score protection calculator matches 0..3 run function game:shop/pay/anchor
 

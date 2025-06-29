@@ -33,4 +33,4 @@ execute unless score @s Payment matches 0 run tellraw @s {"translate":"[商店] 
 execute unless score @s Payment matches 0 run function game:shop/pay/feedback
 execute unless score @s Payment matches 0 at @s run playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ 0.6 0.4
 execute if score @s Payment matches 0 run function game:shop/pay/clear_cost
-execute if score dataCollection Data matches 1.. if score @s Payment matches 0 if data storage run PayName run function game:shop/pay/record_data
+execute if score @s Payment matches 0 if data storage run PayName.translate run function game:shop/pay/record_data

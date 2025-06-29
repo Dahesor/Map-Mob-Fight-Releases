@@ -1,6 +1,6 @@
 function game:plugin/score_copy
 data remove storage run Pay
-data merge storage run {PayName:{"translate":"效率附魔","color": "light_purple"}}
+data merge storage run {PayName:{"translate":"效率附魔","color": "gray"}}
 
 execute if score efficiency calculator matches 2 run data merge storage run {Pay:{dirt:7b,lapis:2b,iron:2b}}
 execute if score efficiency calculator matches 3 run data merge storage run {Pay:{dirt:12b,lapis:4b,iron:4b}}

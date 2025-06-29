@@ -1,6 +1,6 @@
 function game:plugin/score_copy
 data remove storage run Pay
-data merge storage run {PayName:{"translate":"弹射物保护附魔","color": "light_purple"}}
+data merge storage run {PayName:{"translate":"弹射物保护附魔","color": "gray"}}
 
 execute if score proj_protection calculator matches 0 run data merge storage run {Pay:{dirt:10b,gold:4b,lapis:1b}}
 execute if score proj_protection calculator matches 1 run data merge storage run {Pay:{dirt:25b,iron:2b,gold:8b,lapis:3b}}

@@ -1204,5 +1204,21 @@
     "spec.event.mid":"Half Time",
     "spec.event.sudden_death":"Sudden Death",
     "spec.event.crazy":"Crazy Mode",
-    "spec.event.game_end":"Game End"
+    "spec.event.game_end":"Game End",
+    "menu.eco":"ECO Menu",
+    "menu.eco.header":"   §cT  H §f| §bH  T",
+    "menu.eco.total":"§eSum",
+    "menu.eco.exist":"Ores",
+    "menu.eco.dev":"Tech Cost",
+    "menu.eco.attack":"Attack Cost",
+    "menu.start":"Spectate Menu has launched. Click Recipe book in inventory.",
+    "menu.log":"Event Monitor",
+    "event.kill_award":"Enemy Player Died! Resources Awarded",
+    "menu.recive.off":"Spectate Menu: Off",
+    "menu.recive.rotate":"Spectate Menu: Loops",
+    "menu.recive.log":"Spectate Menu: Event Monitor",
+    "menu.recive.eco":"Spectate Menu: ECO Menu",
+    "menu.start.message":"Spectate Menu has launched. To switch display mode of the menu, click your recipe book icon in the inventory, or execute §n/trigger spec",
+    "advancement.title.kill_player": "Right On",
+    "advancement.description.kill_player": "Kill a player with an arrow directly"
 }

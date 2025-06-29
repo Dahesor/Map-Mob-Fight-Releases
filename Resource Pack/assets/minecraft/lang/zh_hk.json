@@ -1205,5 +1205,21 @@
     "spec.event.mid":"时间过半",
     "spec.event.sudden_death":"绝杀模式",
     "spec.event.crazy":"疯狂模式",
-    "spec.event.game_end":"游戏结束"
+    "spec.event.game_end":"游戏结束",
+    "menu.eco":"经济面板",
+    "menu.eco.header":"   §c累计  持有 §f| §b持有  累计",
+    "menu.eco.total":"§e总分",
+    "menu.eco.exist":"矿物数",
+    "menu.eco.dev":"发展花销 (科技+装备+魔咒)",
+    "menu.eco.attack":"进攻花销 (怪物+道具+食物)",
+    "menu.start":"旁观者面板已启动，在背包中点击配方书",
+    "menu.log":"事件监视器",
+    "event.kill_award":"敌方玩家死亡，获得资源奖励！",
+    "menu.recive.off":"旁观面板：已关闭",
+    "menu.recive.rotate":"旁观面板：轮换模式",
+    "menu.recive.log":"旁观面板：锁定事件监视器",
+    "menu.recive.eco":"旁观面板：锁定经济面板",
+    "menu.start.message":"旁观者面板已启动！面板有四种模式：\n 自动轮换 / 事件监视器 / 经济面板 / 隐藏\n要切换模式，请在背包中点击配方书，或输入§n/trigger spec",
+    "advancement.title.kill_player": "枪口",
+    "advancement.description.kill_player": "直接用箭矢射杀一名玩家"
 }

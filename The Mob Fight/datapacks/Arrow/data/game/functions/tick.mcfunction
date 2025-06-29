@@ -1,3 +1,4 @@
+execute store result score $gametime Data run time query gametime
 execute if score game Data matches 1.. run function game:run/tick
 
 execute as @a[scores={leave_game=1..}] run function game:utility/leave_game

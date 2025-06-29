@@ -1,1 +1,1 @@
-execute unless score #off Calc.acBarMixer matches 1.. as @a unless score @s Calc.acBarMixer matches -1 run function actionbar_mixer:actionbar
+execute unless score #off Calc.acBarMixer matches 1.. as @a unless entity @s[tag=spectator] run function actionbar_mixer:actionbar

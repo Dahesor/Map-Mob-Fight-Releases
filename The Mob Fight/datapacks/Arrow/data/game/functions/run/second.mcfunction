@@ -41,3 +41,12 @@ effect give @a[predicate=!game:places/in_gaming_area] instant_health 1 10 true
 execute as @a run function game:player/second
 execute as @e[type=item_display,tag=netherite_glow] at @s unless entity @e[type=item,tag=float_award,distance=..5] run kill @s
 execute if entity @a[tag=spec_menu,tag=spectator] run function lobby:spectator/sidebar/update
+
+execute if score combatIndex red matches 1.. run scoreboard players remove combatIndex red 1
+execute if score combatIndex blue matches 1.. run scoreboard players remove combatIndex blue 1
+execute if score combatIndex red matches 10.. run scoreboard players remove combatIndex red 1
+execute if score combatIndex blue matches 10.. run scoreboard players remove combatIndex blue 1
+execute if score combatIndex red matches 31.. run scoreboard players remove combatIndex red 2
+execute if score combatIndex blue matches 31.. run scoreboard players remove combatIndex blue 2
+execute if score combatIndex red matches 81.. run scoreboard players remove combatIndex blue 2
+execute if score combatIndex blue matches 81.. run scoreboard players remove combatIndex blue 2

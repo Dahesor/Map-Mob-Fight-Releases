@@ -1,6 +1,6 @@
 function game:plugin/score_copy
 data remove storage run Pay
-data merge storage run {PayName:{"translate":"水晶防御激光","color": "light_purple"}}
+data merge storage run {PayName:{"translate":"水晶防御激光","color": "gray"}}
 
 execute if score beemLevel calculator matches 1 run data merge storage run {Pay:{dirt:16b,diamond:4b}}
 execute if score beemLevel calculator matches 2 run data merge storage run {Pay:{dirt:24b,diamond:8b}}

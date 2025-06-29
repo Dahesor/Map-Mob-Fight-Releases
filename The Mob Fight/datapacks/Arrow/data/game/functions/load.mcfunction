@@ -27,11 +27,13 @@ scoreboard objectives add health health
 scoreboard objectives add belowName dummy ""
 scoreboard objectives add convertEnergy dummy
 scoreboard objectives add convertItem dummy
+scoreboard objectives add UID dummy
 scoreboard objectives add convertCount dummy
 scoreboard objectives add regenPotionUHC dummy
 scoreboard objectives add surrender dummy
 scoreboard objectives add bossbar dummy
 scoreboard objectives add match dummy
+scoreboard objectives add spec trigger
 scoreboard objectives setdisplay below_name belowName
 scoreboard objectives modify belowName displayname ""
 # numbers
@@ -76,6 +78,16 @@ team add spec {"color": "dark_gray","text": "Spectator"}
 team modify spec friendlyFire false
 team modify spec seeFriendlyInvisibles true
 team modify spec color dark_gray
+
+team add spec_log {"color": "dark_gray","text": "Spectator"}
+team modify spec_log friendlyFire false
+team modify spec_log seeFriendlyInvisibles true
+team modify spec_log color gray
+
+team add spec_eco {"color": "dark_gray","text": "Spectator"}
+team modify spec_eco friendlyFire false
+team modify spec_eco seeFriendlyInvisibles true
+team modify spec_eco color white
 
 # team
 

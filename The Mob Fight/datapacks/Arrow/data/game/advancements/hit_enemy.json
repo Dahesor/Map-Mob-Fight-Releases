@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "hit":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#game:mobs"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:death/in_fight"
+    }
+}

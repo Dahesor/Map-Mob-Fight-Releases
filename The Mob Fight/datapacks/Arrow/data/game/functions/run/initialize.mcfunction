@@ -20,6 +20,8 @@ execute as @a run attribute @s generic.max_health base set 20
 scoreboard players add gameID Data 1
 scoreboard players operation @a lastGame = gameID Data
 scoreboard players set @a surrender 0
+scoreboard players operation LogTime Data = $gametime Data
+scoreboard players operation LogTime Data -= SpectateLogDelay Options
 scoreboard players set GameLength Data 0
 scoreboard players set crazyMode Data 0
 scoreboard players set destroyMode Data 0
@@ -78,6 +80,8 @@ scoreboard players set creeperStorm red 0
 scoreboard players set creeperStorm blue 0
 scoreboard players set pigmanSlaves red 0
 scoreboard players set pigmanSlaves blue 0
+scoreboard players set combatIndex red 0
+scoreboard players set combatIndex blue 0
 function game:run/resources/reset
 scoreboard players set oreAdd red 1
 scoreboard players set oreAdd blue 1
@@ -249,3 +253,4 @@ function sidebar.dah:reload
 function lobby:spectator/sidebar/init
 function lobby:spectator/sidebar/update
 schedule function lobby:spectator/sidebar/launch 6s
+function game:death/update

@@ -1,7 +1,7 @@
 data remove storage run Pay
 data merge storage run {Pay:{dirt:20b,copper:20b,lapis:3b}}
 data remove storage run PayName
-data merge storage run {PayName:{"translate":"号令之旗","color": "gold"}}
+data merge storage run {PayName:{"translate":"号令之旗","color": "gray"}}
 
 function game:shop/pay/anchor
 execute if score @s Payment matches 0 if entity @s[team=red] run function game:plugin/flag/red

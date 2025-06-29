@@ -14,4 +14,5 @@ data modify storage run parse.lore set from storage run menu.eco
 function lobby:spectator/parse/parse
 data modify storage sidebar.dah:data ui.lore set from storage run parse.out_lore
 
-function sidebar.dah:modify/color {color:"dark_gray"}
+execute unless score $switch calculator matches ..200 run function sidebar.dah:modify/color {color:"dark_gray"}
+execute if entity @a[team=spec_eco] run function sidebar.dah:modify/color {color:"white"}

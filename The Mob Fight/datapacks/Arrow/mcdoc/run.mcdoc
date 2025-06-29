@@ -51,8 +51,16 @@ dispatch arrow:run["temp"] to any
 dispatch arrow:run["dirtRecord"] to [double] @ 3
 dispatch arrow:run["type"] to #[id="item"] string
 dispatch arrow:run["genLore"] to [#[text_component] string]
+dispatch arrow:run["name"] to struct{
+    this?: string,
+    [int]?: string,
+    id?: int,
+}
 dispatch arrow:run["log"] to struct{
-    log?: [Text],
+    log?: [struct{
+        content?: Text,
+        time?: int,
+    }],
     new?: Text
 }
 dispatch arrow:run["vil"] to struct{
@@ -71,7 +79,8 @@ dispatch arrow:run["menu"] to struct{
     log?: [Text]
 }
 dispatch arrow:run["genName"] to struct{
-    use?: #[text_component] string
+    use?: #[text_component] string,
+    hold?: any,
 }
 dispatch arrow:run["final_kill"] to struct{
     Pos?: [double] @ 3,

@@ -3,6 +3,7 @@ execute if score final_camera Data matches 1.. run return run function game:deat
 
 
 execute unless score debug Data matches 1 run scoreboard players add GameLength Data 1
+scoreboard players add LogTime Data 1
 execute if score #loop_20 calculator matches 10 run function game:run/second
 function game:run/hint/main
 function game:run/resources/ticker

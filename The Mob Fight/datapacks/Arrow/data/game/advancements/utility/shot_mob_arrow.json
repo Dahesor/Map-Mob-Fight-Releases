@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "shot_mob":{
+            "trigger": "shot_crossbow",
+            "conditions": {
+                "item": {
+                    "nbt": "{}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:player/record/shot_mob_arrow"
+    }
+}

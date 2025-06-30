@@ -6,3 +6,4 @@ execute as @e[type=item,limit=1,sort=nearest,tag=shop_item,tag=not_filled] run f
 playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.8 1.6
 tellraw @s ["",{"translate":"[商店] ","color": "aqua"},{"translate":"您购买了"},{"text": "[","color": "aqua"},{"nbt":"result.Sell.display.Name","storage": "run","interpret": true},{"text": "]","color": "aqua"}]
 execute if score dataCollection Data matches 1.. run function game:shop/sell/record_data
+execute if score @s Payment matches 0 run scoreboard players add @s scb.support 4

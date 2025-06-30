@@ -1,0 +1,26 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "sidebar.dah:space"
+        },
+        {
+            "type": "bitmap",
+            "file": "sidebar.dah:gui/a.png",
+            "height": 170,
+            "ascent": 0,
+            "chars": [
+                "a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "sidebar.dah:gui/b.png",
+            "height": 170,
+            "ascent": 0,
+            "chars": [
+                "b"
+            ]
+        }
+    ]
+}

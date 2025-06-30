@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "kill_player":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                },
+                "killing_blow": {
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_projectile"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {"translate":"advancement.title.kill_player"},
+        "description": {"translate":"advancement.description.kill_player"},
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "announce_to_chat": true,
+        "frame": "task",
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "lobby:first_win"
+}

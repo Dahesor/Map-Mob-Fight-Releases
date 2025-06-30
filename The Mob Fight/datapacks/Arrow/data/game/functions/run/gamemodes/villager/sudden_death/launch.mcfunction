@@ -12,3 +12,6 @@ function game:run/netherite/gen_red
 
 schedule function game:run/gamemodes/villager/sudden_death/spawn_super 6t
 
+data modify storage run log.new set value {"translate":"mode.sudden_death","color": "red"}
+function lobby:spectator/sidebar/log/new
+schedule function game:run/gamemodes/villager/sudden_death/change_close_score 5s

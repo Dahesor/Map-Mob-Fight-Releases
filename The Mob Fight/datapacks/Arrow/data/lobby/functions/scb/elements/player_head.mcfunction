@@ -1,0 +1,2 @@
+data merge entity @s {brightness:{sky:15,block:15},billboard:"fixed",Tags:["scb_name"],item:{id:"player_head",Count:1b,tag:{SkullOwner:""}},transformation:{scale:[0.5f,0.5f,0.4f],translation:[0.0f,0.3f,0.0f],right_rotation:[0f,0f,0f,1f],left_rotation:[0f,0f,0f,1f]},Rotation:[-135f,0f]}
+data modify entity @s item.tag.SkullOwner set from storage run name.this

@@ -42,5 +42,5 @@ execute store result storage developer:data Games[-1].Blue.pigmanSlaves int 1 ru
 execute store result storage developer:data Games[-1].Blue.harvest_level int 1 run scoreboard players get @p[team=blue] harvest_level
 
 
-execute as @a[team=!] run function game:end/store_scores_player
+execute as @a[team=!,tag=!spectator] run function game:end/store_scores_player
 

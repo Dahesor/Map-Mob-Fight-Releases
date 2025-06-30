@@ -1,7 +1,10 @@
+gamemode spectator
+function game:death/update
+
 execute if score GameMode Data matches 4 run return run function game:run/gamemodes/elimination/dead/eliminate
 
 scoreboard players set @s Death 0
-gamemode spectator
+execute as @a[tag=spectator] at @s run playsound entity.wither.break_block master @s ~ ~ ~ 1 0.8
 tp @s[team=red] @e[type=marker,limit=1,tag=red_spawn]
 tp @s[team=blue] @e[type=marker,limit=1,tag=blue_spawn]
 execute if entity @s[team=red] if score @s deathSourceCD matches 1.. run function game:death/score/blue_kill_score
@@ -22,3 +25,8 @@ title @s times 0 40 20
 title @s title {"text":"b","font": "icon"}
 title @s subtitle {"translate":"title.death","color": "red"}
 function game:death/bossbar/display
+
+data modify storage run log.log append value {content:{translate:"event.died",color:"red"}}
+function lobby:spectator/sidebar/log/signed
+
+scoreboard players add @s scb.death 1

@@ -1,6 +1,7 @@
 use::mcdoc::shop_arrow::Price
 use::mcdoc::shop_arrow::RandomEntry
 use::java::world::item::ItemStack
+use ::java::util::text::Text
 
 dispatch minecraft:storage["run"] to run_data
 
@@ -14,31 +15,85 @@ dispatch arrow:run["bossbar"] to struct{
     new?: int,
 }
 
+dispatch arrow:run["test"] to struct{
+    ///Can see it?
+    #[until="1.20.2"]
+	Effects?: int,
+    ///Can see it?
+	#[since="1.20.2"] #[until="1.20.5"]
+	effects?: int,
+    ///Can see it?
+	#[since="1.20.5"]
+    test?: int,
+}
+
 dispatch arrow:run["BackupRandom"] to [RandomEntry]
+dispatch arrow:run["parse"] to struct{
+    in?: (Text|#[text_component] string),
+    lore?: [(Text|#[text_component] string)],
+    out?: #[text_component] string,
+    out_lore?: [#[text_component] string],
+}
+dispatch arrow:run["spec"] to [#[text_component] string] @ 0..14
 dispatch arrow:run["ShopRandom"] to [RandomEntry] @ ..2
 dispatch arrow:run["ThisRandom"] to RandomEntry
 dispatch arrow:run["item"] to ItemStack
 dispatch arrow:run["Pay"] to Price
 dispatch arrow:run["macro"] to Any
 dispatch arrow:run["macro2"] to Any
-dispatch arrow:run["PayName"] to string
+dispatch arrow:run["PayName"] to Text
 dispatch arrow:run["repair_check"] to any
 dispatch arrow:run["ModelData"] to int
 dispatch arrow:run["run"] to any
-dispatch arrow:run["text"] to (#[text_component] string | [#[text_component] string])
+dispatch arrow:run["text"] to (#[text_component] string | [#[text_component] string]| Text)
 dispatch arrow:run["first_kill"] to byte
 dispatch arrow:run["temp"] to any
 dispatch arrow:run["dirtRecord"] to [double] @ 3
 dispatch arrow:run["type"] to #[id="item"] string
 dispatch arrow:run["genLore"] to [#[text_component] string]
+dispatch arrow:run["name"] to struct{
+    this?: string,
+    [int]?: string,
+    id?: int,
+}
+dispatch arrow:run["log"] to struct{
+    log?: [struct{
+        content?: Text,
+        time?: int,
+        signature?: int,
+    }],
+    new?: Text
+}
+dispatch arrow:run["vil"] to struct{
+    red?: [VillagerStatus] @ ..3,
+    blue?: [VillagerStatus] @ ..3,
+    this?: VillagerStatus,
+}
+dispatch arrow:run["space"] to struct{
+    a?: string,
+    b?: string,
+    c?: string,
+    d?: string,
+}
+dispatch arrow:run["menu"] to struct{
+    eco?: [Text],
+    log?: [Text]
+}
 dispatch arrow:run["genName"] to struct{
-    use?: #[text_component] string
+    use?: #[text_component] string,
+    hold?: any,
 }
 dispatch arrow:run["final_kill"] to struct{
-    Pos?: [double] @ 3
+    Pos?: [double] @ 3,
+    cause?: any,
 }
 dispatch arrow:run["final"] to struct{
     cause?: any,
 }
 
 struct Any{[any]?:any}
+
+struct VillagerStatus{
+    hp?: byte @ 1..10,
+    flash?: byte @ 0..1,
+}

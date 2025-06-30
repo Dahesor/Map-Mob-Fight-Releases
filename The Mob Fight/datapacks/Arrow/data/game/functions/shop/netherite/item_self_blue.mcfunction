@@ -3,5 +3,6 @@ function game:shop/netherite/animation/blue_out
 scoreboard players operation stored_netherite blue += #add calculator
 scoreboard players operation stored_netherite blue += #add calculator
 scoreboard players operation stored_netherite blue += #add calculator
+scoreboard players operation netherite.spent blue += #add calculator
 execute on origin run advancement grant @s only lobby:vand
 kill @s

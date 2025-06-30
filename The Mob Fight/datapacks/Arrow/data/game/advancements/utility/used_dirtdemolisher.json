@@ -7,8 +7,7 @@
                     "items": [
                         "diamond_shovel"
                     ],
-                    "count": 1,
-                    "nbt": "{special:{dirtDEM:1b}}"      
+                    "nbt": "{special:{dirtDEM:1b}}"
                     },
                     "delta": -1
                 }

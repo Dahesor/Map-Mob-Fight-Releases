@@ -13,6 +13,9 @@ kill @e[type=zombified_piglin]
 kill @e[tag=crystal_marker]
 kill @e[type=marker,tag=mine]
 kill @e[type=item_display,tag=mine]
+kill @e[type=marker,tag=scb]
+kill @e[type=item_display,tag=scb_name]
+kill @e[type=text_display,tag=scb_name]
 effect clear @a luck
 effect clear @a unluck
 execute as @a run attribute @s generic.max_health base set 20
@@ -20,6 +23,8 @@ execute as @a run attribute @s generic.max_health base set 20
 scoreboard players add gameID Data 1
 scoreboard players operation @a lastGame = gameID Data
 scoreboard players set @a surrender 0
+scoreboard players operation LogTime Data = $gametime Data
+scoreboard players operation LogTime Data -= SpectateLogDelay Options
 scoreboard players set GameLength Data 0
 scoreboard players set crazyMode Data 0
 scoreboard players set destroyMode Data 0
@@ -78,17 +83,29 @@ scoreboard players set creeperStorm red 0
 scoreboard players set creeperStorm blue 0
 scoreboard players set pigmanSlaves red 0
 scoreboard players set pigmanSlaves blue 0
+scoreboard players set combatIndex red 0
+scoreboard players set combatIndex blue 0
+function game:run/resources/reset
 scoreboard players set oreAdd red 1
 scoreboard players set oreAdd blue 1
 scoreboard players set techNetherite red 1
 scoreboard players set techNetherite blue 1
 scoreboard players reset final_camera
+scoreboard players reset ore_ticker
 scoreboard players reset nextRandomItem Data
 scoreboard players reset @a bossbar
+scoreboard players reset @a scb.death
+scoreboard players reset @a scb.def
+scoreboard players reset @a scb.shot
+scoreboard players reset @a scb.eco
+scoreboard players reset @a scb.support
+scoreboard players set $lastLoggedPlayer calculator -1
+scoreboard players set $signedLines calculator 0
 scoreboard players operation #half_score Data = TargetScore Options
 scoreboard players operation #half_score Data /= #2 calculator
 scoreboard players operation #close_score Data = TargetScore Options
-scoreboard players operation #close_score Data -= killScore Options
+execute unless score GameMode Data matches 3 run scoreboard players operation #close_score Data -= killScore Options
+execute if score GameMode Data matches 3 run scoreboard players operation #close_score Data -= VILLAGER.villagerScore Options
 scoreboard players set villagerTimer Data 2400
 scoreboard objectives add Item.power_star dummy
 scoreboard objectives add Item.arrow_shield dummy
@@ -121,22 +138,22 @@ function game:shop/load
 
 
 # place crystals
-summon marker 0 3 0 {Invulnerable:1b,Tags:["red_crystal"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["red_crystal","game_crystal"]}
 data modify entity @e[type=marker,limit=1,sort=nearest,tag=red_crystal] Pos set from storage run map.crystalPos.red[0]
 execute at @e[type=marker,tag=red_crystal] run summon end_crystal ~ ~ ~ {ShowBottom:0b,Invulnerable:1b,Tags:["red_crystal"]}
 kill @e[type=marker,tag=red_crystal]
 
-summon marker 0 3 0 {Invulnerable:1b,Tags:["red_crystal"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["red_crystal","game_crystal"]}
 data modify entity @e[type=marker,limit=1,sort=nearest,tag=red_crystal] Pos set from storage run map.crystalPos.red[1]
 execute at @e[type=marker,tag=red_crystal] run summon end_crystal ~ ~ ~ {ShowBottom:0b,Invulnerable:1b,Tags:["red_crystal"]}
 kill @e[type=marker,tag=red_crystal]
 
-summon marker 0 3 0 {Invulnerable:1b,Tags:["blue_crystal"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["blue_crystal","game_crystal"]}
 data modify entity @e[type=marker,limit=1,sort=nearest,tag=blue_crystal] Pos set from storage run map.crystalPos.blue[0]
 execute at @e[type=marker,tag=blue_crystal] run summon end_crystal ~ ~ ~ {ShowBottom:0b,Invulnerable:1b,Tags:["blue_crystal"]}
 kill @e[type=marker,tag=blue_crystal]
 
-summon marker 0 3 0 {Invulnerable:1b,Tags:["blue_crystal"]}
+summon marker 0 3 0 {Invulnerable:1b,Tags:["blue_crystal","game_crystal"]}
 data modify entity @e[type=marker,limit=1,sort=nearest,tag=blue_crystal] Pos set from storage run map.crystalPos.blue[1]
 execute at @e[type=marker,tag=blue_crystal] run summon end_crystal ~ ~ ~ {ShowBottom:0b,Invulnerable:1b,Tags:["blue_crystal"]}
 kill @e[type=marker,tag=blue_crystal]
@@ -216,7 +233,7 @@ execute if score dataCollection Data matches 1 run execute store result storage 
 execute if score dataCollection Data matches 1 run data modify storage developer:data General append value {GameID:-1,data:[]}
 execute if score dataCollection Data matches 1 run execute store result storage developer:data General[-1].GameID int 1 run scoreboard players get gameID Data
 
-execute if score showPlayerHealth Options matches 1 run scoreboard objectives setdisplay list health
+execute if score showPlayerHealth Options matches 1 run scoreboard objectives setdisplay list belowName
 execute unless score showPlayerHealth Options matches 1 run scoreboard objectives setdisplay list
 
 function game:utility/realistic_ore/create_scoreboards
@@ -239,3 +256,15 @@ function game:run/magage_gamemodes
 function #game:start
 function game:run/netherite/villager/shuffle
 execute as @a run attribute @s generic.attack_speed base set 4.3
+execute as @a run trigger join_game set 0
+
+data modify storage run log set value {log:[]}
+
+function sidebar.dah:reload
+function lobby:spectator/sidebar/init
+function lobby:spectator/sidebar/update
+schedule function lobby:spectator/sidebar/launch 6s
+function game:death/update
+
+data modify storage run log.new set value {"translate":"chat.head.game","color": "aqua",extra:[{text:" "},{"text":"Start!","color": "green"}]}
+function lobby:spectator/sidebar/log/new

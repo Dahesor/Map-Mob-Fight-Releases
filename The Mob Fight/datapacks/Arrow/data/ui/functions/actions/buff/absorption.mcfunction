@@ -1,7 +1,7 @@
 data remove storage run Pay
 data merge storage run {Pay:{dirt:16b,gold:16b,diamond:1b}}
 data remove storage run PayName
-data merge storage run {PayName:"absoprtion"}
+data merge storage run {PayName:{"translate":"圣灵守护","color": "gray","italic": false}}
 
 function game:shop/pay/anchor
 function game:plugin/score_copy
@@ -22,5 +22,5 @@ execute if score @s Payment matches 0 if entity @s[team=blue] unless score absop
 
 execute if score @s Payment matches 0 if entity @s[team=red] unless score absoprtionCooldown red matches 1.. run scoreboard players set absoprtionCooldown red 85
 execute if score @s Payment matches 0 if entity @s[team=blue] unless score absoprtionCooldown blue matches 1.. run scoreboard players set absoprtionCooldown blue 85
-
+execute if score @s Payment matches 0 run scoreboard players add @s scb.support 25
 execute as @a[scores={UI=70}] run function ui:actions/buff/anchor

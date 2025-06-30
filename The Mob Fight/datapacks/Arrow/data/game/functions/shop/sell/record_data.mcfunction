@@ -1,5 +1,6 @@
-function game:plugin/get_player_name
-data modify storage developer:data MobArrow[-1].data append value {GameTime:-1}
-data modify storage developer:data MobArrow[-1].data[-1].Name set from storage run result.Sell.display.Name
-data modify storage developer:data MobArrow[-1].data[-1].Player set from storage run playerName
-execute store result storage developer:data MobArrow[-1].data[-1].GameTime int 1 run scoreboard players get GameLength Data
+data modify storage run log.log append value {content:{text:"",extra:[{text:""}]}}
+function game:shop/sell/__string_to_struct with storage run result.Sell.display
+data remove storage run log.log[-1].content.extra[0].italic
+data remove storage run log.log[-1].content.extra[0][].italic
+data remove storage run log.log[-1].content.extra[0].bold
+function lobby:spectator/sidebar/log/signed

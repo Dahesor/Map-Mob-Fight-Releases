@@ -8,3 +8,4 @@ scoreboard objectives add monitor.diam mined:diamond_ore
 scoreboard objectives add monitor.diam_d mined:deepslate_diamond_ore
 scoreboard objectives add monitor.copper mined:copper_ore
 scoreboard objectives add monitor.copper_d mined:deepslate_copper_ore
+scoreboard objectives add monitor.dirt mined:coarse_dirt

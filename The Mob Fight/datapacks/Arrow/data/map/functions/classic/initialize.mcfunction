@@ -9,5 +9,5 @@ setblock -25 67 14 minecraft:blue_wall_banner[facing=east]
 setblock -26 65 11 blue_wool
 setblock -26 64 12 blue_wool
 setblock -26 64 10 blue_wool
-summon armor_stand 22 61 4 {Marker:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,Tags:["map_notation","intelligent_name"],CustomName:'{"translate":"☆ 泥土生产区 ☆","color": "gold"}',CustomNameVisible:1b}
-summon armor_stand -22 61 -5 {Marker:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,Tags:["map_notation","intelligent_name"],CustomName:'{"translate":"☆ 泥土生产区 ☆","color": "gold"}',CustomNameVisible:1b}
+summon text_display 22 61 4 {Tags:["map_notation","del"],text:'{"translate":"☆ 泥土生产区 ☆","color": "gold"}',alignment:"center",billboard:"center",background:1275068416,view_range:0.1}
+summon text_display -22 61 -5 {Tags:["map_notation","del"],text:'{"translate":"☆ 泥土生产区 ☆","color": "gold"}',alignment:"center",billboard:"center",background:1275068416,view_range:0.1}

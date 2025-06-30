@@ -1,0 +1,2 @@
+execute if data entity @s[tag=spec_menu_temp] recipeBook{isGuiOpen:1b} run return run function lobby:spectator/switch/now
+execute if data entity @s[tag=!spec_menu_temp] recipeBook{isGuiOpen:0b} run return run function lobby:spectator/switch/now

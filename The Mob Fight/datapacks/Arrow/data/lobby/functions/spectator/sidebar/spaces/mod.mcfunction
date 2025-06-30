@@ -1,0 +1,13 @@
+execute if score $1 calculator matches ..9 run data modify storage run space.a set value "    "
+execute if score $1 calculator matches 11..99 run data modify storage run space.a set value "   "
+execute if score $1 calculator matches 100..999 run data modify storage run space.a set value "  "
+execute if score $1 calculator matches 1000.. run data modify storage run space.a set value " "
+
+execute if score $2 calculator matches ..9 run data modify storage run space.b set value "   "
+execute if score $2 calculator matches 11..99 run data modify storage run space.b set value "  "
+execute if score $2 calculator matches 100..999 run data modify storage run space.b set value " "
+execute if score $2 calculator matches 100..999 if score $1 calculator matches 100.. run data modify storage run space.b set value ""
+execute if score $3 calculator matches ..9 run data modify storage run space.c set value "    "
+execute if score $3 calculator matches 11..99 run data modify storage run space.c set value "   "
+execute if score $3 calculator matches 100..999 run data modify storage run space.c set value "  "
+execute if score $3 calculator matches 1000.. run data modify storage run space.c set value " "

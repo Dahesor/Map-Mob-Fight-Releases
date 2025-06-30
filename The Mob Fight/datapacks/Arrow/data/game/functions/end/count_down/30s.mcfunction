@@ -4,3 +4,6 @@ title @a times 10 40 20
 title @a title {"translate":"time.second","with":["30"],"color": "green"}
 title @a subtitle {"translate":"game_end_in","color": "red"}
 schedule function game:end/count_down/20s 10s
+
+data modify storage run log.new set value {"translate":"last_minute","color": "red"}
+function lobby:spectator/sidebar/log/new

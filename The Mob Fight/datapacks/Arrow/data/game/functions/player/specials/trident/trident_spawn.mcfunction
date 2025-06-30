@@ -9,7 +9,9 @@ scoreboard players operation #z calculator %= #1000 calculator
 
 function game:player/specials/trident/summon_display
 
-effect give @a absorption 8 1 true
+effect give @a[distance=..7,gamemode=adventure] absorption 8 1 true
 playsound minecraft:item.trident.thunder master @a ~ ~ ~ 0.8 1.8
+
+execute if entity @a[distance=..7,gamemode=adventure] at @a[distance=..7,gamemode=adventure] on origin run scoreboard players add @s scb.support 50
 
 kill

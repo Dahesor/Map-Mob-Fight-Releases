@@ -27,11 +27,18 @@ scoreboard objectives add health health
 scoreboard objectives add belowName dummy ""
 scoreboard objectives add convertEnergy dummy
 scoreboard objectives add convertItem dummy
+scoreboard objectives add UID dummy
 scoreboard objectives add convertCount dummy
 scoreboard objectives add regenPotionUHC dummy
 scoreboard objectives add surrender dummy
 scoreboard objectives add bossbar dummy
 scoreboard objectives add match dummy
+scoreboard objectives add spec trigger
+scoreboard objectives add scb.death dummy
+scoreboard objectives add scb.shot dummy
+scoreboard objectives add scb.def dummy
+scoreboard objectives add scb.eco dummy
+scoreboard objectives add scb.support dummy
 scoreboard objectives setdisplay below_name belowName
 scoreboard objectives modify belowName displayname ""
 # numbers
@@ -40,6 +47,7 @@ scoreboard players set #6000 calculator 6000
 scoreboard players set #1800 calculator 1800
 scoreboard players set #1200 calculator 1200
 scoreboard players set #1000 calculator 1000
+scoreboard players set #400 calculator 400
 scoreboard players set #100 calculator 100
 scoreboard players set #41 calculator 41
 scoreboard players set #40 calculator 40
@@ -48,9 +56,10 @@ scoreboard players set #30 calculator 30
 scoreboard players set #25 calculator 25
 scoreboard players set #22 calculator 22
 scoreboard players set #20 calculator 20
-scoreboard players set #10 calculator 10
-scoreboard players set #12 calculator 12
+scoreboard players set #18 calculator 18
 scoreboard players set #16 calculator 16
+scoreboard players set #12 calculator 12
+scoreboard players set #10 calculator 10
 scoreboard players set #8 calculator 8
 scoreboard players set #7 calculator 7
 scoreboard players set #5 calculator 5
@@ -70,6 +79,21 @@ team modify red friendlyFire false
 team modify blue friendlyFire false
 team modify red seeFriendlyInvisibles true
 team modify blue seeFriendlyInvisibles true
+team add spec {"color": "dark_gray","text": "Spectator"}
+team modify spec friendlyFire false
+team modify spec seeFriendlyInvisibles true
+team modify spec color dark_gray
+
+team add spec_log {"color": "dark_gray","text": "Spectator"}
+team modify spec_log friendlyFire false
+team modify spec_log seeFriendlyInvisibles true
+team modify spec_log color gray
+
+team add spec_eco {"color": "dark_gray","text": "Spectator"}
+team modify spec_eco friendlyFire false
+team modify spec_eco seeFriendlyInvisibles true
+team modify spec_eco color white
+
 # team
 
 # bossbar

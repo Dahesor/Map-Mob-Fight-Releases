@@ -23,4 +23,4 @@ execute if score GameMode Data matches 4 run summon armor_stand 5.50 58.37 96.5 
 summon armor_stand 0.50 46.00 -65.00 {Tags:["lobby_spinner_word"],CustomName:'{"translate":"★ Lobby ★","color": "gold"}',CustomNameVisible:1b,Marker:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,NoBasePlate:1b}
 
 summon text_display -5.5 59.2 89.5 {Tags:["lobby_spinner_word"],alignment:"center",text:'[{"text":"","color": "gold"},"✵ ",{"translate":"info.shop_preview"}," ✵"]',billboard:"vertical",brightness:{block:15,sky:15},background:0,text_opacity:175}
-summon text_display 6.5 59.2 85.5 {Tags:["lobby_spinner_word"],alignment:"center",text:'[{"text":"","color": "gold"},"✵ ",{"translate":"info.shop_preview"}," ✵"]',billboard:"vertical",brightness:{block:15,sky:15},background:0,text_opacity:175}
+#summon text_display 6.5 59.2 85.5 {Tags:["lobby_spinner_word"],alignment:"center",text:'[{"text":"","color": "gold"},"✵ ",{"translate":"info.shop_preview"}," ✵"]',billboard:"vertical",brightness:{block:15,sky:15},background:0,text_opacity:175}

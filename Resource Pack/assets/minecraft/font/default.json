@@ -46,6 +46,15 @@
       "chars": [
         "\ue0aa"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:font/scb.png",
+      "height": 13,
+      "ascent": 10,
+      "chars": [
+        "\ue111\ue112\ue113\ue114\ue115"
+      ]
     }
   ]
 }

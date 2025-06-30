@@ -17,6 +17,11 @@ scoreboard players set @s revive_cooldown -21
 scoreboard players set @s harvest_level 0
 scoreboard players set @s regenPotionUHC 5
 scoreboard players reset @s bossbar
+scoreboard players reset @s scb.death
+scoreboard players reset @s scb.def
+scoreboard players reset @s scb.shot
+scoreboard players reset @s scb.eco
+scoreboard players reset @s scb.support
 scoreboard players operation @s lastGame = gameID Data
 tag @s remove need_team
 tag @s remove canBuyTotem

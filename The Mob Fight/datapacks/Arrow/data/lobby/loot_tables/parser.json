@@ -1,0 +1,49 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "golden_axe"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {
+                "storage": "run",
+                "nbt": "parse.in",
+                "interpret": true
+            }
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                {"storage": "run","nbt":"parse.lore[0]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[1]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[2]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[3]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[4]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[5]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[6]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[7]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[8]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[9]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[10]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[11]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[12]","interpret": true},
+                {"storage": "run","nbt":"parse.lore[13]","interpret": true}
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{parse:1b}"
+        }
+    ]
+}

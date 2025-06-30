@@ -11,3 +11,4 @@ title @s title {"text":"a","font": "icon"}
 title @s subtitle {"translate":"message.revived","color": "green"}
 attribute @s generic.attack_speed base set 4.3
 execute if score GameMode Data matches 2 run function game:run/gamemodes/thunder/visible/dark_shift
+function game:death/update

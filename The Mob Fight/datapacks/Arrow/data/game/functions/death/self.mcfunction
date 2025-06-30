@@ -25,3 +25,8 @@ title @s times 0 40 20
 title @s title {"text":"b","font": "icon"}
 title @s subtitle {"translate":"title.death","color": "red"}
 function game:death/bossbar/display
+
+data modify storage run log.log append value {content:{translate:"event.died",color:"red"}}
+function lobby:spectator/sidebar/log/signed
+
+scoreboard players add @s scb.death 1

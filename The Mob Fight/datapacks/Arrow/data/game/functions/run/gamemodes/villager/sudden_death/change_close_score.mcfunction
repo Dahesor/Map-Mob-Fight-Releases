@@ -1,0 +1,1 @@
+scoreboard players operation #close_score Data -= VILLAGER.villagerScore Options

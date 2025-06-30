@@ -39,5 +39,5 @@ summon text_display 5.50 58.30 101.5 {Tags:["lobby_spinner_word"],alignment:"cen
 summon text_display 5.50 58.03 101.5 {Tags:["lobby_spinner_word"],alignment:"center",text:'{"translate":"map.arr.fixed","color": "aqua"}',billboard:"vertical",brightness:{block:15,sky:15},background:0,text_opacity:175}
 
 summon text_display -5.5 59.2 89.5 {Tags:["lobby_spinner_word"],alignment:"center",text:'[{"text":"","color": "gold"},"✵ ",{"translate":"info.shop_preview"}," ✵"]',billboard:"vertical",brightness:{block:15,sky:15},background:0,text_opacity:175}
-summon text_display 6.5 59.2 85.5 {Tags:["lobby_spinner_word"],alignment:"center",text:'[{"text":"","color": "gold"},"✵ ",{"translate":"info.shop_preview"}," ✵"]',billboard:"vertical",brightness:{block:15,sky:15},background:0,text_opacity:175}
+#summon text_display 6.5 59.2 85.5 {Tags:["lobby_spinner_word"],alignment:"center",text:'[{"text":"","color": "gold"},"✵ ",{"translate":"info.shop_preview"}," ✵"]',billboard:"vertical",brightness:{block:15,sky:15},background:0,text_opacity:175}
 summon text_display 0.5 44.2 -101.5 {Tags:["lobby_spinner_word"],alignment:"center",text:'[{"text":"","color": "aqua"},"✵ ",{"translate":"info.shop_preview"}," ✵"]',billboard:"vertical",brightness:{block:15,sky:15},background:0,text_opacity:175}

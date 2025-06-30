@@ -19,5 +19,6 @@ execute if score @s[team=blue] Payment matches 0 as @a[team=blue] run function g
 tag @s add excluded
 execute as @a[tag=!excluded] run function ui:foolproof/check
 execute as @a run function ui:foolproof/redirect
+execute if score @s Payment matches 0 run scoreboard players add @s scb.support 20
 tag @a remove excluded
 

@@ -16,6 +16,7 @@ scoreboard players set Performance Options 0
 scoreboard players set LimitCrazyMode Options 0
 scoreboard players set initialBeamCD Options 400
 scoreboard players set SpectateLogDelay Options 40
+scoreboard players set gameType Options 0
 
 #define score_holder TargetScore The Target Score that Players need to reach in order to win
 #define score_holder MaxGameLength The Time limit of a Game

@@ -60,6 +60,7 @@ dispatch arrow:run["log"] to struct{
     log?: [struct{
         content?: Text,
         time?: int,
+        signature?: int,
     }],
     new?: Text
 }

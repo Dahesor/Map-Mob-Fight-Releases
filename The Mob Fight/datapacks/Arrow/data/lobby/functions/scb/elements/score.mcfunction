@@ -1,0 +1,2 @@
+scoreboard players operation @s calculator = $hold calculator
+data merge entity @s {brightness:{sky:15,block:15},alignment:"left",billboard:"fixed",background:0,Tags:["scb_name"],text:'{"score": {"name": "@s","objective": "calculator"}}',Rotation:[45.0f,0f]}

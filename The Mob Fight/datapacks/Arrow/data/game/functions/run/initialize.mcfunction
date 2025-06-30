@@ -13,6 +13,9 @@ kill @e[type=zombified_piglin]
 kill @e[tag=crystal_marker]
 kill @e[type=marker,tag=mine]
 kill @e[type=item_display,tag=mine]
+kill @e[type=marker,tag=scb]
+kill @e[type=item_display,tag=scb_name]
+kill @e[type=text_display,tag=scb_name]
 effect clear @a luck
 effect clear @a unluck
 execute as @a run attribute @s generic.max_health base set 20
@@ -91,10 +94,18 @@ scoreboard players reset final_camera
 scoreboard players reset ore_ticker
 scoreboard players reset nextRandomItem Data
 scoreboard players reset @a bossbar
+scoreboard players reset @a scb.death
+scoreboard players reset @a scb.def
+scoreboard players reset @a scb.shot
+scoreboard players reset @a scb.eco
+scoreboard players reset @a scb.support
+scoreboard players set $lastLoggedPlayer calculator -1
+scoreboard players set $signedLines calculator 0
 scoreboard players operation #half_score Data = TargetScore Options
 scoreboard players operation #half_score Data /= #2 calculator
 scoreboard players operation #close_score Data = TargetScore Options
-scoreboard players operation #close_score Data -= killScore Options
+execute unless score GameMode Data matches 3 run scoreboard players operation #close_score Data -= killScore Options
+execute if score GameMode Data matches 3 run scoreboard players operation #close_score Data -= VILLAGER.villagerScore Options
 scoreboard players set villagerTimer Data 2400
 scoreboard objectives add Item.power_star dummy
 scoreboard objectives add Item.arrow_shield dummy
@@ -254,3 +265,6 @@ function lobby:spectator/sidebar/init
 function lobby:spectator/sidebar/update
 schedule function lobby:spectator/sidebar/launch 6s
 function game:death/update
+
+data modify storage run log.new set value {"translate":"chat.head.game","color": "aqua",extra:[{text:" "},{"text":"Start!","color": "green"}]}
+function lobby:spectator/sidebar/log/new

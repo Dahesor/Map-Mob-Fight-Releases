@@ -19,13 +19,13 @@ execute if score $vil_flash calculator matches 0 store result score mob_count re
 execute if score $vil_flash calculator matches 1 store result score mob_count blue if entity @e[type=#game:mobs,predicate=map:in_blue]
 
 
-
 data modify storage run menu.log[3] set value {text:" ",extra:[{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""},{text:""}]}
 
 execute unless score player_alive red matches 1.. run data modify storage run menu.log[3].extra[1].text set value ""
 execute unless score player_alive blue matches 1.. run data modify storage run menu.log[3].extra[-1].text set value ""
 
 function lobby:spectator/sidebar/status/master
+function lobby:spectator/sidebar/log/grab
 
 data modify storage run parse.lore set from storage run menu.log
 function lobby:spectator/parse/parse

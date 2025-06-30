@@ -5,4 +5,9 @@ gamemode adventure
 effect clear @s
 tag @a remove shop.left.limit
 tag @a remove shop.right.limit
+scoreboard players reset @s scb.death
+scoreboard players reset @s scb.def
+scoreboard players reset @s scb.shot
+scoreboard players reset @s scb.eco
+scoreboard players reset @s scb.support
 attribute @s generic.max_health base set 20

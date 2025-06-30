@@ -9,6 +9,7 @@ execute if score society_populate calculator matches 2 store result storage run 
 execute if score society_populate calculator matches 0..2 run function game:shop/pay/anchor
 
 execute if score @s Payment matches 0 run function game:utility/eco/calc
+execute if score @s Payment matches 0 run scoreboard players add @s scb.support 30
 
 execute if score society_populate calculator matches 0..2 if score @s Payment matches 0 run function game:run/technology/upgrade/society_populate
 function ui:actions/technology/anchor

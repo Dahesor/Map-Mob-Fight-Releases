@@ -9,6 +9,7 @@ execute if score @s Payment matches 0 run tellraw @a ["",{"translate":"chat.head
 execute if score @s Payment matches 0 if entity @s[team=red] run function game:utility/creeper_storm/red
 execute if score @s Payment matches 0 if entity @s[team=blue] run function game:utility/creeper_storm/blue
 execute if score @s Payment matches 0 as @a at @s run playsound entity.experience_orb.pickup player @s ~ ~ ~ 1 0.3 1
+execute if score @s Payment matches 0 run scoreboard players add @s scb.support 30
 tag @s add excluded
 execute as @a[tag=!excluded] run function ui:foolproof/check
 execute as @a run function ui:foolproof/redirect

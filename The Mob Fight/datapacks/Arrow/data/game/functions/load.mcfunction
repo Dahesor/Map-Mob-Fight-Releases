@@ -34,6 +34,11 @@ scoreboard objectives add surrender dummy
 scoreboard objectives add bossbar dummy
 scoreboard objectives add match dummy
 scoreboard objectives add spec trigger
+scoreboard objectives add scb.death dummy
+scoreboard objectives add scb.shot dummy
+scoreboard objectives add scb.def dummy
+scoreboard objectives add scb.eco dummy
+scoreboard objectives add scb.support dummy
 scoreboard objectives setdisplay below_name belowName
 scoreboard objectives modify belowName displayname ""
 # numbers

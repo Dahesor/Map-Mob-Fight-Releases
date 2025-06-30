@@ -1,3 +1,6 @@
 data modify storage run log.log append value {content:{text:"",extra:[{text:""}]}}
-data modify storage run log.log[-1].content.extra[0] set from storage run result.Sell.display.Name
+function game:shop/sell/__string_to_struct with storage run result.Sell.display
+data remove storage run log.log[-1].content.extra[0].italic
+data remove storage run log.log[-1].content.extra[0][].italic
+data remove storage run log.log[-1].content.extra[0].bold
 function lobby:spectator/sidebar/log/signed

@@ -17,6 +17,7 @@ execute if score @s[team=red] Payment matches 0 as @a[team=red] at @s run playso
 execute if score @s[team=blue] Payment matches 0 as @a[team=blue] at @s run playsound entity.experience_orb.pickup player @s ~ ~ ~
 execute if score @s[team=red] Payment matches 0 as @a[team=red] run function game:player/upgradeables/renew
 execute if score @s[team=blue] Payment matches 0 as @a[team=blue] run function game:player/upgradeables/renew
+execute if score @s Payment matches 0 run scoreboard players add @s scb.support 30
 
 
 tag @s add excluded

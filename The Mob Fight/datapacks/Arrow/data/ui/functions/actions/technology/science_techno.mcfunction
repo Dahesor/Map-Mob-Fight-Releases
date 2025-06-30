@@ -9,6 +9,7 @@ execute if score science_techno calculator matches 2 store result storage run Pa
 execute if score science_techno calculator matches 0..2 run function game:shop/pay/anchor
 
 execute if score @s Payment matches 0 run function game:utility/eco/calc
+execute if score @s Payment matches 0 run scoreboard players add @s scb.support 30
 
 execute if score science_techno calculator matches 0..2 if score @s Payment matches 0 run function game:run/technology/upgrade/science_techno
 function ui:actions/technology/anchor

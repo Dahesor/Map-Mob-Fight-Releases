@@ -38,3 +38,6 @@ execute if score GameMode Data matches 3 run title @s subtitle {"translate":"gam
 
 execute if score GameMode Data matches 4 run title @s title {"text":"a","font":"icon","color":"white"}
 execute if score GameMode Data matches 4 run title @s subtitle {"translate":"gamemode.4","color":"red"}
+
+execute if score gameType Options matches 1 run title @s subtitle {"translate":"int.match_point","color":"gold"}
+execute if score gameType Options matches 2 run title @s subtitle {"translate":"int.champ_point","color":"gold"}

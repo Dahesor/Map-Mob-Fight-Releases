@@ -24,3 +24,6 @@ function game:run/hint/load
 function game:load
 scoreboard players set #currentMap calculator 1
 defaultgamemode adventure
+kill @e[type=marker,tag=scb]
+kill @e[type=text_display,tag=scb_name]
+kill @e[type=item_display,tag=scb_name]

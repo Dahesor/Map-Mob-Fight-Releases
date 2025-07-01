@@ -1,0 +1,2 @@
+summon wolf ~ ~ ~ {Attributes:[{Base:14d,Name:"generic.max_health"}],Health:14f,AngerTime:999999999,Tags:["windy_wolf","second_ticking"],CustomName:'{"translate": "arrow.windy_wolf","color": "blue"}'}
+kill

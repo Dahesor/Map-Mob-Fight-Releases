@@ -2,6 +2,7 @@ execute as @a at @s run tp @s 0.50 58.5 110.5 -180.00 0.0
 function lobby:lobby_spinner/redstone
 function lobby:scb/create
 tag @a remove returning
+team leave @a[tag=team_randomed]
 execute as @a[team=red] run function lobby:team_join_red
 execute as @a[team=blue] run function lobby:team_join_blue
 execute as @a[tag=team_randomed] run function lobby:team_join_random

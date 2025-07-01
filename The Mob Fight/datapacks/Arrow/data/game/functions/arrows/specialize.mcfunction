@@ -58,6 +58,8 @@ execute if predicate game:arrows/magic/wind_wizard run function game:arrows/mobs
 execute if predicate game:arrows/magic/water_wizard run function game:arrows/mobs/magic/water_wizard
 execute if predicate game:arrows/magic/wounding_wizard run function game:arrows/mobs/magic/wounding_wizard
 execute if predicate game:arrows/magic/twitching_wizard run function game:arrows/mobs/magic/twitching_wizard
+execute if predicate game:arrows/magic/alchemy_student run function game:arrows/mobs/magic/alchemy_student
+execute if predicate game:arrows/magic/grand_wizard run function game:arrows/mobs/magic/grand_wizard
 execute if predicate game:arrows/nether/blaze run function game:arrows/mobs/nether/blaze
 execute if predicate game:arrows/nether/zoglin run function game:arrows/mobs/nether/zoglin
 execute if predicate game:arrows/nether/fire_ice run function game:arrows/mobs/combined/ice_fire
@@ -69,6 +71,7 @@ execute if predicate game:arrows/misc/flager run function game:arrows/mobs/misc/
 execute if predicate game:arrows/misc/enchant run function game:arrows/mobs/misc/enchant
 execute if predicate game:arrows/misc/healer run function game:arrows/mobs/misc/healer
 execute if predicate game:arrows/misc/lifer run function game:arrows/mobs/misc/lifer
+execute if predicate game:arrows/misc/windy_wolf run function game:arrows/mobs/misc/windy_wolf
 execute if predicate game:arrows/illagers/pillager run function game:arrows/mobs/illagers/pillager
 execute if predicate game:arrows/illagers/vindicator run function game:arrows/mobs/illagers/vindicator
 execute if predicate game:arrows/illagers/illusioner run function game:arrows/mobs/illagers/illusioner
@@ -78,6 +81,7 @@ execute if predicate game:arrows/goldlikes/ball_invit run function game:arrows/m
 execute if predicate game:arrows/goldlikes/mg run function game:arrows/mobs/goldlikes/mg
 execute if predicate game:arrows/goldlikes/dancer run function game:arrows/mobs/goldlikes/dancer
 execute if predicate game:arrows/goldlikes/becon run function game:arrows/mobs/goldlikes/becon
+execute if predicate game:arrows/goldlikes/snowball run function game:arrows/mobs/goldlikes/snowball
 execute if predicate game:arrows/effects/tnt run function game:arrows/effects/tnt
 execute if predicate game:arrows/effects/tnt_auto run function game:arrows/effects/tnt_auto
 execute if predicate game:arrows/effects/tnt_fountain run function game:arrows/effects/tnt_fountain

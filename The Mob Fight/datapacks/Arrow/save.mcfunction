@@ -2,7 +2,7 @@ summon item_display ~ ~ ~ {billboard:"fixed",item:{id:"paper",Count:1b,tag:{Cust
 
 data modify storage run test set value {}
 
-give @s tipped_arrow{CustomPotionColor:799744}
+give @s tipped_arrow{CustomPotionColor:12448742}
 give @s oak_sign{BlockEntityTag:{is_waxed:1b,front_text:{messages:['{"translate":"切换地图","color": "green","clickEvent": {"action": "run_command","value": "/function lobby:map_selection/loop"}}','{"nbt":"map.displayName","storage": "run","interpret": true}','','[{"text":"[","color": "gray"},{"keybind":"key.use"},"]"]']}}}
 tellraw @a [{"translate":"dirt","with":[{"score":{"name": "#dirt","objective": "calculator"},"color": "red","italic": false}]},{"translate":"hint.still_need","with":[{"score":{"name": "#difference","objective": "calculator"},"color": "red"}]}]
 summon text_display ~ ~ ~ {text:'{"text":"0","color": "#c0e0eb"}',billboard:"fixed",brightness:{block:15,sky:15},transformation:{scale:[10f,10f,10f],right_rotation:[0f,0f,0f,1f],left_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]},background:0,alignment:"center"}

@@ -8,4 +8,4 @@ tellraw @s [{"text":"    - ","color": "red"}," ",{"translate":"map.resource_pack
 tellraw @s [{"text":"    -  ","color": "red"},{"translate":"map.version_hint.renew","color": "light_purple","underlined": true}]
 execute unless score game Data matches 1 run function lobby:team_join_random
 function ui:actions/mainpage/anchor
-tellraw @s [{"translate":"res.od.v1.0.1","color": "red","underlined": true,"bold": true}]
+tellraw @s [{"translate":"res.od.v1.1.0.6","color": "red","underlined": true,"bold": true}]

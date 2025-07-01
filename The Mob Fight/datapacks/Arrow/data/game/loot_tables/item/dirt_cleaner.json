@@ -10,12 +10,12 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{special:{dirtDEM:1b},Damage:1561,Enchantments:[{}]}"
+                            "tag": "{special:{dirtDEM:1b},Damage:1561,Enchantments:[{}],CanDestroy:[\"#game:breakable\"],HideFlags:255}"
                         },
                         {
                             "function": "set_name",
                             "entity": "this",
-                            "name": {"translate":"item.dirt_cleaner","color": "gold","italic": false}
+                            "name": {"translate":"item.dirt_cleaner","color": "blue","italic": false}
                         },
                         {
                             "function": "set_lore",

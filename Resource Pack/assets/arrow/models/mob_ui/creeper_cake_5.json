@@ -1,7 +1,7 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "arrow:supply",
-      "layer1": "arrow:mob/creeper_cake_5"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arrow:supply",
+    "layer1": "arrow:mob/creeper_cake_5"
+  }
 }

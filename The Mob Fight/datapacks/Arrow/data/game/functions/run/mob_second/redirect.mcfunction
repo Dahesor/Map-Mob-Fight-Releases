@@ -7,3 +7,4 @@ execute if entity @s[tag=mine,type=marker] at @s run function game:player/warped
 execute if entity @s[tag=mob.lifer] at @s positioned ~ ~1.5 ~ run function game:run/mob_second/lifer/lifer
 execute if entity @s[tag=heal_trident] at @s run function game:player/specials/trident/ticker
 execute if entity @s[tag=golem_egg] at @s run function game:utility/repair_golem_limit/overtime
+execute if entity @s[tag=windy_wolf] at @s run function game:run/mob_second/windy_wolf/exe

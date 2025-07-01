@@ -9,11 +9,6 @@
                     "children": [
                         {
                             "type": "loot_table",
-                            "name": "game:item/dirt_cleaner",
-                            "weight": 30
-                        },
-                        {
-                            "type": "loot_table",
                             "name": "game:item/thundering_arrow",
                             "functions": [
                                 {

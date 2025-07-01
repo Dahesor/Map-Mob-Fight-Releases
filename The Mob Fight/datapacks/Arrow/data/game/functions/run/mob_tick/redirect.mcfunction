@@ -8,6 +8,7 @@ execute if entity @s[tag=TNT_child] at @s run return run function game:run/mob_t
 execute if entity @s[tag=fire_wizard] at @s run return run function game:run/mob_tick/fire_wizard/tick
 execute if entity @s[tag=ice_wizard] at @s run return run function game:run/mob_tick/ice_wizard/tick
 execute if entity @s[tag=wind_wizard] at @s run return run function game:run/mob_tick/wind_wizard/tick
+execute if entity @s[tag=grand_master] at @s run return run function game:run/mob_tick/grand_wizard/exe
 execute if entity @s[tag=water_wizard] at @s run return run function game:run/mob_tick/water_wizard/tick
 execute if entity @s[tag=wounding_wizard] at @s run return run function game:run/mob_tick/wounding_wizard/tick
 execute if entity @s[tag=twitching_wizard] at @s run return run function game:run/mob_tick/twitching_wizard/tick
@@ -18,7 +19,9 @@ execute if entity @s[tag=dark_wizard] at @s run return run function game:run/mob
 execute if entity @s[tag=poison_wizard] at @s run return run function game:run/mob_tick/poison_wizard/tick
 execute if entity @s[tag=tp_wizard] at @s run return run function game:run/mob_tick/tp_wizard/tick
 execute if entity @s[tag=god.mg] at @s run return run function game:run/mob_tick/mg/tick
+execute if entity @s[tag=god.snowball] at @s run return run function game:run/mob_tick/mg/snowball
 execute if entity @s[tag=dancer] at @s run return run function game:run/mob_tick/dancer/tick
+execute if entity @s[tag=abstractSowball] at @s run return run function game:run/mob_tick/mg/abstract
 execute if entity @s[tag=beacon] at @s run return run function game:run/mob_tick/beacon/tick
 execute if entity @s[tag=crystal_marker,type=potion] at @s run return run particle dust 0.165 0.18 1 1 ~ ~ ~ 0 0 0 0 0 force @a
 execute if entity @s[tag=crystal_marker,type=marker] at @s run return run function game:player/warped_stick/crystal_marker/self_tick

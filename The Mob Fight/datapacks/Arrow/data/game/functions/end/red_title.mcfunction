@@ -9,5 +9,4 @@ execute as @a[team=red] at @s run playsound arrow:event.win master @s ~ ~ ~
 execute as @a[team=blue] at @s run playsound arrow:event.lose master @s ~ ~ ~
 schedule function game:end/teleport_back 3s
 tag @a[team=red] add last_winner
-team leave @a[tag=team_randomed]
 gamemode adventure @a

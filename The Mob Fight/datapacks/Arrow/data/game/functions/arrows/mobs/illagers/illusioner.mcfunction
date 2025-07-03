@@ -1,2 +1,2 @@
-execute summon illusioner run scoreboard players set @s mobDEF 50
+execute summon illusioner run function game:arrows/mobs/illagers/mod
 kill @s

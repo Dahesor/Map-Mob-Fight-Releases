@@ -1,2 +1,2 @@
-execute summon evoker run scoreboard players set @s mobDEF 60
+execute summon evoker run function game:arrows/mobs/illagers/mod
 kill @s

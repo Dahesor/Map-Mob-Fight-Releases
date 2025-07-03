@@ -1,2 +1,2 @@
-summon slime ~ ~20 ~ {Size:16,active_effects:[{id:"resistance",amplifier:5b,duration:40}],Attributes:[{Base:5.0d,Name:"generic.attack_damage"},{Base:36.0d,Name:"generic.max_health"}],Health:36.0f}
+summon slime ~ ~20 ~ {Size:16,active_effects:[{id:"resistance",amplifier:5b,duration:40}],Attributes:[{Base:5.0d,Name:"generic.attack_damage"},{Base:36.0d,Name:"generic.max_health"}],Health:36.0f,Tags:["DEF_score.5"]}
 kill @s

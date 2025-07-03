@@ -1,0 +1,51 @@
+{
+    "criteria": {
+        "killed_mob":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:['DEF_score.5']}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:['DEF_score.3']}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:['DEF_score.2']}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "#game:mobs"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:player/record/kill_mob_regular"
+    }
+}

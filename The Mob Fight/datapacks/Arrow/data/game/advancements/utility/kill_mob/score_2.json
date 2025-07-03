@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "killed_mob":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "#game:mobs",
+                            "nbt": "{Tags:['DEF_score.2']}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:player/record/kill_mob_2"
+    }
+}

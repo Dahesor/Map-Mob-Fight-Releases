@@ -1,2 +1,2 @@
-summon skeleton ~ ~ ~ {HandItems:[{id:"bow",Count:1b},{}],ArmorItems:[{id:"diamond_boots",Count:1b},{id:"diamond_leggings",Count:1b},{id:"diamond_chestplate",Count:1b},{id:"diamond_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"bow",Count:1b},{}],ArmorItems:[{id:"diamond_boots",Count:1b},{id:"diamond_leggings",Count:1b},{id:"diamond_chestplate",Count:1b},{id:"diamond_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f],Tags:["DEF_score.2"]}
 kill @s

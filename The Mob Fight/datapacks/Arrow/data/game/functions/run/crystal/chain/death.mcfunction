@@ -6,11 +6,8 @@ execute store result score #death_note calculator run attribute @s generic.max_h
 scoreboard players remove #death_note calculator 5
 
 
-
-
-
 execute as @e[type=#game:mobs,distance=..5.5] run function game:run/crystal/chain/damage_self
-execute as @e[type=#game:mobs,distance=..3.5] run damage @s 3 generic_kill
+execute as @e[type=#game:mobs,distance=..3.5] run damage @s 3 magic
 execute as @e[type=#game:mobs,distance=..2] run damage @s 5 generic_kill
 
 execute unless entity @a[distance=..12] run return fail

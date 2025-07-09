@@ -145,19 +145,5 @@
 			"rotation": [180, 0, 180],
 			"translation": [0, 0, -0.75]
 		}
-	},
-	"groups": [
-		{
-			"name": "back",
-			"origin": [8, 0.5, 8],
-			"color": 0,
-			"children": [0, 1, 2, 3, 4]
-		},
-		{
-			"name": "group",
-			"origin": [0, 0, 13],
-			"color": 0,
-			"children": [5, 6, 7, 8]
-		}
-	]
+	}
 }

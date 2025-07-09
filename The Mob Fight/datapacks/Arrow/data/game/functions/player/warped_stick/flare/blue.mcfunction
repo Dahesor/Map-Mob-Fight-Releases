@@ -1,3 +1,4 @@
+execute unless score GameMode Data matches 2 run return fail
 function game:run/gamemodes/thunder/events/check_cell
 
 execute if entity @s[tag=THUNDER.under_sky] run summon firework_rocket ~0.5 ~ ~0.5 {Invulnerable:1b,Life:0,LifeTime:100,ShotAtAngle:0b,FireworksItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{Fireworks:{Explosions:[]},CustomModelData:6}},Tags:["THUNDER.blue_flare"]}

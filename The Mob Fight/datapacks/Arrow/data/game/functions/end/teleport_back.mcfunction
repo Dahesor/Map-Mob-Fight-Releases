@@ -8,6 +8,8 @@ execute as @a[team=blue] run function lobby:team_join_blue
 execute as @a[tag=team_randomed] run function lobby:team_join_random
 execute as @a[tag=spectator] run function lobby:spectate
 tellraw @a ["",{"translate":"chat.head.game","color": "aqua"}," ",{"translate":"Game Over!","color": "aqua"},"\n","§a=========================================\n",{"translate":"head.winner","color": "green"},{"selector":"@a[tag=last_winner]"},"\n","§a=========================================\n",{"translate":"head.loser","color": "red"},{"selector":"@a[tag=!last_winner,tag=!spectator]"},"\n§a========================================="]
+execute if score GameMode Data matches 3 run tellraw @a [{"translate": "message.villager_hp_left","with": [["",{"score": {"name": "$HPleft","objective": "red"},"color": "red","extra": [".",{"score": {"name": "$HPleft.d","objective": "red"}}]}," \ue904"," - ","\ue904 ",{"score": {"name": "$HPleft","objective": "blue"},"color": "aqua","extra": [".",{"score": {"name": "$HPleft.d","objective": "blue"}}]}]]}]
+
 execute at @r run summon firework_rocket ~ ~2.4 ~ {Invulnerable:1b,Life:0,LifeTime:20,ShotAtAngle:0b,FireworksItem:{id:"minecraft:arrow",Count:1b,tag:{Fireworks:{Explosions:[{Trail:1b,Flicker:1b,Colors:[I;65408,14641369,16726629],Type:4b}]}}}}
 execute at @r run summon firework_rocket ~3 ~2.4 ~ {Invulnerable:1b,Life:0,LifeTime:30,ShotAtAngle:0b,FireworksItem:{id:"minecraft:arrow",Count:1b,tag:{Fireworks:{Explosions:[{Trail:1b,Colors:[I;16712749,14641369,10198],Type:2b}]}}}}
 execute at @r run summon firework_rocket ~5 ~5.4 ~4 {Invulnerable:1b,Life:0,LifeTime:25,ShotAtAngle:0b,FireworksItem:{id:"minecraft:arrow",Count:1b,tag:{Fireworks:{Explosions:[{Trail:1b,Flicker:1b,Colors:[I;65408,14641369,16759753],Type:4b}]}}}}

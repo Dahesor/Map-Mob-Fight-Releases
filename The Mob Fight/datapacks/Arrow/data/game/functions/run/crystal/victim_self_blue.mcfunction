@@ -17,6 +17,5 @@ execute if score @s mobDEF matches 1.. run function game:run/crystal/damage/calc
 function game:run/crystal/damage/macro with storage run macro_crystal
 execute if score beemLevel blue matches 5 run damage @s 6 generic_kill
 
-
 execute if entity @s[nbt={Health:0.0f}] at @s run function game:run/crystal/chain/death
 execute at @s run playsound arrow:event.laser_beem master @a ~ ~ ~ 0.5

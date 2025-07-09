@@ -1,1 +1,2 @@
-give @s crossbow{Unbreakable:1b,Enchantments:[{id:"minecraft:quick_charge",lvl:5},{id:"minecraft:piercing",lvl:10},{id:"sharpness",lvl:10}],display:{Name:'{"text": "Test Bow","color": "red","italic": false}'},isDeveloperTool:1b}
+clear @s crossbow{isDeveloperTool:1b,isDevBow:1b}
+give @s crossbow{Unbreakable:1b,Enchantments:[{id:"minecraft:quick_charge",lvl:5},{id:"minecraft:piercing",lvl:10},{id:"sharpness",lvl:10}],display:{Name:'{"text": "Test Bow","color": "red","italic": false}'},isDeveloperTool:1b,isDevBow:1b}

@@ -89,3 +89,4 @@ execute if predicate game:arrows/misc/infinate_zombie run function game:arrows/s
 
 function #custom:arrows
 tag @s remove actived
+kill

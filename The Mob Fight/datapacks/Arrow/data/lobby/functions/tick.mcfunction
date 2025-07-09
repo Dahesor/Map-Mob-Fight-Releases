@@ -9,8 +9,6 @@ execute unless score AdminSettingsOn Options matches 1.. if block 4 58 100 #mine
 execute if score #loop_3 calculator matches 0..1 run function lobby:tutorial/tick
 
 execute unless score game Data matches 1.. as @a[tag=!returning] at @s positioned ~ ~1.5 ~ rotated as @s run function lobby:player/crosshair/self
-#execute unless score game Data matches 1.. as @a[tag=!returning] at @s if entity @e[type=marker,tag=pu_start.lobby,distance=..4] run function lobby:parkour/give
-#execute unless score game Data matches 1.. as @a[tag=!returning,nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag:{isParkourReseter:1b}}]}] at @s if entity @e[type=marker,tag=pu_end.lobby,distance=..4] if block ~ ~-0.5 ~ emerald_block run function lobby:parkour/finished
 
 
 execute if score #loop_20 calculator matches 10 run tag @e[tag=tutorial.tutorial,type=text_display] add killing_display

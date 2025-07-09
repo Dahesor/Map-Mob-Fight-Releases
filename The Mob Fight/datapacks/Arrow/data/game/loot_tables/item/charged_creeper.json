@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:402,custom_potion_effects:[{id:'minecraft:hero_of_the_village',amplifier:4b},{id:'minecraft:unluck',amplifier:2b}],display:{Name:'{\"translate\": \"闪电苦力怕\",\"color\": \"green\",\"italic\": false}'},CustomPotionColor:3014627,HideFlags:40,CanDestroy:[\"#game:breakable\"]}"
+                            "tag": "{CustomModelData:402,custom_potion_effects:[{id:'minecraft:hero_of_the_village',amplifier:4b},{id:'minecraft:unluck',amplifier:2b}],display:{Name:'{\"translate\": \"闪电苦力怕\",\"color\": \"dark_purple\",\"italic\": false}'},CustomPotionColor:3014627,HideFlags:40,CanDestroy:[\"#game:breakable\"]}"
                         },
                         {
                             "function": "set_count",

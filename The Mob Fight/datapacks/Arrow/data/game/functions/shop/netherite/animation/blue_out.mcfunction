@@ -23,3 +23,6 @@ execute if data storage run map.altar.blue{drop:1b} as @e[type=armor_stand,tag=b
 scoreboard players set @e[type=armor_stand,tag=blue_vand,limit=1,tag=!_vand] genericCD 100
 
 execute as @e[type=armor_stand,limit=1,tag=blue_vand] at @s run function game:shop/netherite/animation/spread_icons/enter
+
+data modify storage run log.new set value {"translate":"log.vand.blue","color": "aqua"}
+function lobby:spectator/sidebar/log/new

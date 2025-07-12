@@ -53,7 +53,7 @@
                                     "entity": "this",
                                     "name": [{"translate":"全队横扫之刃附魔","color": "green","italic": false,"with": [
                                         {
-                                            "text": "§dIII"
+                                            "text": "§dIV"
                                         }
                                     ]}]
                                 },
@@ -64,24 +64,24 @@
                                         "",
                                         {"translate":"为剑添加横扫之刃","color": "gray","italic": false,"with": [
                                             {
-                                                "text": "III"
+                                                "text": "IV"
                                             }
                                         ]},
                                         "",
                                         {"translate":"price"},
                                         {"translate":"dirt","with": [
                                             {
-                                                "text": "§a 21"
+                                                "text": "§a 32"
                                             }
                                         ]},
                                         {"translate":"iron","with": [
                                             {
-                                                "text": "§a 9"
+                                                "text": "§a 24"
                                             }
                                         ]},
-                                        {"translate":"lapis","with": [
+                                        {"translate":"diamond","with": [
                                             {
-                                                "text": "§a 3"
+                                                "text": "§a 20"
                                             }
                                         ]},
                                         {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
@@ -126,7 +126,7 @@
                                     "entity": "this",
                                     "name": [{"translate":"全队横扫之刃附魔","color": "red","italic": false,"with": [
                                         {
-                                            "text": "III"
+                                            "text": "IV"
                                         }
                                     ]}]
                                 },
@@ -137,7 +137,7 @@
                                         "",
                                         {"translate":"为剑添加横扫之刃","color": "gray","italic": false,"with": [
                                             {
-                                                "text": "III"
+                                                "text": "IV"
                                             }
                                         ]},
                                         "",
@@ -180,7 +180,7 @@
                                     "entity": "this",
                                     "name": [{"translate":"全队横扫之刃附魔","color": "green","italic": false,"with": [
                                         {
-                                            "text": "§dII"
+                                            "text": "§dIII"
                                         }
                                     ]}]
                                 },
@@ -191,24 +191,24 @@
                                         "",
                                         {"translate":"为剑添加横扫之刃","color": "gray","italic": false,"with": [
                                             {
-                                                "text": "II"
+                                                "text": "III"
                                             }
                                         ]},
                                         "",
                                         {"translate":"price"},
                                         {"translate":"dirt","with": [
                                             {
-                                                "text": "§a 14"
+                                                "text": "§a 16"
                                             }
                                         ]},
                                         {"translate":"iron","with": [
                                             {
-                                                "text": "§a 6"
+                                                "text": "§a 8"
                                             }
                                         ]},
                                         {"translate":"lapis","with": [
                                             {
-                                                "text": "§a 2"
+                                                "text": "§a 4"
                                             }
                                         ]},
                                         {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
@@ -253,7 +253,7 @@
                                     "entity": "this",
                                     "name": [{"translate":"全队横扫之刃附魔","color": "red","italic": false,"with": [
                                         {
-                                            "text": "II"
+                                            "text": "III"
                                         }
                                     ]}]
                                 },
@@ -264,7 +264,7 @@
                                         "",
                                         {"translate":"为剑添加横扫之刃","color": "gray","italic": false,"with": [
                                             {
-                                                "text": "II"
+                                                "text": "III"
                                             }
                                         ]},
                                         "",
@@ -307,7 +307,7 @@
                                     "entity": "this",
                                     "name": [{"translate":"全队横扫之刃附魔","color": "green","italic": false,"with": [
                                         {
-                                            "text": "§dI"
+                                            "text": "§dII"
                                         }
                                     ]}]
                                 },
@@ -318,24 +318,24 @@
                                         "",
                                         {"translate":"为剑添加横扫之刃","color": "gray","italic": false,"with": [
                                             {
-                                                "text": "I"
+                                                "text": "II"
                                             }
                                         ]},
                                         "",
                                         {"translate":"price"},
                                         {"translate":"dirt","with": [
                                             {
-                                                "text": "§a 7"
+                                                "text": "§a 8"
                                             }
                                         ]},
                                         {"translate":"iron","with": [
                                             {
-                                                "text": "§a 4"
+                                                "text": "§a 6"
                                             }
                                         ]},
                                         {"translate":"lapis","with": [
                                             {
-                                                "text": "§a 1"
+                                                "text": "§a 2"
                                             }
                                         ]},
                                         {"nbt":"text.buy","interpret": true,"storage":"game:shop"}
@@ -369,7 +369,7 @@
                                     "entity": "this",
                                     "name": [{"translate":"全队横扫之刃附魔","color": "red","italic": false,"with": [
                                         {
-                                            "text": "I"
+                                            "text": "II"
                                         }
                                     ]}]
                                 },
@@ -380,7 +380,7 @@
                                         "",
                                         {"translate":"为剑添加横扫之刃","color": "gray","italic": false,"with": [
                                             {
-                                                "text": "I"
+                                                "text": "II"
                                             }
                                         ]},
                                         "",
@@ -400,8 +400,7 @@
                                     "function": "set_nbt",
                                     "tag": "{ui:{id:'need_tcho'},CustomModelData:11}"
                                 }
-                            ],
-                            "conditions": []
+                            ]
                         }
                     ]
                 }

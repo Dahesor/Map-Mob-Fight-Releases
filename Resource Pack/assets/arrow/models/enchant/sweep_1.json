@@ -1,6 +1,6 @@
 {
     "parent": "arrow:background",
     "textures": {
-      "layer0": "arrow:enchant/sweep_1"
+      "layer0": "arrow:enchant/sweep_2"
     }
 }

@@ -1,5 +1,5 @@
 data remove storage run Pay
-data merge storage run {Pay:{dirt:6b}}
+data merge storage run {Pay:{dirt:8b}}
 data remove storage run PayName
 data merge storage run {PayName:"arrow_regular"}
 

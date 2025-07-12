@@ -1,0 +1,35 @@
+[
+    {
+        "function": "set_attributes",
+        "replace": true,
+        "modifiers": [
+            {
+                "attribute": "generic.attack_damage",
+                "amount": 6.75,
+                "operation": "addition",
+                "name": "Axe Balance",
+                "slot": "mainhand",
+                "id": "2faa-20073-2-2ddfe-2123"
+            },
+            {
+                "attribute": "generic.attack_speed",
+                "amount": -3.2,
+                "operation": "addition",
+                "name": "Axe Balance",
+                "slot": "mainhand",
+                "id": "2faa-20073-2-2ddfe-2126"
+            }
+        ]
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "replace": false,
+        "lore": [
+            "",
+            {"translate":"item.modifiers.mainhand","color": "dark_green","italic": false},
+            [{"text": "7.75 ","color": "dark_green","italic": false},{"translate": "attribute.name.generic.attack_damage"}],
+            [{"text": "1.1 ","color": "dark_green","italic": false},{"translate": "attribute.name.generic.attack_speed"}]
+        ]
+    }
+]

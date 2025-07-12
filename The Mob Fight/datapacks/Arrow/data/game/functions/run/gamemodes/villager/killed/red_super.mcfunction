@@ -19,3 +19,4 @@ function game:run/netherite/gen_red
 function game:topbar/refresh
 execute if score VILLAGER.super_villager blue matches 0 run data modify storage run final_kill.Pos set from entity @s Pos
 execute if score VILLAGER.super_villager blue matches 0 run data modify storage run final_kill.cause set value "villager"
+execute if score score red >= TargetScore Options run function game:run/netherite/villager/final_score

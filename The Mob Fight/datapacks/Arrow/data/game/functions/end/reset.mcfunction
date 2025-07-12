@@ -1,3 +1,5 @@
+scoreboard players operation last_score red = score red
+scoreboard players operation last_score blue = score blue
 execute if score dataCollection Data matches 1.. run function game:end/store_scores
 execute if score GameMode Data matches 3 run function game:run/gamemodes/villager/death_score/count_health
 function game:utility/advancement/gamemodes

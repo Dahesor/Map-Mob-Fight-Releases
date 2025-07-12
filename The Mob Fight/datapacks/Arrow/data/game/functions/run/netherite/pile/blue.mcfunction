@@ -6,9 +6,9 @@ execute at @e[tag=blue_netherite,tag=notInitialized,limit=1,sort=nearest,type=ma
 
 kill @e[tag=blue_netherite,tag=notInitialized,type=marker]
 
-scoreboard players add dirt blue 6
+scoreboard players add dirt blue 5
 scoreboard players add copper blue 3
 scoreboard players add iron blue 3
 scoreboard players add gold blue 3
-scoreboard players add lapis blue 3
-scoreboard players add diamond blue 3
+scoreboard players add lapis blue 2
+scoreboard players add diamond blue 2

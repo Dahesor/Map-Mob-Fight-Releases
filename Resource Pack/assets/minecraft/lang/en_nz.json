@@ -4,5 +4,11 @@
     "container.enderchest": "§5Shop",
     "death.attack.freeze": "%1$s is froze to death by %2$s",
     "effect.minecraft.luck":"Heartache",
-    "effect.minecraft.unluck":"Twitchy"
+    "effect.minecraft.unluck":"Twitchy",
+    "chat.type.emote": "* %s %s",
+    "chat.type.team.sent": "*%s %s> %s",
+    "chat.type.team.text": "*%s %s> %s",
+    "chat.type.text": "%s> %s",
+    "commands.message.display.incoming": "%s → You: %s",
+    "commands.message.display.outgoing": "You → %s: %s"
 }

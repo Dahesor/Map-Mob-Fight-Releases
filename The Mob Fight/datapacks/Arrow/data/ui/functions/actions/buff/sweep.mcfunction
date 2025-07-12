@@ -1,8 +1,8 @@
 function game:plugin/score_copy
 data remove storage run Pay
-execute if score sweep calculator matches 0 run data merge storage run {Pay:{dirt:7b,iron:4b,lapis:1b}}
-execute if score sweep calculator matches 1 run data merge storage run {Pay:{dirt:14b,iron:6,lapis:2b}}
-execute if score sweep calculator matches 2 run data merge storage run {Pay:{dirt:21b,iron:9b,lapis:3b}}
+execute if score sweep calculator matches 0 run data merge storage run {Pay:{dirt:8b,iron:6b,lapis:2b}}
+execute if score sweep calculator matches 1 run data merge storage run {Pay:{dirt:16b,iron:8b,lapis:4b}}
+execute if score sweep calculator matches 2 run data merge storage run {Pay:{dirt:32b,iron:24b,diamond:20b}}
 data merge storage run {PayName:{"translate":"横扫之刃附魔","color": "gray"}}
 
 execute if score sweep calculator matches 0..2 run function game:shop/pay/anchor

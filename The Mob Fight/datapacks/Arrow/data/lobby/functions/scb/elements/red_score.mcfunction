@@ -1,0 +1,1 @@
+data merge entity @s {brightness:{sky:15,block:15},alignment:"left",billboard:"fixed",background:0,Tags:["scb_name"],Rotation:[45.0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.2f,0f],scale:[2.8f,2.8f,2.8f]},background:1140850688,text:'{"score": {"name": "last_score","objective": "red"},"color": "red"}'}

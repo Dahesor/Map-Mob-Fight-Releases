@@ -28,16 +28,7 @@ setblock ~ ~ ~ cherry_sign{front_text:{messages:['{"text":"\\ue010      ","color
 
 summon spider ~ ~ ~ {Passengers:[{id:"spider",Passengers:[{id:"cave_spider"}]}]}
 
-
-
 data modify block ~ ~ ~ Command set value ""
 setblock ~ ~ ~ command_block{Command:""}
-
-
-
-
-
-
-
 
 setblock ~ ~ ~ structure_block{posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",name:"",mode:"LOAD",author:"?",integrity:1.0f,showboundingbox:0b} replace

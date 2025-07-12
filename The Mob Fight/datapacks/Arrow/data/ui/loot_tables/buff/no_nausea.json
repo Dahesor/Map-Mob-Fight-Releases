@@ -67,6 +67,7 @@
                                     "lore": [
                                         "",
                                         {"translate":"使你的队伍不受反胃效果影响","color": "gray","italic": false},
+                                        {"translate":"no_nausea.1","color": "green","italic": false},
                                         "",
                                         {"translate":"price"},
                                         {"translate":"gold","with": [

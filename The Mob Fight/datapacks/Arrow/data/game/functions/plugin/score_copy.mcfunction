@@ -39,4 +39,7 @@ execute if entity @s[team=blue] run scoreboard players operation creeperStorm ca
 execute if entity @s[team=blue] run scoreboard players operation protection calculator = protection blue
 execute if entity @s[team=blue]
 
+scoreboard players operation applied_sweep calculator = sweep calculator
+scoreboard players add applied_sweep calculator 1
+
 execute if score game Data matches 0 run function developer:max_techno

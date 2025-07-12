@@ -11,3 +11,5 @@ title @a[team=blue] subtitle {"translate":"subtitle.gained_netherite","with":[{"
 function game:run/netherite/gen_blue
 function game:run/netherite/gen_blue
 function game:topbar/refresh
+
+execute if score score blue >= TargetScore Options run function game:run/netherite/villager/final_score

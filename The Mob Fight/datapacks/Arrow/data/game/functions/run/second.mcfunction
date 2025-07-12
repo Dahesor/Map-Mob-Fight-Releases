@@ -24,7 +24,6 @@ execute if score no_nausea red matches 1.. run effect clear @a[team=red] nausea
 execute if score no_nausea blue matches 1.. run effect clear @a[team=blue] nausea
 execute as @e[type=zombified_piglin,tag=pigman_slave] run function game:run/resources/pigman/self
 execute as @e[type=#game:mobs,tag=!mob_resolved] run function game:run/mob_tick/team
-effect give @e[type=#game:mobs,tag=in_flag_effect] strength 2 0
 
 execute if score GameMode Data matches 2 run function game:run/gamemodes/thunder/second
 

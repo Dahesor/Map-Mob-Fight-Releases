@@ -1,3 +1,6 @@
+execute if entity @s[team=red] if score flag_cd red > $gametime Data run return run function ui:actions/buff/flag_cd
+execute if entity @s[team=blue] if score flag_cd blue > $gametime Data run return run function ui:actions/buff/flag_cd
+
 data remove storage run Pay
 data merge storage run {Pay:{dirt:20b,copper:20b,lapis:3b}}
 data remove storage run PayName

@@ -62,6 +62,7 @@
                                                 "text": "§a16"
                                             }
                                         ]},
+                                        {"translate": "trade.warn","italic": false,"color": "red"},
                                         {"translate":"Click T0 Die","color":"yellow","italic": false,"obfuscated": true}
                                     ]
                                 }

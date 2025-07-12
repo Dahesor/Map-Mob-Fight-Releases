@@ -24,6 +24,8 @@
                                         {"translate":"且全属性少量增幅","color": "gray","italic": false},
                                         {"translate":"持续120秒","color": "gray","italic": false},
                                         "",
+                                        {"translate":"使用冷却：85s","color": "red","italic": false},
+                                        "",
                                         {"translate":"price"},
                                         {"translate":"dirt","with":["§a20"]},
                                         {"translate":"lapis","with":["§a3"]},
@@ -67,8 +69,10 @@
                                     "lore": [
                                         "",
                                         {"translate":"使全部我方怪物停止自相攻击","color": "gray","italic": false},
-                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
                                         {"translate":"持续120秒","color": "gray","italic": false},
+                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"使用冷却：85s","color": "red","italic": false},
                                         "",
                                         {"translate":"price"},
                                         {"translate":"dirt","with":["§a20"]},
@@ -106,8 +110,10 @@
                                     "lore": [
                                         "",
                                         {"translate":"使全部我方怪物停止自相攻击","color": "gray","italic": false},
-                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
                                         {"translate":"持续120秒","color": "gray","italic": false},
+                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
+                                        "",
+                                        {"translate":"使用冷却：85s","color": "red","italic": false},
                                         "",
                                         {"translate":"need_tcho"},
                                         {"translate":"society_populate","italic":false,"color": "gray","with":[" II"]}
@@ -138,8 +144,8 @@
                                     "lore": [
                                         "",
                                         {"translate":"使全部我方怪物停止自相攻击","color": "gray","italic": false},
-                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
                                         {"translate":"持续120秒","color": "gray","italic": false},
+                                        {"translate":"且全属性少量增幅","color": "gray","italic": false},
                                         "",
                                         {"translate":"need_tcho"},
                                         {"translate":"society_populate","italic":false,"color": "gray","with":[" II"]}

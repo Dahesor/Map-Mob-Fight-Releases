@@ -12,4 +12,10 @@ title @a[team=blue] subtitle [{"text": "\ue009 "},{"translate":"side.enemy","col
 execute as @a[team=blue] at @s run playsound arrow:alarm.enemy master @s ~ ~ ~ 1 1 1
 execute as @a[team=blue] at @s run playsound arrow:alarm.enemy master @s ~ ~ ~ 1 1 1
 
+title @a[tag=spectator] title ""
+title @a[tag=spectator] subtitle [{"text": "\ue009"},{"translate":"team.red","color": "red"},{"translate":"buff.creeper_storm","color": "green"},{"text": "\ue009"}]
+execute as @a[tag=spectator] at @s run playsound arrow:alarm.enemy master @s ~ ~ ~ 1 1 1
+execute as @a[tag=spectator] at @s run playsound arrow:alarm.enemy master @s ~ ~ ~ 1 1 1
+
+
 scoreboard players set creeperStorm red 201

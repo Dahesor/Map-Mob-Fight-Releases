@@ -4,3 +4,4 @@ tag @s add spec_menu
 title @s actionbar {"translate": "menu.recive.log","color": "yellow"}
 function lobby:spectator/sidebar/update
 function sidebar.dah:assign/color {color:"gray"}
+scoreboard players set @s spec 0

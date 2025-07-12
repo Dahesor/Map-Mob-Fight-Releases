@@ -100,7 +100,7 @@
              "function": "set_enchantments",
              "add": true,
              "enchantments": {
-                 "sweeping": {"type": "score","score": "calculator","target": {"type": "fixed","name": "sweep"}}
+                 "sweeping": {"type": "score","score": "calculator","target": {"type": "fixed","name": "applied_sweep"}}
              }
         }
     ]

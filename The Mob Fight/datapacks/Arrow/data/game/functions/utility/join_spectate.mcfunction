@@ -3,3 +3,4 @@ gamemode spectator @s
 team leave @s
 clear @s
 effect clear @s
+tag @s remove spec_menu

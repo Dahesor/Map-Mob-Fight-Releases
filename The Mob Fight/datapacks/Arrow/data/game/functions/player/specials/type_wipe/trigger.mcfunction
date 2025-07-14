@@ -6,4 +6,7 @@ tag @s remove temp.Hurt
 execute if entity @e[type=#game:mobs,tag=temp.Damage,distance=..10] run item replace entity @s weapon with air
 execute as @e[type=#game:mobs,tag=temp.Damage,distance=..10] at @s run function game:player/specials/type_wipe/get_data
 kill @e[type=#game:mobs,tag=temp.Damage]
-tag @e[type=#game:mobs,tag=temp.Damage] remove temp.Damage
+tag @e[type=#game:mobs,tag=temp.Damage] remove temp.
+
+data modify storage run log.log append value {content:{translate:"event.used_item",color:"green",with:[{translate:"item.type_wipe",color:"gold"}]}}
+function lobby:spectator/sidebar/log/signed

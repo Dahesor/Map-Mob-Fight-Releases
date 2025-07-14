@@ -9,8 +9,8 @@ execute if score destroyMode Data matches 1 run scoreboard players remove @s gen
 
 execute if score @s genericCD matches 1.. run return 1
 
-execute if entity @s[team=red] at @e[type=marker,tag=pigman_item,predicate=map:in_red,limit=1] run summon item ~ ~ ~ {Item:{id:"dirt",Count:1b,tag:{isGameRes:3b,CanDestroy:['#game:breakable'],HideFlags:12}}}
-execute if entity @s[team=blue] at @e[type=marker,tag=pigman_item,predicate=map:in_blue,limit=1] run summon item ~ ~ ~ {Item:{id:"dirt",Count:1b,tag:{isGameRes:3b,CanDestroy:['#game:breakable'],HideFlags:12}}}
+execute if entity @s[team=red] at @e[type=marker,tag=pigman_item,predicate=map:in_red,limit=1] run summon item ~ ~ ~ {Item:{id:"dirt",Count:1b,tag:{isGameRes:3b,CanDestroy:['#game:breakable'],HideFlags:12}},Invulnerable:1b,Tags:["pigman_dirt"]}
+execute if entity @s[team=blue] at @e[type=marker,tag=pigman_item,predicate=map:in_blue,limit=1] run summon item ~ ~ ~ {Item:{id:"dirt",Count:1b,tag:{isGameRes:3b,CanDestroy:['#game:breakable'],HideFlags:12}},Invulnerable:1b,Tags:["pigman_dirt"]}
 
 execute if entity @s[team=red] run scoreboard players add dirt red 1
 execute if entity @s[team=blue] run scoreboard players add dirt blue 1

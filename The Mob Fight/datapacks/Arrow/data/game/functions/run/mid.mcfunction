@@ -32,5 +32,9 @@ function game:run/netherite/gen_red
 
 execute as @a[gamemode=adventure] run function ui:foolproof/redirect
 
+function lobby:scb/snapshop_eco
+scoreboard players operation eco_mid red = total_eco.d red
+scoreboard players operation eco_mid blue = total_eco.d blue
+
 data modify storage run log.new set value {"translate":"chat.head.game","color": "aqua",extra:[{text:" "},{"translate":"title.half_time","color": "red"}]}
 function lobby:spectator/sidebar/log/new

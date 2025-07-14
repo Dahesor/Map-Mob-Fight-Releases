@@ -24,3 +24,5 @@ execute positioned 9.5 58.1 83.5 run summon text_display ~2.65 ~ ~2.65 {brightne
 execute positioned 9.5 58.1 83.5 run summon text_display ~3.2 ~ ~3.2 {brightness:{sky:15,block:15},alignment:"center",billboard:"fixed",background:0,Tags:["scb_name"],text:'{"translate": "scb.die"}',Rotation:[45.0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.8f,0.8f,0.8f],translation:[0f,0f,0f]}}
 
 scoreboard players reset $total_lines calculator
+
+execute positioned 15.5 57. 89.5 run function lobby:scb/snap/start

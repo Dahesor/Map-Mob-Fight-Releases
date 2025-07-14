@@ -257,5 +257,35 @@
                 "pitch": 0.4
             }
         ]
+    },
+    "star.seg_1":{
+        "sounds": [{"name":"arrow:star/seg_01","volume": 1,"pitch": 1}]
+    },
+    "star.seg_2":{
+        "sounds": [{"name":"arrow:star/seg_02","volume": 1,"pitch": 1}]
+    },
+    "star.seg_3":{
+        "sounds": [{"name":"arrow:star/seg_03","volume": 1,"pitch": 1}]
+    },
+    "star.seg_4":{
+        "sounds": [{"name":"arrow:star/seg_04","volume": 1,"pitch": 1}]
+    },
+    "star.seg_5":{
+        "sounds": [{"name":"arrow:star/seg_05","volume": 1,"pitch": 1}]
+    },
+    "star.seg_6":{
+        "sounds": [{"name":"arrow:star/seg_06","volume": 1,"pitch": 1}]
+    },
+    "star.seg_7":{
+        "sounds": [{"name":"arrow:star/seg_07","volume": 1,"pitch": 1}]
+    },
+    "star.seg_8":{
+        "sounds": [{"name":"arrow:star/seg_08","volume": 1,"pitch": 1}]
+    },
+    "star.seg_9":{
+        "sounds": [{"name":"arrow:star/seg_09","volume": 1,"pitch": 1}]
+    },
+    "star.seg_10":{
+        "sounds": [{"name":"arrow:star/seg_10","volume": 1,"pitch": 1}]
     }
 }

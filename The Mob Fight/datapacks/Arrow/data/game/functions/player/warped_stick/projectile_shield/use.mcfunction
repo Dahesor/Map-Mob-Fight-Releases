@@ -6,3 +6,6 @@ tag @s remove temp.anti_arrow
 playsound entity.experience_orb.pickup master @s ~ ~ ~
 scoreboard players set @s Item.arrow_shield 360
 attribute @s generic.armor_toughness modifier add a-b-c-d-e '"\\ue905"' 0.0 add
+
+data modify storage run log.log append value {content:{translate:"event.used_item",color:"green",with:[{translate:"item.anti_arrow",color:"blue"}]}}
+function lobby:spectator/sidebar/log/signed

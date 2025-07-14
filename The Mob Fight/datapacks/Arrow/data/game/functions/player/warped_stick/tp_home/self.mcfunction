@@ -9,3 +9,6 @@ tp @s[team=blue] @e[type=marker,limit=1,tag=blue_spawn]
 
 execute at @s run playsound entity.enderman.teleport master @a
 tellraw @s {"text": "Hoosh!","color": "light_purple"}
+
+data modify storage run log.log append value {content:{translate:"event.used_item",color:"green",with:[{translate:"回城符咒",color:"red"}]}}
+function lobby:spectator/sidebar/log/signed

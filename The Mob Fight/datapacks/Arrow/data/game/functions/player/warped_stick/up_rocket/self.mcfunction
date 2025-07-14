@@ -15,3 +15,6 @@ tag @s add using_UpRocket_1
 
 playsound entity.firework_rocket.launch player @a ~ ~ ~ 1 1 1
 playsound entity.firework_rocket.launch player @a ~ ~10 ~ 1 1 1
+
+data modify storage run log.log append value {content:{translate:"event.used_item",color:"green",with:[{translate:"窜天猴",color:"gold"}]}}
+function lobby:spectator/sidebar/log/signed

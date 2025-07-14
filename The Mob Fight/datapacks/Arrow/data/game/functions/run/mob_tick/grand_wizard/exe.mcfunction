@@ -14,7 +14,7 @@ execute unless score @s hpPotionCD matches 1 run return fail
 effect give @s slowness 1 20 true
 execute unless score @s genericCD matches 40.. run return fail
 execute positioned ~ ~1.3 ~ facing entity @a[sort=nearest,gamemode=adventure,distance=..13,limit=3] eyes run function game:run/mob_tick/grand_wizard/attack
-execute positioned ~ ~1.3 ~ facing entity @e[limit=1,sort=nearest,type=#game:magic_target] eyes run function game:run/mob_tick/grand_wizard/attack
+execute positioned ~ ~1.3 ~ facing entity @e[limit=1,sort=nearest,type=#game:magic_target,distance=..13] eyes run function game:run/mob_tick/grand_wizard/attack
 
 
 execute unless entity @s[tag=quick_shoot] run scoreboard players set @s genericCD 30

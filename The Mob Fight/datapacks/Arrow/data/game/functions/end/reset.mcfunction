@@ -1,5 +1,8 @@
 scoreboard players operation last_score red = score red
 scoreboard players operation last_score blue = score blue
+function lobby:scb/snapshop_eco
+scoreboard players operation eco_end red = total_eco.d red
+scoreboard players operation eco_end blue = total_eco.d blue
 execute if score dataCollection Data matches 1.. run function game:end/store_scores
 execute if score GameMode Data matches 3 run function game:run/gamemodes/villager/death_score/count_health
 function game:utility/advancement/gamemodes

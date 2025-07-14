@@ -1,6 +1,12 @@
 scoreboard players remove @s Item.power_star 1
 execute if entity @s[gamemode=spectator] run return fail
 
+tag @s add temp.power_star_sound
+
+function game:player/warped_stick/power_star/sound
+
+tag @s remove temp.power_star_sound
+
 particle dust 0.435 1 0 1 ~ ~0.1 ~ 0 0 0 0 1 force
 particle dust 0.984 1 0 1 ~0.2 ~0.1 ~ 0 0 0 0 1 force
 particle dust 1 0 0 1 ~-0.2 ~0.1 ~ 0 0 0 0 1 force

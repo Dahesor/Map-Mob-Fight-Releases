@@ -1,5 +1,7 @@
 #define tag repair
 
+execute as @e[type=item,tag=pigman_dirt,distance=..1.5] run function game:run/creeper/dirt_kill/calc
+
 function #map:block_check
 execute positioned ~1 ~ ~ run function #map:block_check
 execute positioned ~-1 ~ ~ run function #map:block_check

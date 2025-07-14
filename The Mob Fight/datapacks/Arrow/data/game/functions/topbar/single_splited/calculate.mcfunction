@@ -1,3 +1,5 @@
+execute if score GameLength Data matches 3600 run function lobby:scb/snap/3_min
+
 execute if score GameMode Data matches 4 run return run function game:run/gamemodes/elimination/topbar/calculate
 execute if score GameMode Data matches 3 if score VILLAGER.super Data matches 1 run return run function game:run/gamemodes/villager/topbar/calculate
 

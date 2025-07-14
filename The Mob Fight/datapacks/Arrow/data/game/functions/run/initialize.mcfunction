@@ -88,6 +88,7 @@ scoreboard players set combatIndex blue 0
 scoreboard players set flag_cd red 0
 scoreboard players set flag_cd blue 0
 function game:run/resources/reset
+function lobby:scb/snap/reset_eco
 scoreboard players set oreAdd red 1
 scoreboard players set oreAdd blue 1
 scoreboard players set techNetherite red 1

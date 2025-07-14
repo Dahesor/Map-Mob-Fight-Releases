@@ -1,12 +1,12 @@
 {
     "effect.minecraft.bad_omen": "瞬间治疗冷却",
     "effect.minecraft.hero_of_the_village": "§4竞技之神的祝福",
-    "map.name": "怪物弓箭大作战 v1.1.4",
+    "map.name": "怪物弓箭大作战 v1.1.5",
     "map.prefix": "怪物弓箭大作战 %s",
     "map.version_hint": "注意，当前游戏版本为%s",
     "map.resource_pack_version": "您使用的资源包版本为%s",
     "map.version_hint.renew": "若两者不符，请更换资源包版本！",
-    "res.od.v1.1.4": "您正在使用旧版资源包，请更新版本！",
+    "res.od.v1.1.5": "您正在使用旧版资源包，请更新版本！",
     "creator.name": "Dahesor",
     "action.drop": "丢入",
     "price": "§7花费：",
@@ -1278,5 +1278,12 @@
     "chat.type.team.text": "*%s %s> %s",
     "chat.type.text": "%s> %s",
     "commands.message.display.incoming": "%s → 你: %s",
-    "commands.message.display.outgoing": "你 → %s: %s"
+    "commands.message.display.outgoing": "你 → %s: %s",
+    "book.random_to_spectate":"使所有无队玩家加入旁观",
+    "book.lock_random_team":"禁用/启用随机队伍入口",
+    "scb.eco.3":"三分钟经济",
+    "scb.eco.half":"半场时经济",
+    "scb.eco.sudden":"绝杀模式经济",
+    "scb.eco.final":"最终经济",
+    "event.used_item":"使用了%s"
 }

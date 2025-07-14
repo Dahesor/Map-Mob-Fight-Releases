@@ -49,6 +49,7 @@ scoreboard players set #1200 calculator 1200
 scoreboard players set #1000 calculator 1000
 scoreboard players set #400 calculator 400
 scoreboard players set #100 calculator 100
+scoreboard players set #44 calculator 44
 scoreboard players set #41 calculator 41
 scoreboard players set #40 calculator 40
 scoreboard players set #35 calculator 35

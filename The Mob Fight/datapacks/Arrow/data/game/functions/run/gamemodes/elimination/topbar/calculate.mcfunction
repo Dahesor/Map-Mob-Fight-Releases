@@ -11,4 +11,3 @@ function game:run/gamemodes/elimination/topbar/get_name
 bossbar set top:single name ["",{"nbt":"topbar.left","interpret": true,"storage": "run"},"   ",{"text":"*","font":"icon"}," ",{"score":{"objective":"red","name": "player"},"color":"light_purple","bold": true}," ",{"text": "k","obfuscated": true,"color": "yellow"},{"translate":"topbar.elimination","color": "white"},{"text": "k","obfuscated": true,"color": "yellow"}," ",{"score":{"objective":"blue","name": "player"},"color":"light_purple","bold": true}," ",{"text":"*","font":"icon"},"    ",{"nbt":"topbar.right","interpret": true,"storage": "run"}]
 bossbar set top:single visible false
 bossbar set top:single visible true
-

@@ -9,4 +9,7 @@ effect give @s jump_boost 22 1 false
 effect give @s speed 22 1 false
 stopsound @s master arrow:item.star
 playsound arrow:item.star master @s ~ ~ ~ 1 1 1
-scoreboard players set @s Item.power_star 440
+scoreboard players set @s Item.power_star 441
+
+data modify storage run log.log append value {content:{translate:"event.used_item",color:"green",with:[{translate:"item.power_star",color:"gold"}]}}
+function lobby:spectator/sidebar/log/signed

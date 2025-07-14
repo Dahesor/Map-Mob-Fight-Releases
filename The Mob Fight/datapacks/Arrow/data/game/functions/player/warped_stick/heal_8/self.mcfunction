@@ -9,3 +9,6 @@ execute at @s run particle glow ~ ~1 ~ 0.3 0.3 0.3 1 22 normal
 effect give @s instant_health 1 1 true
 effect give @s regeneration 5 0 true
 effect give @s bad_omen 75 0 false
+
+data modify storage run log.log append value {content:{translate:"event.used_item",color:"green",with:[{translate:"瞬间治疗符",color:"green"}]}}
+function lobby:spectator/sidebar/log/signed

@@ -13,3 +13,6 @@ execute if predicate map:in_red as @e[type=#game:fly,distance=..20,predicate=map
 
 execute if predicate map:in_blue as @e[type=#game:mobs,type=!#game:fly,distance=..20,predicate=map:in_blue,predicate=game:mobs/affected_by_anvil] at @s run function game:player/warped_stick/anvil/fall
 execute if predicate map:in_red as @e[type=#game:mobs,type=!#game:fly,distance=..20,predicate=map:in_red,predicate=game:mobs/affected_by_anvil] at @s run function game:player/warped_stick/anvil/fall
+
+data modify storage run log.log append value {content:{translate:"event.used_item",color:"green",with:[{translate:"item.anvil",color:"blue"}]}}
+function lobby:spectator/sidebar/log/signed

@@ -12,7 +12,7 @@ execute if score $index calculator matches 1.. run function game:run/mob_tick/en
 data modify entity @s data.targets set from storage run list_u
 
 scoreboard players add @s genericCD 1
-execute unless score @s genericCD matches 3.. run return fail
+execute unless score @s genericCD matches 5.. run return fail
 execute if score @s hpPotionCD matches 3.. run return fail
 
 execute unless entity @e[tag=!mob.enchanter,tag=!beacon,type=#game:mobs,distance=..10,tag=!enchanted] run return fail
@@ -20,4 +20,4 @@ playsound block.enchantment_table.use master @a ~ ~ ~ 1 0.9
 execute as @e[tag=!mob.enchanter,tag=!beacon,type=#game:mobs,distance=..10,limit=1,sort=random,tag=!enchanted] facing entity @s eyes run function game:run/mob_tick/enchanter/selected
 
 data modify entity @s data.targets append from storage run suuid
-scoreboard players set @s genericCD -6
+scoreboard players set @s genericCD -5

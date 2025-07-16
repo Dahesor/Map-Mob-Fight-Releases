@@ -35,6 +35,18 @@
                         },
                         {
                             "type": "loot_table",
+                            "name": "game:item/tp",
+                            "weight": 80,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": 2,
+                                    "add": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
                             "name": "game:item/tp_home",
                             "weight": 90
                         },

@@ -303,12 +303,7 @@
             ]},
             {"translate":"diamond","with": [
             {
-                "text": "§a 15"
-            }
-            ]},
-            {"translate":"netherite","with": [
-            {
-                "text": "§a 1"
+                "text": "§a 24"
             }
             ]}],
             "conditions": [
@@ -339,12 +334,12 @@
             ]},
             {"translate":"diamond","with": [
             {
-                "text": "§a 15"
+                "text": "§a 24"
             }
             ]},
             {"translate":"netherite","with": [
             {
-                "text": "§a 2"
+                "text": "§a 1"
             }
             ]}],
             "conditions": [
@@ -385,7 +380,7 @@
             ]},
             {"translate":"netherite","with": [
             {
-                "text": "§a 4"
+                "text": "§a 3"
             }
             ]}
             ],

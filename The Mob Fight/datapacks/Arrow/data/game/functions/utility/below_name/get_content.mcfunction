@@ -28,7 +28,7 @@ execute if score @s calculator matches 60.. if predicate game:player/health/dyin
 execute if predicate game:player/health/poison_dying run data modify storage run belowName.format set value '{"text":"E","font":"icon"}'
 execute if predicate game:player/health/wither_dying run data modify storage run belowName.format set value '{"text":"F","font":"icon"}'
 
-data modify storage run belowName merge value {0:'',1:'',2:'',3:'',4:'',5:'',6:'',7:'',8:''}
+data modify storage run belowName merge value {0:'',1:'',2:'',3:'',4:'',5:'',6:'',7:'',8:'',9:''}
 execute if predicate game:player/effects/regeneration run data modify storage run belowName.0 set value 'O'
 execute if predicate game:player/effects/weakness run data modify storage run belowName.1 set value 'I'
 execute if predicate game:player/effects/slowness run data modify storage run belowName.2 set value 'J'
@@ -36,4 +36,6 @@ execute if predicate game:player/effects/mining_fatigue run data modify storage 
 execute if predicate game:player/effects/strength run data modify storage run belowName.4 set value 'L'
 execute if predicate game:player/effects/nausea run data modify storage run belowName.5 set value 'M'
 execute if predicate game:player/effects/darkness run data modify storage run belowName.6 set value 'N'
+execute if predicate game:player/effects/heartache/bool run data modify storage run belowName.7 set value 'Q'
 execute if score @s Item.arrow_shield matches 1.. run data modify storage run belowName.8 set value ''
+execute if predicate game:player/effects/twitchy/bool run data modify storage run belowName.9 set value 'R'

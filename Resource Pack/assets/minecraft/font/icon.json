@@ -200,6 +200,33 @@
     },
     {
       "type": "bitmap",
+      "file": "mob_effect/luck.png",
+      "height": 10,
+      "ascent": 8,
+      "chars": [
+        "Q"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mob_effect/unluck.png",
+      "height": 10,
+      "ascent": 8,
+      "chars": [
+        "R"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "arrow:font/tp_home.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": [
+        "Z"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "arrow:font/player_count.png",
       "height": 11,
       "ascent": 10,
@@ -250,6 +277,15 @@
       "ascent": 8,
       "chars": [
         "+"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/ender_pearl.png",
+      "height": 10,
+      "ascent": 9,
+      "chars": [
+        "#"
       ]
     }
   ]

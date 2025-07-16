@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "effect":{
+            "trigger": "effects_changed"
+        }
+    },
+    "rewards": {
+        "function": "game:player/effects/heartache/advancement"
+    }
+}

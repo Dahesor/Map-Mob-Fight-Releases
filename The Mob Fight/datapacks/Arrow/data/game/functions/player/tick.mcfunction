@@ -4,3 +4,4 @@ execute if entity @s[team=!,tag=!spectator] run function game:player/self
 kill @s[gamemode=adventure,predicate=map:too_high]
 execute if score @s Item.power_star matches 1.. run function game:player/warped_stick/power_star/ticker
 execute if score @s Item.arrow_shield matches 1.. run function game:player/warped_stick/projectile_shield/ticker
+execute if entity @s[tag=renew_hp] run function game:utility/below_name/renew_self

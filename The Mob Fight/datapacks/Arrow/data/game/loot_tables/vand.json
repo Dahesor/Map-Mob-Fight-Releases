@@ -24,7 +24,14 @@
                         {
                             "type": "loot_table",
                             "name": "game:item/up_rocket",
-                            "weight": 90
+                            "weight": 90,
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": 2,
+                                    "add": false
+                                }
+                            ]
                         },
                         {
                             "type": "loot_table",

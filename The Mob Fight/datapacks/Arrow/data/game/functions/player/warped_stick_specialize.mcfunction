@@ -7,6 +7,7 @@ execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'crystal_
 execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'power_star'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.power_star
 execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'anvil'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.anvil
 execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'anti_arrow'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.anti_arrow
+execute if data entity @s Inventory[{Slot:-106b}].tag{warped_stick:{id:'tp'}} unless data entity @s SelectedItem.tag{right_click:1b} run tag @s add temp.tp
 
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'instant_heal'}} run tag @s add temp.Instant_Heal
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'up_rocket'}} run tag @s add temp.Up_Rocket
@@ -17,6 +18,7 @@ execute if data entity @s SelectedItem.tag{warped_stick:{id:'crystal_marker'}} r
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'power_star'}} run tag @s add temp.power_star
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'anvil'}} run tag @s add temp.anvil
 execute if data entity @s SelectedItem.tag{warped_stick:{id:'anti_arrow'}} run tag @s add temp.anti_arrow
+execute if data entity @s SelectedItem.tag{warped_stick:{id:'tp'}} run tag @s add temp.tp
 
 
 execute if entity @s[tag=temp.Up_Rocket] at @s run function game:player/warped_stick/up_rocket/self
@@ -32,6 +34,7 @@ execute if entity @s[tag=temp.crystal_marker] at @s run function game:player/war
 execute if entity @s[tag=temp.power_star] at @s run function game:player/warped_stick/power_star/used
 execute if entity @s[tag=temp.anvil] at @s run function game:player/warped_stick/anvil/used
 execute if entity @s[tag=temp.anti_arrow] at @s run function game:player/warped_stick/projectile_shield/use
+execute if entity @s[tag=temp.tp] at @s run function game:player/warped_stick/tp/use
 
 
 scoreboard players set @s warped_stick 0

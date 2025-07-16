@@ -1,0 +1,1 @@
+function game:player/warped_stick/tp/update_red

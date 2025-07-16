@@ -1,3 +1,4 @@
+function game:player/warped_stick/tp/calc
 scoreboard players reset mineParticle calculator
 function game:shop/netherite/fee/specific_check
 execute as @e[type=!player,scores={hpPotionCD=8..}] run function game:plugin/kill
@@ -47,5 +48,5 @@ execute if score combatIndex red matches 10.. run scoreboard players remove comb
 execute if score combatIndex blue matches 10.. run scoreboard players remove combatIndex blue 1
 execute if score combatIndex red matches 31.. run scoreboard players remove combatIndex red 2
 execute if score combatIndex blue matches 31.. run scoreboard players remove combatIndex blue 2
-execute if score combatIndex red matches 81.. run scoreboard players remove combatIndex blue 2
+execute if score combatIndex red matches 81.. run scoreboard players remove combatIndex red 2
 execute if score combatIndex blue matches 81.. run scoreboard players remove combatIndex blue 2

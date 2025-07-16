@@ -1,6 +1,6 @@
 kill @e[tag=vand.feeMarker]
 
-execute store result score vandFeeType Data run random value 0..6
+execute store result score vandFeeType Data run random value 0..5
 
 execute if score vandFeeType Data matches ..0 as @e[type=text_display,tag=vand_notation] run data modify entity @s text set value '["",{"translate":"action.drop","color": "green"}," ",{"translate":"netherite.nn"}," ",{"translate":"action.pull","color": "green","with": ["3"]},"\\n",["",{"translate":"logic.or","bold": true}," ",{"translate":"dirt","with":["64"]}," ",{"translate":"action.pull","color": "green","with": ["1"]}]]'
 execute if score vandFeeType Data matches 1 as @e[type=text_display,tag=vand_notation] run data modify entity @s text set value '["",{"translate":"action.drop","color": "green"}," ",{"translate":"netherite.nn"}," ",{"translate":"action.pull","color": "green","with": ["3"]},"\\n",["",{"translate":"logic.or","bold": true}," ",{"translate":"iron","with":["32"]}," ",{"translate":"action.pull","color": "green","with": ["1"]}]]'

@@ -4,4 +4,4 @@ scoreboard players set @s hpPotionCD 0
 execute if entity @a[gamemode=adventure,team=!,distance=..12,tag=!spectator] positioned ~ ~1.1 ~ facing entity @a[gamemode=adventure,team=!,limit=1,sort=nearest,tag=!spectator] eyes run function game:run/mob_tick/wizard/cast_check
 execute if score @s hpPotionCD matches 0 if entity @e[type=#game:magic_target,distance=2..12] positioned ~ ~1.1 ~ facing entity @e[type=#game:magic_target,limit=1,sort=nearest] eyes run function game:run/mob_tick/wizard/cast_check
 execute if score @s hpPotionCD matches 1 run effect give @s slowness 1 20 true
-execute if score @s hpPotionCD matches 1 if score @s genericCD matches 45.. positioned ~ ~1.3 ~ run function game:run/mob_tick/wounding_wizard/shoot
+execute if score @s hpPotionCD matches 1 if score @s genericCD matches 55.. positioned ~ ~1.3 ~ run function game:run/mob_tick/wounding_wizard/shoot

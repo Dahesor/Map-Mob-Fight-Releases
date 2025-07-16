@@ -8,7 +8,7 @@ execute if score GameMode Data matches 3 run function game:run/gamemodes/village
 function game:utility/advancement/gamemodes
 tp @a[team=red] @e[type=marker,limit=1,tag=red_spawn]
 tp @a[team=blue] @e[type=marker,limit=1,tag=blue_spawn]
-tp @a[tag=spectator] 0.50 58.5 110.5 -180.00 0.0
+tp @a[tag=spectator] 0.50 60.00 57.50 180 0
 tag @a add returning
 effect clear @a unluck
 effect clear @a luck

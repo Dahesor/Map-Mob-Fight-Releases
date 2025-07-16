@@ -1,2 +1,3 @@
 advancement revoke @s only game:utility/got_hurt
-function game:utility/below_name/renew_self
+execute if entity @s[gamemode=spectator] run return fail
+tag @s add renew_hp

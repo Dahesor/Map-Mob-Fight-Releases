@@ -1,18 +1,10 @@
 {
     "criteria": {
         "hurt_by":{
-            "trigger": "entity_hurt_player",
-            "conditions": {}
+            "trigger": "entity_hurt_player"
         },
-        "fall":{
-            "trigger": "fall_from_height",
-            "conditions": {
-                "distance": {
-                    "absolute": {
-                        "min": 10.0
-                    }
-                }
-            }
+        "effect":{
+            "trigger": "effects_changed"
         }
     },
     "rewards": {
@@ -21,7 +13,7 @@
     "requirements": [
         [
             "hurt_by",
-            "fall"
+            "effect"
         ]
     ]
 }

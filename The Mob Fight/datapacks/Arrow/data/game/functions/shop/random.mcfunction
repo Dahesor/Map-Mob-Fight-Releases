@@ -12,7 +12,7 @@ data modify storage game:shop random_list append value {icon:"ui:player/random/m
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/crystal_marker",item:"game:item/crystal_marker",Price:{dirt:10b,diamond:10b},Name:'{"translate":"item.crystal_marker","color": "dark_purple","italic": false}'}
 
-data modify storage game:shop random_list append value {icon:"ui:player/random/type_wipe",item:"game:item/type_wipe",Price:{lapis:32b},Name:'{"translate":"item.type_wipe","color": "gold","italic": false}'}
+data modify storage game:shop random_list append value {icon:"ui:player/random/type_wipe",item:"game:item/type_wipe",Price:{lapis:25b},Name:'{"translate":"item.type_wipe","color": "gold","italic": false}'}
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/golden_carrot",item:"game:package/golden_carrot",Price:{dirt:60b},Name:'[{"translate":"item.minecraft.golden_carrot","color": "green","italic": false}," × 12"]'}
 

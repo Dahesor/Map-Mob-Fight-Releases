@@ -29,6 +29,7 @@
                 "",
                 [{"translate":"将你向上弹射一段距离","color": "gray","italic": false}],
                 [{"translate":"失足时自救神器!","color": "gray","italic": false}],
+                {"translate": "uprocket.-1","color": "gray","italic": false},
                 {"keybind":"key.use","color": "green","italic": false}
             ]
         }

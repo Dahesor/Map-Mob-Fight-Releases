@@ -29,4 +29,6 @@ function game:death/bossbar/display
 data modify storage run log.log append value {content:{translate:"event.died",color:"red"}}
 function lobby:spectator/sidebar/log/signed
 
+scoreboard players display numberformat @s belowName fixed {"translate": "status.reviving"}
+
 scoreboard players add @s scb.death 1

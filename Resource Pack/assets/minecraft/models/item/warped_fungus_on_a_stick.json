@@ -19,6 +19,7 @@
         {"predicate": {"custom_model_data": 14},"model": "arrow:item/type_wipe"},
         {"predicate": {"custom_model_data": 15},"model": "arrow:item/power_star"},
         {"predicate": {"custom_model_data": 16},"model": "item/anvil"},
-        {"predicate": {"custom_model_data": 17},"model": "arrow:item/projectile_shield"}
+        {"predicate": {"custom_model_data": 17},"model": "arrow:item/projectile_shield"},
+        {"predicate": {"custom_model_data": 18},"model": "item/ender_pearl"}
     ]
   }

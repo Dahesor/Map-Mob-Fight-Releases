@@ -4,9 +4,9 @@ execute if score @s armor matches 2 run data merge storage run {Pay:{dirt:8b,iro
 execute if score @s armor matches 3 run data merge storage run {Pay:{dirt:9b,iron:3b}}
 execute if score @s armor matches 4 run data merge storage run {Pay:{dirt:16b,iron:12b}}
 execute if score @s armor matches 5 run data merge storage run {Pay:{dirt:32b,iron:20b}}
-execute if score @s armor matches 6 run data merge storage run {Pay:{dirt:28b,diamond:15b,netherite:1b}}
-execute if score @s armor matches 7 run data merge storage run {Pay:{dirt:32b,diamond:15b,netherite:2b}}
-execute if score @s armor matches 8 run data merge storage run {Pay:{dirt:48b,gold:24b,diamond:24b,netherite:4b}}
+execute if score @s armor matches 6 run data merge storage run {Pay:{dirt:28b,diamond:24b}}
+execute if score @s armor matches 7 run data merge storage run {Pay:{dirt:32b,diamond:24b,netherite:1b}}
+execute if score @s armor matches 8 run data merge storage run {Pay:{dirt:48b,gold:24b,diamond:24b,netherite:3b}}
 execute if score @s armor matches 0..8 run function game:shop/pay/anchor
 
 execute if score @s Payment matches 0 run function game:utility/eco/calc

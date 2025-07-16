@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "used_totem": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        }
+      },
+      "trigger": "minecraft:used_totem"
+    }
+  },
+  "rewards": {
+    "function": "game:death/revive/totem"
+  }
+}

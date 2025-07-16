@@ -48,7 +48,7 @@
               {
                 "attribute": "minecraft:generic.attack_speed",
                 "name": "Type Wipe",
-                "amount": -3.6,
+                "amount": -3.3,
                 "operation": "addition",
                 "id": "be670c41-9966-4586-8352-f61af8c1381c",
                 "slot": "mainhand"

@@ -15,20 +15,47 @@
         {
             "function": "set_name",
             "entity": "this",
-            "name": {"translate":"item.tp","color": "gold","italic": false}
+            "name": {
+                "translate": "item.tp",
+                "color": "gold",
+                "italic": false
+            }
         },
         {
             "function": "set_lore",
             "entity": "this",
             "lore": [
-                {"text": "\"四面八方，古往今来\"","italic": false},
+                {
+                    "text": "\"四面八方，古往今来\"",
+                    "italic": false
+                },
                 "",
-                {"translate":"item.tp.1","color":"gray","italic":false},
-                {"translate":"item.tp.2","color":"gray","italic":false},
-                {"translate":"item.tp.3","color":"gray","italic":false},
-                {"translate":"item.tp.4","color":"gray","italic":false},
+                {
+                    "translate": "item.tp.1",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "item.tp.2",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "item.tp.3",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "item.tp.4",
+                    "color": "gray",
+                    "italic": false
+                },
                 "",
-                {"keybind":"key.use","color": "green","italic": false}
+                {
+                    "keybind": "key.use",
+                    "color": "green",
+                    "italic": false
+                }
             ]
         },
         {
@@ -36,11 +63,20 @@
             "tag": "{CustomModelData:18,warped_stick:{id:'tp'},right_click:1b,CanDestroy:[\"#game:breakable\"],HideFlags:8,gameItem:{id:\"tp\"},Enchantments:[{}],RawJSON:[{Slot:['mainhand'],value:'[\" \",{\"text\": \"#\",\"font\": \"icon\"},\"->\",{\"selector\": \"@a[team=red,limit=1,gamemode=adventure,tag=lowest_hp,sort=furthest]\"},\" (\",{\"score\": {\"name\": \"@a[team=red,limit=1,gamemode=adventure,tag=lowest_hp,sort=furthest]\",\"objective\": \"health\"}},{\"text\": \"c\",\"font\": \"icon\"},\")\"]'}]}",
             "conditions": [
                 {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "team": "red"
-                    }
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "team": "red"
+                            }
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "map:in_red"
+                        }
+                    ]
                 }
             ]
         },
@@ -49,11 +85,20 @@
             "tag": "{CustomModelData:18,warped_stick:{id:'tp'},right_click:1b,CanDestroy:[\"#game:breakable\"],HideFlags:8,gameItem:{id:\"tp\"},Enchantments:[{}],RawJSON:[{Slot:['mainhand'],value:'[\" \",{\"text\": \"#\",\"font\": \"icon\"},\"->\",{\"selector\": \"@a[team=blue,limit=1,gamemode=adventure,tag=lowest_hp,sort=furthest]\"},\" (\",{\"score\": {\"name\": \"@a[team=blue,limit=1,gamemode=adventure,tag=lowest_hp,sort=furthest]\",\"objective\": \"health\"}},{\"text\": \"c\",\"font\": \"icon\"},\")\"]'}]}",
             "conditions": [
                 {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "team": "blue"
-                    }
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "team": "blue"
+                            }
+                        },
+                        {
+                            "condition": "reference",
+                            "name": "map:in_blue"
+                        }
+                    ]
                 }
             ]
         }

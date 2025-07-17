@@ -29,3 +29,5 @@ data modify storage game:shop random_list append value {icon:"ui:player/random/p
 data modify storage game:shop random_list append value {icon:"ui:player/random/iron_golem",item:"game:package/iron_golem",Price:{iron:36b},Name:'{"translate":"item.minecraft.iron_golem_spawn_egg","color": "dark_purple","italic": false}'}
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/snow_golem",item:"game:package/snow_golem",Price:{copper:19b},Name:'{"translate":"item.minecraft.snow_golem_spawn_egg","color": "green","italic": false}'}
+
+data modify storage game:shop random_list append value {icon:"ui:player/random/tp",item:"game:item/tp",Price:{lapis:20b},Name:'{"translate":"item.tp","color": "gold","italic": false}'}

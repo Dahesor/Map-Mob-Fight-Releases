@@ -1,12 +1,12 @@
 {
     "effect.minecraft.bad_omen": "瞬间治疗冷却",
     "effect.minecraft.hero_of_the_village": "§4竞技之神的祝福",
-    "map.name": "怪物弓箭大作战 v1.1.6",
+    "map.name": "怪物弓箭大作战 v1.1.7",
     "map.prefix": "怪物弓箭大作战 %s",
     "map.version_hint": "注意，当前游戏版本为%s",
     "map.resource_pack_version": "您使用的资源包版本为%s",
     "map.version_hint.renew": "若两者不符，请更换资源包版本！",
-    "res.od.v1.1.6": "您正在使用旧版资源包，请更新版本！",
+    "res.od.v1.1.7": "您正在使用旧版资源包，请更新版本！",
     "creator.name": "Dahesor",
     "action.drop": "丢入",
     "price": "§7花费：",
@@ -1140,9 +1140,9 @@
     "mob.enchant.2": "但可以连接附近的几个怪物",
     "mob.enchant.3": "并大幅度加强它们",
     "mob.banner": "旗手",
-    "mob.banner.1": "旗手自身无法攻击",
-    "mob.banner.2": "它附近的怪物永远不会内讧",
-    "mob.banner.3": "旗手自身非常脆弱",
+    "mob.banner.1": "旗手自身无法攻击且非常脆弱",
+    "mob.banner.2": "在它附近生成的怪物永远不会内讧",
+    "mob.banner.3": "即便旗手死亡也不会内讧",
     "mob.healer": "治疗师",
     "mob.healer.1": "治疗师自身无法攻击",
     "mob.healer.2": "但可以连接附近的几个怪物",
@@ -1292,5 +1292,6 @@
     "item.tp.1":"立刻传送到生命值最低的队友身边",
     "item.tp.2":"给予其力量II和伤害吸收II，持续10秒",
     "item.tp.3":"且会震退周围的怪物并缓速它们",
-    "item.tp.4":"传送的目标有可能是你自己"
+    "item.tp.4":"传送的目标有可能是你自己",
+    "shop.random.item_message":" - 刷新的随机商品是：%s"
 }

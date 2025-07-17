@@ -1,2 +1,2 @@
-summon husk ~ ~ ~ {ArmorItems:[{},{},{},{id:"black_banner",Count:1b,tag:{}}],Health:10.0f,Attributes:[{Base:10.0d,Name:"generic.max_health"},{Base:0.0d,Name:"generic.attack_damage"}],Tags:["second_ticking","mob.banner","DEF_score.2"]}
+summon husk ~ ~ ~ {ArmorItems:[{},{},{},{id:"black_banner",Count:1b,tag:{}}],Health:8.0f,Attributes:[{Base:8.0d,Name:"generic.max_health"},{Base:0.0d,Name:"generic.attack_damage"}],Tags:["second_ticking","mob.banner","DEF_score.2"]}
 kill

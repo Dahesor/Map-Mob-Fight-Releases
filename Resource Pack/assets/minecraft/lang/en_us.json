@@ -1,11 +1,11 @@
 {
     "effect.minecraft.bad_omen": "Heal Cooldown",
     "effect.minecraft.hero_of_the_village": "§4Blessing from God",
-    "map.name": "The Mob Fight v1.1.6",
+    "map.name": "The Mob Fight v1.1.7",
     "map.prefix": "The Mob Fight %s",
-    "resourcepack.version": "v1.1.6",
+    "resourcepack.version": "v1.1.7",
     "res.od.v1.1.5": "",
-    "res.od.v1.1.6": "You are using an old version of resource pack, please update!",
+    "res.od.v1.1.7": "You are using an old version of resource pack, please update!",
     "map.version_hint": "Note: The current map version is %s",
     "map.resource_pack_version": "Your resourcepack version is %s",
     "map.version_hint.renew": "If they are not the same, please install the correct version of the resourcepack",
@@ -1286,5 +1286,6 @@
     "item.tp.1":"Teleport to your teammate with lowest HP",
     "item.tp.2":"Apply with Strength II and Absorption II for 10s",
     "item.tp.3":"Knockback and slow enemies around.",
-    "item.tp.4":"The target could be yourself"
+    "item.tp.4":"The target could be yourself",
+    "shop.random.item_message":" - The Random Items are: %s"
 }

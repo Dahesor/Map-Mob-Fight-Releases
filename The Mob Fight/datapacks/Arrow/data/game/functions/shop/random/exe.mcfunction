@@ -14,6 +14,8 @@ data modify storage run ShopRandom append from storage run ThisRandom
 function game:shop/random/get_entry
 data modify storage run ShopRandom append from storage run ThisRandom
 
+tellraw @a {"translate": "shop.random.item_message","color": "yellow","with": [{"nbt": "ShopRandom[].Name","storage": "run","interpret": true,"separator": {"text": ", ","color": "gray"}}]}
+
 tag @a remove shop.left.limit
 tag @a remove shop.right.limit
 execute as @a if score @s UI matches 30 run function ui:actions/player/anchor

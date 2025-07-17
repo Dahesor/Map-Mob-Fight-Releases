@@ -1,0 +1,60 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrier"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "entity": "this",
+            "name": {
+                "translate": "item.tp",
+                "color": "gold",
+                "italic": false
+            }
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "lore": [
+                {
+                    "text": "\"四面八方，古往今来\"",
+                    "italic": false
+                },
+                "",
+                {
+                    "translate": "item.tp.1",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "item.tp.2",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "item.tp.3",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "item.tp.4",
+                    "color": "gray",
+                    "italic": false
+                }
+            ]
+        },
+        {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:113}"
+        }
+    ]
+}

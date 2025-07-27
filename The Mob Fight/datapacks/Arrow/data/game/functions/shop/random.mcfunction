@@ -24,7 +24,7 @@ data modify storage game:shop random_list append value {icon:"ui:player/random/w
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/glowing",item:"game:package/glowing",Price:{dirt:8b,gold:3b,lapis:4b},Name:'[{"translate":"effect.minecraft.glowing","color": "green","italic": false}," ",{"translate":"item.minecraft.lingering_potion"}]'}
 
-data modify storage game:shop random_list append value {icon:"ui:player/random/power_star",item:"game:item/power_star",Price:{lapis:54b},Name:'[{"translate":"effect.minecraft.glowing","color": "green","italic": false}," ",{"translate":"item.minecraft.lingering_potion"}]'}
+data modify storage game:shop random_list append value {icon:"ui:player/random/power_star",item:"game:item/power_star",Price:{lapis:54b},Name:'{"translate":"item.power_star","color": "gold","italic": false}'}
 
 data modify storage game:shop random_list append value {icon:"ui:player/random/iron_golem",item:"game:package/iron_golem",Price:{iron:36b},Name:'{"translate":"item.minecraft.iron_golem_spawn_egg","color": "dark_purple","italic": false}'}
 

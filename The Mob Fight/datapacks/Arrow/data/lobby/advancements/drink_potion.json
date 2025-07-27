@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "drink":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["potion"]
+                }
+            }
+        }
+    },
+    "display": {
+        "frame": "task",
+        "title": {
+            "translate": "advancement.drink_potion"
+        },
+        "description": {
+            "translate": "advancement.drink_potion.lore"
+        },
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:12448742}"
+        },
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "lobby:root"
+}

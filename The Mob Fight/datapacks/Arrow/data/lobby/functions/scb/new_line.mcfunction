@@ -26,3 +26,9 @@ execute positioned ~2.6 ~ ~2.6 summon text_display run function lobby:scb/elemen
 #Death
 scoreboard players operation $hold calculator = @s scb.death
 execute positioned ~3.15 ~ ~3.15 summon text_display run function lobby:scb/elements/score
+
+
+execute if score @s scb.shot matches 200.. run advancement grant @s only lobby:scb/attack
+execute if score @s scb.def matches 200.. run advancement grant @s only lobby:scb/defence
+execute if score @s scb.eco matches 20000.. run advancement grant @s only lobby:scb/eco
+execute if score @s scb.support matches 2000.. run advancement grant @s only lobby:scb/support

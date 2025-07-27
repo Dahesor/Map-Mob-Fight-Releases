@@ -12,7 +12,13 @@
                             "expected": true,
                             "id": "is_projectile"
                         }
-                    ]
+                    ],
+                    "source_entity": {
+                        "type": "player"
+                    },
+                    "direct_entity": {
+                        "nbt": "{pickup:2b}"
+                    }
                 }
             }
         }

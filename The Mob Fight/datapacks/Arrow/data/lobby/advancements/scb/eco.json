@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "return":{
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "frame": "task",
+        "title": {
+            "translate": "advancement.scb.eco"
+        },
+        "description": {
+            "translate": "advancement.scb.eco.lore"
+        },
+        "icon": {
+            "item": "emerald"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "lobby:scb/defence"
+}

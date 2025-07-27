@@ -14,14 +14,11 @@
                     {
                         "items": [
                             "netherite_ingot"
-                        ],
-                        "count": {
-                            "min":1
-                        }
+                        ]
                     }
                 ]
             }
         }
     },
-    "parent": "lobby:root"
+    "parent": "lobby:all_ores"
 }

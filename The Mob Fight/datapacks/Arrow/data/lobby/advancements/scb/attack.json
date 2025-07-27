@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "return":{
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "frame": "task",
+        "title": {
+            "translate": "advancement.scb.att"
+        },
+        "description": {
+            "translate": "advancement.scb.att.lore"
+        },
+        "icon": {
+            "item": "tipped_arrow"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "lobby:root"
+}

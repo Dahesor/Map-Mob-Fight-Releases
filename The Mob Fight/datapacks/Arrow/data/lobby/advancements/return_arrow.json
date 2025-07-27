@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "return":{
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "frame": "challenge",
+        "title": {
+            "translate": "advancement.return_arrow"
+        },
+        "description": {
+            "translate": "advancement.return_arrow.lore"
+        },
+        "icon": {
+            "item": "warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:17}"
+        },
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "lobby:kill_player"
+}

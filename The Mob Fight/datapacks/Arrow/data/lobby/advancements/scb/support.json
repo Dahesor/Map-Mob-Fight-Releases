@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "return":{
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "frame": "task",
+        "title": {
+            "translate": "advancement.scb.sup"
+        },
+        "description": {
+            "translate": "advancement.scb.sup.lore"
+        },
+        "icon": {
+            "item": "amethyst_shard"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "lobby:scb/eco"
+}

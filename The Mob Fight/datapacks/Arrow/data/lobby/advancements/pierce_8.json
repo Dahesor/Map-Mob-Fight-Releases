@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "kill_player":{
+            "trigger": "killed_by_crossbow",
+            "conditions": {
+                "victims": [
+                    {
+                        "type": "#game:mobs"
+                    },
+                    {
+                        "type": "#game:mobs"
+                    },
+                    {
+                        "type": "#game:mobs"
+                    },
+                    {
+                        "type": "#game:mobs"
+                    },
+                    {
+                        "type": "#game:mobs"
+                    },
+                    {
+                        "type": "#game:mobs"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {"translate":"advancement.pierce_8"},
+        "description": {"translate":"advancement.pierce_8.lore"},
+        "icon": {
+            "item": "bow",
+            "nbt": "{CustomModelData:1}"
+        },
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "lobby:return_arrow"
+}

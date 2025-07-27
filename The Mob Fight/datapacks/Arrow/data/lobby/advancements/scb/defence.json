@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "return":{
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "frame": "task",
+        "title": {
+            "translate": "advancement.scb.def"
+        },
+        "description": {
+            "translate": "advancement.scb.def.lore"
+        },
+        "icon": {
+            "item": "iron_sword"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "lobby:scb/attack"
+}

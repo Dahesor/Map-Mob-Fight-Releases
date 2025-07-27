@@ -14,5 +14,5 @@
             "trigger": "impossible"
         }
     },
-    "parent": "lobby:root"
+    "parent": "lobby:lazy"
 }

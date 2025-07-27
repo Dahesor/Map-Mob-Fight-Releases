@@ -3,3 +3,4 @@ execute if entity @s[tag=actived] run return fail
 tag @s add actived
 tag @s[predicate=map:in_blue] add blue_arrow
 tag @s[predicate=map:in_red] add red_arrow
+data modify entity @s pickup set value 2b

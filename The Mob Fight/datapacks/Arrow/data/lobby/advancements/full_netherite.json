@@ -15,26 +15,17 @@
                     {
                         "items": [
                             "netherite_sword"
-                        ],
-                        "count": {
-                            "min":1
-                        }
+                        ]
                     },
                     {
                         "items": [
                             "netherite_boots"
-                        ],
-                        "count": {
-                            "min":1
-                        }
+                        ]
                     },
                     {
                         "items": [
                             "netherite_leggings"
-                        ],
-                        "count": {
-                            "min":1
-                        }
+                        ]
                     }
                 ]
             }

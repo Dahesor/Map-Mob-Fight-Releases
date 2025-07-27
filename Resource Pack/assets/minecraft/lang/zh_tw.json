@@ -1,12 +1,12 @@
 {
     "effect.minecraft.bad_omen": "立即治療冷卻",
     "effect.minecraft.hero_of_the_village": "§4競技之神的祝福",
-    "map.name": "怪物弓箭大戰 v1.1.7",
+    "map.name": "怪物弓箭大戰 v1.1.8",
     "map.prefix": "怪物弓箭大戰 %s",
     "map.version_hint": "注意，目前遊戲版本為%s",
     "map.resource_pack_version": "您使用的資源包版本為%s",
     "map.version_hint.renew": "若兩者不符，請更換資源包版本！",
-    "res.od.v1.1.7": "您正在使用旧版资源包，请更新版本！",
+    "res.od.v1.1.8": "您正在使用旧版资源包，请更新版本！",
     "creator.name": "Dahesor",
     "action.drop": "丟入",
     "price": "§7花費：",
@@ -922,7 +922,7 @@
     "advancement.title.tech": "發展第一",
     "advancement.description.tech": "遊戲結束時點滿科技樹",
     "advancement.title.wrong_side": "誤射!",
-    "advancement.description.wrong_side": "不小心把怪物箭射到己方島嶼",
+    "advancement.description.wrong_side": "\"不小心\"把怪物箭射到己方島嶼",
     "advancement.title.credit": "哇哦",
     "advancement.description.credit": "讀完作者的話",
     "advancement.title.first_blood": "沒有，我沒有",
@@ -1283,5 +1283,6 @@
     "item.tp.2":"给予其力量II和伤害吸收II，持续10秒",
     "item.tp.3":"且会震退周围的怪物并缓速它们",
     "item.tp.4":"传送的目标有可能是你自己",
-    "shop.random.item_message":" - 刷新的随机商品是：%s"
+    "shop.random.item_message":" - 刷新的随机商品是：%s",
+    "advancement.return_arrow":"见鬼去吧！"
 }

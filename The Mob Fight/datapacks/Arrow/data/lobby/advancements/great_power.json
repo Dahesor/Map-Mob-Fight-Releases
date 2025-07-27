@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "return":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 24
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "frame": "challenge",
+        "title": {
+            "text": "Magna Vis"
+        },
+        "description": {
+            "translate": "advancement.high_damage.lore"
+        },
+        "icon": {
+            "item": "diamond_axe",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "lobby:tp_save"
+}

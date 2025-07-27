@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "return":{
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "frame": "task",
+        "title": {
+            "translate": "advancement.tp_saving"
+        },
+        "description": {
+            "translate": "advancement.tp_saving.lore"
+        },
+        "icon": {
+            "item": "ender_pearl",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "lobby:drink_potion"
+}

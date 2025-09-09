@@ -1,9 +1,9 @@
 {
     "effect.minecraft.bad_omen": "Heal Cooldown",
     "effect.minecraft.hero_of_the_village": "§4Blessing from God",
-    "map.name": "The Mob Fight v1.1.8",
+    "map.name": "The Mob Fight v1.2.0",
     "map.prefix": "The Mob Fight %s",
-    "resourcepack.version": "v1.1.8",
+    "resourcepack.version": "v1.2.0",
     "res.od.v1.1.5": "",
     "res.od.v1.1.8": "You are using an old version of resource pack, please update!",
     "map.version_hint": "Note: The current map version is %s",
